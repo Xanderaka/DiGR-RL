@@ -1,0 +1,13 @@
+Running training on CPU
+Loading dataset train
+Found pregenerated data dir. Using pregenerated data.
+Loading complete. Took 0.00 s.
+Loading dataset validation
+Found pregenerated data dir. Using pregenerated data.
+Loading complete. Took 0.00 s.
+Building models...
+Completed model building. Took 0.20 s.
+Epoch: 1 of 50 | Training loss: 1.72:   0%|                                                                                 | 16/12000 [00:01<24:09,  8.27it/s]
+Preparation complete. Starting training...
+Training model...
+{'epoch': 0, 'batch': 0, 'train_loss': 1.721, 'train_elbo_loss': 0.533, 'train_null_loss': 1.721, 'train_embed_loss': nan, 'train_loss_diff': nan}

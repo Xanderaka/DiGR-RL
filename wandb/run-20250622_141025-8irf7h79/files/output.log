@@ -1,0 +1,20 @@
+Running training on CPU
+Loading dataset train
+Found pregenerated data dir.
+Loading complete. Took 0.06 s.
+Loading dataset validation
+Found pregenerated data dir.
+Loading complete. Took 0.01 s.
+Building models...
+Completed model building. Took 87.53 s.
+Epoch: 1 of 15 | Training loss: -.--:   0%|                                                                                                                                   | 0/10800 [00:00<?, ?it/s]Traceback (most recent call last):
+Preparation complete. Starting training...
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\experiments\train_runner.py", line 222, in <module>
+    best_loss = run_training(parse_config_file(args.CONFIG_FP))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\experiments\train_runner.py", line 195, in run_training
+    training = Training(
+               ^^^^^^^^^
+TypeError: Training.__init__() missing 1 required positional argument: 'config'

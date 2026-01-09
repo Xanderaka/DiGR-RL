@@ -1,0 +1,16 @@
+{"time":"2025-05-02T10:38:48.5334495+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Tue\\Master\\Jaar_2\\graduation\\code\\own_approach\\wandb\\run-20250502_103848-sxtmnrt2\\logs\\debug-core.log"}
+{"time":"2025-05-02T10:38:48.7120396+02:00","level":"INFO","msg":"created new stream","id":"sxtmnrt2"}
+{"time":"2025-05-02T10:38:48.7120396+02:00","level":"INFO","msg":"handler: started","stream_id":"sxtmnrt2"}
+{"time":"2025-05-02T10:38:48.7120396+02:00","level":"INFO","msg":"stream: started","id":"sxtmnrt2"}
+{"time":"2025-05-02T10:38:48.7120396+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"sxtmnrt2"}
+{"time":"2025-05-02T10:38:48.7120396+02:00","level":"INFO","msg":"sender: started","stream_id":"sxtmnrt2"}
+{"time":"2025-05-02T10:38:49.0693805+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-02T11:00:34.095739+02:00","level":"ERROR","msg":"monitor: error sampling metrics: The system cannot find the file specified."}
+{"time":"2025-05-02T12:35:55.6564285+02:00","level":"INFO","msg":"stream: closing","id":"sxtmnrt2"}
+{"time":"2025-05-02T12:35:55.6564285+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-02T12:35:55.6580473+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-02T12:35:56.4589305+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-02T12:35:57.2785252+02:00","level":"INFO","msg":"handler: closed","stream_id":"sxtmnrt2"}
+{"time":"2025-05-02T12:35:57.2785252+02:00","level":"INFO","msg":"sender: closed","stream_id":"sxtmnrt2"}
+{"time":"2025-05-02T12:35:57.2785252+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"sxtmnrt2"}
+{"time":"2025-05-02T12:35:57.2785252+02:00","level":"INFO","msg":"stream: closed","id":"sxtmnrt2"}

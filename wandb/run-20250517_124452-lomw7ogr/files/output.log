@@ -1,0 +1,19 @@
+Running training on CPU
+Loading dataset train
+Found pregenerated data dir. Using pregenerated data.
+Loading complete. Took 0.01 s.
+Loading dataset validation
+Found pregenerated data dir. Using pregenerated data.
+Loading complete. Took 0.00 s.
+{(0, 0, 0, 1): 0, (0, 1, 0, 1): 1, (0, 2, 0, 1): 2, (0, 3, 0, 1): 3, (0, 4, 0, 1): 4}
+Building models...
+Detected 25 unique domains.
+Completed model building. Took 0.75 s.
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\experiments\train_runner.py", line 240, in <module>
+    run_training(parse_config_file(args.CONFIG_FP))
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\experiments\train_runner.py", line 167, in run_training
+    domain2idx.setdefault(domain_keys, len(domain2idx))
+TypeError: unhashable type: 'dict'

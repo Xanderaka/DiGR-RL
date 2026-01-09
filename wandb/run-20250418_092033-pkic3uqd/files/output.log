@@ -1,0 +1,26 @@
+Running training on CPU
+Loading dataset train
+Found pregenerated data dir. Using pregenerated data.
+Loading complete. Took 0.00 s.
+Loading dataset validation
+Found pregenerated data dir. Using pregenerated data.
+Loading complete. Took 0.00 s.
+Building models...
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\experiments\train_runner.py", line 209, in <module>
+    run_training(parse_config_file(args.CONFIG_FP))
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\experiments\train_runner.py", line 132, in run_training
+    encoder, null_head, null_agent = build_model(
+                                     ^^^^^^^^^^^^
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\models\model_builder.py", line 48, in build_model
+    x_amp, x_phase, x_bvp, x_info = train_dataset[0]
+                                    ~~~~~~~~~~~~~^^^
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\data_utils\widar_dataset.py", line 281, in __getitem__
+    data = np.load(self.pregen_dir / file_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xande\anaconda3\Lib\site-packages\numpy\lib\npyio.py", line 427, in load
+    fid = stack.enter_context(open(os_fspath(file), "rb"))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Tue\\Master\\Jaar_2\\graduation\\code\\DARLInG\\data\\pregenerated_single_user\\train\\user3-1-1-1-1.npz'

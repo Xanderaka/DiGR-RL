@@ -1,0 +1,87 @@
+Running training on CPU
+Loading dataset train
+Found pregenerated data dir.
+Loading complete. Took 0.01 s.
+Loading dataset validation
+Found pregenerated data dir.
+Loading complete. Took 0.00 s.
+Building models...
+Completed model building. Took 23.76 s.
+Epoch: 1 of 50 | Training loss: 1.69:   1%|▌                                                                                   | 256/36000 [01:07<1:35:26,  6.24it/s]Traceback (most recent call last):
+Preparation complete. Starting training...
+Training model...
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 25]))
+{'epoch': 0, 'batch': 0, 'train_loss': 1.824, 'train_domain_loss': 3.219, 'train_null_loss': 1.824, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 1, 'train_loss': 1.799, 'train_domain_loss': 3.193, 'train_null_loss': 1.799, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 2, 'train_loss': 1.725, 'train_domain_loss': 3.249, 'train_null_loss': 1.725, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 3, 'train_loss': 1.778, 'train_domain_loss': 3.179, 'train_null_loss': 1.778, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 4, 'train_loss': 1.677, 'train_domain_loss': 3.203, 'train_null_loss': 1.677, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 5, 'train_loss': 1.722, 'train_domain_loss': 3.221, 'train_null_loss': 1.722, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 6, 'train_loss': 1.646, 'train_domain_loss': 3.261, 'train_null_loss': 1.646, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 7, 'train_loss': 1.79, 'train_domain_loss': 3.203, 'train_null_loss': 1.79, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 8, 'train_loss': 1.715, 'train_domain_loss': 3.214, 'train_null_loss': 1.715, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 9, 'train_loss': 1.763, 'train_domain_loss': 3.259, 'train_null_loss': 1.763, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 10, 'train_loss': 1.707, 'train_domain_loss': 3.214, 'train_null_loss': 1.707, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 11, 'train_loss': 1.742, 'train_domain_loss': 3.202, 'train_null_loss': 1.742, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 12, 'train_loss': 1.783, 'train_domain_loss': 3.217, 'train_null_loss': 1.783, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 13, 'train_loss': 1.745, 'train_domain_loss': 3.214, 'train_null_loss': 1.745, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 14, 'train_loss': 1.725, 'train_domain_loss': 3.254, 'train_null_loss': 1.725, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 15, 'train_loss': 1.694, 'train_domain_loss': 3.235, 'train_null_loss': 1.694, 'train_embed_loss': nan, 'train_loss_diff': nan}
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\experiments\train_runner.py", line 225, in <module>
+    best_loss = run_training(parse_config_file(args.CONFIG_FP))
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\experiments\train_runner.py", line 211, in run_training
+    best_loss = training.train(
+        train_loader=train_dataloader,
+    ...<3 lines>...
+        agent_epochs=config["embed"]["epochs"]
+    )
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\experiments\train_new.py", line 689, in train
+    if not self._train_vae(train_loader, device, epoch):
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\experiments\train_new.py", line 266, in _train_vae
+    pass_result = self._forward_pass(
+        amp, phase, bvp, info["gesture"], info,
+        device, no_grad_vae=False, domain_label=domain_label
+    )
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\experiments\train_new.py", line 170, in _forward_pass
+    z = self.encoder(amp, phase, bvp)
+  File "C:\Users\xande\anaconda3\envs\thesis\Lib\site-packages\torch\nn\modules\module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\xande\anaconda3\envs\thesis\Lib\site-packages\torch\nn\modules\module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\backbone\BackBoneArchitecture.py", line 67, in forward
+    z_phase = self.phase_backbone(phase)
+  File "C:\Users\xande\anaconda3\envs\thesis\Lib\site-packages\torch\nn\modules\module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\xande\anaconda3\envs\thesis\Lib\site-packages\torch\nn\modules\module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\backbone\ResNet.py", line 102, in forward
+    x = self.stem(x)
+  File "C:\Users\xande\anaconda3\envs\thesis\Lib\site-packages\torch\nn\modules\module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\xande\anaconda3\envs\thesis\Lib\site-packages\torch\nn\modules\module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\xande\anaconda3\envs\thesis\Lib\site-packages\torch\nn\modules\container.py", line 240, in forward
+    input = module(input)
+  File "C:\Users\xande\anaconda3\envs\thesis\Lib\site-packages\torch\nn\modules\module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\xande\anaconda3\envs\thesis\Lib\site-packages\torch\nn\modules\module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\xande\anaconda3\envs\thesis\Lib\site-packages\torch\nn\modules\conv.py", line 554, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xande\anaconda3\envs\thesis\Lib\site-packages\torch\nn\modules\conv.py", line 549, in _conv_forward
+    return F.conv2d(
+           ~~~~~~~~^
+        input, weight, bias, self.stride, self.padding, self.dilation, self.groups
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+KeyboardInterrupt

@@ -1,0 +1,115 @@
+Running training on CPU
+Loading dataset train
+Found pregenerated data dir. Using pregenerated data.
+Loading complete. Took 0.00 s.
+Loading dataset validation
+Found pregenerated data dir. Using pregenerated data.
+Loading complete. Took 0.00 s.
+Building models...
+Completed model building. Took 0.09 s.
+Epoch: 1 of 50 | Training loss: -.--:   0%|                                                                                          | 0/12000 [00:00<?, ?it/s]
+Preparation complete. Starting training...
+Training model...
+torch.Size([16, 153])
+tensor([[ 2.3137e-02, -3.3601e-01,  1.5951e-01, -4.9530e-02,  2.0002e-01,
+         -5.5964e-01,  5.3151e-02,  2.3992e-02,  8.9640e-02, -2.4383e-01,
+         -3.9541e-01, -5.4397e-02, -1.6670e-02,  3.1340e-01, -2.2169e-01,
+         -1.8952e-01, -5.3259e-01, -1.4853e-01,  2.7609e-01, -1.8164e-01],
+        [-1.3435e-01, -2.5386e-01,  4.5178e-01, -2.4502e-01,  1.3505e-01,
+         -2.8349e-01, -5.5439e-02, -3.0415e-01, -1.2849e-01, -6.8699e-02,
+         -3.3990e-01, -3.7999e-01, -7.0820e-02,  1.9422e-01, -3.4441e-01,
+         -1.6476e-01, -4.4111e-01,  8.4471e-03,  2.2622e-01, -5.0178e-01],
+        [ 5.3580e-02, -2.0209e-01,  4.1528e-01, -1.8803e-01,  2.6272e-01,
+         -5.9684e-01,  1.3333e-01,  2.6611e-02, -2.9227e-01, -1.2464e-01,
+         -7.3560e-01, -3.9348e-01, -5.2056e-04,  5.4183e-01, -2.9475e-01,
+         -8.7884e-02, -5.6587e-01,  8.9340e-03,  2.1601e-01, -3.2379e-01],
+        [ 2.2702e-02, -3.8710e-01,  5.6827e-01,  2.9433e-02,  5.0179e-02,
+         -8.2285e-01, -1.5880e-01, -5.4699e-02,  1.0834e-02,  1.3870e-01,
+         -3.8533e-01, -8.7356e-02,  1.2633e-01,  6.3623e-01, -4.8394e-01,
+         -5.3562e-02, -4.3273e-01, -1.0614e-01,  4.2136e-01, -1.3844e-01],
+        [ 6.8671e-02, -4.0155e-01,  1.8021e-01, -1.3210e-01,  2.2174e-01,
+         -6.7574e-01, -2.0798e-03, -2.6204e-01, -4.5851e-02,  8.3948e-02,
+         -3.1897e-01,  2.8651e-02, -7.9159e-02,  4.2145e-01, -2.2160e-01,
+         -1.3265e-01, -3.7326e-01, -4.1900e-01,  2.1493e-01, -3.8540e-01],
+        [ 1.0621e-01, -5.0487e-01,  5.0894e-01, -1.0875e-01,  2.7857e-01,
+         -7.3911e-01,  8.7304e-02, -4.2542e-01,  2.5621e-01,  5.9765e-02,
+         -4.6081e-01, -2.5156e-02, -1.7587e-02,  7.7462e-01, -7.0879e-01,
+         -1.6667e-01, -1.8908e-01,  1.0686e-01,  1.7563e-02, -9.7375e-02],
+        [-3.4797e-02, -2.5049e-01,  5.8129e-02, -7.5149e-02,  3.3017e-01,
+         -7.8506e-01, -3.3969e-01, -1.7194e-01, -2.1756e-01, -1.6660e-01,
+         -5.2532e-01, -2.0737e-01,  1.6652e-01,  7.4391e-01, -4.7927e-01,
+          7.3423e-02, -5.8627e-01,  1.0502e-01,  4.3556e-01, -1.3653e-01],
+        [ 1.2802e-01, -7.2981e-01,  2.5221e-01, -7.4068e-01,  4.1092e-02,
+         -8.4051e-01, -5.3650e-01, -3.3525e-01, -5.2308e-01, -3.0155e-01,
+         -7.2728e-01, -3.3382e-01, -6.4757e-01,  3.0106e-01, -5.3522e-01,
+         -6.1295e-01, -5.9328e-01, -6.5866e-01,  8.0736e-02, -7.2614e-01],
+        [ 1.5210e-01, -4.1641e-01,  2.7201e-01,  9.5415e-02,  2.1975e-01,
+         -7.7148e-01,  6.5110e-02, -8.9533e-02,  2.7428e-01, -1.5059e-01,
+         -5.7723e-01, -3.0935e-01, -1.1013e-01, -1.6013e-02, -6.1716e-01,
+         -1.3031e-01, -4.8558e-01, -2.4872e-01,  5.3255e-01, -6.3362e-01],
+        [ 1.7523e-01, -1.8719e-01,  2.1304e-01, -1.8921e-01,  2.5110e-01,
+         -3.6257e-01, -2.5485e-04, -2.2999e-01,  2.7162e-02, -1.5476e-01,
+         -4.7945e-01, -3.8220e-01,  1.0537e-02,  3.5277e-01, -3.6777e-01,
+         -1.7008e-02, -4.0094e-01, -1.9976e-01,  3.3013e-01, -2.4124e-01],
+        [ 3.4790e-02, -1.7693e-01,  4.0258e-01, -9.5652e-02, -3.7904e-02,
+         -5.7615e-01,  5.4996e-02,  6.4068e-02, -2.7636e-01, -6.6738e-02,
+         -5.9239e-01, -3.0594e-01,  5.0398e-03,  3.3217e-01, -2.2090e-01,
+          2.1235e-02, -5.2362e-01, -2.2387e-01,  2.6750e-01, -4.2265e-01],
+        [ 6.2291e-02, -3.0714e-01, -1.2678e-02, -1.4606e-01,  4.1916e-01,
+         -7.1905e-01, -2.9929e-04, -1.0189e-01, -1.7487e-02, -9.1857e-03,
+         -3.9397e-01,  2.9324e-01,  6.4987e-02,  7.8759e-01, -2.4910e-01,
+          2.7757e-02, -3.2408e-01,  4.0757e-02, -3.7025e-02, -1.1144e-01],
+        [-6.0798e-03, -1.8004e-01,  6.1971e-01, -5.1317e-01, -1.2140e-01,
+         -5.6922e-01, -3.9583e-01, -1.1518e-01, -2.9707e-01, -1.3429e-01,
+         -6.2356e-01, -4.6775e-01,  7.4989e-02,  2.9406e-02, -3.0131e-01,
+         -3.9499e-01, -5.9624e-01, -8.9869e-02,  1.5895e-01, -5.6546e-01],
+        [ 1.0938e-01, -3.4094e-01,  3.0563e-01,  3.7112e-03,  1.6267e-01,
+         -6.4367e-01, -5.4718e-02, -1.8773e-02, -5.4065e-02, -2.7112e-01,
+         -6.2026e-01, -2.4093e-01, -2.2568e-02,  6.5112e-01, -2.9995e-01,
+         -1.0411e-01, -4.3860e-01, -1.7727e-01,  3.7995e-01,  2.2990e-03],
+        [ 3.0740e-02, -1.3611e-01,  3.5677e-01, -3.0120e-01,  2.2560e-01,
+         -4.7894e-01, -2.0042e-02, -1.2290e-01, -1.5371e-01, -1.4743e-01,
+         -4.4659e-01,  1.6260e-02,  1.7101e-03,  4.4024e-01, -3.9105e-01,
+         -1.8537e-01, -4.5964e-01, -6.8459e-02,  5.8879e-02, -7.9966e-02],
+        [ 2.4450e-01, -1.5969e-01,  3.0558e-01, -1.3932e-01,  4.6989e-02,
+         -6.4214e-01, -3.1806e-02, -1.5626e-01, -1.2804e-01,  5.4597e-02,
+         -5.4914e-01, -1.8518e-01, -1.9783e-01,  6.5573e-01, -4.1431e-01,
+         -1.4686e-01, -5.4087e-01, -2.1747e-01,  2.8592e-01, -1.6173e-01]],
+       grad_fn=<AddmmBackward0>)
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\experiments\train_runner.py", line 209, in <module>
+    run_training(parse_config_file(args.CONFIG_FP))
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\experiments\train_runner.py", line 196, in run_training
+    training.train(
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\experiments\train.py", line 544, in train
+    if not self._train_vae(train_loader, device, epoch):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\experiments\train.py", line 221, in _train_vae
+    pass_result = self._forward_pass(amp, phase, bvp, info["gesture"],
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\experiments\train.py", line 188, in _forward_pass
+    loss_dict = self.loss_func(
+                ^^^^^^^^^^^^^^^
+  File "C:\Users\xande\anaconda3\Lib\site-packages\torch\nn\modules\module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xande\anaconda3\Lib\site-packages\torch\nn\modules\module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\loss\multi_joint_loss.py", line 35, in forward
+    null_domain_loss = self.ce(null_domain_pred, domain_label)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xande\anaconda3\Lib\site-packages\torch\nn\modules\module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xande\anaconda3\Lib\site-packages\torch\nn\modules\module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xande\anaconda3\Lib\site-packages\torch\nn\modules\loss.py", line 1295, in forward
+    return F.cross_entropy(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\xande\anaconda3\Lib\site-packages\torch\nn\functional.py", line 3494, in cross_entropy
+    return torch._C._nn.cross_entropy_loss(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: cross_entropy_loss(): argument 'target' (position 2) must be Tensor, not NoneType

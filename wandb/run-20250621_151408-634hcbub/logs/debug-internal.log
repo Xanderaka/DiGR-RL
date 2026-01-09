@@ -1,0 +1,7 @@
+{"time":"2025-06-21T15:14:08.899631+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Tue\\Master\\Jaar_2\\graduation\\code\\own_approach\\wandb\\run-20250621_151408-634hcbub\\logs\\debug-core.log"}
+{"time":"2025-06-21T15:14:09.0673252+02:00","level":"INFO","msg":"created new stream","id":"634hcbub"}
+{"time":"2025-06-21T15:14:09.0673252+02:00","level":"INFO","msg":"stream: started","id":"634hcbub"}
+{"time":"2025-06-21T15:14:09.0673252+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"634hcbub"}
+{"time":"2025-06-21T15:14:09.0673252+02:00","level":"INFO","msg":"handler: started","stream_id":"634hcbub"}
+{"time":"2025-06-21T15:14:09.0673252+02:00","level":"INFO","msg":"sender: started","stream_id":"634hcbub"}
+{"time":"2025-06-21T15:14:09.3750155+02:00","level":"INFO","msg":"Starting system monitor"}

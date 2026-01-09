@@ -1,0 +1,8 @@
+{"time":"2025-06-21T14:05:01.7728321+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Tue\\Master\\Jaar_2\\graduation\\code\\own_approach\\wandb\\run-20250621_140501-u91rxyky\\logs\\debug-core.log"}
+{"time":"2025-06-21T14:05:02.0617295+02:00","level":"INFO","msg":"created new stream","id":"u91rxyky"}
+{"time":"2025-06-21T14:05:02.0617295+02:00","level":"INFO","msg":"stream: started","id":"u91rxyky"}
+{"time":"2025-06-21T14:05:02.0617295+02:00","level":"INFO","msg":"handler: started","stream_id":"u91rxyky"}
+{"time":"2025-06-21T14:05:02.0617295+02:00","level":"INFO","msg":"sender: started","stream_id":"u91rxyky"}
+{"time":"2025-06-21T14:05:02.0617295+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"u91rxyky"}
+{"time":"2025-06-21T14:05:02.4995574+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-21T14:34:58.8747145+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/x-j-vreeswijk-eindhoven-university-of-technology/master-thesis-test/u91rxyky/file_stream\": unexpected EOF"}

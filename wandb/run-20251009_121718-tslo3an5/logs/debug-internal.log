@@ -1,0 +1,15 @@
+{"time":"2025-10-09T12:17:18.2453409+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Tue\\Master\\Jaar_2\\graduation\\code\\own_approach\\wandb\\run-20251009_121718-tslo3an5\\logs\\debug-core.log"}
+{"time":"2025-10-09T12:17:18.4191338+02:00","level":"INFO","msg":"created new stream","id":"tslo3an5"}
+{"time":"2025-10-09T12:17:18.4197675+02:00","level":"INFO","msg":"stream: started","id":"tslo3an5"}
+{"time":"2025-10-09T12:17:18.4197675+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"tslo3an5"}
+{"time":"2025-10-09T12:17:18.4197675+02:00","level":"INFO","msg":"sender: started","stream_id":"tslo3an5"}
+{"time":"2025-10-09T12:17:18.4197675+02:00","level":"INFO","msg":"handler: started","stream_id":"tslo3an5"}
+{"time":"2025-10-09T12:17:18.995641+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-10-09T12:24:25.7766925+02:00","level":"INFO","msg":"stream: closing","id":"tslo3an5"}
+{"time":"2025-10-09T12:24:25.7766925+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-10-09T12:24:25.778725+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-10-09T12:24:26.3776446+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-10-09T12:24:26.6317731+02:00","level":"INFO","msg":"handler: closed","stream_id":"tslo3an5"}
+{"time":"2025-10-09T12:24:26.6317731+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"tslo3an5"}
+{"time":"2025-10-09T12:24:26.6317731+02:00","level":"INFO","msg":"sender: closed","stream_id":"tslo3an5"}
+{"time":"2025-10-09T12:24:26.6317731+02:00","level":"INFO","msg":"stream: closed","id":"tslo3an5"}

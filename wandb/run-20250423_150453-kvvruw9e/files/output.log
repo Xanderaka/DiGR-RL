@@ -1,0 +1,1740 @@
+Running training on CPU
+Loading dataset train
+Found pregenerated data dir. Using pregenerated data.
+Loading complete. Took 0.00 s.
+Loading dataset validation
+Found pregenerated data dir. Using pregenerated data.
+Loading complete. Took 0.00 s.
+Building models...
+Completed model building. Took 0.09 s.
+Epoch: 1 of 50 | Validation loss: 4.63:   2%|█▌                                                                                | 224/12000 [00:04<01:58, 99.32it/s]C:\Users\xande\anaconda3\Lib\site-packages\plotly\matplotlylib\renderer.py:571: UserWarning:
+Preparation complete. Starting training...
+Training model...
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+{'epoch': 0, 'batch': 0, 'train_loss': 1.767, 'train_domain_loss': 3.075, 'train_null_loss': 1.767, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 1, 'train_loss': 1.806, 'train_domain_loss': 3.088, 'train_null_loss': 1.806, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 2, 'train_loss': 1.826, 'train_domain_loss': 3.104, 'train_null_loss': 1.826, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 3, 'train_loss': 1.866, 'train_domain_loss': 3.054, 'train_null_loss': 1.866, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 4, 'train_loss': 1.766, 'train_domain_loss': 3.117, 'train_null_loss': 1.766, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 5, 'train_loss': 1.834, 'train_domain_loss': 3.147, 'train_null_loss': 1.834, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 6, 'train_loss': 1.639, 'train_domain_loss': 3.105, 'train_null_loss': 1.639, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+{'valid_loss': 4.636, 'loss_diff': 0.0, 'epoch': 0, 'batch': 0}
+{'valid_loss': 4.628, 'loss_diff': 0.0, 'epoch': 0, 'batch': 1}
+{'valid_loss': 4.608, 'loss_diff': 0.0, 'epoch': 0, 'batch': 2}
+{'valid_loss': 4.613, 'loss_diff': 0.0, 'epoch': 0, 'batch': 3}
+{'valid_loss': 4.679, 'loss_diff': 0.0, 'epoch': 0, 'batch': 4}
+{'valid_loss': 4.647, 'loss_diff': 0.0, 'epoch': 0, 'batch': 5}
+{'valid_loss': 4.631, 'loss_diff': 0.0, 'epoch': 0, 'batch': 6}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+Epoch: 2 of 50 | Validation loss: 4.41:   4%|███                                                                               | 448/12000 [00:13<02:04, 93.09it/s]C:\Users\xande\anaconda3\Lib\site-packages\plotly\matplotlylib\renderer.py:571: UserWarning:
+Training model...
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+{'epoch': 1, 'batch': 0, 'train_loss': 1.828, 'train_domain_loss': 3.159, 'train_null_loss': 1.828, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 1, 'train_loss': 1.838, 'train_domain_loss': 3.187, 'train_null_loss': 1.838, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 2, 'train_loss': 1.823, 'train_domain_loss': 3.113, 'train_null_loss': 1.823, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 3, 'train_loss': 1.812, 'train_domain_loss': 3.119, 'train_null_loss': 1.812, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 4, 'train_loss': 1.704, 'train_domain_loss': 3.117, 'train_null_loss': 1.704, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 5, 'train_loss': 1.752, 'train_domain_loss': 2.959, 'train_null_loss': 1.752, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 6, 'train_loss': 1.785, 'train_domain_loss': 3.013, 'train_null_loss': 1.785, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+{'valid_loss': 4.419, 'loss_diff': 0.0, 'epoch': 1, 'batch': 0}
+{'valid_loss': 4.43, 'loss_diff': 0.0, 'epoch': 1, 'batch': 1}
+{'valid_loss': 4.359, 'loss_diff': 0.0, 'epoch': 1, 'batch': 2}
+{'valid_loss': 4.342, 'loss_diff': 0.0, 'epoch': 1, 'batch': 3}
+{'valid_loss': 4.513, 'loss_diff': 0.0, 'epoch': 1, 'batch': 4}
+{'valid_loss': 4.401, 'loss_diff': 0.0, 'epoch': 1, 'batch': 5}
+{'valid_loss': 4.414, 'loss_diff': 0.0, 'epoch': 1, 'batch': 6}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+Epoch: 3 of 50 | Validation loss: 4.27:   6%|████▌                                                                             | 672/12000 [00:21<02:03, 92.07it/s]C:\Users\xande\anaconda3\Lib\site-packages\plotly\matplotlylib\renderer.py:571: UserWarning:
+Training model...
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+{'epoch': 2, 'batch': 0, 'train_loss': 1.653, 'train_domain_loss': 3.019, 'train_null_loss': 1.653, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 2, 'batch': 1, 'train_loss': 1.8, 'train_domain_loss': 2.823, 'train_null_loss': 1.8, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 2, 'batch': 2, 'train_loss': 1.745, 'train_domain_loss': 2.871, 'train_null_loss': 1.745, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 2, 'batch': 3, 'train_loss': 1.742, 'train_domain_loss': 2.66, 'train_null_loss': 1.742, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 2, 'batch': 4, 'train_loss': 1.75, 'train_domain_loss': 2.685, 'train_null_loss': 1.75, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 2, 'batch': 5, 'train_loss': 1.696, 'train_domain_loss': 2.683, 'train_null_loss': 1.696, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 2, 'batch': 6, 'train_loss': 1.824, 'train_domain_loss': 2.587, 'train_null_loss': 1.824, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+{'valid_loss': 4.289, 'loss_diff': 0.0, 'epoch': 2, 'batch': 0}
+{'valid_loss': 4.335, 'loss_diff': 0.0, 'epoch': 2, 'batch': 1}
+{'valid_loss': 4.224, 'loss_diff': 0.0, 'epoch': 2, 'batch': 2}
+{'valid_loss': 4.166, 'loss_diff': 0.0, 'epoch': 2, 'batch': 3}
+{'valid_loss': 4.386, 'loss_diff': 0.0, 'epoch': 2, 'batch': 4}
+{'valid_loss': 4.22, 'loss_diff': 0.0, 'epoch': 2, 'batch': 5}
+{'valid_loss': 4.265, 'loss_diff': 0.0, 'epoch': 2, 'batch': 6}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+Epoch: 4 of 50 | Validation loss: 4.28:   7%|██████                                                                            | 896/12000 [00:30<01:56, 95.55it/s]C:\Users\xande\anaconda3\Lib\site-packages\plotly\matplotlylib\renderer.py:571: UserWarning:
+Training model...
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+{'epoch': 3, 'batch': 0, 'train_loss': 1.846, 'train_domain_loss': 2.509, 'train_null_loss': 1.846, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 3, 'batch': 1, 'train_loss': 1.748, 'train_domain_loss': 2.448, 'train_null_loss': 1.748, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 3, 'batch': 2, 'train_loss': 1.712, 'train_domain_loss': 2.476, 'train_null_loss': 1.712, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 3, 'batch': 3, 'train_loss': 1.806, 'train_domain_loss': 2.449, 'train_null_loss': 1.806, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 3, 'batch': 4, 'train_loss': 1.832, 'train_domain_loss': 2.463, 'train_null_loss': 1.832, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 3, 'batch': 5, 'train_loss': 1.84, 'train_domain_loss': 2.436, 'train_null_loss': 1.84, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 3, 'batch': 6, 'train_loss': 1.745, 'train_domain_loss': 2.43, 'train_null_loss': 1.745, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+{'valid_loss': 4.292, 'loss_diff': 0.0, 'epoch': 3, 'batch': 0}
+{'valid_loss': 4.312, 'loss_diff': 0.0, 'epoch': 3, 'batch': 1}
+{'valid_loss': 4.156, 'loss_diff': 0.0, 'epoch': 3, 'batch': 2}
+{'valid_loss': 4.07, 'loss_diff': 0.0, 'epoch': 3, 'batch': 3}
+{'valid_loss': 4.353, 'loss_diff': 0.0, 'epoch': 3, 'batch': 4}
+{'valid_loss': 4.21, 'loss_diff': 0.0, 'epoch': 3, 'batch': 5}
+{'valid_loss': 4.284, 'loss_diff': 0.0, 'epoch': 3, 'batch': 6}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+Epoch: 5 of 50 | Validation loss: 4.28:   9%|███████▌                                                                         | 1120/12000 [00:38<01:58, 91.96it/s]C:\Users\xande\anaconda3\Lib\site-packages\plotly\matplotlylib\renderer.py:571: UserWarning:
+Training model...
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+{'epoch': 4, 'batch': 0, 'train_loss': 1.781, 'train_domain_loss': 2.196, 'train_null_loss': 1.781, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 4, 'batch': 1, 'train_loss': 1.744, 'train_domain_loss': 2.255, 'train_null_loss': 1.744, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 4, 'batch': 2, 'train_loss': 1.813, 'train_domain_loss': 2.222, 'train_null_loss': 1.813, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 4, 'batch': 3, 'train_loss': 1.742, 'train_domain_loss': 2.237, 'train_null_loss': 1.742, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 4, 'batch': 4, 'train_loss': 1.82, 'train_domain_loss': 2.181, 'train_null_loss': 1.82, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 4, 'batch': 5, 'train_loss': 1.688, 'train_domain_loss': 2.192, 'train_null_loss': 1.688, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 4, 'batch': 6, 'train_loss': 1.8, 'train_domain_loss': 2.147, 'train_null_loss': 1.8, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+{'valid_loss': 4.332, 'loss_diff': 0.0, 'epoch': 4, 'batch': 0}
+{'valid_loss': 4.373, 'loss_diff': 0.0, 'epoch': 4, 'batch': 1}
+{'valid_loss': 4.263, 'loss_diff': 0.0, 'epoch': 4, 'batch': 2}
+{'valid_loss': 4.18, 'loss_diff': 0.0, 'epoch': 4, 'batch': 3}
+{'valid_loss': 4.394, 'loss_diff': 0.0, 'epoch': 4, 'batch': 4}
+{'valid_loss': 4.285, 'loss_diff': 0.0, 'epoch': 4, 'batch': 5}
+{'valid_loss': 4.279, 'loss_diff': 0.0, 'epoch': 4, 'batch': 6}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+Epoch: 6 of 50 | Validation loss: 4.22:  11%|█████████                                                                        | 1344/12000 [00:47<02:05, 84.76it/s]C:\Users\xande\anaconda3\Lib\site-packages\plotly\matplotlylib\renderer.py:571: UserWarning:
+Training model...
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+{'epoch': 5, 'batch': 0, 'train_loss': 1.724, 'train_domain_loss': 2.101, 'train_null_loss': 1.724, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 5, 'batch': 1, 'train_loss': 1.696, 'train_domain_loss': 2.033, 'train_null_loss': 1.696, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 5, 'batch': 2, 'train_loss': 1.761, 'train_domain_loss': 2.055, 'train_null_loss': 1.761, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 5, 'batch': 3, 'train_loss': 1.787, 'train_domain_loss': 2.056, 'train_null_loss': 1.787, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 5, 'batch': 4, 'train_loss': 1.793, 'train_domain_loss': 2.002, 'train_null_loss': 1.793, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 5, 'batch': 5, 'train_loss': 1.757, 'train_domain_loss': 1.981, 'train_null_loss': 1.757, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 5, 'batch': 6, 'train_loss': 1.8, 'train_domain_loss': 2.284, 'train_null_loss': 1.8, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+{'valid_loss': 4.483, 'loss_diff': 0.0, 'epoch': 5, 'batch': 0}
+{'valid_loss': 4.481, 'loss_diff': 0.0, 'epoch': 5, 'batch': 1}
+{'valid_loss': 4.335, 'loss_diff': 0.0, 'epoch': 5, 'batch': 2}
+{'valid_loss': 4.228, 'loss_diff': 0.0, 'epoch': 5, 'batch': 3}
+{'valid_loss': 4.486, 'loss_diff': 0.0, 'epoch': 5, 'batch': 4}
+{'valid_loss': 4.354, 'loss_diff': 0.0, 'epoch': 5, 'batch': 5}
+{'valid_loss': 4.219, 'loss_diff': 0.0, 'epoch': 5, 'batch': 6}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+Epoch: 7 of 50 | Validation loss: 4.25:  13%|██████████▌                                                                      | 1568/12000 [00:57<02:04, 83.48it/s]C:\Users\xande\anaconda3\Lib\site-packages\plotly\matplotlylib\renderer.py:571: UserWarning:
+Training model...
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+{'epoch': 6, 'batch': 0, 'train_loss': 1.668, 'train_domain_loss': 2.124, 'train_null_loss': 1.668, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 6, 'batch': 1, 'train_loss': 1.686, 'train_domain_loss': 1.939, 'train_null_loss': 1.686, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 6, 'batch': 2, 'train_loss': 1.765, 'train_domain_loss': 2.121, 'train_null_loss': 1.765, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 6, 'batch': 3, 'train_loss': 1.733, 'train_domain_loss': 2.051, 'train_null_loss': 1.733, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 6, 'batch': 4, 'train_loss': 1.78, 'train_domain_loss': 2.001, 'train_null_loss': 1.78, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 6, 'batch': 5, 'train_loss': 1.684, 'train_domain_loss': 1.923, 'train_null_loss': 1.684, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 6, 'batch': 6, 'train_loss': 1.775, 'train_domain_loss': 2.016, 'train_null_loss': 1.775, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+{'valid_loss': 4.317, 'loss_diff': 0.0, 'epoch': 6, 'batch': 0}
+{'valid_loss': 4.47, 'loss_diff': 0.0, 'epoch': 6, 'batch': 1}
+{'valid_loss': 4.436, 'loss_diff': 0.0, 'epoch': 6, 'batch': 2}
+{'valid_loss': 4.377, 'loss_diff': 0.0, 'epoch': 6, 'batch': 3}
+{'valid_loss': 4.572, 'loss_diff': 0.0, 'epoch': 6, 'batch': 4}
+{'valid_loss': 4.338, 'loss_diff': 0.0, 'epoch': 6, 'batch': 5}
+{'valid_loss': 4.25, 'loss_diff': 0.0, 'epoch': 6, 'batch': 6}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+Epoch: 8 of 50 | Validation loss: 4.40:  15%|████████████                                                                     | 1792/12000 [01:07<02:04, 82.20it/s]C:\Users\xande\anaconda3\Lib\site-packages\plotly\matplotlylib\renderer.py:571: UserWarning:
+Training model...
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+{'epoch': 7, 'batch': 0, 'train_loss': 1.621, 'train_domain_loss': 2.025, 'train_null_loss': 1.621, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 7, 'batch': 1, 'train_loss': 1.76, 'train_domain_loss': 1.939, 'train_null_loss': 1.76, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 7, 'batch': 2, 'train_loss': 1.706, 'train_domain_loss': 1.938, 'train_null_loss': 1.706, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 7, 'batch': 3, 'train_loss': 1.695, 'train_domain_loss': 2.026, 'train_null_loss': 1.695, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 7, 'batch': 4, 'train_loss': 1.745, 'train_domain_loss': 2.095, 'train_null_loss': 1.745, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 7, 'batch': 5, 'train_loss': 1.632, 'train_domain_loss': 1.903, 'train_null_loss': 1.632, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 7, 'batch': 6, 'train_loss': 1.691, 'train_domain_loss': 1.867, 'train_null_loss': 1.691, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+{'valid_loss': 4.338, 'loss_diff': 0.0, 'epoch': 7, 'batch': 0}
+{'valid_loss': 4.568, 'loss_diff': 0.0, 'epoch': 7, 'batch': 1}
+{'valid_loss': 4.599, 'loss_diff': 0.0, 'epoch': 7, 'batch': 2}
+{'valid_loss': 4.542, 'loss_diff': 0.0, 'epoch': 7, 'batch': 3}
+{'valid_loss': 4.762, 'loss_diff': 0.0, 'epoch': 7, 'batch': 4}
+{'valid_loss': 4.578, 'loss_diff': 0.0, 'epoch': 7, 'batch': 5}
+{'valid_loss': 4.402, 'loss_diff': 0.0, 'epoch': 7, 'batch': 6}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+Epoch: 9 of 50 | Validation loss: 4.98:  17%|█████████████▌                                                                   | 2016/12000 [01:13<01:53, 87.92it/s]C:\Users\xande\anaconda3\Lib\site-packages\plotly\matplotlylib\renderer.py:571: UserWarning:
+Training model...
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+{'epoch': 8, 'batch': 0, 'train_loss': 1.627, 'train_domain_loss': 1.847, 'train_null_loss': 1.627, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 8, 'batch': 1, 'train_loss': 1.709, 'train_domain_loss': 1.905, 'train_null_loss': 1.709, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 8, 'batch': 2, 'train_loss': 1.566, 'train_domain_loss': 1.933, 'train_null_loss': 1.566, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 8, 'batch': 3, 'train_loss': 1.749, 'train_domain_loss': 1.866, 'train_null_loss': 1.749, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 8, 'batch': 4, 'train_loss': 1.66, 'train_domain_loss': 1.853, 'train_null_loss': 1.66, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 8, 'batch': 5, 'train_loss': 1.727, 'train_domain_loss': 1.767, 'train_null_loss': 1.727, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 8, 'batch': 6, 'train_loss': 1.636, 'train_domain_loss': 1.807, 'train_null_loss': 1.636, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+{'valid_loss': 4.558, 'loss_diff': 0.0, 'epoch': 8, 'batch': 0}
+{'valid_loss': 4.835, 'loss_diff': 0.0, 'epoch': 8, 'batch': 1}
+{'valid_loss': 4.768, 'loss_diff': 0.0, 'epoch': 8, 'batch': 2}
+{'valid_loss': 4.654, 'loss_diff': 0.0, 'epoch': 8, 'batch': 3}
+{'valid_loss': 5.031, 'loss_diff': 0.0, 'epoch': 8, 'batch': 4}
+{'valid_loss': 5.27, 'loss_diff': 0.0, 'epoch': 8, 'batch': 5}
+{'valid_loss': 4.978, 'loss_diff': 0.0, 'epoch': 8, 'batch': 6}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+Epoch: 10 of 50 | Validation loss: 5.43:  19%|██████████████▉                                                                 | 2240/12000 [01:19<01:53, 85.69it/s]C:\Users\xande\anaconda3\Lib\site-packages\plotly\matplotlylib\renderer.py:571: UserWarning:
+Training model...
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+{'epoch': 9, 'batch': 0, 'train_loss': 1.691, 'train_domain_loss': 1.539, 'train_null_loss': 1.691, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 9, 'batch': 1, 'train_loss': 1.664, 'train_domain_loss': 1.8, 'train_null_loss': 1.664, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 9, 'batch': 2, 'train_loss': 1.747, 'train_domain_loss': 1.774, 'train_null_loss': 1.747, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 9, 'batch': 3, 'train_loss': 1.768, 'train_domain_loss': 1.651, 'train_null_loss': 1.768, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 9, 'batch': 4, 'train_loss': 1.762, 'train_domain_loss': 1.493, 'train_null_loss': 1.762, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 9, 'batch': 5, 'train_loss': 1.652, 'train_domain_loss': 1.543, 'train_null_loss': 1.652, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 9, 'batch': 6, 'train_loss': 1.678, 'train_domain_loss': 1.579, 'train_null_loss': 1.678, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+{'valid_loss': 4.969, 'loss_diff': 0.0, 'epoch': 9, 'batch': 0}
+{'valid_loss': 5.324, 'loss_diff': 0.0, 'epoch': 9, 'batch': 1}
+{'valid_loss': 5.009, 'loss_diff': 0.0, 'epoch': 9, 'batch': 2}
+{'valid_loss': 4.715, 'loss_diff': 0.0, 'epoch': 9, 'batch': 3}
+{'valid_loss': 5.38, 'loss_diff': 0.0, 'epoch': 9, 'batch': 4}
+{'valid_loss': 5.623, 'loss_diff': 0.0, 'epoch': 9, 'batch': 5}
+{'valid_loss': 5.428, 'loss_diff': 0.0, 'epoch': 9, 'batch': 6}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+Epoch: 11 of 50 | Validation loss: 5.20:  21%|████████████████▍                                                               | 2464/12000 [01:25<01:48, 88.18it/s]C:\Users\xande\anaconda3\Lib\site-packages\plotly\matplotlylib\renderer.py:571: UserWarning:
+Training model...
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+{'epoch': 10, 'batch': 0, 'train_loss': 1.739, 'train_domain_loss': 1.571, 'train_null_loss': 1.739, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 10, 'batch': 1, 'train_loss': 1.66, 'train_domain_loss': 1.427, 'train_null_loss': 1.66, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 10, 'batch': 2, 'train_loss': 1.585, 'train_domain_loss': 1.495, 'train_null_loss': 1.585, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 10, 'batch': 3, 'train_loss': 1.774, 'train_domain_loss': 1.551, 'train_null_loss': 1.774, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 10, 'batch': 4, 'train_loss': 1.744, 'train_domain_loss': 1.401, 'train_null_loss': 1.744, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 10, 'batch': 5, 'train_loss': 1.692, 'train_domain_loss': 1.421, 'train_null_loss': 1.692, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 10, 'batch': 6, 'train_loss': 1.692, 'train_domain_loss': 1.322, 'train_null_loss': 1.692, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+{'valid_loss': 5.284, 'loss_diff': 0.0, 'epoch': 10, 'batch': 0}
+{'valid_loss': 5.364, 'loss_diff': 0.0, 'epoch': 10, 'batch': 1}
+{'valid_loss': 5.018, 'loss_diff': 0.0, 'epoch': 10, 'batch': 2}
+{'valid_loss': 4.726, 'loss_diff': 0.0, 'epoch': 10, 'batch': 3}
+{'valid_loss': 5.346, 'loss_diff': 0.0, 'epoch': 10, 'batch': 4}
+{'valid_loss': 5.175, 'loss_diff': 0.0, 'epoch': 10, 'batch': 5}
+{'valid_loss': 5.201, 'loss_diff': 0.0, 'epoch': 10, 'batch': 6}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+Epoch: 12 of 50 | Validation loss: 5.12:  22%|█████████████████▉                                                              | 2688/12000 [01:31<01:43, 89.80it/s]C:\Users\xande\anaconda3\Lib\site-packages\plotly\matplotlylib\renderer.py:571: UserWarning:
+Training model...
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+{'epoch': 11, 'batch': 0, 'train_loss': 1.581, 'train_domain_loss': 1.315, 'train_null_loss': 1.581, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 11, 'batch': 1, 'train_loss': 1.665, 'train_domain_loss': 1.262, 'train_null_loss': 1.665, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 11, 'batch': 2, 'train_loss': 1.66, 'train_domain_loss': 1.242, 'train_null_loss': 1.66, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 11, 'batch': 3, 'train_loss': 1.665, 'train_domain_loss': 1.34, 'train_null_loss': 1.665, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 11, 'batch': 4, 'train_loss': 1.669, 'train_domain_loss': 1.235, 'train_null_loss': 1.669, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 11, 'batch': 5, 'train_loss': 1.596, 'train_domain_loss': 1.275, 'train_null_loss': 1.596, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 11, 'batch': 6, 'train_loss': 1.707, 'train_domain_loss': 1.038, 'train_null_loss': 1.707, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+{'valid_loss': 5.36, 'loss_diff': 0.0, 'epoch': 11, 'batch': 0}
+{'valid_loss': 5.263, 'loss_diff': 0.0, 'epoch': 11, 'batch': 1}
+{'valid_loss': 4.958, 'loss_diff': 0.0, 'epoch': 11, 'batch': 2}
+{'valid_loss': 4.667, 'loss_diff': 0.0, 'epoch': 11, 'batch': 3}
+{'valid_loss': 5.315, 'loss_diff': 0.0, 'epoch': 11, 'batch': 4}
+{'valid_loss': 4.919, 'loss_diff': 0.0, 'epoch': 11, 'batch': 5}
+{'valid_loss': 5.12, 'loss_diff': 0.0, 'epoch': 11, 'batch': 6}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+Epoch: 13 of 50 | Validation loss: 5.31:  24%|███████████████████▍                                                            | 2912/12000 [01:36<01:42, 88.30it/s]C:\Users\xande\anaconda3\Lib\site-packages\plotly\matplotlylib\renderer.py:571: UserWarning:
+Training model...
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+{'epoch': 12, 'batch': 0, 'train_loss': 1.626, 'train_domain_loss': 1.108, 'train_null_loss': 1.626, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 12, 'batch': 1, 'train_loss': 1.731, 'train_domain_loss': 1.16, 'train_null_loss': 1.731, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 12, 'batch': 2, 'train_loss': 1.615, 'train_domain_loss': 1.235, 'train_null_loss': 1.615, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 12, 'batch': 3, 'train_loss': 1.605, 'train_domain_loss': 1.258, 'train_null_loss': 1.605, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 12, 'batch': 4, 'train_loss': 1.623, 'train_domain_loss': 1.088, 'train_null_loss': 1.623, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 12, 'batch': 5, 'train_loss': 1.589, 'train_domain_loss': 1.062, 'train_null_loss': 1.589, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 12, 'batch': 6, 'train_loss': 1.575, 'train_domain_loss': 1.033, 'train_null_loss': 1.575, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+{'valid_loss': 5.719, 'loss_diff': 0.0, 'epoch': 12, 'batch': 0}
+{'valid_loss': 5.494, 'loss_diff': 0.0, 'epoch': 12, 'batch': 1}
+{'valid_loss': 5.116, 'loss_diff': 0.0, 'epoch': 12, 'batch': 2}
+{'valid_loss': 4.741, 'loss_diff': 0.0, 'epoch': 12, 'batch': 3}
+{'valid_loss': 5.555, 'loss_diff': 0.0, 'epoch': 12, 'batch': 4}
+{'valid_loss': 5.351, 'loss_diff': 0.0, 'epoch': 12, 'batch': 5}
+{'valid_loss': 5.313, 'loss_diff': 0.0, 'epoch': 12, 'batch': 6}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+Epoch: 14 of 50 | Validation loss: 5.46:  26%|████████████████████▉                                                           | 3136/12000 [01:42<01:41, 86.97it/s]C:\Users\xande\anaconda3\Lib\site-packages\plotly\matplotlylib\renderer.py:571: UserWarning:
+Training model...
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+{'epoch': 13, 'batch': 0, 'train_loss': 1.554, 'train_domain_loss': 1.062, 'train_null_loss': 1.554, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 13, 'batch': 1, 'train_loss': 1.527, 'train_domain_loss': 1.137, 'train_null_loss': 1.527, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 13, 'batch': 2, 'train_loss': 1.585, 'train_domain_loss': 1.057, 'train_null_loss': 1.585, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 13, 'batch': 3, 'train_loss': 1.638, 'train_domain_loss': 0.997, 'train_null_loss': 1.638, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 13, 'batch': 4, 'train_loss': 1.689, 'train_domain_loss': 1.074, 'train_null_loss': 1.689, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 13, 'batch': 5, 'train_loss': 1.595, 'train_domain_loss': 1.016, 'train_null_loss': 1.595, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 13, 'batch': 6, 'train_loss': 1.633, 'train_domain_loss': 0.968, 'train_null_loss': 1.633, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+{'valid_loss': 5.767, 'loss_diff': 0.0, 'epoch': 13, 'batch': 0}
+{'valid_loss': 5.554, 'loss_diff': 0.0, 'epoch': 13, 'batch': 1}
+{'valid_loss': 5.123, 'loss_diff': 0.0, 'epoch': 13, 'batch': 2}
+{'valid_loss': 4.871, 'loss_diff': 0.0, 'epoch': 13, 'batch': 3}
+{'valid_loss': 5.638, 'loss_diff': 0.0, 'epoch': 13, 'batch': 4}
+{'valid_loss': 5.518, 'loss_diff': 0.0, 'epoch': 13, 'batch': 5}
+{'valid_loss': 5.462, 'loss_diff': 0.0, 'epoch': 13, 'batch': 6}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+Epoch: 15 of 50 | Validation loss: 5.29:  28%|██████████████████████▍                                                         | 3360/12000 [01:47<01:39, 87.00it/s]C:\Users\xande\anaconda3\Lib\site-packages\plotly\matplotlylib\renderer.py:571: UserWarning:
+Training model...
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+{'epoch': 14, 'batch': 0, 'train_loss': 1.593, 'train_domain_loss': 0.938, 'train_null_loss': 1.593, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 14, 'batch': 1, 'train_loss': 1.629, 'train_domain_loss': 0.992, 'train_null_loss': 1.629, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 14, 'batch': 2, 'train_loss': 1.512, 'train_domain_loss': 0.934, 'train_null_loss': 1.512, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 14, 'batch': 3, 'train_loss': 1.547, 'train_domain_loss': 0.885, 'train_null_loss': 1.547, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 14, 'batch': 4, 'train_loss': 1.6, 'train_domain_loss': 0.947, 'train_null_loss': 1.6, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 14, 'batch': 5, 'train_loss': 1.511, 'train_domain_loss': 0.86, 'train_null_loss': 1.511, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 14, 'batch': 6, 'train_loss': 1.623, 'train_domain_loss': 0.908, 'train_null_loss': 1.623, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+{'valid_loss': 5.613, 'loss_diff': 0.0, 'epoch': 14, 'batch': 0}
+{'valid_loss': 5.419, 'loss_diff': 0.0, 'epoch': 14, 'batch': 1}
+{'valid_loss': 5.022, 'loss_diff': 0.0, 'epoch': 14, 'batch': 2}
+{'valid_loss': 4.823, 'loss_diff': 0.0, 'epoch': 14, 'batch': 3}
+{'valid_loss': 5.44, 'loss_diff': 0.0, 'epoch': 14, 'batch': 4}
+{'valid_loss': 5.401, 'loss_diff': 0.0, 'epoch': 14, 'batch': 5}
+{'valid_loss': 5.286, 'loss_diff': 0.0, 'epoch': 14, 'batch': 6}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+                                                                                                                                                                   
+Training embedding agent starting this epoch...
+Using cpu device
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+Training agent for 240 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 120      |
+|    ep_rew_mean     | -33      |
+| time/              |          |
+|    fps             | 35       |
+|    iterations      | 1        |
+|    time_elapsed    | 57       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+{'epoch': 15, 'batch': 0, 'train_loss': 1.742, 'train_domain_loss': 0.897, 'train_null_loss': 1.774, 'train_embed_loss': 1.71, 'train_loss_diff': -0.064}
+{'epoch': 15, 'batch': 1, 'train_loss': 1.564, 'train_domain_loss': 0.807, 'train_null_loss': 1.562, 'train_embed_loss': 1.565, 'train_loss_diff': 0.003}
+{'epoch': 15, 'batch': 2, 'train_loss': 1.604, 'train_domain_loss': 0.97, 'train_null_loss': 1.613, 'train_embed_loss': 1.596, 'train_loss_diff': -0.017}
+{'epoch': 15, 'batch': 3, 'train_loss': 1.652, 'train_domain_loss': 0.855, 'train_null_loss': 1.636, 'train_embed_loss': 1.668, 'train_loss_diff': 0.032}
+{'epoch': 15, 'batch': 4, 'train_loss': 1.63, 'train_domain_loss': 0.738, 'train_null_loss': 1.641, 'train_embed_loss': 1.618, 'train_loss_diff': -0.024}
+{'epoch': 15, 'batch': 5, 'train_loss': 1.594, 'train_domain_loss': 0.73, 'train_null_loss': 1.605, 'train_embed_loss': 1.583, 'train_loss_diff': -0.021}
+{'epoch': 15, 'batch': 6, 'train_loss': 1.644, 'train_domain_loss': 0.735, 'train_null_loss': 1.621, 'train_embed_loss': 1.667, 'train_loss_diff': 0.046}
+Running validation...
+{'valid_loss': 7.575, 'loss_diff': 0.0, 'epoch': 15, 'batch': 0, 'embed_loss': -0.002}
+{'valid_loss': 7.353, 'loss_diff': 0.0, 'epoch': 15, 'batch': 1, 'embed_loss': 0.004}
+{'valid_loss': 6.679, 'loss_diff': 0.0, 'epoch': 15, 'batch': 2, 'embed_loss': -0.017}
+{'valid_loss': 6.321, 'loss_diff': 0.0, 'epoch': 15, 'batch': 3, 'embed_loss': -0.021}
+{'valid_loss': 7.229, 'loss_diff': 0.0, 'epoch': 15, 'batch': 4, 'embed_loss': 0.033}
+{'valid_loss': 7.022, 'loss_diff': 0.0, 'epoch': 15, 'batch': 5, 'embed_loss': -0.032}
+{'valid_loss': 7.055, 'loss_diff': 0.0, 'epoch': 15, 'batch': 6, 'embed_loss': 0.003}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+Epoch: 17 of 50 | Validation loss: 7.27:  32%|█████████████████████████▍                                                      | 3808/12000 [04:05<03:08, 43.36it/s]
+Training agent for 240 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 120      |
+|    ep_rew_mean     | 90.8     |
+| time/              |          |
+|    fps             | 36       |
+|    iterations      | 1        |
+|    time_elapsed    | 56       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+{'epoch': 16, 'batch': 0, 'train_loss': 1.56, 'train_domain_loss': 0.802, 'train_null_loss': 1.613, 'train_embed_loss': 1.507, 'train_loss_diff': -0.106}
+{'epoch': 16, 'batch': 1, 'train_loss': 1.574, 'train_domain_loss': 0.766, 'train_null_loss': 1.574, 'train_embed_loss': 1.574, 'train_loss_diff': 0.001}
+{'epoch': 16, 'batch': 2, 'train_loss': 1.632, 'train_domain_loss': 0.755, 'train_null_loss': 1.653, 'train_embed_loss': 1.61, 'train_loss_diff': -0.043}
+{'epoch': 16, 'batch': 3, 'train_loss': 1.536, 'train_domain_loss': 0.718, 'train_null_loss': 1.483, 'train_embed_loss': 1.589, 'train_loss_diff': 0.105}
+{'epoch': 16, 'batch': 4, 'train_loss': 1.501, 'train_domain_loss': 0.852, 'train_null_loss': 1.497, 'train_embed_loss': 1.505, 'train_loss_diff': 0.008}
+{'epoch': 16, 'batch': 5, 'train_loss': 1.596, 'train_domain_loss': 0.694, 'train_null_loss': 1.589, 'train_embed_loss': 1.603, 'train_loss_diff': 0.015}
+{'epoch': 16, 'batch': 6, 'train_loss': 1.62, 'train_domain_loss': 0.759, 'train_null_loss': 1.653, 'train_embed_loss': 1.587, 'train_loss_diff': -0.067}
+Running validation...
+{'valid_loss': 7.398, 'loss_diff': 0.0, 'epoch': 16, 'batch': 0, 'embed_loss': 0.017}
+{'valid_loss': 7.439, 'loss_diff': 0.0, 'epoch': 16, 'batch': 1, 'embed_loss': 0.014}
+{'valid_loss': 6.889, 'loss_diff': 0.0, 'epoch': 16, 'batch': 2, 'embed_loss': -0.019}
+{'valid_loss': 6.5, 'loss_diff': 0.0, 'epoch': 16, 'batch': 3, 'embed_loss': -0.027}
+{'valid_loss': 7.304, 'loss_diff': 0.0, 'epoch': 16, 'batch': 4, 'embed_loss': 0.02}
+{'valid_loss': 7.246, 'loss_diff': 0.0, 'epoch': 16, 'batch': 5, 'embed_loss': -0.015}
+{'valid_loss': 7.269, 'loss_diff': 0.0, 'epoch': 16, 'batch': 6, 'embed_loss': -0.014}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+Epoch: 18 of 50 | Validation loss: 7.31:  34%|██████████████████████████▉                                                     | 4032/12000 [05:17<03:13, 41.20it/s]
+Training agent for 240 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 120      |
+|    ep_rew_mean     | -22.9    |
+| time/              |          |
+|    fps             | 34       |
+|    iterations      | 1        |
+|    time_elapsed    | 59       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+{'epoch': 17, 'batch': 0, 'train_loss': 1.6, 'train_domain_loss': 0.684, 'train_null_loss': 1.578, 'train_embed_loss': 1.621, 'train_loss_diff': 0.043}
+{'epoch': 17, 'batch': 1, 'train_loss': 1.608, 'train_domain_loss': 0.714, 'train_null_loss': 1.606, 'train_embed_loss': 1.611, 'train_loss_diff': 0.005}
+{'epoch': 17, 'batch': 2, 'train_loss': 1.578, 'train_domain_loss': 0.679, 'train_null_loss': 1.57, 'train_embed_loss': 1.586, 'train_loss_diff': 0.016}
+{'epoch': 17, 'batch': 3, 'train_loss': 1.546, 'train_domain_loss': 0.792, 'train_null_loss': 1.54, 'train_embed_loss': 1.552, 'train_loss_diff': 0.012}
+{'epoch': 17, 'batch': 4, 'train_loss': 1.544, 'train_domain_loss': 0.715, 'train_null_loss': 1.59, 'train_embed_loss': 1.498, 'train_loss_diff': -0.092}
+{'epoch': 17, 'batch': 5, 'train_loss': 1.536, 'train_domain_loss': 0.679, 'train_null_loss': 1.533, 'train_embed_loss': 1.539, 'train_loss_diff': 0.006}
+{'epoch': 17, 'batch': 6, 'train_loss': 1.549, 'train_domain_loss': 0.703, 'train_null_loss': 1.575, 'train_embed_loss': 1.524, 'train_loss_diff': -0.051}
+Running validation...
+{'valid_loss': 7.667, 'loss_diff': 0.0, 'epoch': 17, 'batch': 0, 'embed_loss': 0.023}
+{'valid_loss': 7.573, 'loss_diff': 0.0, 'epoch': 17, 'batch': 1, 'embed_loss': 0.036}
+{'valid_loss': 6.968, 'loss_diff': 0.0, 'epoch': 17, 'batch': 2, 'embed_loss': -0.007}
+{'valid_loss': 6.657, 'loss_diff': 0.0, 'epoch': 17, 'batch': 3, 'embed_loss': -0.026}
+{'valid_loss': 7.455, 'loss_diff': 0.0, 'epoch': 17, 'batch': 4, 'embed_loss': 0.022}
+{'valid_loss': 7.136, 'loss_diff': 0.0, 'epoch': 17, 'batch': 5, 'embed_loss': -0.014}
+{'valid_loss': 7.305, 'loss_diff': 0.0, 'epoch': 17, 'batch': 6, 'embed_loss': -0.022}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+Epoch: 19 of 50 | Validation loss: 7.21:  35%|████████████████████████████▎                                                   | 4256/12000 [06:30<03:10, 40.56it/s]
+Training agent for 240 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 120      |
+|    ep_rew_mean     | 40.2     |
+| time/              |          |
+|    fps             | 34       |
+|    iterations      | 1        |
+|    time_elapsed    | 59       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+{'epoch': 18, 'batch': 0, 'train_loss': 1.596, 'train_domain_loss': 0.687, 'train_null_loss': 1.657, 'train_embed_loss': 1.535, 'train_loss_diff': -0.122}
+{'epoch': 18, 'batch': 1, 'train_loss': 1.552, 'train_domain_loss': 0.698, 'train_null_loss': 1.581, 'train_embed_loss': 1.522, 'train_loss_diff': -0.059}
+{'epoch': 18, 'batch': 2, 'train_loss': 1.481, 'train_domain_loss': 0.751, 'train_null_loss': 1.569, 'train_embed_loss': 1.392, 'train_loss_diff': -0.177}
+{'epoch': 18, 'batch': 3, 'train_loss': 1.509, 'train_domain_loss': 0.694, 'train_null_loss': 1.437, 'train_embed_loss': 1.581, 'train_loss_diff': 0.144}
+{'epoch': 18, 'batch': 4, 'train_loss': 1.54, 'train_domain_loss': 0.609, 'train_null_loss': 1.575, 'train_embed_loss': 1.505, 'train_loss_diff': -0.07}
+{'epoch': 18, 'batch': 5, 'train_loss': 1.495, 'train_domain_loss': 0.637, 'train_null_loss': 1.548, 'train_embed_loss': 1.442, 'train_loss_diff': -0.106}
+{'epoch': 18, 'batch': 6, 'train_loss': 1.485, 'train_domain_loss': 0.466, 'train_null_loss': 1.506, 'train_embed_loss': 1.464, 'train_loss_diff': -0.043}
+Running validation...
+{'valid_loss': 7.163, 'loss_diff': 0.0, 'epoch': 18, 'batch': 0, 'embed_loss': 0.025}
+{'valid_loss': 7.215, 'loss_diff': 0.0, 'epoch': 18, 'batch': 1, 'embed_loss': 0.022}
+{'valid_loss': 6.752, 'loss_diff': 0.0, 'epoch': 18, 'batch': 2, 'embed_loss': -0.011}
+{'valid_loss': 6.501, 'loss_diff': 0.0, 'epoch': 18, 'batch': 3, 'embed_loss': -0.016}
+{'valid_loss': 7.32, 'loss_diff': 0.0, 'epoch': 18, 'batch': 4, 'embed_loss': 0.009}
+{'valid_loss': 7.182, 'loss_diff': 0.0, 'epoch': 18, 'batch': 5, 'embed_loss': -0.005}
+{'valid_loss': 7.212, 'loss_diff': 0.0, 'epoch': 18, 'batch': 6, 'embed_loss': -0.024}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+Epoch: 20 of 50 | Validation loss: 7.03:  37%|█████████████████████████████▊                                                  | 4480/12000 [07:43<03:04, 40.83it/s]
+Training agent for 240 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 120      |
+|    ep_rew_mean     | 46.3     |
+| time/              |          |
+|    fps             | 33       |
+|    iterations      | 1        |
+|    time_elapsed    | 60       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+{'epoch': 19, 'batch': 0, 'train_loss': 1.489, 'train_domain_loss': 0.709, 'train_null_loss': 1.475, 'train_embed_loss': 1.504, 'train_loss_diff': 0.029}
+{'epoch': 19, 'batch': 1, 'train_loss': 1.514, 'train_domain_loss': 0.665, 'train_null_loss': 1.553, 'train_embed_loss': 1.475, 'train_loss_diff': -0.078}
+{'epoch': 19, 'batch': 2, 'train_loss': 1.56, 'train_domain_loss': 0.546, 'train_null_loss': 1.559, 'train_embed_loss': 1.56, 'train_loss_diff': 0.0}
+{'epoch': 19, 'batch': 3, 'train_loss': 1.544, 'train_domain_loss': 0.782, 'train_null_loss': 1.514, 'train_embed_loss': 1.573, 'train_loss_diff': 0.06}
+{'epoch': 19, 'batch': 4, 'train_loss': 1.541, 'train_domain_loss': 0.731, 'train_null_loss': 1.573, 'train_embed_loss': 1.508, 'train_loss_diff': -0.065}
+{'epoch': 19, 'batch': 5, 'train_loss': 1.481, 'train_domain_loss': 0.73, 'train_null_loss': 1.458, 'train_embed_loss': 1.504, 'train_loss_diff': 0.047}
+{'epoch': 19, 'batch': 6, 'train_loss': 1.583, 'train_domain_loss': 0.634, 'train_null_loss': 1.63, 'train_embed_loss': 1.535, 'train_loss_diff': -0.095}
+Running validation...
+{'valid_loss': 6.623, 'loss_diff': 0.0, 'epoch': 19, 'batch': 0, 'embed_loss': 0.018}
+{'valid_loss': 6.754, 'loss_diff': 0.0, 'epoch': 19, 'batch': 1, 'embed_loss': -0.001}
+{'valid_loss': 6.635, 'loss_diff': 0.0, 'epoch': 19, 'batch': 2, 'embed_loss': -0.006}
+{'valid_loss': 6.516, 'loss_diff': 0.0, 'epoch': 19, 'batch': 3, 'embed_loss': 0.011}
+{'valid_loss': 7.177, 'loss_diff': 0.0, 'epoch': 19, 'batch': 4, 'embed_loss': 0.004}
+{'valid_loss': 6.971, 'loss_diff': 0.0, 'epoch': 19, 'batch': 5, 'embed_loss': 0.024}
+{'valid_loss': 7.027, 'loss_diff': 0.0, 'epoch': 19, 'batch': 6, 'embed_loss': -0.031}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+Epoch: 21 of 50 | Validation loss: 6.85:  39%|███████████████████████████████▎                                                | 4704/12000 [08:54<02:49, 42.96it/s]
+Training agent for 240 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 120      |
+|    ep_rew_mean     | 191      |
+| time/              |          |
+|    fps             | 34       |
+|    iterations      | 1        |
+|    time_elapsed    | 59       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+{'epoch': 20, 'batch': 0, 'train_loss': 1.51, 'train_domain_loss': 0.568, 'train_null_loss': 1.49, 'train_embed_loss': 1.53, 'train_loss_diff': 0.04}
+{'epoch': 20, 'batch': 1, 'train_loss': 1.574, 'train_domain_loss': 0.698, 'train_null_loss': 1.686, 'train_embed_loss': 1.463, 'train_loss_diff': -0.223}
+{'epoch': 20, 'batch': 2, 'train_loss': 1.503, 'train_domain_loss': 0.673, 'train_null_loss': 1.452, 'train_embed_loss': 1.555, 'train_loss_diff': 0.103}
+{'epoch': 20, 'batch': 3, 'train_loss': 1.564, 'train_domain_loss': 0.601, 'train_null_loss': 1.589, 'train_embed_loss': 1.539, 'train_loss_diff': -0.05}
+{'epoch': 20, 'batch': 4, 'train_loss': 1.461, 'train_domain_loss': 0.594, 'train_null_loss': 1.458, 'train_embed_loss': 1.464, 'train_loss_diff': 0.006}
+{'epoch': 20, 'batch': 5, 'train_loss': 1.541, 'train_domain_loss': 0.716, 'train_null_loss': 1.529, 'train_embed_loss': 1.553, 'train_loss_diff': 0.024}
+{'epoch': 20, 'batch': 6, 'train_loss': 1.504, 'train_domain_loss': 0.782, 'train_null_loss': 1.508, 'train_embed_loss': 1.499, 'train_loss_diff': -0.009}
+Running validation...
+{'valid_loss': 6.995, 'loss_diff': 0.0, 'epoch': 20, 'batch': 0, 'embed_loss': 0.012}
+{'valid_loss': 6.698, 'loss_diff': 0.0, 'epoch': 20, 'batch': 1, 'embed_loss': 0.008}
+{'valid_loss': 6.388, 'loss_diff': 0.0, 'epoch': 20, 'batch': 2, 'embed_loss': -0.009}
+{'valid_loss': 6.405, 'loss_diff': 0.0, 'epoch': 20, 'batch': 3, 'embed_loss': -0.016}
+{'valid_loss': 7.116, 'loss_diff': 0.0, 'epoch': 20, 'batch': 4, 'embed_loss': 0.004}
+{'valid_loss': 6.81, 'loss_diff': 0.0, 'epoch': 20, 'batch': 5, 'embed_loss': 0.008}
+{'valid_loss': 6.852, 'loss_diff': 0.0, 'epoch': 20, 'batch': 6, 'embed_loss': -0.025}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+Epoch: 22 of 50 | Validation loss: 6.78:  41%|████████████████████████████████▊                                               | 4928/12000 [10:01<02:44, 42.97it/s]
+Training agent for 240 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 120      |
+|    ep_rew_mean     | 424      |
+| time/              |          |
+|    fps             | 37       |
+|    iterations      | 1        |
+|    time_elapsed    | 55       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+{'epoch': 21, 'batch': 0, 'train_loss': 1.511, 'train_domain_loss': 0.713, 'train_null_loss': 1.556, 'train_embed_loss': 1.466, 'train_loss_diff': -0.09}
+{'epoch': 21, 'batch': 1, 'train_loss': 1.6, 'train_domain_loss': 0.751, 'train_null_loss': 1.598, 'train_embed_loss': 1.601, 'train_loss_diff': 0.003}
+{'epoch': 21, 'batch': 2, 'train_loss': 1.501, 'train_domain_loss': 0.638, 'train_null_loss': 1.498, 'train_embed_loss': 1.503, 'train_loss_diff': 0.005}
+{'epoch': 21, 'batch': 3, 'train_loss': 1.544, 'train_domain_loss': 0.697, 'train_null_loss': 1.567, 'train_embed_loss': 1.521, 'train_loss_diff': -0.046}
+{'epoch': 21, 'batch': 4, 'train_loss': 1.495, 'train_domain_loss': 0.656, 'train_null_loss': 1.458, 'train_embed_loss': 1.533, 'train_loss_diff': 0.074}
+{'epoch': 21, 'batch': 5, 'train_loss': 1.507, 'train_domain_loss': 0.718, 'train_null_loss': 1.502, 'train_embed_loss': 1.513, 'train_loss_diff': 0.01}
+{'epoch': 21, 'batch': 6, 'train_loss': 1.434, 'train_domain_loss': 0.557, 'train_null_loss': 1.42, 'train_embed_loss': 1.449, 'train_loss_diff': 0.029}
+Running validation...
+{'valid_loss': 7.059, 'loss_diff': 0.0, 'epoch': 21, 'batch': 0, 'embed_loss': 0.002}
+{'valid_loss': 6.875, 'loss_diff': 0.0, 'epoch': 21, 'batch': 1, 'embed_loss': 0.01}
+{'valid_loss': 6.611, 'loss_diff': 0.0, 'epoch': 21, 'batch': 2, 'embed_loss': 0.007}
+{'valid_loss': 6.488, 'loss_diff': 0.0, 'epoch': 21, 'batch': 3, 'embed_loss': -0.005}
+{'valid_loss': 7.207, 'loss_diff': 0.0, 'epoch': 21, 'batch': 4, 'embed_loss': 0.005}
+{'valid_loss': 6.923, 'loss_diff': 0.0, 'epoch': 21, 'batch': 5, 'embed_loss': -0.016}
+{'valid_loss': 6.781, 'loss_diff': 0.0, 'epoch': 21, 'batch': 6, 'embed_loss': 0.002}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+Epoch: 23 of 50 | Validation loss: 6.78:  43%|██████████████████████████████████▎                                             | 5152/12000 [11:07<02:34, 44.35it/s]
+Training agent for 240 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 120      |
+|    ep_rew_mean     | 297      |
+| time/              |          |
+|    fps             | 37       |
+|    iterations      | 1        |
+|    time_elapsed    | 54       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+{'epoch': 22, 'batch': 0, 'train_loss': 1.514, 'train_domain_loss': 0.564, 'train_null_loss': 1.56, 'train_embed_loss': 1.469, 'train_loss_diff': -0.09}
+{'epoch': 22, 'batch': 1, 'train_loss': 1.581, 'train_domain_loss': 0.58, 'train_null_loss': 1.576, 'train_embed_loss': 1.586, 'train_loss_diff': 0.01}
+{'epoch': 22, 'batch': 2, 'train_loss': 1.53, 'train_domain_loss': 0.66, 'train_null_loss': 1.507, 'train_embed_loss': 1.553, 'train_loss_diff': 0.045}
+{'epoch': 22, 'batch': 3, 'train_loss': 1.525, 'train_domain_loss': 0.612, 'train_null_loss': 1.533, 'train_embed_loss': 1.517, 'train_loss_diff': -0.016}
+{'epoch': 22, 'batch': 4, 'train_loss': 1.507, 'train_domain_loss': 0.675, 'train_null_loss': 1.484, 'train_embed_loss': 1.529, 'train_loss_diff': 0.045}
+{'epoch': 22, 'batch': 5, 'train_loss': 1.5, 'train_domain_loss': 0.635, 'train_null_loss': 1.548, 'train_embed_loss': 1.452, 'train_loss_diff': -0.096}
+{'epoch': 22, 'batch': 6, 'train_loss': 1.497, 'train_domain_loss': 0.635, 'train_null_loss': 1.496, 'train_embed_loss': 1.498, 'train_loss_diff': 0.002}
+Running validation...
+{'valid_loss': 6.995, 'loss_diff': 0.0, 'epoch': 22, 'batch': 0, 'embed_loss': 0.005}
+{'valid_loss': 6.865, 'loss_diff': 0.0, 'epoch': 22, 'batch': 1, 'embed_loss': 0.006}
+{'valid_loss': 6.589, 'loss_diff': 0.0, 'epoch': 22, 'batch': 2, 'embed_loss': 0.001}
+{'valid_loss': 6.439, 'loss_diff': 0.0, 'epoch': 22, 'batch': 3, 'embed_loss': -0.004}
+{'valid_loss': 7.18, 'loss_diff': 0.0, 'epoch': 22, 'batch': 4, 'embed_loss': -0.001}
+{'valid_loss': 6.933, 'loss_diff': 0.0, 'epoch': 22, 'batch': 5, 'embed_loss': 0.017}
+{'valid_loss': 6.78, 'loss_diff': 0.0, 'epoch': 22, 'batch': 6, 'embed_loss': -0.015}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+Epoch: 24 of 50 | Validation loss: 6.81:  45%|███████████████████████████████████▊                                            | 5376/12000 [12:14<02:35, 42.73it/s]
+Training agent for 240 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 120      |
+|    ep_rew_mean     | 232      |
+| time/              |          |
+|    fps             | 37       |
+|    iterations      | 1        |
+|    time_elapsed    | 55       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+{'epoch': 23, 'batch': 0, 'train_loss': 1.477, 'train_domain_loss': 0.764, 'train_null_loss': 1.494, 'train_embed_loss': 1.46, 'train_loss_diff': -0.035}
+{'epoch': 23, 'batch': 1, 'train_loss': 1.506, 'train_domain_loss': 0.612, 'train_null_loss': 1.468, 'train_embed_loss': 1.544, 'train_loss_diff': 0.076}
+{'epoch': 23, 'batch': 2, 'train_loss': 1.558, 'train_domain_loss': 0.635, 'train_null_loss': 1.632, 'train_embed_loss': 1.485, 'train_loss_diff': -0.147}
+{'epoch': 23, 'batch': 3, 'train_loss': 1.479, 'train_domain_loss': 0.525, 'train_null_loss': 1.402, 'train_embed_loss': 1.556, 'train_loss_diff': 0.153}
+{'epoch': 23, 'batch': 4, 'train_loss': 1.514, 'train_domain_loss': 0.637, 'train_null_loss': 1.5, 'train_embed_loss': 1.527, 'train_loss_diff': 0.027}
+{'epoch': 23, 'batch': 5, 'train_loss': 1.442, 'train_domain_loss': 0.587, 'train_null_loss': 1.402, 'train_embed_loss': 1.482, 'train_loss_diff': 0.08}
+{'epoch': 23, 'batch': 6, 'train_loss': 1.481, 'train_domain_loss': 0.613, 'train_null_loss': 1.46, 'train_embed_loss': 1.503, 'train_loss_diff': 0.043}
+Running validation...
+{'valid_loss': 7.035, 'loss_diff': 0.0, 'epoch': 23, 'batch': 0, 'embed_loss': 0.004}
+{'valid_loss': 6.983, 'loss_diff': 0.0, 'epoch': 23, 'batch': 1, 'embed_loss': 0.003}
+{'valid_loss': 6.807, 'loss_diff': 0.0, 'epoch': 23, 'batch': 2, 'embed_loss': 0.017}
+{'valid_loss': 6.637, 'loss_diff': 0.0, 'epoch': 23, 'batch': 3, 'embed_loss': 0.024}
+{'valid_loss': 7.141, 'loss_diff': 0.0, 'epoch': 23, 'batch': 4, 'embed_loss': -0.014}
+{'valid_loss': 6.992, 'loss_diff': 0.0, 'epoch': 23, 'batch': 5, 'embed_loss': 0.011}
+{'valid_loss': 6.811, 'loss_diff': 0.0, 'epoch': 23, 'batch': 6, 'embed_loss': -0.023}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+Epoch: 25 of 50 | Validation loss: 6.92:  47%|█████████████████████████████████████▎                                          | 5600/12000 [13:24<02:29, 42.95it/s]
+Training agent for 240 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 120      |
+|    ep_rew_mean     | 253      |
+| time/              |          |
+|    fps             | 35       |
+|    iterations      | 1        |
+|    time_elapsed    | 57       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+{'epoch': 24, 'batch': 0, 'train_loss': 1.381, 'train_domain_loss': 0.61, 'train_null_loss': 1.325, 'train_embed_loss': 1.437, 'train_loss_diff': 0.112}
+{'epoch': 24, 'batch': 1, 'train_loss': 1.48, 'train_domain_loss': 0.57, 'train_null_loss': 1.531, 'train_embed_loss': 1.429, 'train_loss_diff': -0.102}
+{'epoch': 24, 'batch': 2, 'train_loss': 1.443, 'train_domain_loss': 0.624, 'train_null_loss': 1.429, 'train_embed_loss': 1.458, 'train_loss_diff': 0.029}
+{'epoch': 24, 'batch': 3, 'train_loss': 1.377, 'train_domain_loss': 0.596, 'train_null_loss': 1.351, 'train_embed_loss': 1.404, 'train_loss_diff': 0.052}
+{'epoch': 24, 'batch': 4, 'train_loss': 1.569, 'train_domain_loss': 0.72, 'train_null_loss': 1.592, 'train_embed_loss': 1.546, 'train_loss_diff': -0.046}
+{'epoch': 24, 'batch': 5, 'train_loss': 1.44, 'train_domain_loss': 0.516, 'train_null_loss': 1.424, 'train_embed_loss': 1.456, 'train_loss_diff': 0.032}
+{'epoch': 24, 'batch': 6, 'train_loss': 1.462, 'train_domain_loss': 0.594, 'train_null_loss': 1.505, 'train_embed_loss': 1.42, 'train_loss_diff': -0.085}
+Running validation...
+{'valid_loss': 7.132, 'loss_diff': 0.0, 'epoch': 24, 'batch': 0, 'embed_loss': 0.003}
+{'valid_loss': 6.93, 'loss_diff': 0.0, 'epoch': 24, 'batch': 1, 'embed_loss': -0.016}
+{'valid_loss': 6.799, 'loss_diff': 0.0, 'epoch': 24, 'batch': 2, 'embed_loss': 0.019}
+{'valid_loss': 6.567, 'loss_diff': 0.0, 'epoch': 24, 'batch': 3, 'embed_loss': 0.045}
+{'valid_loss': 7.286, 'loss_diff': 0.0, 'epoch': 24, 'batch': 4, 'embed_loss': -0.01}
+{'valid_loss': 7.302, 'loss_diff': 0.0, 'epoch': 24, 'batch': 5, 'embed_loss': 0.02}
+{'valid_loss': 6.924, 'loss_diff': 0.0, 'epoch': 24, 'batch': 6, 'embed_loss': -0.035}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+Epoch: 26 of 50 | Validation loss: 6.88:  49%|██████████████████████████████████████▊                                         | 5824/12000 [14:30<02:24, 42.79it/s]
+Training agent for 240 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 120      |
+|    ep_rew_mean     | 208      |
+| time/              |          |
+|    fps             | 37       |
+|    iterations      | 1        |
+|    time_elapsed    | 54       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+{'epoch': 25, 'batch': 0, 'train_loss': 1.469, 'train_domain_loss': 0.741, 'train_null_loss': 1.413, 'train_embed_loss': 1.524, 'train_loss_diff': 0.112}
+{'epoch': 25, 'batch': 1, 'train_loss': 1.47, 'train_domain_loss': 0.662, 'train_null_loss': 1.465, 'train_embed_loss': 1.474, 'train_loss_diff': 0.01}
+{'epoch': 25, 'batch': 2, 'train_loss': 1.617, 'train_domain_loss': 0.553, 'train_null_loss': 1.642, 'train_embed_loss': 1.592, 'train_loss_diff': -0.049}
+{'epoch': 25, 'batch': 3, 'train_loss': 1.495, 'train_domain_loss': 0.526, 'train_null_loss': 1.479, 'train_embed_loss': 1.512, 'train_loss_diff': 0.032}
+{'epoch': 25, 'batch': 4, 'train_loss': 1.513, 'train_domain_loss': 0.608, 'train_null_loss': 1.481, 'train_embed_loss': 1.545, 'train_loss_diff': 0.063}
+{'epoch': 25, 'batch': 5, 'train_loss': 1.531, 'train_domain_loss': 0.518, 'train_null_loss': 1.521, 'train_embed_loss': 1.542, 'train_loss_diff': 0.02}
+{'epoch': 25, 'batch': 6, 'train_loss': 1.536, 'train_domain_loss': 0.657, 'train_null_loss': 1.544, 'train_embed_loss': 1.527, 'train_loss_diff': -0.018}
+Running validation...
+{'valid_loss': 7.163, 'loss_diff': 0.0, 'epoch': 25, 'batch': 0, 'embed_loss': 0.012}
+{'valid_loss': 6.952, 'loss_diff': 0.0, 'epoch': 25, 'batch': 1, 'embed_loss': 0.0}
+{'valid_loss': 6.762, 'loss_diff': 0.0, 'epoch': 25, 'batch': 2, 'embed_loss': 0.001}
+{'valid_loss': 6.477, 'loss_diff': 0.0, 'epoch': 25, 'batch': 3, 'embed_loss': -0.001}
+{'valid_loss': 7.311, 'loss_diff': 0.0, 'epoch': 25, 'batch': 4, 'embed_loss': 0.007}
+{'valid_loss': 7.287, 'loss_diff': 0.0, 'epoch': 25, 'batch': 5, 'embed_loss': -0.009}
+{'valid_loss': 6.885, 'loss_diff': 0.0, 'epoch': 25, 'batch': 6, 'embed_loss': -0.006}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+Epoch: 27 of 50 | Validation loss: 6.84:  50%|████████████████████████████████████████▎                                       | 6048/12000 [15:36<02:15, 44.03it/s]
+Training agent for 240 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 120      |
+|    ep_rew_mean     | 166      |
+| time/              |          |
+|    fps             | 37       |
+|    iterations      | 1        |
+|    time_elapsed    | 54       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+{'epoch': 26, 'batch': 0, 'train_loss': 1.524, 'train_domain_loss': 0.59, 'train_null_loss': 1.511, 'train_embed_loss': 1.537, 'train_loss_diff': 0.025}
+{'epoch': 26, 'batch': 1, 'train_loss': 1.508, 'train_domain_loss': 0.567, 'train_null_loss': 1.571, 'train_embed_loss': 1.444, 'train_loss_diff': -0.127}
+{'epoch': 26, 'batch': 2, 'train_loss': 1.485, 'train_domain_loss': 0.61, 'train_null_loss': 1.508, 'train_embed_loss': 1.462, 'train_loss_diff': -0.046}
+{'epoch': 26, 'batch': 3, 'train_loss': 1.549, 'train_domain_loss': 0.586, 'train_null_loss': 1.432, 'train_embed_loss': 1.665, 'train_loss_diff': 0.233}
+{'epoch': 26, 'batch': 4, 'train_loss': 1.486, 'train_domain_loss': 0.68, 'train_null_loss': 1.408, 'train_embed_loss': 1.565, 'train_loss_diff': 0.156}
+{'epoch': 26, 'batch': 5, 'train_loss': 1.463, 'train_domain_loss': 0.661, 'train_null_loss': 1.46, 'train_embed_loss': 1.466, 'train_loss_diff': 0.006}
+{'epoch': 26, 'batch': 6, 'train_loss': 1.48, 'train_domain_loss': 0.608, 'train_null_loss': 1.547, 'train_embed_loss': 1.413, 'train_loss_diff': -0.134}
+Running validation...
+{'valid_loss': 7.243, 'loss_diff': 0.0, 'epoch': 26, 'batch': 0, 'embed_loss': 0.018}
+{'valid_loss': 7.061, 'loss_diff': 0.0, 'epoch': 26, 'batch': 1, 'embed_loss': 0.012}
+{'valid_loss': 6.75, 'loss_diff': 0.0, 'epoch': 26, 'batch': 2, 'embed_loss': 0.013}
+{'valid_loss': 6.441, 'loss_diff': 0.0, 'epoch': 26, 'batch': 3, 'embed_loss': 0.008}
+{'valid_loss': 7.317, 'loss_diff': 0.0, 'epoch': 26, 'batch': 4, 'embed_loss': 0.002}
+{'valid_loss': 7.207, 'loss_diff': 0.0, 'epoch': 26, 'batch': 5, 'embed_loss': -0.044}
+{'valid_loss': 6.835, 'loss_diff': 0.0, 'epoch': 26, 'batch': 6, 'embed_loss': 0.017}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+Epoch: 28 of 50 | Validation loss: 6.89:  52%|█████████████████████████████████████████▊                                      | 6272/12000 [16:42<02:09, 44.24it/s]
+Training agent for 240 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 120      |
+|    ep_rew_mean     | 278      |
+| time/              |          |
+|    fps             | 37       |
+|    iterations      | 1        |
+|    time_elapsed    | 54       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+{'epoch': 27, 'batch': 0, 'train_loss': 1.42, 'train_domain_loss': 0.592, 'train_null_loss': 1.417, 'train_embed_loss': 1.423, 'train_loss_diff': 0.006}
+{'epoch': 27, 'batch': 1, 'train_loss': 1.488, 'train_domain_loss': 0.722, 'train_null_loss': 1.517, 'train_embed_loss': 1.459, 'train_loss_diff': -0.058}
+{'epoch': 27, 'batch': 2, 'train_loss': 1.41, 'train_domain_loss': 0.625, 'train_null_loss': 1.37, 'train_embed_loss': 1.45, 'train_loss_diff': 0.08}
+{'epoch': 27, 'batch': 3, 'train_loss': 1.521, 'train_domain_loss': 0.577, 'train_null_loss': 1.511, 'train_embed_loss': 1.532, 'train_loss_diff': 0.021}
+{'epoch': 27, 'batch': 4, 'train_loss': 1.379, 'train_domain_loss': 0.548, 'train_null_loss': 1.375, 'train_embed_loss': 1.384, 'train_loss_diff': 0.008}
+{'epoch': 27, 'batch': 5, 'train_loss': 1.487, 'train_domain_loss': 0.643, 'train_null_loss': 1.503, 'train_embed_loss': 1.471, 'train_loss_diff': -0.032}
+{'epoch': 27, 'batch': 6, 'train_loss': 1.381, 'train_domain_loss': 0.613, 'train_null_loss': 1.379, 'train_embed_loss': 1.383, 'train_loss_diff': 0.004}
+Running validation...
+{'valid_loss': 7.354, 'loss_diff': 0.0, 'epoch': 27, 'batch': 0, 'embed_loss': 0.014}
+{'valid_loss': 7.157, 'loss_diff': 0.0, 'epoch': 27, 'batch': 1, 'embed_loss': 0.017}
+{'valid_loss': 6.807, 'loss_diff': 0.0, 'epoch': 27, 'batch': 2, 'embed_loss': 0.015}
+{'valid_loss': 6.426, 'loss_diff': 0.0, 'epoch': 27, 'batch': 3, 'embed_loss': 0.006}
+{'valid_loss': 7.445, 'loss_diff': 0.0, 'epoch': 27, 'batch': 4, 'embed_loss': -0.002}
+{'valid_loss': 7.054, 'loss_diff': 0.0, 'epoch': 27, 'batch': 5, 'embed_loss': -0.035}
+{'valid_loss': 6.885, 'loss_diff': 0.0, 'epoch': 27, 'batch': 6, 'embed_loss': 0.005}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+Epoch: 29 of 50 | Validation loss: 7.05:  54%|███████████████████████████████████████████▎                                    | 6496/12000 [17:55<02:14, 40.96it/s]
+Training agent for 240 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 120      |
+|    ep_rew_mean     | 266      |
+| time/              |          |
+|    fps             | 33       |
+|    iterations      | 1        |
+|    time_elapsed    | 60       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+{'epoch': 28, 'batch': 0, 'train_loss': 1.477, 'train_domain_loss': 0.642, 'train_null_loss': 1.462, 'train_embed_loss': 1.493, 'train_loss_diff': 0.031}
+{'epoch': 28, 'batch': 1, 'train_loss': 1.487, 'train_domain_loss': 0.551, 'train_null_loss': 1.458, 'train_embed_loss': 1.516, 'train_loss_diff': 0.058}
+{'epoch': 28, 'batch': 2, 'train_loss': 1.359, 'train_domain_loss': 0.619, 'train_null_loss': 1.363, 'train_embed_loss': 1.355, 'train_loss_diff': -0.008}
+{'epoch': 28, 'batch': 3, 'train_loss': 1.406, 'train_domain_loss': 0.553, 'train_null_loss': 1.464, 'train_embed_loss': 1.347, 'train_loss_diff': -0.117}
+{'epoch': 28, 'batch': 4, 'train_loss': 1.492, 'train_domain_loss': 0.599, 'train_null_loss': 1.504, 'train_embed_loss': 1.481, 'train_loss_diff': -0.023}
+{'epoch': 28, 'batch': 5, 'train_loss': 1.484, 'train_domain_loss': 0.603, 'train_null_loss': 1.456, 'train_embed_loss': 1.511, 'train_loss_diff': 0.055}
+{'epoch': 28, 'batch': 6, 'train_loss': 1.448, 'train_domain_loss': 0.541, 'train_null_loss': 1.467, 'train_embed_loss': 1.428, 'train_loss_diff': -0.039}
+Running validation...
+{'valid_loss': 7.508, 'loss_diff': 0.0, 'epoch': 28, 'batch': 0, 'embed_loss': 0.008}
+{'valid_loss': 7.317, 'loss_diff': 0.0, 'epoch': 28, 'batch': 1, 'embed_loss': 0.024}
+{'valid_loss': 6.859, 'loss_diff': 0.0, 'epoch': 28, 'batch': 2, 'embed_loss': 0.007}
+{'valid_loss': 6.412, 'loss_diff': 0.0, 'epoch': 28, 'batch': 3, 'embed_loss': -0.005}
+{'valid_loss': 7.607, 'loss_diff': 0.0, 'epoch': 28, 'batch': 4, 'embed_loss': 0.008}
+{'valid_loss': 7.202, 'loss_diff': 0.0, 'epoch': 28, 'batch': 5, 'embed_loss': -0.014}
+{'valid_loss': 7.049, 'loss_diff': 0.0, 'epoch': 28, 'batch': 6, 'embed_loss': -0.009}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+Epoch: 30 of 50 | Validation loss: 6.99:  56%|████████████████████████████████████████████▊                                   | 6720/12000 [19:18<02:25, 36.23it/s]
+Training agent for 240 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 120      |
+|    ep_rew_mean     | 194      |
+| time/              |          |
+|    fps             | 29       |
+|    iterations      | 1        |
+|    time_elapsed    | 68       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+{'epoch': 29, 'batch': 0, 'train_loss': 1.431, 'train_domain_loss': 0.655, 'train_null_loss': 1.368, 'train_embed_loss': 1.494, 'train_loss_diff': 0.126}
+{'epoch': 29, 'batch': 1, 'train_loss': 1.44, 'train_domain_loss': 0.646, 'train_null_loss': 1.47, 'train_embed_loss': 1.411, 'train_loss_diff': -0.06}
+{'epoch': 29, 'batch': 2, 'train_loss': 1.497, 'train_domain_loss': 0.592, 'train_null_loss': 1.559, 'train_embed_loss': 1.435, 'train_loss_diff': -0.124}
+{'epoch': 29, 'batch': 3, 'train_loss': 1.466, 'train_domain_loss': 0.569, 'train_null_loss': 1.469, 'train_embed_loss': 1.463, 'train_loss_diff': -0.006}
+{'epoch': 29, 'batch': 4, 'train_loss': 1.486, 'train_domain_loss': 0.675, 'train_null_loss': 1.513, 'train_embed_loss': 1.459, 'train_loss_diff': -0.054}
+{'epoch': 29, 'batch': 5, 'train_loss': 1.521, 'train_domain_loss': 0.653, 'train_null_loss': 1.562, 'train_embed_loss': 1.48, 'train_loss_diff': -0.082}
+{'epoch': 29, 'batch': 6, 'train_loss': 1.377, 'train_domain_loss': 0.709, 'train_null_loss': 1.354, 'train_embed_loss': 1.401, 'train_loss_diff': 0.047}
+Running validation...
+{'valid_loss': 7.205, 'loss_diff': 0.0, 'epoch': 29, 'batch': 0, 'embed_loss': -0.001}
+{'valid_loss': 6.865, 'loss_diff': 0.0, 'epoch': 29, 'batch': 1, 'embed_loss': -0.012}
+{'valid_loss': 6.593, 'loss_diff': 0.0, 'epoch': 29, 'batch': 2, 'embed_loss': 0.011}
+{'valid_loss': 6.303, 'loss_diff': 0.0, 'epoch': 29, 'batch': 3, 'embed_loss': 0.023}
+{'valid_loss': 7.402, 'loss_diff': 0.0, 'epoch': 29, 'batch': 4, 'embed_loss': 0.0}
+{'valid_loss': 6.949, 'loss_diff': 0.0, 'epoch': 29, 'batch': 5, 'embed_loss': -0.013}
+{'valid_loss': 6.994, 'loss_diff': 0.0, 'epoch': 29, 'batch': 6, 'embed_loss': -0.007}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+Epoch: 31 of 50 | Validation loss: 6.88:  58%|██████████████████████████████████████████████▎                                 | 6944/12000 [20:40<02:18, 36.58it/s]
+Training agent for 240 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 120      |
+|    ep_rew_mean     | 265      |
+| time/              |          |
+|    fps             | 30       |
+|    iterations      | 1        |
+|    time_elapsed    | 67       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+{'epoch': 30, 'batch': 0, 'train_loss': 1.463, 'train_domain_loss': 0.681, 'train_null_loss': 1.464, 'train_embed_loss': 1.462, 'train_loss_diff': -0.002}
+{'epoch': 30, 'batch': 1, 'train_loss': 1.592, 'train_domain_loss': 0.543, 'train_null_loss': 1.57, 'train_embed_loss': 1.614, 'train_loss_diff': 0.044}
+{'epoch': 30, 'batch': 2, 'train_loss': 1.382, 'train_domain_loss': 0.695, 'train_null_loss': 1.412, 'train_embed_loss': 1.353, 'train_loss_diff': -0.059}
+{'epoch': 30, 'batch': 3, 'train_loss': 1.366, 'train_domain_loss': 0.697, 'train_null_loss': 1.382, 'train_embed_loss': 1.351, 'train_loss_diff': -0.032}
+{'epoch': 30, 'batch': 4, 'train_loss': 1.475, 'train_domain_loss': 0.74, 'train_null_loss': 1.468, 'train_embed_loss': 1.483, 'train_loss_diff': 0.015}
+{'epoch': 30, 'batch': 5, 'train_loss': 1.439, 'train_domain_loss': 0.726, 'train_null_loss': 1.441, 'train_embed_loss': 1.437, 'train_loss_diff': -0.004}
+{'epoch': 30, 'batch': 6, 'train_loss': 1.513, 'train_domain_loss': 0.661, 'train_null_loss': 1.538, 'train_embed_loss': 1.488, 'train_loss_diff': -0.05}
+Running validation...
+{'valid_loss': 6.952, 'loss_diff': 0.0, 'epoch': 30, 'batch': 0, 'embed_loss': 0.023}
+{'valid_loss': 6.584, 'loss_diff': 0.0, 'epoch': 30, 'batch': 1, 'embed_loss': -0.028}
+{'valid_loss': 6.482, 'loss_diff': 0.0, 'epoch': 30, 'batch': 2, 'embed_loss': -0.013}
+{'valid_loss': 6.292, 'loss_diff': 0.0, 'epoch': 30, 'batch': 3, 'embed_loss': 0.0}
+{'valid_loss': 7.237, 'loss_diff': 0.0, 'epoch': 30, 'batch': 4, 'embed_loss': 0.012}
+{'valid_loss': 6.711, 'loss_diff': 0.0, 'epoch': 30, 'batch': 5, 'embed_loss': 0.0}
+{'valid_loss': 6.878, 'loss_diff': 0.0, 'epoch': 30, 'batch': 6, 'embed_loss': -0.005}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+Epoch: 32 of 50 | Validation loss: 6.89:  60%|███████████████████████████████████████████████▊                                | 7168/12000 [22:02<02:13, 36.33it/s]
+Training agent for 240 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 120      |
+|    ep_rew_mean     | 255      |
+| time/              |          |
+|    fps             | 30       |
+|    iterations      | 1        |
+|    time_elapsed    | 67       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+{'epoch': 31, 'batch': 0, 'train_loss': 1.517, 'train_domain_loss': 0.574, 'train_null_loss': 1.486, 'train_embed_loss': 1.549, 'train_loss_diff': 0.063}
+{'epoch': 31, 'batch': 1, 'train_loss': 1.41, 'train_domain_loss': 0.686, 'train_null_loss': 1.415, 'train_embed_loss': 1.406, 'train_loss_diff': -0.009}
+{'epoch': 31, 'batch': 2, 'train_loss': 1.411, 'train_domain_loss': 0.731, 'train_null_loss': 1.492, 'train_embed_loss': 1.33, 'train_loss_diff': -0.161}
+{'epoch': 31, 'batch': 3, 'train_loss': 1.388, 'train_domain_loss': 0.734, 'train_null_loss': 1.462, 'train_embed_loss': 1.315, 'train_loss_diff': -0.147}
+{'epoch': 31, 'batch': 4, 'train_loss': 1.414, 'train_domain_loss': 0.657, 'train_null_loss': 1.452, 'train_embed_loss': 1.375, 'train_loss_diff': -0.077}
+{'epoch': 31, 'batch': 5, 'train_loss': 1.449, 'train_domain_loss': 0.699, 'train_null_loss': 1.485, 'train_embed_loss': 1.413, 'train_loss_diff': -0.072}
+{'epoch': 31, 'batch': 6, 'train_loss': 1.357, 'train_domain_loss': 0.725, 'train_null_loss': 1.352, 'train_embed_loss': 1.361, 'train_loss_diff': 0.009}
+Running validation...
+{'valid_loss': 6.923, 'loss_diff': 0.0, 'epoch': 31, 'batch': 0, 'embed_loss': 0.011}
+{'valid_loss': 6.61, 'loss_diff': 0.0, 'epoch': 31, 'batch': 1, 'embed_loss': -0.04}
+{'valid_loss': 6.534, 'loss_diff': 0.0, 'epoch': 31, 'batch': 2, 'embed_loss': -0.012}
+{'valid_loss': 6.359, 'loss_diff': 0.0, 'epoch': 31, 'batch': 3, 'embed_loss': 0.02}
+{'valid_loss': 7.264, 'loss_diff': 0.0, 'epoch': 31, 'batch': 4, 'embed_loss': 0.01}
+{'valid_loss': 6.835, 'loss_diff': 0.0, 'epoch': 31, 'batch': 5, 'embed_loss': -0.013}
+{'valid_loss': 6.894, 'loss_diff': 0.0, 'epoch': 31, 'batch': 6, 'embed_loss': 0.006}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+Epoch: 33 of 50 | Validation loss: 6.82:  62%|█████████████████████████████████████████████████▎                              | 7392/12000 [23:23<02:07, 36.28it/s]
+Training agent for 240 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 120      |
+|    ep_rew_mean     | 119      |
+| time/              |          |
+|    fps             | 30       |
+|    iterations      | 1        |
+|    time_elapsed    | 67       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+{'epoch': 32, 'batch': 0, 'train_loss': 1.506, 'train_domain_loss': 0.764, 'train_null_loss': 1.566, 'train_embed_loss': 1.446, 'train_loss_diff': -0.12}
+{'epoch': 32, 'batch': 1, 'train_loss': 1.376, 'train_domain_loss': 0.781, 'train_null_loss': 1.39, 'train_embed_loss': 1.362, 'train_loss_diff': -0.028}
+{'epoch': 32, 'batch': 2, 'train_loss': 1.436, 'train_domain_loss': 0.714, 'train_null_loss': 1.348, 'train_embed_loss': 1.524, 'train_loss_diff': 0.176}
+{'epoch': 32, 'batch': 3, 'train_loss': 1.457, 'train_domain_loss': 0.772, 'train_null_loss': 1.448, 'train_embed_loss': 1.466, 'train_loss_diff': 0.018}
+{'epoch': 32, 'batch': 4, 'train_loss': 1.371, 'train_domain_loss': 0.679, 'train_null_loss': 1.382, 'train_embed_loss': 1.36, 'train_loss_diff': -0.023}
+{'epoch': 32, 'batch': 5, 'train_loss': 1.472, 'train_domain_loss': 0.619, 'train_null_loss': 1.446, 'train_embed_loss': 1.497, 'train_loss_diff': 0.051}
+{'epoch': 32, 'batch': 6, 'train_loss': 1.488, 'train_domain_loss': 0.638, 'train_null_loss': 1.525, 'train_embed_loss': 1.451, 'train_loss_diff': -0.074}
+Running validation...
+{'valid_loss': 6.942, 'loss_diff': 0.0, 'epoch': 32, 'batch': 0, 'embed_loss': 0.011}
+{'valid_loss': 6.822, 'loss_diff': 0.0, 'epoch': 32, 'batch': 1, 'embed_loss': -0.026}
+{'valid_loss': 6.649, 'loss_diff': 0.0, 'epoch': 32, 'batch': 2, 'embed_loss': -0.001}
+{'valid_loss': 6.348, 'loss_diff': 0.0, 'epoch': 32, 'batch': 3, 'embed_loss': 0.029}
+{'valid_loss': 7.335, 'loss_diff': 0.0, 'epoch': 32, 'batch': 4, 'embed_loss': -0.005}
+{'valid_loss': 6.93, 'loss_diff': 0.0, 'epoch': 32, 'batch': 5, 'embed_loss': -0.005}
+{'valid_loss': 6.825, 'loss_diff': 0.0, 'epoch': 32, 'batch': 6, 'embed_loss': -0.013}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+Epoch: 34 of 50 | Validation loss: 6.79:  63%|██████████████████████████████████████████████████▊                             | 7616/12000 [24:46<02:02, 35.79it/s]
+Training agent for 240 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 120      |
+|    ep_rew_mean     | 93.4     |
+| time/              |          |
+|    fps             | 30       |
+|    iterations      | 1        |
+|    time_elapsed    | 68       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+{'epoch': 33, 'batch': 0, 'train_loss': 1.455, 'train_domain_loss': 0.587, 'train_null_loss': 1.452, 'train_embed_loss': 1.459, 'train_loss_diff': 0.007}
+{'epoch': 33, 'batch': 1, 'train_loss': 1.5, 'train_domain_loss': 0.664, 'train_null_loss': 1.571, 'train_embed_loss': 1.429, 'train_loss_diff': -0.141}
+{'epoch': 33, 'batch': 2, 'train_loss': 1.4, 'train_domain_loss': 0.821, 'train_null_loss': 1.412, 'train_embed_loss': 1.389, 'train_loss_diff': -0.023}
+{'epoch': 33, 'batch': 3, 'train_loss': 1.478, 'train_domain_loss': 0.725, 'train_null_loss': 1.483, 'train_embed_loss': 1.472, 'train_loss_diff': -0.011}
+{'epoch': 33, 'batch': 4, 'train_loss': 1.541, 'train_domain_loss': 0.688, 'train_null_loss': 1.584, 'train_embed_loss': 1.498, 'train_loss_diff': -0.086}
+{'epoch': 33, 'batch': 5, 'train_loss': 1.406, 'train_domain_loss': 0.743, 'train_null_loss': 1.438, 'train_embed_loss': 1.374, 'train_loss_diff': -0.064}
+{'epoch': 33, 'batch': 6, 'train_loss': 1.412, 'train_domain_loss': 0.625, 'train_null_loss': 1.431, 'train_embed_loss': 1.393, 'train_loss_diff': -0.038}
+Running validation...
+{'valid_loss': 6.794, 'loss_diff': 0.0, 'epoch': 33, 'batch': 0, 'embed_loss': 0.008}
+{'valid_loss': 6.718, 'loss_diff': 0.0, 'epoch': 33, 'batch': 1, 'embed_loss': -0.023}
+{'valid_loss': 6.545, 'loss_diff': 0.0, 'epoch': 33, 'batch': 2, 'embed_loss': 0.001}
+{'valid_loss': 6.308, 'loss_diff': 0.0, 'epoch': 33, 'batch': 3, 'embed_loss': 0.027}
+{'valid_loss': 7.185, 'loss_diff': 0.0, 'epoch': 33, 'batch': 4, 'embed_loss': -0.012}
+{'valid_loss': 6.858, 'loss_diff': 0.0, 'epoch': 33, 'batch': 5, 'embed_loss': 0.006}
+{'valid_loss': 6.793, 'loss_diff': 0.0, 'epoch': 33, 'batch': 6, 'embed_loss': -0.009}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+Epoch: 35 of 50 | Validation loss: 6.66:  65%|████████████████████████████████████████████████████▎                           | 7840/12000 [26:08<01:56, 35.77it/s]
+Training agent for 240 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 120      |
+|    ep_rew_mean     | 107      |
+| time/              |          |
+|    fps             | 30       |
+|    iterations      | 1        |
+|    time_elapsed    | 67       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+{'epoch': 34, 'batch': 0, 'train_loss': 1.423, 'train_domain_loss': 0.737, 'train_null_loss': 1.486, 'train_embed_loss': 1.359, 'train_loss_diff': -0.126}
+{'epoch': 34, 'batch': 1, 'train_loss': 1.424, 'train_domain_loss': 0.689, 'train_null_loss': 1.421, 'train_embed_loss': 1.428, 'train_loss_diff': 0.008}
+{'epoch': 34, 'batch': 2, 'train_loss': 1.455, 'train_domain_loss': 0.574, 'train_null_loss': 1.436, 'train_embed_loss': 1.474, 'train_loss_diff': 0.038}
+{'epoch': 34, 'batch': 3, 'train_loss': 1.448, 'train_domain_loss': 0.575, 'train_null_loss': 1.463, 'train_embed_loss': 1.433, 'train_loss_diff': -0.03}
+{'epoch': 34, 'batch': 4, 'train_loss': 1.459, 'train_domain_loss': 0.726, 'train_null_loss': 1.516, 'train_embed_loss': 1.403, 'train_loss_diff': -0.113}
+{'epoch': 34, 'batch': 5, 'train_loss': 1.392, 'train_domain_loss': 0.818, 'train_null_loss': 1.465, 'train_embed_loss': 1.319, 'train_loss_diff': -0.145}
+{'epoch': 34, 'batch': 6, 'train_loss': 1.47, 'train_domain_loss': 0.57, 'train_null_loss': 1.495, 'train_embed_loss': 1.445, 'train_loss_diff': -0.05}
+Running validation...
+{'valid_loss': 6.779, 'loss_diff': 0.0, 'epoch': 34, 'batch': 0, 'embed_loss': 0.001}
+{'valid_loss': 6.775, 'loss_diff': 0.0, 'epoch': 34, 'batch': 1, 'embed_loss': -0.033}
+{'valid_loss': 6.578, 'loss_diff': 0.0, 'epoch': 34, 'batch': 2, 'embed_loss': 0.003}
+{'valid_loss': 6.306, 'loss_diff': 0.0, 'epoch': 34, 'batch': 3, 'embed_loss': 0.039}
+{'valid_loss': 7.082, 'loss_diff': 0.0, 'epoch': 34, 'batch': 4, 'embed_loss': -0.006}
+{'valid_loss': 6.869, 'loss_diff': 0.0, 'epoch': 34, 'batch': 5, 'embed_loss': -0.014}
+{'valid_loss': 6.663, 'loss_diff': 0.0, 'epoch': 34, 'batch': 6, 'embed_loss': 0.01}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+Epoch: 36 of 50 | Validation loss: 6.60:  67%|█████████████████████████████████████████████████████▊                          | 8064/12000 [27:30<01:48, 36.24it/s]
+Training agent for 240 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 120      |
+|    ep_rew_mean     | 69.9     |
+| time/              |          |
+|    fps             | 30       |
+|    iterations      | 1        |
+|    time_elapsed    | 67       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+{'epoch': 35, 'batch': 0, 'train_loss': 1.411, 'train_domain_loss': 0.722, 'train_null_loss': 1.394, 'train_embed_loss': 1.428, 'train_loss_diff': 0.034}
+{'epoch': 35, 'batch': 1, 'train_loss': 1.43, 'train_domain_loss': 0.884, 'train_null_loss': 1.454, 'train_embed_loss': 1.406, 'train_loss_diff': -0.048}
+{'epoch': 35, 'batch': 2, 'train_loss': 1.519, 'train_domain_loss': 0.69, 'train_null_loss': 1.559, 'train_embed_loss': 1.48, 'train_loss_diff': -0.079}
+{'epoch': 35, 'batch': 3, 'train_loss': 1.36, 'train_domain_loss': 0.679, 'train_null_loss': 1.305, 'train_embed_loss': 1.414, 'train_loss_diff': 0.109}
+{'epoch': 35, 'batch': 4, 'train_loss': 1.459, 'train_domain_loss': 0.624, 'train_null_loss': 1.424, 'train_embed_loss': 1.494, 'train_loss_diff': 0.07}
+{'epoch': 35, 'batch': 5, 'train_loss': 1.529, 'train_domain_loss': 0.696, 'train_null_loss': 1.526, 'train_embed_loss': 1.531, 'train_loss_diff': 0.005}
+{'epoch': 35, 'batch': 6, 'train_loss': 1.41, 'train_domain_loss': 0.775, 'train_null_loss': 1.442, 'train_embed_loss': 1.379, 'train_loss_diff': -0.063}
+Running validation...
+{'valid_loss': 6.84, 'loss_diff': 0.0, 'epoch': 35, 'batch': 0, 'embed_loss': 0.007}
+{'valid_loss': 6.93, 'loss_diff': 0.0, 'epoch': 35, 'batch': 1, 'embed_loss': -0.03}
+{'valid_loss': 6.664, 'loss_diff': 0.0, 'epoch': 35, 'batch': 2, 'embed_loss': -0.011}
+{'valid_loss': 6.309, 'loss_diff': 0.0, 'epoch': 35, 'batch': 3, 'embed_loss': 0.009}
+{'valid_loss': 7.136, 'loss_diff': 0.0, 'epoch': 35, 'batch': 4, 'embed_loss': -0.004}
+{'valid_loss': 6.962, 'loss_diff': 0.0, 'epoch': 35, 'batch': 5, 'embed_loss': -0.002}
+{'valid_loss': 6.604, 'loss_diff': 0.0, 'epoch': 35, 'batch': 6, 'embed_loss': 0.007}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+Epoch: 37 of 50 | Validation loss: 6.90:  69%|███████████████████████████████████████████████████████▎                        | 8288/12000 [28:53<01:43, 35.83it/s]
+Training agent for 240 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 120      |
+|    ep_rew_mean     | 152      |
+| time/              |          |
+|    fps             | 30       |
+|    iterations      | 1        |
+|    time_elapsed    | 67       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+{'epoch': 36, 'batch': 0, 'train_loss': 1.444, 'train_domain_loss': 0.784, 'train_null_loss': 1.433, 'train_embed_loss': 1.455, 'train_loss_diff': 0.022}
+{'epoch': 36, 'batch': 1, 'train_loss': 1.439, 'train_domain_loss': 0.64, 'train_null_loss': 1.405, 'train_embed_loss': 1.473, 'train_loss_diff': 0.068}
+{'epoch': 36, 'batch': 2, 'train_loss': 1.421, 'train_domain_loss': 0.646, 'train_null_loss': 1.432, 'train_embed_loss': 1.411, 'train_loss_diff': -0.021}
+{'epoch': 36, 'batch': 3, 'train_loss': 1.355, 'train_domain_loss': 0.7, 'train_null_loss': 1.427, 'train_embed_loss': 1.284, 'train_loss_diff': -0.144}
+{'epoch': 36, 'batch': 4, 'train_loss': 1.434, 'train_domain_loss': 0.674, 'train_null_loss': 1.377, 'train_embed_loss': 1.49, 'train_loss_diff': 0.112}
+{'epoch': 36, 'batch': 5, 'train_loss': 1.409, 'train_domain_loss': 0.791, 'train_null_loss': 1.371, 'train_embed_loss': 1.446, 'train_loss_diff': 0.075}
+{'epoch': 36, 'batch': 6, 'train_loss': 1.423, 'train_domain_loss': 0.612, 'train_null_loss': 1.38, 'train_embed_loss': 1.465, 'train_loss_diff': 0.085}
+Running validation...
+{'valid_loss': 7.197, 'loss_diff': 0.0, 'epoch': 36, 'batch': 0, 'embed_loss': 0.042}
+{'valid_loss': 7.246, 'loss_diff': 0.0, 'epoch': 36, 'batch': 1, 'embed_loss': 0.006}
+{'valid_loss': 6.804, 'loss_diff': 0.0, 'epoch': 36, 'batch': 2, 'embed_loss': -0.021}
+{'valid_loss': 6.347, 'loss_diff': 0.0, 'epoch': 36, 'batch': 3, 'embed_loss': -0.029}
+{'valid_loss': 7.44, 'loss_diff': 0.0, 'epoch': 36, 'batch': 4, 'embed_loss': -0.008}
+{'valid_loss': 7.161, 'loss_diff': 0.0, 'epoch': 36, 'batch': 5, 'embed_loss': 0.004}
+{'valid_loss': 6.9, 'loss_diff': 0.0, 'epoch': 36, 'batch': 6, 'embed_loss': -0.0}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+Epoch: 38 of 50 | Validation loss: 6.99:  71%|████████████████████████████████████████████████████████▋                       | 8512/12000 [30:15<01:36, 36.31it/s]
+Training agent for 240 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 120      |
+|    ep_rew_mean     | 198      |
+| time/              |          |
+|    fps             | 30       |
+|    iterations      | 1        |
+|    time_elapsed    | 67       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+{'epoch': 37, 'batch': 0, 'train_loss': 1.418, 'train_domain_loss': 0.681, 'train_null_loss': 1.438, 'train_embed_loss': 1.399, 'train_loss_diff': -0.039}
+{'epoch': 37, 'batch': 1, 'train_loss': 1.488, 'train_domain_loss': 0.709, 'train_null_loss': 1.536, 'train_embed_loss': 1.439, 'train_loss_diff': -0.097}
+{'epoch': 37, 'batch': 2, 'train_loss': 1.395, 'train_domain_loss': 0.585, 'train_null_loss': 1.334, 'train_embed_loss': 1.457, 'train_loss_diff': 0.123}
+{'epoch': 37, 'batch': 3, 'train_loss': 1.437, 'train_domain_loss': 0.722, 'train_null_loss': 1.503, 'train_embed_loss': 1.37, 'train_loss_diff': -0.133}
+{'epoch': 37, 'batch': 4, 'train_loss': 1.473, 'train_domain_loss': 0.662, 'train_null_loss': 1.548, 'train_embed_loss': 1.398, 'train_loss_diff': -0.15}
+{'epoch': 37, 'batch': 5, 'train_loss': 1.466, 'train_domain_loss': 0.585, 'train_null_loss': 1.442, 'train_embed_loss': 1.489, 'train_loss_diff': 0.047}
+{'epoch': 37, 'batch': 6, 'train_loss': 1.372, 'train_domain_loss': 0.545, 'train_null_loss': 1.347, 'train_embed_loss': 1.397, 'train_loss_diff': 0.05}
+Running validation...
+{'valid_loss': 7.292, 'loss_diff': 0.0, 'epoch': 37, 'batch': 0, 'embed_loss': 0.021}
+{'valid_loss': 7.274, 'loss_diff': 0.0, 'epoch': 37, 'batch': 1, 'embed_loss': -0.017}
+{'valid_loss': 6.874, 'loss_diff': 0.0, 'epoch': 37, 'batch': 2, 'embed_loss': -0.007}
+{'valid_loss': 6.403, 'loss_diff': 0.0, 'epoch': 37, 'batch': 3, 'embed_loss': 0.001}
+{'valid_loss': 7.514, 'loss_diff': 0.0, 'epoch': 37, 'batch': 4, 'embed_loss': -0.011}
+{'valid_loss': 7.259, 'loss_diff': 0.0, 'epoch': 37, 'batch': 5, 'embed_loss': -0.004}
+{'valid_loss': 6.986, 'loss_diff': 0.0, 'epoch': 37, 'batch': 6, 'embed_loss': -0.005}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+Epoch: 39 of 50 | Validation loss: 6.94:  73%|██████████████████████████████████████████████████████████▏                     | 8736/12000 [31:36<01:29, 36.37it/s]
+Training agent for 240 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 120      |
+|    ep_rew_mean     | 176      |
+| time/              |          |
+|    fps             | 30       |
+|    iterations      | 1        |
+|    time_elapsed    | 67       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+{'epoch': 38, 'batch': 0, 'train_loss': 1.412, 'train_domain_loss': 0.647, 'train_null_loss': 1.443, 'train_embed_loss': 1.381, 'train_loss_diff': -0.062}
+{'epoch': 38, 'batch': 1, 'train_loss': 1.316, 'train_domain_loss': 0.767, 'train_null_loss': 1.335, 'train_embed_loss': 1.297, 'train_loss_diff': -0.038}
+{'epoch': 38, 'batch': 2, 'train_loss': 1.436, 'train_domain_loss': 0.596, 'train_null_loss': 1.392, 'train_embed_loss': 1.479, 'train_loss_diff': 0.087}
+{'epoch': 38, 'batch': 3, 'train_loss': 1.466, 'train_domain_loss': 0.596, 'train_null_loss': 1.468, 'train_embed_loss': 1.463, 'train_loss_diff': -0.005}
+{'epoch': 38, 'batch': 4, 'train_loss': 1.465, 'train_domain_loss': 0.505, 'train_null_loss': 1.454, 'train_embed_loss': 1.476, 'train_loss_diff': 0.021}
+{'epoch': 38, 'batch': 5, 'train_loss': 1.372, 'train_domain_loss': 0.595, 'train_null_loss': 1.364, 'train_embed_loss': 1.379, 'train_loss_diff': 0.015}
+{'epoch': 38, 'batch': 6, 'train_loss': 1.491, 'train_domain_loss': 0.512, 'train_null_loss': 1.477, 'train_embed_loss': 1.504, 'train_loss_diff': 0.027}
+Running validation...
+{'valid_loss': 7.153, 'loss_diff': 0.0, 'epoch': 38, 'batch': 0, 'embed_loss': 0.021}
+{'valid_loss': 7.237, 'loss_diff': 0.0, 'epoch': 38, 'batch': 1, 'embed_loss': -0.003}
+{'valid_loss': 6.854, 'loss_diff': 0.0, 'epoch': 38, 'batch': 2, 'embed_loss': -0.012}
+{'valid_loss': 6.417, 'loss_diff': 0.0, 'epoch': 38, 'batch': 3, 'embed_loss': -0.017}
+{'valid_loss': 7.402, 'loss_diff': 0.0, 'epoch': 38, 'batch': 4, 'embed_loss': 0.014}
+{'valid_loss': 7.08, 'loss_diff': 0.0, 'epoch': 38, 'batch': 5, 'embed_loss': -0.006}
+{'valid_loss': 6.935, 'loss_diff': 0.0, 'epoch': 38, 'batch': 6, 'embed_loss': -0.02}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+Epoch: 40 of 50 | Validation loss: 6.91:  75%|███████████████████████████████████████████████████████████▋                    | 8960/12000 [32:58<01:22, 36.96it/s]
+Training agent for 240 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 120      |
+|    ep_rew_mean     | 263      |
+| time/              |          |
+|    fps             | 30       |
+|    iterations      | 1        |
+|    time_elapsed    | 67       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+{'epoch': 39, 'batch': 0, 'train_loss': 1.41, 'train_domain_loss': 0.701, 'train_null_loss': 1.478, 'train_embed_loss': 1.341, 'train_loss_diff': -0.137}
+{'epoch': 39, 'batch': 1, 'train_loss': 1.446, 'train_domain_loss': 0.601, 'train_null_loss': 1.475, 'train_embed_loss': 1.418, 'train_loss_diff': -0.057}
+{'epoch': 39, 'batch': 2, 'train_loss': 1.442, 'train_domain_loss': 0.619, 'train_null_loss': 1.474, 'train_embed_loss': 1.409, 'train_loss_diff': -0.065}
+{'epoch': 39, 'batch': 3, 'train_loss': 1.427, 'train_domain_loss': 0.597, 'train_null_loss': 1.419, 'train_embed_loss': 1.435, 'train_loss_diff': 0.016}
+{'epoch': 39, 'batch': 4, 'train_loss': 1.422, 'train_domain_loss': 0.714, 'train_null_loss': 1.395, 'train_embed_loss': 1.45, 'train_loss_diff': 0.055}
+{'epoch': 39, 'batch': 5, 'train_loss': 1.493, 'train_domain_loss': 0.517, 'train_null_loss': 1.494, 'train_embed_loss': 1.491, 'train_loss_diff': -0.003}
+{'epoch': 39, 'batch': 6, 'train_loss': 1.414, 'train_domain_loss': 0.664, 'train_null_loss': 1.434, 'train_embed_loss': 1.394, 'train_loss_diff': -0.04}
+Running validation...
+{'valid_loss': 7.12, 'loss_diff': 0.0, 'epoch': 39, 'batch': 0, 'embed_loss': 0.002}
+{'valid_loss': 7.184, 'loss_diff': 0.0, 'epoch': 39, 'batch': 1, 'embed_loss': -0.021}
+{'valid_loss': 6.697, 'loss_diff': 0.0, 'epoch': 39, 'batch': 2, 'embed_loss': 0.002}
+{'valid_loss': 6.292, 'loss_diff': 0.0, 'epoch': 39, 'batch': 3, 'embed_loss': 0.009}
+{'valid_loss': 7.317, 'loss_diff': 0.0, 'epoch': 39, 'batch': 4, 'embed_loss': -0.007}
+{'valid_loss': 6.937, 'loss_diff': 0.0, 'epoch': 39, 'batch': 5, 'embed_loss': -0.001}
+{'valid_loss': 6.91, 'loss_diff': 0.0, 'epoch': 39, 'batch': 6, 'embed_loss': -0.023}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+Epoch: 41 of 50 | Validation loss: 7.04:  77%|█████████████████████████████████████████████████████████████▏                  | 9184/12000 [34:19<01:21, 34.45it/s]
+Training agent for 240 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 120      |
+|    ep_rew_mean     | 183      |
+| time/              |          |
+|    fps             | 30       |
+|    iterations      | 1        |
+|    time_elapsed    | 67       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+{'epoch': 40, 'batch': 0, 'train_loss': 1.554, 'train_domain_loss': 0.61, 'train_null_loss': 1.605, 'train_embed_loss': 1.503, 'train_loss_diff': -0.102}
+{'epoch': 40, 'batch': 1, 'train_loss': 1.474, 'train_domain_loss': 0.649, 'train_null_loss': 1.427, 'train_embed_loss': 1.52, 'train_loss_diff': 0.093}
+{'epoch': 40, 'batch': 2, 'train_loss': 1.27, 'train_domain_loss': 0.644, 'train_null_loss': 1.295, 'train_embed_loss': 1.246, 'train_loss_diff': -0.049}
+{'epoch': 40, 'batch': 3, 'train_loss': 1.415, 'train_domain_loss': 0.575, 'train_null_loss': 1.401, 'train_embed_loss': 1.429, 'train_loss_diff': 0.027}
+{'epoch': 40, 'batch': 4, 'train_loss': 1.362, 'train_domain_loss': 0.581, 'train_null_loss': 1.462, 'train_embed_loss': 1.262, 'train_loss_diff': -0.2}
+{'epoch': 40, 'batch': 5, 'train_loss': 1.441, 'train_domain_loss': 0.645, 'train_null_loss': 1.504, 'train_embed_loss': 1.379, 'train_loss_diff': -0.125}
+{'epoch': 40, 'batch': 6, 'train_loss': 1.426, 'train_domain_loss': 0.606, 'train_null_loss': 1.349, 'train_embed_loss': 1.503, 'train_loss_diff': 0.153}
+Running validation...
+{'valid_loss': 7.361, 'loss_diff': 0.0, 'epoch': 40, 'batch': 0, 'embed_loss': 0.001}
+{'valid_loss': 7.324, 'loss_diff': 0.0, 'epoch': 40, 'batch': 1, 'embed_loss': -0.014}
+{'valid_loss': 6.702, 'loss_diff': 0.0, 'epoch': 40, 'batch': 2, 'embed_loss': 0.007}
+{'valid_loss': 6.291, 'loss_diff': 0.0, 'epoch': 40, 'batch': 3, 'embed_loss': 0.02}
+{'valid_loss': 7.414, 'loss_diff': 0.0, 'epoch': 40, 'batch': 4, 'embed_loss': -0.0}
+{'valid_loss': 6.882, 'loss_diff': 0.0, 'epoch': 40, 'batch': 5, 'embed_loss': -0.006}
+{'valid_loss': 7.039, 'loss_diff': 0.0, 'epoch': 40, 'batch': 6, 'embed_loss': -0.031}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+Epoch: 42 of 50 | Validation loss: 7.08:  78%|██████████████████████████████████████████████████████████████▋                 | 9408/12000 [35:41<01:10, 36.85it/s]
+Training agent for 240 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 120      |
+|    ep_rew_mean     | 49.9     |
+| time/              |          |
+|    fps             | 30       |
+|    iterations      | 1        |
+|    time_elapsed    | 67       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+{'epoch': 41, 'batch': 0, 'train_loss': 1.402, 'train_domain_loss': 0.587, 'train_null_loss': 1.429, 'train_embed_loss': 1.375, 'train_loss_diff': -0.054}
+{'epoch': 41, 'batch': 1, 'train_loss': 1.44, 'train_domain_loss': 0.614, 'train_null_loss': 1.484, 'train_embed_loss': 1.396, 'train_loss_diff': -0.089}
+{'epoch': 41, 'batch': 2, 'train_loss': 1.416, 'train_domain_loss': 0.64, 'train_null_loss': 1.46, 'train_embed_loss': 1.371, 'train_loss_diff': -0.088}
+{'epoch': 41, 'batch': 3, 'train_loss': 1.325, 'train_domain_loss': 0.51, 'train_null_loss': 1.284, 'train_embed_loss': 1.367, 'train_loss_diff': 0.083}
+{'epoch': 41, 'batch': 4, 'train_loss': 1.547, 'train_domain_loss': 0.627, 'train_null_loss': 1.571, 'train_embed_loss': 1.524, 'train_loss_diff': -0.048}
+{'epoch': 41, 'batch': 5, 'train_loss': 1.474, 'train_domain_loss': 0.558, 'train_null_loss': 1.42, 'train_embed_loss': 1.528, 'train_loss_diff': 0.108}
+{'epoch': 41, 'batch': 6, 'train_loss': 1.385, 'train_domain_loss': 0.58, 'train_null_loss': 1.437, 'train_embed_loss': 1.333, 'train_loss_diff': -0.104}
+Running validation...
+{'valid_loss': 7.421, 'loss_diff': 0.0, 'epoch': 41, 'batch': 0, 'embed_loss': 0.008}
+{'valid_loss': 7.376, 'loss_diff': 0.0, 'epoch': 41, 'batch': 1, 'embed_loss': -0.013}
+{'valid_loss': 6.784, 'loss_diff': 0.0, 'epoch': 41, 'batch': 2, 'embed_loss': 0.006}
+{'valid_loss': 6.397, 'loss_diff': 0.0, 'epoch': 41, 'batch': 3, 'embed_loss': 0.017}
+{'valid_loss': 7.463, 'loss_diff': 0.0, 'epoch': 41, 'batch': 4, 'embed_loss': -0.018}
+{'valid_loss': 6.923, 'loss_diff': 0.0, 'epoch': 41, 'batch': 5, 'embed_loss': -0.013}
+{'valid_loss': 7.082, 'loss_diff': 0.0, 'epoch': 41, 'batch': 6, 'embed_loss': -0.019}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+Epoch: 43 of 50 | Validation loss: 7.07:  80%|████████████████████████████████████████████████████████████████▏               | 9632/12000 [37:04<01:06, 35.52it/s]
+Training agent for 240 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 120      |
+|    ep_rew_mean     | -7.04    |
+| time/              |          |
+|    fps             | 30       |
+|    iterations      | 1        |
+|    time_elapsed    | 68       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+{'epoch': 42, 'batch': 0, 'train_loss': 1.361, 'train_domain_loss': 0.543, 'train_null_loss': 1.399, 'train_embed_loss': 1.323, 'train_loss_diff': -0.076}
+{'epoch': 42, 'batch': 1, 'train_loss': 1.337, 'train_domain_loss': 0.702, 'train_null_loss': 1.312, 'train_embed_loss': 1.362, 'train_loss_diff': 0.05}
+{'epoch': 42, 'batch': 2, 'train_loss': 1.471, 'train_domain_loss': 0.615, 'train_null_loss': 1.483, 'train_embed_loss': 1.459, 'train_loss_diff': -0.023}
+{'epoch': 42, 'batch': 3, 'train_loss': 1.475, 'train_domain_loss': 0.63, 'train_null_loss': 1.467, 'train_embed_loss': 1.483, 'train_loss_diff': 0.016}
+{'epoch': 42, 'batch': 4, 'train_loss': 1.542, 'train_domain_loss': 0.632, 'train_null_loss': 1.491, 'train_embed_loss': 1.593, 'train_loss_diff': 0.102}
+{'epoch': 42, 'batch': 5, 'train_loss': 1.54, 'train_domain_loss': 0.58, 'train_null_loss': 1.499, 'train_embed_loss': 1.581, 'train_loss_diff': 0.082}
+{'epoch': 42, 'batch': 6, 'train_loss': 1.486, 'train_domain_loss': 0.602, 'train_null_loss': 1.43, 'train_embed_loss': 1.542, 'train_loss_diff': 0.113}
+Running validation...
+{'valid_loss': 7.184, 'loss_diff': 0.0, 'epoch': 42, 'batch': 0, 'embed_loss': -0.01}
+{'valid_loss': 7.214, 'loss_diff': 0.0, 'epoch': 42, 'batch': 1, 'embed_loss': -0.004}
+{'valid_loss': 6.803, 'loss_diff': 0.0, 'epoch': 42, 'batch': 2, 'embed_loss': 0.009}
+{'valid_loss': 6.451, 'loss_diff': 0.0, 'epoch': 42, 'batch': 3, 'embed_loss': 0.006}
+{'valid_loss': 7.451, 'loss_diff': 0.0, 'epoch': 42, 'batch': 4, 'embed_loss': -0.014}
+{'valid_loss': 6.844, 'loss_diff': 0.0, 'epoch': 42, 'batch': 5, 'embed_loss': -0.003}
+{'valid_loss': 7.068, 'loss_diff': 0.0, 'epoch': 42, 'batch': 6, 'embed_loss': -0.005}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+Epoch: 44 of 50 | Validation loss: 6.83:  82%|█████████████████████████████████████████████████████████████████▋              | 9856/12000 [38:28<00:57, 37.29it/s]
+Training agent for 240 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 120      |
+|    ep_rew_mean     | 50.1     |
+| time/              |          |
+|    fps             | 28       |
+|    iterations      | 1        |
+|    time_elapsed    | 71       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+{'epoch': 43, 'batch': 0, 'train_loss': 1.439, 'train_domain_loss': 0.628, 'train_null_loss': 1.449, 'train_embed_loss': 1.429, 'train_loss_diff': -0.02}
+{'epoch': 43, 'batch': 1, 'train_loss': 1.453, 'train_domain_loss': 0.563, 'train_null_loss': 1.44, 'train_embed_loss': 1.466, 'train_loss_diff': 0.026}
+{'epoch': 43, 'batch': 2, 'train_loss': 1.456, 'train_domain_loss': 0.632, 'train_null_loss': 1.465, 'train_embed_loss': 1.448, 'train_loss_diff': -0.017}
+{'epoch': 43, 'batch': 3, 'train_loss': 1.466, 'train_domain_loss': 0.491, 'train_null_loss': 1.536, 'train_embed_loss': 1.396, 'train_loss_diff': -0.139}
+{'epoch': 43, 'batch': 4, 'train_loss': 1.432, 'train_domain_loss': 0.52, 'train_null_loss': 1.395, 'train_embed_loss': 1.469, 'train_loss_diff': 0.074}
+{'epoch': 43, 'batch': 5, 'train_loss': 1.557, 'train_domain_loss': 0.653, 'train_null_loss': 1.62, 'train_embed_loss': 1.494, 'train_loss_diff': -0.126}
+{'epoch': 43, 'batch': 6, 'train_loss': 1.452, 'train_domain_loss': 0.711, 'train_null_loss': 1.403, 'train_embed_loss': 1.501, 'train_loss_diff': 0.099}
+Running validation...
+{'valid_loss': 6.747, 'loss_diff': 0.0, 'epoch': 43, 'batch': 0, 'embed_loss': -0.041}
+{'valid_loss': 6.948, 'loss_diff': 0.0, 'epoch': 43, 'batch': 1, 'embed_loss': -0.008}
+{'valid_loss': 6.813, 'loss_diff': 0.0, 'epoch': 43, 'batch': 2, 'embed_loss': 0.029}
+{'valid_loss': 6.591, 'loss_diff': 0.0, 'epoch': 43, 'batch': 3, 'embed_loss': 0.042}
+{'valid_loss': 7.299, 'loss_diff': 0.0, 'epoch': 43, 'batch': 4, 'embed_loss': -0.006}
+{'valid_loss': 6.766, 'loss_diff': 0.0, 'epoch': 43, 'batch': 5, 'embed_loss': -0.002}
+{'valid_loss': 6.834, 'loss_diff': 0.0, 'epoch': 43, 'batch': 6, 'embed_loss': 0.003}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+Epoch: 45 of 50 | Validation loss: 6.91:  84%|██████████████████████████████████████████████████████████████████▎            | 10080/12000 [39:41<00:47, 40.19it/s]
+Training agent for 240 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 120      |
+|    ep_rew_mean     | 29.8     |
+| time/              |          |
+|    fps             | 33       |
+|    iterations      | 1        |
+|    time_elapsed    | 61       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+{'epoch': 44, 'batch': 0, 'train_loss': 1.421, 'train_domain_loss': 0.526, 'train_null_loss': 1.452, 'train_embed_loss': 1.391, 'train_loss_diff': -0.061}
+{'epoch': 44, 'batch': 1, 'train_loss': 1.475, 'train_domain_loss': 0.588, 'train_null_loss': 1.542, 'train_embed_loss': 1.407, 'train_loss_diff': -0.135}
+{'epoch': 44, 'batch': 2, 'train_loss': 1.35, 'train_domain_loss': 0.62, 'train_null_loss': 1.397, 'train_embed_loss': 1.304, 'train_loss_diff': -0.093}
+{'epoch': 44, 'batch': 3, 'train_loss': 1.422, 'train_domain_loss': 0.525, 'train_null_loss': 1.432, 'train_embed_loss': 1.412, 'train_loss_diff': -0.02}
+{'epoch': 44, 'batch': 4, 'train_loss': 1.396, 'train_domain_loss': 0.668, 'train_null_loss': 1.397, 'train_embed_loss': 1.394, 'train_loss_diff': -0.003}
+{'epoch': 44, 'batch': 5, 'train_loss': 1.44, 'train_domain_loss': 0.593, 'train_null_loss': 1.434, 'train_embed_loss': 1.447, 'train_loss_diff': 0.013}
+{'epoch': 44, 'batch': 6, 'train_loss': 1.445, 'train_domain_loss': 0.613, 'train_null_loss': 1.458, 'train_embed_loss': 1.432, 'train_loss_diff': -0.026}
+Running validation...
+{'valid_loss': 6.877, 'loss_diff': 0.0, 'epoch': 44, 'batch': 0, 'embed_loss': 0.003}
+{'valid_loss': 6.823, 'loss_diff': 0.0, 'epoch': 44, 'batch': 1, 'embed_loss': 0.003}
+{'valid_loss': 6.644, 'loss_diff': 0.0, 'epoch': 44, 'batch': 2, 'embed_loss': -0.005}
+{'valid_loss': 6.579, 'loss_diff': 0.0, 'epoch': 44, 'batch': 3, 'embed_loss': -0.009}
+{'valid_loss': 7.223, 'loss_diff': 0.0, 'epoch': 44, 'batch': 4, 'embed_loss': -0.003}
+{'valid_loss': 6.656, 'loss_diff': 0.0, 'epoch': 44, 'batch': 5, 'embed_loss': -0.018}
+{'valid_loss': 6.912, 'loss_diff': 0.0, 'epoch': 44, 'batch': 6, 'embed_loss': 0.015}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+Epoch: 46 of 50 | Validation loss: 7.00:  86%|███████████████████████████████████████████████████████████████████▊           | 10304/12000 [40:55<00:41, 40.49it/s]
+Training agent for 240 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 120      |
+|    ep_rew_mean     | 141      |
+| time/              |          |
+|    fps             | 33       |
+|    iterations      | 1        |
+|    time_elapsed    | 61       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+{'epoch': 45, 'batch': 0, 'train_loss': 1.444, 'train_domain_loss': 0.545, 'train_null_loss': 1.477, 'train_embed_loss': 1.412, 'train_loss_diff': -0.064}
+{'epoch': 45, 'batch': 1, 'train_loss': 1.452, 'train_domain_loss': 0.598, 'train_null_loss': 1.474, 'train_embed_loss': 1.429, 'train_loss_diff': -0.045}
+{'epoch': 45, 'batch': 2, 'train_loss': 1.458, 'train_domain_loss': 0.559, 'train_null_loss': 1.446, 'train_embed_loss': 1.469, 'train_loss_diff': 0.023}
+{'epoch': 45, 'batch': 3, 'train_loss': 1.446, 'train_domain_loss': 0.624, 'train_null_loss': 1.389, 'train_embed_loss': 1.503, 'train_loss_diff': 0.115}
+{'epoch': 45, 'batch': 4, 'train_loss': 1.456, 'train_domain_loss': 0.619, 'train_null_loss': 1.471, 'train_embed_loss': 1.441, 'train_loss_diff': -0.03}
+{'epoch': 45, 'batch': 5, 'train_loss': 1.462, 'train_domain_loss': 0.62, 'train_null_loss': 1.514, 'train_embed_loss': 1.41, 'train_loss_diff': -0.104}
+{'epoch': 45, 'batch': 6, 'train_loss': 1.315, 'train_domain_loss': 0.597, 'train_null_loss': 1.309, 'train_embed_loss': 1.322, 'train_loss_diff': 0.013}
+Running validation...
+{'valid_loss': 7.052, 'loss_diff': 0.0, 'epoch': 45, 'batch': 0, 'embed_loss': 0.006}
+{'valid_loss': 6.945, 'loss_diff': 0.0, 'epoch': 45, 'batch': 1, 'embed_loss': 0.0}
+{'valid_loss': 6.662, 'loss_diff': 0.0, 'epoch': 45, 'batch': 2, 'embed_loss': -0.01}
+{'valid_loss': 6.493, 'loss_diff': 0.0, 'epoch': 45, 'batch': 3, 'embed_loss': -0.02}
+{'valid_loss': 7.254, 'loss_diff': 0.0, 'epoch': 45, 'batch': 4, 'embed_loss': -0.006}
+{'valid_loss': 6.824, 'loss_diff': 0.0, 'epoch': 45, 'batch': 5, 'embed_loss': -0.018}
+{'valid_loss': 6.998, 'loss_diff': 0.0, 'epoch': 45, 'batch': 6, 'embed_loss': 0.026}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+Epoch: 47 of 50 | Validation loss: 7.00:  88%|█████████████████████████████████████████████████████████████████████▎         | 10528/12000 [42:09<00:37, 39.03it/s]
+Training agent for 240 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 120      |
+|    ep_rew_mean     | 80.1     |
+| time/              |          |
+|    fps             | 33       |
+|    iterations      | 1        |
+|    time_elapsed    | 60       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+{'epoch': 46, 'batch': 0, 'train_loss': 1.548, 'train_domain_loss': 0.558, 'train_null_loss': 1.612, 'train_embed_loss': 1.484, 'train_loss_diff': -0.128}
+{'epoch': 46, 'batch': 1, 'train_loss': 1.501, 'train_domain_loss': 0.507, 'train_null_loss': 1.486, 'train_embed_loss': 1.516, 'train_loss_diff': 0.031}
+{'epoch': 46, 'batch': 2, 'train_loss': 1.382, 'train_domain_loss': 0.519, 'train_null_loss': 1.42, 'train_embed_loss': 1.344, 'train_loss_diff': -0.076}
+{'epoch': 46, 'batch': 3, 'train_loss': 1.395, 'train_domain_loss': 0.56, 'train_null_loss': 1.463, 'train_embed_loss': 1.328, 'train_loss_diff': -0.135}
+{'epoch': 46, 'batch': 4, 'train_loss': 1.498, 'train_domain_loss': 0.549, 'train_null_loss': 1.47, 'train_embed_loss': 1.526, 'train_loss_diff': 0.056}
+{'epoch': 46, 'batch': 5, 'train_loss': 1.382, 'train_domain_loss': 0.521, 'train_null_loss': 1.446, 'train_embed_loss': 1.318, 'train_loss_diff': -0.128}
+{'epoch': 46, 'batch': 6, 'train_loss': 1.389, 'train_domain_loss': 0.587, 'train_null_loss': 1.376, 'train_embed_loss': 1.402, 'train_loss_diff': 0.026}
+Running validation...
+{'valid_loss': 6.996, 'loss_diff': 0.0, 'epoch': 46, 'batch': 0, 'embed_loss': -0.005}
+{'valid_loss': 6.955, 'loss_diff': 0.0, 'epoch': 46, 'batch': 1, 'embed_loss': 0.006}
+{'valid_loss': 6.793, 'loss_diff': 0.0, 'epoch': 46, 'batch': 2, 'embed_loss': 0.001}
+{'valid_loss': 6.537, 'loss_diff': 0.0, 'epoch': 46, 'batch': 3, 'embed_loss': -0.011}
+{'valid_loss': 7.365, 'loss_diff': 0.0, 'epoch': 46, 'batch': 4, 'embed_loss': -0.001}
+{'valid_loss': 7.073, 'loss_diff': 0.0, 'epoch': 46, 'batch': 5, 'embed_loss': -0.027}
+{'valid_loss': 7.0, 'loss_diff': 0.0, 'epoch': 46, 'batch': 6, 'embed_loss': 0.02}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+Epoch: 48 of 50 | Validation loss: 6.95:  90%|██████████████████████████████████████████████████████████████████████▊        | 10752/12000 [43:23<00:31, 40.03it/s]
+Training agent for 240 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 120      |
+|    ep_rew_mean     | 217      |
+| time/              |          |
+|    fps             | 33       |
+|    iterations      | 1        |
+|    time_elapsed    | 61       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+{'epoch': 47, 'batch': 0, 'train_loss': 1.377, 'train_domain_loss': 0.668, 'train_null_loss': 1.381, 'train_embed_loss': 1.373, 'train_loss_diff': -0.008}
+{'epoch': 47, 'batch': 1, 'train_loss': 1.552, 'train_domain_loss': 0.655, 'train_null_loss': 1.54, 'train_embed_loss': 1.563, 'train_loss_diff': 0.022}
+{'epoch': 47, 'batch': 2, 'train_loss': 1.421, 'train_domain_loss': 0.659, 'train_null_loss': 1.415, 'train_embed_loss': 1.427, 'train_loss_diff': 0.012}
+{'epoch': 47, 'batch': 3, 'train_loss': 1.408, 'train_domain_loss': 0.725, 'train_null_loss': 1.392, 'train_embed_loss': 1.424, 'train_loss_diff': 0.032}
+{'epoch': 47, 'batch': 4, 'train_loss': 1.326, 'train_domain_loss': 0.551, 'train_null_loss': 1.269, 'train_embed_loss': 1.382, 'train_loss_diff': 0.113}
+{'epoch': 47, 'batch': 5, 'train_loss': 1.456, 'train_domain_loss': 0.546, 'train_null_loss': 1.419, 'train_embed_loss': 1.492, 'train_loss_diff': 0.073}
+{'epoch': 47, 'batch': 6, 'train_loss': 1.317, 'train_domain_loss': 0.528, 'train_null_loss': 1.352, 'train_embed_loss': 1.282, 'train_loss_diff': -0.07}
+Running validation...
+{'valid_loss': 6.699, 'loss_diff': 0.0, 'epoch': 47, 'batch': 0, 'embed_loss': 0.043}
+{'valid_loss': 7.041, 'loss_diff': 0.0, 'epoch': 47, 'batch': 1, 'embed_loss': 0.016}
+{'valid_loss': 6.926, 'loss_diff': 0.0, 'epoch': 47, 'batch': 2, 'embed_loss': -0.028}
+{'valid_loss': 6.622, 'loss_diff': 0.0, 'epoch': 47, 'batch': 3, 'embed_loss': -0.045}
+{'valid_loss': 7.38, 'loss_diff': 0.0, 'epoch': 47, 'batch': 4, 'embed_loss': -0.003}
+{'valid_loss': 7.1, 'loss_diff': 0.0, 'epoch': 47, 'batch': 5, 'embed_loss': -0.022}
+{'valid_loss': 6.949, 'loss_diff': 0.0, 'epoch': 47, 'batch': 6, 'embed_loss': 0.015}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+Epoch: 49 of 50 | Validation loss: 6.75:  91%|████████████████████████████████████████████████████████████████████████▎      | 10976/12000 [44:37<00:25, 40.73it/s]
+Training agent for 240 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 120      |
+|    ep_rew_mean     | 98       |
+| time/              |          |
+|    fps             | 33       |
+|    iterations      | 1        |
+|    time_elapsed    | 60       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+{'epoch': 48, 'batch': 0, 'train_loss': 1.409, 'train_domain_loss': 0.526, 'train_null_loss': 1.434, 'train_embed_loss': 1.384, 'train_loss_diff': -0.051}
+{'epoch': 48, 'batch': 1, 'train_loss': 1.444, 'train_domain_loss': 0.651, 'train_null_loss': 1.338, 'train_embed_loss': 1.55, 'train_loss_diff': 0.213}
+{'epoch': 48, 'batch': 2, 'train_loss': 1.416, 'train_domain_loss': 0.601, 'train_null_loss': 1.416, 'train_embed_loss': 1.417, 'train_loss_diff': 0.0}
+{'epoch': 48, 'batch': 3, 'train_loss': 1.488, 'train_domain_loss': 0.619, 'train_null_loss': 1.479, 'train_embed_loss': 1.496, 'train_loss_diff': 0.017}
+{'epoch': 48, 'batch': 4, 'train_loss': 1.372, 'train_domain_loss': 0.805, 'train_null_loss': 1.369, 'train_embed_loss': 1.375, 'train_loss_diff': 0.006}
+{'epoch': 48, 'batch': 5, 'train_loss': 1.436, 'train_domain_loss': 0.544, 'train_null_loss': 1.41, 'train_embed_loss': 1.463, 'train_loss_diff': 0.053}
+{'epoch': 48, 'batch': 6, 'train_loss': 1.334, 'train_domain_loss': 0.682, 'train_null_loss': 1.363, 'train_embed_loss': 1.304, 'train_loss_diff': -0.058}
+Running validation...
+{'valid_loss': 6.544, 'loss_diff': 0.0, 'epoch': 48, 'batch': 0, 'embed_loss': 0.003}
+{'valid_loss': 6.947, 'loss_diff': 0.0, 'epoch': 48, 'batch': 1, 'embed_loss': -0.001}
+{'valid_loss': 6.888, 'loss_diff': 0.0, 'epoch': 48, 'batch': 2, 'embed_loss': -0.005}
+{'valid_loss': 6.63, 'loss_diff': 0.0, 'epoch': 48, 'batch': 3, 'embed_loss': -0.008}
+{'valid_loss': 7.296, 'loss_diff': 0.0, 'epoch': 48, 'batch': 4, 'embed_loss': -0.005}
+{'valid_loss': 7.064, 'loss_diff': 0.0, 'epoch': 48, 'batch': 5, 'embed_loss': -0.012}
+{'valid_loss': 6.747, 'loss_diff': 0.0, 'epoch': 48, 'batch': 6, 'embed_loss': 0.001}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+Epoch: 50 of 50 | Validation loss: 6.87:  93%|█████████████████████████████████████████████████████████████████████████▋     | 11200/12000 [45:50<00:20, 38.82it/s]
+Training agent for 240 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 120      |
+|    ep_rew_mean     | 163      |
+| time/              |          |
+|    fps             | 33       |
+|    iterations      | 1        |
+|    time_elapsed    | 60       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+{'epoch': 49, 'batch': 0, 'train_loss': 1.489, 'train_domain_loss': 0.661, 'train_null_loss': 1.384, 'train_embed_loss': 1.594, 'train_loss_diff': 0.21}
+{'epoch': 49, 'batch': 1, 'train_loss': 1.415, 'train_domain_loss': 0.812, 'train_null_loss': 1.485, 'train_embed_loss': 1.346, 'train_loss_diff': -0.139}
+{'epoch': 49, 'batch': 2, 'train_loss': 1.31, 'train_domain_loss': 0.643, 'train_null_loss': 1.323, 'train_embed_loss': 1.296, 'train_loss_diff': -0.027}
+{'epoch': 49, 'batch': 3, 'train_loss': 1.547, 'train_domain_loss': 0.713, 'train_null_loss': 1.592, 'train_embed_loss': 1.501, 'train_loss_diff': -0.092}
+{'epoch': 49, 'batch': 4, 'train_loss': 1.45, 'train_domain_loss': 0.775, 'train_null_loss': 1.406, 'train_embed_loss': 1.493, 'train_loss_diff': 0.087}
+{'epoch': 49, 'batch': 5, 'train_loss': 1.417, 'train_domain_loss': 0.682, 'train_null_loss': 1.433, 'train_embed_loss': 1.4, 'train_loss_diff': -0.033}
+{'epoch': 49, 'batch': 6, 'train_loss': 1.474, 'train_domain_loss': 0.677, 'train_null_loss': 1.491, 'train_embed_loss': 1.456, 'train_loss_diff': -0.035}
+Running validation...
+{'valid_loss': 6.683, 'loss_diff': 0.0, 'epoch': 49, 'batch': 0, 'embed_loss': -0.001}
+{'valid_loss': 6.889, 'loss_diff': 0.0, 'epoch': 49, 'batch': 1, 'embed_loss': -0.001}
+{'valid_loss': 6.803, 'loss_diff': 0.0, 'epoch': 49, 'batch': 2, 'embed_loss': 0.006}
+{'valid_loss': 6.646, 'loss_diff': 0.0, 'epoch': 49, 'batch': 3, 'embed_loss': 0.011}
+{'valid_loss': 7.261, 'loss_diff': 0.0, 'epoch': 49, 'batch': 4, 'embed_loss': -0.009}
+{'valid_loss': 7.068, 'loss_diff': 0.0, 'epoch': 49, 'batch': 5, 'embed_loss': -0.012}
+{'valid_loss': 6.869, 'loss_diff': 0.0, 'epoch': 49, 'batch': 6, 'embed_loss': -0.008}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping gesture_embed image visualization: gesture_embed tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+Skipping domain_embed image visualization: domain_embed tensor is not image-like (got shape torch.Size([16, 20]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+Epoch: 50 of 50 | Validation loss: 6.87:  93%|█████████████████████████████████████████████████████████████████████████▋     | 11200/12000 [45:51<03:16,  4.07it/s]

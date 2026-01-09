@@ -1,0 +1,1857 @@
+Running training on CPU
+Loading dataset train
+Found pregenerated data dir. Using pregenerated data.
+Loading complete. Took 0.01 s.
+Loading dataset validation
+Found pregenerated data dir. Using pregenerated data.
+Loading complete. Took 0.00 s.
+Building models...
+Completed model building. Took 0.09 s.
+Epoch: 1 of 15 | Training loss: 1.83:   1%|█                                                                                | 144/10800 [00:10<13:15, 13.39it/s]
+Preparation complete. Starting training...
+Training model...
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+{'epoch': 0, 'batch': 0, 'train_loss': 1.854, 'train_domain_loss': 2.983, 'train_null_loss': 1.854, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 0, 'batch': 1, 'train_loss': 1.802, 'train_domain_loss': 2.871, 'train_null_loss': 1.802, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 0, 'batch': 2, 'train_loss': 1.804, 'train_domain_loss': 3.202, 'train_null_loss': 1.804, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 0, 'batch': 3, 'train_loss': 1.749, 'train_domain_loss': 3.131, 'train_null_loss': 1.749, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 0, 'batch': 4, 'train_loss': 1.762, 'train_domain_loss': 3.47, 'train_null_loss': 1.762, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 0, 'batch': 5, 'train_loss': 1.891, 'train_domain_loss': 3.853, 'train_null_loss': 1.891, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 0, 'batch': 6, 'train_loss': 1.776, 'train_domain_loss': 4.088, 'train_null_loss': 1.776, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 0, 'batch': 7, 'train_loss': 1.801, 'train_domain_loss': 4.037, 'train_null_loss': 1.801, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 0, 'batch': 8, 'train_loss': 1.832, 'train_domain_loss': 3.462, 'train_null_loss': 1.832, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 0, 'batch': 9, 'train_loss': 1.797, 'train_domain_loss': 3.861, 'train_null_loss': 1.797, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 0, 'batch': 10, 'train_loss': 1.76, 'train_domain_loss': 3.804, 'train_null_loss': 1.76, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 0, 'batch': 11, 'train_loss': 1.794, 'train_domain_loss': 3.739, 'train_null_loss': 1.794, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 0, 'batch': 12, 'train_loss': 1.81, 'train_domain_loss': 4.996, 'train_null_loss': 1.81, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 3
+{'epoch': 0, 'batch': 13, 'train_loss': 1.729, 'train_domain_loss': 4.233, 'train_null_loss': 1.729, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 0, 'batch': 14, 'train_loss': 1.72, 'train_domain_loss': 4.296, 'train_null_loss': 1.72, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 3
+{'epoch': 0, 'batch': 15, 'train_loss': 1.774, 'train_domain_loss': 3.947, 'train_null_loss': 1.774, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 0, 'batch': 16, 'train_loss': 1.815, 'train_domain_loss': 6.476, 'train_null_loss': 1.815, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 0, 'batch': 17, 'train_loss': 1.791, 'train_domain_loss': 4.963, 'train_null_loss': 1.791, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 0, 'batch': 18, 'train_loss': 1.825, 'train_domain_loss': 6.45, 'train_null_loss': 1.825, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 0, 'batch': 19, 'train_loss': 1.784, 'train_domain_loss': 6.519, 'train_null_loss': 1.784, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 0, 'batch': 20, 'train_loss': 1.799, 'train_domain_loss': 6.617, 'train_null_loss': 1.799, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 0, 'batch': 21, 'train_loss': 1.751, 'train_domain_loss': 8.565, 'train_null_loss': 1.751, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 0, 'batch': 22, 'train_loss': 1.789, 'train_domain_loss': 6.973, 'train_null_loss': 1.789, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 0, 'batch': 23, 'train_loss': 1.788, 'train_domain_loss': 6.768, 'train_null_loss': 1.788, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 0, 'batch': 24, 'train_loss': 1.757, 'train_domain_loss': 8.4, 'train_null_loss': 1.757, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 0, 'batch': 25, 'train_loss': 1.792, 'train_domain_loss': 7.432, 'train_null_loss': 1.792, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 0, 'batch': 26, 'train_loss': 1.799, 'train_domain_loss': 6.871, 'train_null_loss': 1.799, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 0, 'batch': 27, 'train_loss': 1.654, 'train_domain_loss': 6.705, 'train_null_loss': 1.654, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 0, 'batch': 28, 'train_loss': 1.768, 'train_domain_loss': 7.825, 'train_null_loss': 1.768, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 0, 'batch': 29, 'train_loss': 1.786, 'train_domain_loss': 6.796, 'train_null_loss': 1.786, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 0, 'batch': 30, 'train_loss': 1.74, 'train_domain_loss': 6.971, 'train_null_loss': 1.74, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 0, 'batch': 31, 'train_loss': 1.702, 'train_domain_loss': 5.333, 'train_null_loss': 1.702, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 0, 'batch': 32, 'train_loss': 1.755, 'train_domain_loss': 4.976, 'train_null_loss': 1.755, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 11.798, 'loss_diff': 0.0, 'epoch': 0, 'batch': 0}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 12.522, 'loss_diff': 0.0, 'epoch': 0, 'batch': 1}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 15.783, 'loss_diff': 0.0, 'epoch': 0, 'batch': 2}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 18.928, 'loss_diff': 0.0, 'epoch': 0, 'batch': 3}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 10.78, 'loss_diff': 0.0, 'epoch': 0, 'batch': 4}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 10.335, 'loss_diff': 0.0, 'epoch': 0, 'batch': 5}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 10.617, 'loss_diff': 0.0, 'epoch': 0, 'batch': 6}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+Epoch: 2 of 15 | Training loss: 1.81:   7%|█████▉                                                                           | 784/10800 [01:01<17:46,  9.39it/s]
+Training model...
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+{'epoch': 1, 'batch': 0, 'train_loss': 1.772, 'train_domain_loss': 6.161, 'train_null_loss': 1.772, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 1, 'batch': 1, 'train_loss': 1.783, 'train_domain_loss': 3.835, 'train_null_loss': 1.783, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 1, 'batch': 2, 'train_loss': 1.759, 'train_domain_loss': 5.452, 'train_null_loss': 1.759, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 1, 'batch': 3, 'train_loss': 1.809, 'train_domain_loss': 5.042, 'train_null_loss': 1.809, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 1, 'batch': 4, 'train_loss': 1.856, 'train_domain_loss': 7.049, 'train_null_loss': 1.856, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 1, 'batch': 5, 'train_loss': 1.829, 'train_domain_loss': 8.458, 'train_null_loss': 1.829, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 1, 'batch': 6, 'train_loss': 1.724, 'train_domain_loss': 6.828, 'train_null_loss': 1.724, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 1, 'batch': 7, 'train_loss': 1.8, 'train_domain_loss': 6.075, 'train_null_loss': 1.8, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 1, 'batch': 8, 'train_loss': 1.813, 'train_domain_loss': 6.03, 'train_null_loss': 1.813, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 1, 'batch': 9, 'train_loss': 1.83, 'train_domain_loss': 5.8, 'train_null_loss': 1.83, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 1, 'batch': 10, 'train_loss': 1.784, 'train_domain_loss': 5.478, 'train_null_loss': 1.784, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 1, 'batch': 11, 'train_loss': 1.723, 'train_domain_loss': 5.882, 'train_null_loss': 1.723, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 1, 'batch': 12, 'train_loss': 1.75, 'train_domain_loss': 7.262, 'train_null_loss': 1.75, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 1, 'batch': 13, 'train_loss': 1.742, 'train_domain_loss': 4.979, 'train_null_loss': 1.742, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 1, 'batch': 14, 'train_loss': 1.746, 'train_domain_loss': 6.548, 'train_null_loss': 1.746, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 1, 'batch': 15, 'train_loss': 1.706, 'train_domain_loss': 7.998, 'train_null_loss': 1.706, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 1, 'batch': 16, 'train_loss': 1.719, 'train_domain_loss': 6.45, 'train_null_loss': 1.719, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 1, 'batch': 17, 'train_loss': 1.812, 'train_domain_loss': 6.112, 'train_null_loss': 1.812, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 1, 'batch': 18, 'train_loss': 1.817, 'train_domain_loss': 4.032, 'train_null_loss': 1.817, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 1, 'batch': 19, 'train_loss': 1.823, 'train_domain_loss': 6.834, 'train_null_loss': 1.823, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 1, 'batch': 20, 'train_loss': 1.697, 'train_domain_loss': 7.098, 'train_null_loss': 1.697, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 1, 'batch': 21, 'train_loss': 1.828, 'train_domain_loss': 6.423, 'train_null_loss': 1.828, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 1, 'batch': 22, 'train_loss': 1.779, 'train_domain_loss': 6.971, 'train_null_loss': 1.779, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 1, 'batch': 23, 'train_loss': 1.764, 'train_domain_loss': 8.36, 'train_null_loss': 1.764, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 1, 'batch': 24, 'train_loss': 1.782, 'train_domain_loss': 4.059, 'train_null_loss': 1.782, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 1, 'batch': 25, 'train_loss': 1.776, 'train_domain_loss': 5.367, 'train_null_loss': 1.776, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 1, 'batch': 26, 'train_loss': 1.806, 'train_domain_loss': 8.798, 'train_null_loss': 1.806, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 1, 'batch': 27, 'train_loss': 1.798, 'train_domain_loss': 7.068, 'train_null_loss': 1.798, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 1, 'batch': 28, 'train_loss': 1.825, 'train_domain_loss': 5.822, 'train_null_loss': 1.825, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 1, 'batch': 29, 'train_loss': 1.826, 'train_domain_loss': 6.757, 'train_null_loss': 1.826, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 1, 'batch': 30, 'train_loss': 1.81, 'train_domain_loss': 7.303, 'train_null_loss': 1.81, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 1, 'batch': 31, 'train_loss': 1.849, 'train_domain_loss': 5.329, 'train_null_loss': 1.849, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 1, 'batch': 32, 'train_loss': 1.788, 'train_domain_loss': 7.548, 'train_null_loss': 1.788, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 28.304, 'loss_diff': 0.0, 'epoch': 1, 'batch': 0}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 28.943, 'loss_diff': 0.0, 'epoch': 1, 'batch': 1}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 33.893, 'loss_diff': 0.0, 'epoch': 1, 'batch': 2}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 41.903, 'loss_diff': 0.0, 'epoch': 1, 'batch': 3}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 22.887, 'loss_diff': 0.0, 'epoch': 1, 'batch': 4}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 19.927, 'loss_diff': 0.0, 'epoch': 1, 'batch': 5}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 20.768, 'loss_diff': 0.0, 'epoch': 1, 'batch': 6}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+Epoch: 3 of 15 | Training loss: 1.80:  13%|██████████▌                                                                     | 1424/10800 [01:54<12:28, 12.53it/s]
+Training model...
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 3
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+{'epoch': 2, 'batch': 0, 'train_loss': 1.783, 'train_domain_loss': 8.154, 'train_null_loss': 1.783, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 2, 'batch': 1, 'train_loss': 1.844, 'train_domain_loss': 10.947, 'train_null_loss': 1.844, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 2, 'batch': 2, 'train_loss': 1.732, 'train_domain_loss': 6.869, 'train_null_loss': 1.732, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 2, 'batch': 3, 'train_loss': 1.838, 'train_domain_loss': 8.098, 'train_null_loss': 1.838, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 2, 'batch': 4, 'train_loss': 1.73, 'train_domain_loss': 2.86, 'train_null_loss': 1.73, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 2, 'batch': 5, 'train_loss': 1.763, 'train_domain_loss': 7.498, 'train_null_loss': 1.763, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 2, 'batch': 6, 'train_loss': 1.712, 'train_domain_loss': 7.977, 'train_null_loss': 1.712, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 2, 'batch': 7, 'train_loss': 1.723, 'train_domain_loss': 5.61, 'train_null_loss': 1.723, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 2, 'batch': 8, 'train_loss': 1.805, 'train_domain_loss': 5.913, 'train_null_loss': 1.805, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 2, 'batch': 9, 'train_loss': 1.717, 'train_domain_loss': 7.333, 'train_null_loss': 1.717, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 2, 'batch': 10, 'train_loss': 1.697, 'train_domain_loss': 9.528, 'train_null_loss': 1.697, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 2, 'batch': 11, 'train_loss': 1.739, 'train_domain_loss': 9.67, 'train_null_loss': 1.739, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 2, 'batch': 12, 'train_loss': 1.779, 'train_domain_loss': 9.219, 'train_null_loss': 1.779, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 2, 'batch': 13, 'train_loss': 1.735, 'train_domain_loss': 6.903, 'train_null_loss': 1.735, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 2, 'batch': 14, 'train_loss': 1.737, 'train_domain_loss': 7.421, 'train_null_loss': 1.737, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 2, 'batch': 15, 'train_loss': 1.753, 'train_domain_loss': 6.666, 'train_null_loss': 1.753, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 2, 'batch': 16, 'train_loss': 1.76, 'train_domain_loss': 5.566, 'train_null_loss': 1.76, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 2, 'batch': 17, 'train_loss': 1.686, 'train_domain_loss': 3.95, 'train_null_loss': 1.686, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 2, 'batch': 18, 'train_loss': 1.709, 'train_domain_loss': 6.906, 'train_null_loss': 1.709, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 2, 'batch': 19, 'train_loss': 1.688, 'train_domain_loss': 8.186, 'train_null_loss': 1.688, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 2, 'batch': 20, 'train_loss': 1.778, 'train_domain_loss': 5.188, 'train_null_loss': 1.778, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 2, 'batch': 21, 'train_loss': 1.699, 'train_domain_loss': 6.84, 'train_null_loss': 1.699, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 2, 'batch': 22, 'train_loss': 1.7, 'train_domain_loss': 7.141, 'train_null_loss': 1.7, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 2, 'batch': 23, 'train_loss': 1.812, 'train_domain_loss': 8.449, 'train_null_loss': 1.812, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 2, 'batch': 24, 'train_loss': 1.693, 'train_domain_loss': 6.465, 'train_null_loss': 1.693, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 2, 'batch': 25, 'train_loss': 1.762, 'train_domain_loss': 2.554, 'train_null_loss': 1.762, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 2, 'batch': 26, 'train_loss': 1.734, 'train_domain_loss': 6.789, 'train_null_loss': 1.734, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 2, 'batch': 27, 'train_loss': 1.735, 'train_domain_loss': 6.702, 'train_null_loss': 1.735, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 2, 'batch': 28, 'train_loss': 1.759, 'train_domain_loss': 6.348, 'train_null_loss': 1.759, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 2, 'batch': 29, 'train_loss': 1.738, 'train_domain_loss': 7.203, 'train_null_loss': 1.738, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 2, 'batch': 30, 'train_loss': 1.87, 'train_domain_loss': 7.853, 'train_null_loss': 1.87, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 2, 'batch': 31, 'train_loss': 1.738, 'train_domain_loss': 6.149, 'train_null_loss': 1.738, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 2, 'batch': 32, 'train_loss': 1.679, 'train_domain_loss': 5.762, 'train_null_loss': 1.679, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 20.365, 'loss_diff': 0.0, 'epoch': 2, 'batch': 0}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 21.181, 'loss_diff': 0.0, 'epoch': 2, 'batch': 1}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 19.761, 'loss_diff': 0.0, 'epoch': 2, 'batch': 2}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 20.603, 'loss_diff': 0.0, 'epoch': 2, 'batch': 3}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 19.846, 'loss_diff': 0.0, 'epoch': 2, 'batch': 4}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 20.186, 'loss_diff': 0.0, 'epoch': 2, 'batch': 5}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 20.404, 'loss_diff': 0.0, 'epoch': 2, 'batch': 6}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+Epoch: 4 of 15 | Training loss: 1.72:  19%|███████████████▎                                                                | 2064/10800 [02:45<13:51, 10.50it/s]
+Training model...
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+{'epoch': 3, 'batch': 0, 'train_loss': 1.669, 'train_domain_loss': 7.511, 'train_null_loss': 1.669, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 3
+{'epoch': 3, 'batch': 1, 'train_loss': 1.768, 'train_domain_loss': 6.69, 'train_null_loss': 1.768, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 3, 'batch': 2, 'train_loss': 1.813, 'train_domain_loss': 6.456, 'train_null_loss': 1.813, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 3, 'batch': 3, 'train_loss': 1.745, 'train_domain_loss': 5.715, 'train_null_loss': 1.745, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 3, 'batch': 4, 'train_loss': 1.75, 'train_domain_loss': 8.042, 'train_null_loss': 1.75, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 3, 'batch': 5, 'train_loss': 1.715, 'train_domain_loss': 7.922, 'train_null_loss': 1.715, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 3, 'batch': 6, 'train_loss': 1.828, 'train_domain_loss': 5.904, 'train_null_loss': 1.828, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 3, 'batch': 7, 'train_loss': 1.795, 'train_domain_loss': 9.039, 'train_null_loss': 1.795, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 3, 'batch': 8, 'train_loss': 1.717, 'train_domain_loss': 9.977, 'train_null_loss': 1.717, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 3, 'batch': 9, 'train_loss': 1.821, 'train_domain_loss': 10.389, 'train_null_loss': 1.821, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 3, 'batch': 10, 'train_loss': 1.773, 'train_domain_loss': 8.799, 'train_null_loss': 1.773, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 3, 'batch': 11, 'train_loss': 1.781, 'train_domain_loss': 5.978, 'train_null_loss': 1.781, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 3, 'batch': 12, 'train_loss': 1.729, 'train_domain_loss': 10.448, 'train_null_loss': 1.729, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 3, 'batch': 13, 'train_loss': 1.845, 'train_domain_loss': 8.711, 'train_null_loss': 1.845, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 3, 'batch': 14, 'train_loss': 1.743, 'train_domain_loss': 7.973, 'train_null_loss': 1.743, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 3, 'batch': 15, 'train_loss': 1.768, 'train_domain_loss': 7.179, 'train_null_loss': 1.768, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 3, 'batch': 16, 'train_loss': 1.853, 'train_domain_loss': 7.021, 'train_null_loss': 1.853, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 3, 'batch': 17, 'train_loss': 1.757, 'train_domain_loss': 6.549, 'train_null_loss': 1.757, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 3, 'batch': 18, 'train_loss': 1.707, 'train_domain_loss': 6.626, 'train_null_loss': 1.707, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 3
+{'epoch': 3, 'batch': 19, 'train_loss': 1.733, 'train_domain_loss': 7.631, 'train_null_loss': 1.733, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 3, 'batch': 20, 'train_loss': 1.809, 'train_domain_loss': 9.71, 'train_null_loss': 1.809, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 3, 'batch': 21, 'train_loss': 1.767, 'train_domain_loss': 6.96, 'train_null_loss': 1.767, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 3, 'batch': 22, 'train_loss': 1.807, 'train_domain_loss': 6.648, 'train_null_loss': 1.807, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 3, 'batch': 23, 'train_loss': 1.735, 'train_domain_loss': 6.65, 'train_null_loss': 1.735, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 3, 'batch': 24, 'train_loss': 1.714, 'train_domain_loss': 6.929, 'train_null_loss': 1.714, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 3, 'batch': 25, 'train_loss': 1.738, 'train_domain_loss': 8.949, 'train_null_loss': 1.738, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 3, 'batch': 26, 'train_loss': 1.766, 'train_domain_loss': 7.647, 'train_null_loss': 1.766, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 3, 'batch': 27, 'train_loss': 1.68, 'train_domain_loss': 10.773, 'train_null_loss': 1.68, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 3, 'batch': 28, 'train_loss': 1.801, 'train_domain_loss': 11.457, 'train_null_loss': 1.801, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 3, 'batch': 29, 'train_loss': 1.729, 'train_domain_loss': 8.759, 'train_null_loss': 1.729, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 3, 'batch': 30, 'train_loss': 1.686, 'train_domain_loss': 5.927, 'train_null_loss': 1.686, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 3, 'batch': 31, 'train_loss': 1.811, 'train_domain_loss': 6.818, 'train_null_loss': 1.811, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 3, 'batch': 32, 'train_loss': 1.812, 'train_domain_loss': 6.815, 'train_null_loss': 1.812, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 30.845, 'loss_diff': 0.0, 'epoch': 3, 'batch': 0}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 30.164, 'loss_diff': 0.0, 'epoch': 3, 'batch': 1}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 31.018, 'loss_diff': 0.0, 'epoch': 3, 'batch': 2}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 31.469, 'loss_diff': 0.0, 'epoch': 3, 'batch': 3}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 27.341, 'loss_diff': 0.0, 'epoch': 3, 'batch': 4}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 26.979, 'loss_diff': 0.0, 'epoch': 3, 'batch': 5}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 27.742, 'loss_diff': 0.0, 'epoch': 3, 'batch': 6}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+Epoch: 5 of 15 | Training loss: 1.82:  25%|████████████████████                                                            | 2704/10800 [03:37<12:04, 11.18it/s]
+Training model...
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+{'epoch': 4, 'batch': 0, 'train_loss': 1.717, 'train_domain_loss': 7.834, 'train_null_loss': 1.717, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 4, 'batch': 1, 'train_loss': 1.704, 'train_domain_loss': 7.465, 'train_null_loss': 1.704, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 4, 'batch': 2, 'train_loss': 1.695, 'train_domain_loss': 7.862, 'train_null_loss': 1.695, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 4, 'batch': 3, 'train_loss': 1.678, 'train_domain_loss': 5.679, 'train_null_loss': 1.678, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 4, 'batch': 4, 'train_loss': 1.717, 'train_domain_loss': 10.708, 'train_null_loss': 1.717, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 4, 'batch': 5, 'train_loss': 1.672, 'train_domain_loss': 6.368, 'train_null_loss': 1.672, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 4, 'batch': 6, 'train_loss': 1.792, 'train_domain_loss': 6.764, 'train_null_loss': 1.792, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 4, 'batch': 7, 'train_loss': 1.762, 'train_domain_loss': 9.242, 'train_null_loss': 1.762, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 4, 'batch': 8, 'train_loss': 1.821, 'train_domain_loss': 7.641, 'train_null_loss': 1.821, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 4, 'batch': 9, 'train_loss': 1.737, 'train_domain_loss': 8.561, 'train_null_loss': 1.737, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 4, 'batch': 10, 'train_loss': 1.717, 'train_domain_loss': 11.077, 'train_null_loss': 1.717, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 4, 'batch': 11, 'train_loss': 1.611, 'train_domain_loss': 8.129, 'train_null_loss': 1.611, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 4, 'batch': 12, 'train_loss': 1.695, 'train_domain_loss': 5.853, 'train_null_loss': 1.695, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 4, 'batch': 13, 'train_loss': 1.681, 'train_domain_loss': 11.256, 'train_null_loss': 1.681, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 4, 'batch': 14, 'train_loss': 1.707, 'train_domain_loss': 6.482, 'train_null_loss': 1.707, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 4, 'batch': 15, 'train_loss': 1.756, 'train_domain_loss': 8.951, 'train_null_loss': 1.756, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 4, 'batch': 16, 'train_loss': 1.822, 'train_domain_loss': 8.317, 'train_null_loss': 1.822, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 4, 'batch': 17, 'train_loss': 1.681, 'train_domain_loss': 9.297, 'train_null_loss': 1.681, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 4, 'batch': 18, 'train_loss': 1.693, 'train_domain_loss': 7.288, 'train_null_loss': 1.693, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 4, 'batch': 19, 'train_loss': 1.747, 'train_domain_loss': 8.143, 'train_null_loss': 1.747, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 4, 'batch': 20, 'train_loss': 1.756, 'train_domain_loss': 9.09, 'train_null_loss': 1.756, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 4, 'batch': 21, 'train_loss': 1.754, 'train_domain_loss': 7.127, 'train_null_loss': 1.754, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 4, 'batch': 22, 'train_loss': 1.702, 'train_domain_loss': 7.241, 'train_null_loss': 1.702, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 4, 'batch': 23, 'train_loss': 1.764, 'train_domain_loss': 5.982, 'train_null_loss': 1.764, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 4, 'batch': 24, 'train_loss': 1.822, 'train_domain_loss': 6.674, 'train_null_loss': 1.822, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 4, 'batch': 25, 'train_loss': 1.742, 'train_domain_loss': 6.92, 'train_null_loss': 1.742, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 4, 'batch': 26, 'train_loss': 1.774, 'train_domain_loss': 7.462, 'train_null_loss': 1.774, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 4, 'batch': 27, 'train_loss': 1.749, 'train_domain_loss': 5.283, 'train_null_loss': 1.749, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 4, 'batch': 28, 'train_loss': 1.77, 'train_domain_loss': 7.134, 'train_null_loss': 1.77, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 4, 'batch': 29, 'train_loss': 1.684, 'train_domain_loss': 9.224, 'train_null_loss': 1.684, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 4, 'batch': 30, 'train_loss': 1.72, 'train_domain_loss': 10.237, 'train_null_loss': 1.72, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 4, 'batch': 31, 'train_loss': 1.727, 'train_domain_loss': 10.025, 'train_null_loss': 1.727, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 4, 'batch': 32, 'train_loss': 1.629, 'train_domain_loss': 12.034, 'train_null_loss': 1.629, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 68.003, 'loss_diff': 0.0, 'epoch': 4, 'batch': 0}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 59.546, 'loss_diff': 0.0, 'epoch': 4, 'batch': 1}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 63.461, 'loss_diff': 0.0, 'epoch': 4, 'batch': 2}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 73.668, 'loss_diff': 0.0, 'epoch': 4, 'batch': 3}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 47.329, 'loss_diff': 0.0, 'epoch': 4, 'batch': 4}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 32.584, 'loss_diff': 0.0, 'epoch': 4, 'batch': 5}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 29.908, 'loss_diff': 0.0, 'epoch': 4, 'batch': 6}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+Epoch: 6 of 15 | Training loss: 1.77:  31%|████████████████████████▊                                                       | 3344/10800 [04:32<12:11, 10.20it/s]
+Training model...
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+{'epoch': 5, 'batch': 0, 'train_loss': 1.642, 'train_domain_loss': 8.71, 'train_null_loss': 1.642, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 5, 'batch': 1, 'train_loss': 1.753, 'train_domain_loss': 9.37, 'train_null_loss': 1.753, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 5, 'batch': 2, 'train_loss': 1.77, 'train_domain_loss': 6.586, 'train_null_loss': 1.77, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 5, 'batch': 3, 'train_loss': 1.668, 'train_domain_loss': 10.768, 'train_null_loss': 1.668, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 5, 'batch': 4, 'train_loss': 1.689, 'train_domain_loss': 6.61, 'train_null_loss': 1.689, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 5, 'batch': 5, 'train_loss': 1.675, 'train_domain_loss': 6.393, 'train_null_loss': 1.675, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 5, 'batch': 6, 'train_loss': 1.714, 'train_domain_loss': 9.044, 'train_null_loss': 1.714, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 5, 'batch': 7, 'train_loss': 1.686, 'train_domain_loss': 7.475, 'train_null_loss': 1.686, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 5, 'batch': 8, 'train_loss': 1.77, 'train_domain_loss': 9.515, 'train_null_loss': 1.77, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 5, 'batch': 9, 'train_loss': 1.7, 'train_domain_loss': 12.223, 'train_null_loss': 1.7, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 5, 'batch': 10, 'train_loss': 1.721, 'train_domain_loss': 9.258, 'train_null_loss': 1.721, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 5, 'batch': 11, 'train_loss': 1.747, 'train_domain_loss': 12.484, 'train_null_loss': 1.747, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 5, 'batch': 12, 'train_loss': 1.803, 'train_domain_loss': 8.057, 'train_null_loss': 1.803, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 5, 'batch': 13, 'train_loss': 1.706, 'train_domain_loss': 10.716, 'train_null_loss': 1.706, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 5, 'batch': 14, 'train_loss': 1.681, 'train_domain_loss': 8.573, 'train_null_loss': 1.681, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 5, 'batch': 15, 'train_loss': 1.663, 'train_domain_loss': 6.692, 'train_null_loss': 1.663, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 5, 'batch': 16, 'train_loss': 1.704, 'train_domain_loss': 8.605, 'train_null_loss': 1.704, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 5, 'batch': 17, 'train_loss': 1.762, 'train_domain_loss': 11.512, 'train_null_loss': 1.762, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 5, 'batch': 18, 'train_loss': 1.74, 'train_domain_loss': 8.482, 'train_null_loss': 1.74, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 5, 'batch': 19, 'train_loss': 1.646, 'train_domain_loss': 6.994, 'train_null_loss': 1.646, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 5, 'batch': 20, 'train_loss': 1.815, 'train_domain_loss': 17.592, 'train_null_loss': 1.815, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 5, 'batch': 21, 'train_loss': 1.826, 'train_domain_loss': 12.844, 'train_null_loss': 1.826, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 5, 'batch': 22, 'train_loss': 1.6, 'train_domain_loss': 10.845, 'train_null_loss': 1.6, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 5, 'batch': 23, 'train_loss': 1.707, 'train_domain_loss': 11.671, 'train_null_loss': 1.707, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 5, 'batch': 24, 'train_loss': 1.751, 'train_domain_loss': 8.423, 'train_null_loss': 1.751, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 5, 'batch': 25, 'train_loss': 1.759, 'train_domain_loss': 8.396, 'train_null_loss': 1.759, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 5, 'batch': 26, 'train_loss': 1.795, 'train_domain_loss': 5.485, 'train_null_loss': 1.795, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 5, 'batch': 27, 'train_loss': 1.768, 'train_domain_loss': 5.99, 'train_null_loss': 1.768, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 5, 'batch': 28, 'train_loss': 1.794, 'train_domain_loss': 5.776, 'train_null_loss': 1.794, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 5, 'batch': 29, 'train_loss': 1.688, 'train_domain_loss': 4.535, 'train_null_loss': 1.688, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 5, 'batch': 30, 'train_loss': 1.669, 'train_domain_loss': 11.072, 'train_null_loss': 1.669, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 3
+{'epoch': 5, 'batch': 31, 'train_loss': 1.719, 'train_domain_loss': 5.654, 'train_null_loss': 1.719, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 5, 'batch': 32, 'train_loss': 1.762, 'train_domain_loss': 6.795, 'train_null_loss': 1.762, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 57.729, 'loss_diff': 0.0, 'epoch': 5, 'batch': 0}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 50.835, 'loss_diff': 0.0, 'epoch': 5, 'batch': 1}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 52.963, 'loss_diff': 0.0, 'epoch': 5, 'batch': 2}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 61.214, 'loss_diff': 0.0, 'epoch': 5, 'batch': 3}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 37.691, 'loss_diff': 0.0, 'epoch': 5, 'batch': 4}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 23.289, 'loss_diff': 0.0, 'epoch': 5, 'batch': 5}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 22.178, 'loss_diff': 0.0, 'epoch': 5, 'batch': 6}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+Epoch: 7 of 15 | Training loss: 1.73:  37%|█████████████████████████████▌                                                  | 3984/10800 [05:26<10:23, 10.94it/s]
+Training model...
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+{'epoch': 6, 'batch': 0, 'train_loss': 1.676, 'train_domain_loss': 7.067, 'train_null_loss': 1.676, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 6, 'batch': 1, 'train_loss': 1.764, 'train_domain_loss': 8.696, 'train_null_loss': 1.764, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 6, 'batch': 2, 'train_loss': 1.631, 'train_domain_loss': 7.164, 'train_null_loss': 1.631, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 6, 'batch': 3, 'train_loss': 1.726, 'train_domain_loss': 11.987, 'train_null_loss': 1.726, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 6, 'batch': 4, 'train_loss': 1.762, 'train_domain_loss': 8.297, 'train_null_loss': 1.762, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 6, 'batch': 5, 'train_loss': 1.629, 'train_domain_loss': 7.853, 'train_null_loss': 1.629, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 6, 'batch': 6, 'train_loss': 1.784, 'train_domain_loss': 12.245, 'train_null_loss': 1.784, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 6, 'batch': 7, 'train_loss': 1.649, 'train_domain_loss': 8.8, 'train_null_loss': 1.649, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 6, 'batch': 8, 'train_loss': 1.727, 'train_domain_loss': 9.111, 'train_null_loss': 1.727, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 6, 'batch': 9, 'train_loss': 1.731, 'train_domain_loss': 8.447, 'train_null_loss': 1.731, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 6, 'batch': 10, 'train_loss': 1.742, 'train_domain_loss': 8.119, 'train_null_loss': 1.742, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 6, 'batch': 11, 'train_loss': 1.767, 'train_domain_loss': 6.927, 'train_null_loss': 1.767, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 6, 'batch': 12, 'train_loss': 1.704, 'train_domain_loss': 13.053, 'train_null_loss': 1.704, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 6, 'batch': 13, 'train_loss': 1.775, 'train_domain_loss': 11.989, 'train_null_loss': 1.775, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 6, 'batch': 14, 'train_loss': 1.613, 'train_domain_loss': 5.374, 'train_null_loss': 1.613, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 6, 'batch': 15, 'train_loss': 1.729, 'train_domain_loss': 13.454, 'train_null_loss': 1.729, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 6, 'batch': 16, 'train_loss': 1.748, 'train_domain_loss': 9.7, 'train_null_loss': 1.748, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 6, 'batch': 17, 'train_loss': 1.598, 'train_domain_loss': 10.493, 'train_null_loss': 1.598, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 6, 'batch': 18, 'train_loss': 1.693, 'train_domain_loss': 8.973, 'train_null_loss': 1.693, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 6, 'batch': 19, 'train_loss': 1.753, 'train_domain_loss': 9.039, 'train_null_loss': 1.753, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 6, 'batch': 20, 'train_loss': 1.74, 'train_domain_loss': 8.156, 'train_null_loss': 1.74, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 6, 'batch': 21, 'train_loss': 1.71, 'train_domain_loss': 12.843, 'train_null_loss': 1.71, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 6, 'batch': 22, 'train_loss': 1.701, 'train_domain_loss': 11.966, 'train_null_loss': 1.701, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 6, 'batch': 23, 'train_loss': 1.63, 'train_domain_loss': 8.715, 'train_null_loss': 1.63, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 6, 'batch': 24, 'train_loss': 1.604, 'train_domain_loss': 10.596, 'train_null_loss': 1.604, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 6, 'batch': 25, 'train_loss': 1.764, 'train_domain_loss': 10.247, 'train_null_loss': 1.764, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 6, 'batch': 26, 'train_loss': 1.586, 'train_domain_loss': 7.311, 'train_null_loss': 1.586, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 6, 'batch': 27, 'train_loss': 1.723, 'train_domain_loss': 9.916, 'train_null_loss': 1.723, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 6, 'batch': 28, 'train_loss': 1.696, 'train_domain_loss': 8.553, 'train_null_loss': 1.696, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 6, 'batch': 29, 'train_loss': 1.7, 'train_domain_loss': 11.555, 'train_null_loss': 1.7, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 6, 'batch': 30, 'train_loss': 1.739, 'train_domain_loss': 9.572, 'train_null_loss': 1.739, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 6, 'batch': 31, 'train_loss': 1.809, 'train_domain_loss': 7.317, 'train_null_loss': 1.809, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 6, 'batch': 32, 'train_loss': 1.722, 'train_domain_loss': 8.054, 'train_null_loss': 1.722, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 29.477, 'loss_diff': 0.0, 'epoch': 6, 'batch': 0}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 25.095, 'loss_diff': 0.0, 'epoch': 6, 'batch': 1}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 37.885, 'loss_diff': 0.0, 'epoch': 6, 'batch': 2}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 49.811, 'loss_diff': 0.0, 'epoch': 6, 'batch': 3}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 16.514, 'loss_diff': 0.0, 'epoch': 6, 'batch': 4}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 8.131, 'loss_diff': 0.0, 'epoch': 6, 'batch': 5}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 9.094, 'loss_diff': 0.0, 'epoch': 6, 'batch': 6}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+Epoch: 8 of 15 | Training loss: 1.69:  43%|██████████████████████████████████▎                                             | 4624/10800 [06:17<09:06, 11.31it/s]
+Training model...
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+{'epoch': 7, 'batch': 0, 'train_loss': 1.705, 'train_domain_loss': 6.646, 'train_null_loss': 1.705, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 7, 'batch': 1, 'train_loss': 1.717, 'train_domain_loss': 6.627, 'train_null_loss': 1.717, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 7, 'batch': 2, 'train_loss': 1.634, 'train_domain_loss': 5.782, 'train_null_loss': 1.634, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 7, 'batch': 3, 'train_loss': 1.673, 'train_domain_loss': 8.532, 'train_null_loss': 1.673, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 7, 'batch': 4, 'train_loss': 1.727, 'train_domain_loss': 8.621, 'train_null_loss': 1.727, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 7, 'batch': 5, 'train_loss': 1.66, 'train_domain_loss': 7.767, 'train_null_loss': 1.66, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 7, 'batch': 6, 'train_loss': 1.733, 'train_domain_loss': 4.816, 'train_null_loss': 1.733, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 7, 'batch': 7, 'train_loss': 1.727, 'train_domain_loss': 6.98, 'train_null_loss': 1.727, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 7, 'batch': 8, 'train_loss': 1.687, 'train_domain_loss': 7.917, 'train_null_loss': 1.687, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 7, 'batch': 9, 'train_loss': 1.718, 'train_domain_loss': 6.968, 'train_null_loss': 1.718, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 7, 'batch': 10, 'train_loss': 1.676, 'train_domain_loss': 6.176, 'train_null_loss': 1.676, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 7, 'batch': 11, 'train_loss': 1.711, 'train_domain_loss': 8.429, 'train_null_loss': 1.711, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 7, 'batch': 12, 'train_loss': 1.747, 'train_domain_loss': 6.488, 'train_null_loss': 1.747, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 7, 'batch': 13, 'train_loss': 1.723, 'train_domain_loss': 6.886, 'train_null_loss': 1.723, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 7, 'batch': 14, 'train_loss': 1.732, 'train_domain_loss': 6.764, 'train_null_loss': 1.732, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 7, 'batch': 15, 'train_loss': 1.657, 'train_domain_loss': 9.581, 'train_null_loss': 1.657, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 3
+{'epoch': 7, 'batch': 16, 'train_loss': 1.661, 'train_domain_loss': 6.849, 'train_null_loss': 1.661, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 7, 'batch': 17, 'train_loss': 1.687, 'train_domain_loss': 6.514, 'train_null_loss': 1.687, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 7, 'batch': 18, 'train_loss': 1.789, 'train_domain_loss': 3.648, 'train_null_loss': 1.789, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 7, 'batch': 19, 'train_loss': 1.667, 'train_domain_loss': 8.047, 'train_null_loss': 1.667, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 7, 'batch': 20, 'train_loss': 1.716, 'train_domain_loss': 7.482, 'train_null_loss': 1.716, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 7, 'batch': 21, 'train_loss': 1.709, 'train_domain_loss': 4.029, 'train_null_loss': 1.709, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 7, 'batch': 22, 'train_loss': 1.702, 'train_domain_loss': 7.551, 'train_null_loss': 1.702, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 7, 'batch': 23, 'train_loss': 1.646, 'train_domain_loss': 8.499, 'train_null_loss': 1.646, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 7, 'batch': 24, 'train_loss': 1.771, 'train_domain_loss': 8.445, 'train_null_loss': 1.771, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 7, 'batch': 25, 'train_loss': 1.785, 'train_domain_loss': 5.273, 'train_null_loss': 1.785, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 7, 'batch': 26, 'train_loss': 1.694, 'train_domain_loss': 6.125, 'train_null_loss': 1.694, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 7, 'batch': 27, 'train_loss': 1.767, 'train_domain_loss': 11.569, 'train_null_loss': 1.767, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 7, 'batch': 28, 'train_loss': 1.705, 'train_domain_loss': 11.776, 'train_null_loss': 1.705, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 7, 'batch': 29, 'train_loss': 1.654, 'train_domain_loss': 6.369, 'train_null_loss': 1.654, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 7, 'batch': 30, 'train_loss': 1.781, 'train_domain_loss': 4.125, 'train_null_loss': 1.781, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 7, 'batch': 31, 'train_loss': 1.617, 'train_domain_loss': 8.843, 'train_null_loss': 1.617, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 7, 'batch': 32, 'train_loss': 1.645, 'train_domain_loss': 4.629, 'train_null_loss': 1.645, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 40.843, 'loss_diff': 0.0, 'epoch': 7, 'batch': 0}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 34.088, 'loss_diff': 0.0, 'epoch': 7, 'batch': 1}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 48.04, 'loss_diff': 0.0, 'epoch': 7, 'batch': 2}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 60.296, 'loss_diff': 0.0, 'epoch': 7, 'batch': 3}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 26.296, 'loss_diff': 0.0, 'epoch': 7, 'batch': 4}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 16.186, 'loss_diff': 0.0, 'epoch': 7, 'batch': 5}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 16.962, 'loss_diff': 0.0, 'epoch': 7, 'batch': 6}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+Epoch: 9 of 15 | Training loss: 1.70:  49%|██████████████████████████████████████▉                                         | 5264/10800 [07:10<08:25, 10.95it/s]
+Training model...
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+{'epoch': 8, 'batch': 0, 'train_loss': 1.753, 'train_domain_loss': 9.042, 'train_null_loss': 1.753, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 8, 'batch': 1, 'train_loss': 1.759, 'train_domain_loss': 8.379, 'train_null_loss': 1.759, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 8, 'batch': 2, 'train_loss': 1.64, 'train_domain_loss': 9.294, 'train_null_loss': 1.64, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 8, 'batch': 3, 'train_loss': 1.658, 'train_domain_loss': 7.559, 'train_null_loss': 1.658, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 8, 'batch': 4, 'train_loss': 1.685, 'train_domain_loss': 10.653, 'train_null_loss': 1.685, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 8, 'batch': 5, 'train_loss': 1.77, 'train_domain_loss': 6.454, 'train_null_loss': 1.77, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 8, 'batch': 6, 'train_loss': 1.815, 'train_domain_loss': 6.422, 'train_null_loss': 1.815, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 8, 'batch': 7, 'train_loss': 1.706, 'train_domain_loss': 6.776, 'train_null_loss': 1.706, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 8, 'batch': 8, 'train_loss': 1.698, 'train_domain_loss': 6.072, 'train_null_loss': 1.698, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 8, 'batch': 9, 'train_loss': 1.63, 'train_domain_loss': 7.808, 'train_null_loss': 1.63, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 8, 'batch': 10, 'train_loss': 1.776, 'train_domain_loss': 5.667, 'train_null_loss': 1.776, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 8, 'batch': 11, 'train_loss': 1.588, 'train_domain_loss': 7.747, 'train_null_loss': 1.588, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 8, 'batch': 12, 'train_loss': 1.7, 'train_domain_loss': 2.363, 'train_null_loss': 1.7, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 8, 'batch': 13, 'train_loss': 1.78, 'train_domain_loss': 8.226, 'train_null_loss': 1.78, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 8, 'batch': 14, 'train_loss': 1.746, 'train_domain_loss': 6.624, 'train_null_loss': 1.746, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 8, 'batch': 15, 'train_loss': 1.732, 'train_domain_loss': 6.01, 'train_null_loss': 1.732, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 8, 'batch': 16, 'train_loss': 1.664, 'train_domain_loss': 9.019, 'train_null_loss': 1.664, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 8, 'batch': 17, 'train_loss': 1.69, 'train_domain_loss': 12.937, 'train_null_loss': 1.69, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 8, 'batch': 18, 'train_loss': 1.606, 'train_domain_loss': 10.922, 'train_null_loss': 1.606, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 8, 'batch': 19, 'train_loss': 1.657, 'train_domain_loss': 8.458, 'train_null_loss': 1.657, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 8, 'batch': 20, 'train_loss': 1.609, 'train_domain_loss': 10.795, 'train_null_loss': 1.609, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 8, 'batch': 21, 'train_loss': 1.641, 'train_domain_loss': 11.101, 'train_null_loss': 1.641, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 8, 'batch': 22, 'train_loss': 1.696, 'train_domain_loss': 7.961, 'train_null_loss': 1.696, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 8, 'batch': 23, 'train_loss': 1.652, 'train_domain_loss': 7.787, 'train_null_loss': 1.652, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 8, 'batch': 24, 'train_loss': 1.711, 'train_domain_loss': 8.094, 'train_null_loss': 1.711, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 8, 'batch': 25, 'train_loss': 1.619, 'train_domain_loss': 9.86, 'train_null_loss': 1.619, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 8, 'batch': 26, 'train_loss': 1.672, 'train_domain_loss': 9.073, 'train_null_loss': 1.672, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 8, 'batch': 27, 'train_loss': 1.632, 'train_domain_loss': 8.241, 'train_null_loss': 1.632, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 8, 'batch': 28, 'train_loss': 1.705, 'train_domain_loss': 8.007, 'train_null_loss': 1.705, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 8, 'batch': 29, 'train_loss': 1.719, 'train_domain_loss': 7.756, 'train_null_loss': 1.719, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 8, 'batch': 30, 'train_loss': 1.834, 'train_domain_loss': 8.827, 'train_null_loss': 1.834, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 8, 'batch': 31, 'train_loss': 1.753, 'train_domain_loss': 5.09, 'train_null_loss': 1.753, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 8, 'batch': 32, 'train_loss': 1.723, 'train_domain_loss': 5.916, 'train_null_loss': 1.723, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 22.852, 'loss_diff': 0.0, 'epoch': 8, 'batch': 0}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 19.758, 'loss_diff': 0.0, 'epoch': 8, 'batch': 1}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 30.204, 'loss_diff': 0.0, 'epoch': 8, 'batch': 2}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 40.9, 'loss_diff': 0.0, 'epoch': 8, 'batch': 3}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 13.373, 'loss_diff': 0.0, 'epoch': 8, 'batch': 4}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 8.993, 'loss_diff': 0.0, 'epoch': 8, 'batch': 5}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 9.508, 'loss_diff': 0.0, 'epoch': 8, 'batch': 6}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+Epoch: 10 of 15 | Training loss: 1.80:  55%|███████████████████████████████████████████▏                                   | 5904/10800 [08:02<07:30, 10.88it/s]
+Training model...
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+{'epoch': 9, 'batch': 0, 'train_loss': 1.752, 'train_domain_loss': 6.718, 'train_null_loss': 1.752, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 9, 'batch': 1, 'train_loss': 1.659, 'train_domain_loss': 8.076, 'train_null_loss': 1.659, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 9, 'batch': 2, 'train_loss': 1.647, 'train_domain_loss': 7.506, 'train_null_loss': 1.647, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 9, 'batch': 3, 'train_loss': 1.717, 'train_domain_loss': 7.301, 'train_null_loss': 1.717, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 9, 'batch': 4, 'train_loss': 1.662, 'train_domain_loss': 7.998, 'train_null_loss': 1.662, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 9, 'batch': 5, 'train_loss': 1.621, 'train_domain_loss': 8.257, 'train_null_loss': 1.621, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 9, 'batch': 6, 'train_loss': 1.712, 'train_domain_loss': 7.713, 'train_null_loss': 1.712, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 9, 'batch': 7, 'train_loss': 1.697, 'train_domain_loss': 8.982, 'train_null_loss': 1.697, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 9, 'batch': 8, 'train_loss': 1.797, 'train_domain_loss': 7.323, 'train_null_loss': 1.797, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 9, 'batch': 9, 'train_loss': 1.568, 'train_domain_loss': 8.033, 'train_null_loss': 1.568, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 9, 'batch': 10, 'train_loss': 1.68, 'train_domain_loss': 8.077, 'train_null_loss': 1.68, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 9, 'batch': 11, 'train_loss': 1.744, 'train_domain_loss': 6.645, 'train_null_loss': 1.744, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 9, 'batch': 12, 'train_loss': 1.77, 'train_domain_loss': 6.782, 'train_null_loss': 1.77, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 9, 'batch': 13, 'train_loss': 1.766, 'train_domain_loss': 4.548, 'train_null_loss': 1.766, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 9, 'batch': 14, 'train_loss': 1.607, 'train_domain_loss': 7.999, 'train_null_loss': 1.607, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 9, 'batch': 15, 'train_loss': 1.698, 'train_domain_loss': 4.159, 'train_null_loss': 1.698, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 9, 'batch': 16, 'train_loss': 1.651, 'train_domain_loss': 7.6, 'train_null_loss': 1.651, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 9, 'batch': 17, 'train_loss': 1.712, 'train_domain_loss': 5.612, 'train_null_loss': 1.712, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 3
+{'epoch': 9, 'batch': 18, 'train_loss': 1.744, 'train_domain_loss': 10.846, 'train_null_loss': 1.744, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 9, 'batch': 19, 'train_loss': 1.638, 'train_domain_loss': 6.068, 'train_null_loss': 1.638, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 9, 'batch': 20, 'train_loss': 1.705, 'train_domain_loss': 8.011, 'train_null_loss': 1.705, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 9, 'batch': 21, 'train_loss': 1.542, 'train_domain_loss': 5.454, 'train_null_loss': 1.542, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 9, 'batch': 22, 'train_loss': 1.715, 'train_domain_loss': 7.818, 'train_null_loss': 1.715, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 9, 'batch': 23, 'train_loss': 1.647, 'train_domain_loss': 5.475, 'train_null_loss': 1.647, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 9, 'batch': 24, 'train_loss': 1.655, 'train_domain_loss': 6.413, 'train_null_loss': 1.655, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 9, 'batch': 25, 'train_loss': 1.708, 'train_domain_loss': 4.062, 'train_null_loss': 1.708, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 9, 'batch': 26, 'train_loss': 1.629, 'train_domain_loss': 6.171, 'train_null_loss': 1.629, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 9, 'batch': 27, 'train_loss': 1.652, 'train_domain_loss': 5.483, 'train_null_loss': 1.652, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 9, 'batch': 28, 'train_loss': 1.746, 'train_domain_loss': 5.68, 'train_null_loss': 1.746, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 9, 'batch': 29, 'train_loss': 1.719, 'train_domain_loss': 7.938, 'train_null_loss': 1.719, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 9, 'batch': 30, 'train_loss': 1.536, 'train_domain_loss': 8.881, 'train_null_loss': 1.536, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 9, 'batch': 31, 'train_loss': 1.684, 'train_domain_loss': 5.205, 'train_null_loss': 1.684, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 9, 'batch': 32, 'train_loss': 1.643, 'train_domain_loss': 4.919, 'train_null_loss': 1.643, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 35.199, 'loss_diff': 0.0, 'epoch': 9, 'batch': 0}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 35.261, 'loss_diff': 0.0, 'epoch': 9, 'batch': 1}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 37.627, 'loss_diff': 0.0, 'epoch': 9, 'batch': 2}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 39.446, 'loss_diff': 0.0, 'epoch': 9, 'batch': 3}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 28.177, 'loss_diff': 0.0, 'epoch': 9, 'batch': 4}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 28.33, 'loss_diff': 0.0, 'epoch': 9, 'batch': 5}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 29.418, 'loss_diff': 0.0, 'epoch': 9, 'batch': 6}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+Epoch: 11 of 15 | Training loss: 1.65:  61%|███████████████████████████████████████████████▊                               | 6544/10800 [08:56<06:53, 10.30it/s]
+Training model...
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+{'epoch': 10, 'batch': 0, 'train_loss': 1.677, 'train_domain_loss': 8.453, 'train_null_loss': 1.677, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 10, 'batch': 1, 'train_loss': 1.757, 'train_domain_loss': 8.828, 'train_null_loss': 1.757, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 10, 'batch': 2, 'train_loss': 1.737, 'train_domain_loss': 7.867, 'train_null_loss': 1.737, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 10, 'batch': 3, 'train_loss': 1.639, 'train_domain_loss': 9.902, 'train_null_loss': 1.639, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 10, 'batch': 4, 'train_loss': 1.696, 'train_domain_loss': 6.199, 'train_null_loss': 1.696, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 10, 'batch': 5, 'train_loss': 1.772, 'train_domain_loss': 9.638, 'train_null_loss': 1.772, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 10, 'batch': 6, 'train_loss': 1.622, 'train_domain_loss': 8.198, 'train_null_loss': 1.622, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 10, 'batch': 7, 'train_loss': 1.709, 'train_domain_loss': 9.446, 'train_null_loss': 1.709, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 10, 'batch': 8, 'train_loss': 1.648, 'train_domain_loss': 8.139, 'train_null_loss': 1.648, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 10, 'batch': 9, 'train_loss': 1.742, 'train_domain_loss': 4.495, 'train_null_loss': 1.742, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 10, 'batch': 10, 'train_loss': 1.671, 'train_domain_loss': 13.803, 'train_null_loss': 1.671, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 10, 'batch': 11, 'train_loss': 1.743, 'train_domain_loss': 6.994, 'train_null_loss': 1.743, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 10, 'batch': 12, 'train_loss': 1.693, 'train_domain_loss': 9.107, 'train_null_loss': 1.693, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 10, 'batch': 13, 'train_loss': 1.708, 'train_domain_loss': 10.416, 'train_null_loss': 1.708, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 10, 'batch': 14, 'train_loss': 1.699, 'train_domain_loss': 5.677, 'train_null_loss': 1.699, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 10, 'batch': 15, 'train_loss': 1.74, 'train_domain_loss': 5.627, 'train_null_loss': 1.74, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 10, 'batch': 16, 'train_loss': 1.664, 'train_domain_loss': 6.562, 'train_null_loss': 1.664, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 10, 'batch': 17, 'train_loss': 1.722, 'train_domain_loss': 7.367, 'train_null_loss': 1.722, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 10, 'batch': 18, 'train_loss': 1.763, 'train_domain_loss': 6.301, 'train_null_loss': 1.763, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 10, 'batch': 19, 'train_loss': 1.629, 'train_domain_loss': 8.147, 'train_null_loss': 1.629, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 10, 'batch': 20, 'train_loss': 1.704, 'train_domain_loss': 7.904, 'train_null_loss': 1.704, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 10, 'batch': 21, 'train_loss': 1.723, 'train_domain_loss': 8.08, 'train_null_loss': 1.723, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 10, 'batch': 22, 'train_loss': 1.717, 'train_domain_loss': 6.076, 'train_null_loss': 1.717, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 10, 'batch': 23, 'train_loss': 1.575, 'train_domain_loss': 10.32, 'train_null_loss': 1.575, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 10, 'batch': 24, 'train_loss': 1.666, 'train_domain_loss': 13.283, 'train_null_loss': 1.666, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 10, 'batch': 25, 'train_loss': 1.638, 'train_domain_loss': 9.943, 'train_null_loss': 1.638, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 10, 'batch': 26, 'train_loss': 1.689, 'train_domain_loss': 8.108, 'train_null_loss': 1.689, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 10, 'batch': 27, 'train_loss': 1.735, 'train_domain_loss': 8.05, 'train_null_loss': 1.735, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 10, 'batch': 28, 'train_loss': 1.654, 'train_domain_loss': 7.356, 'train_null_loss': 1.654, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 10, 'batch': 29, 'train_loss': 1.663, 'train_domain_loss': 8.646, 'train_null_loss': 1.663, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 10, 'batch': 30, 'train_loss': 1.61, 'train_domain_loss': 12.901, 'train_null_loss': 1.61, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 10, 'batch': 31, 'train_loss': 1.797, 'train_domain_loss': 5.735, 'train_null_loss': 1.797, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 10, 'batch': 32, 'train_loss': 1.683, 'train_domain_loss': 4.967, 'train_null_loss': 1.683, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 42.675, 'loss_diff': 0.0, 'epoch': 10, 'batch': 0}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 46.671, 'loss_diff': 0.0, 'epoch': 10, 'batch': 1}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 55.668, 'loss_diff': 0.0, 'epoch': 10, 'batch': 2}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 65.255, 'loss_diff': 0.0, 'epoch': 10, 'batch': 3}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 33.846, 'loss_diff': 0.0, 'epoch': 10, 'batch': 4}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 38.698, 'loss_diff': 0.0, 'epoch': 10, 'batch': 5}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 41.792, 'loss_diff': 0.0, 'epoch': 10, 'batch': 6}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+Epoch: 12 of 15 | Training loss: 1.66:  67%|████████████████████████████████████████████████████▌                          | 7184/10800 [09:49<05:27, 11.04it/s]
+Training model...
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+{'epoch': 11, 'batch': 0, 'train_loss': 1.66, 'train_domain_loss': 7.446, 'train_null_loss': 1.66, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 11, 'batch': 1, 'train_loss': 1.705, 'train_domain_loss': 6.812, 'train_null_loss': 1.705, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 11, 'batch': 2, 'train_loss': 1.736, 'train_domain_loss': 5.297, 'train_null_loss': 1.736, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 11, 'batch': 3, 'train_loss': 1.62, 'train_domain_loss': 4.743, 'train_null_loss': 1.62, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 11, 'batch': 4, 'train_loss': 1.605, 'train_domain_loss': 6.956, 'train_null_loss': 1.605, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 11, 'batch': 5, 'train_loss': 1.761, 'train_domain_loss': 3.995, 'train_null_loss': 1.761, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 11, 'batch': 6, 'train_loss': 1.762, 'train_domain_loss': 6.041, 'train_null_loss': 1.762, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 11, 'batch': 7, 'train_loss': 1.731, 'train_domain_loss': 9.805, 'train_null_loss': 1.731, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 11, 'batch': 8, 'train_loss': 1.657, 'train_domain_loss': 8.291, 'train_null_loss': 1.657, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 11, 'batch': 9, 'train_loss': 1.675, 'train_domain_loss': 4.918, 'train_null_loss': 1.675, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 11, 'batch': 10, 'train_loss': 1.7, 'train_domain_loss': 9.837, 'train_null_loss': 1.7, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 11, 'batch': 11, 'train_loss': 1.773, 'train_domain_loss': 6.03, 'train_null_loss': 1.773, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 3
+{'epoch': 11, 'batch': 12, 'train_loss': 1.713, 'train_domain_loss': 10.408, 'train_null_loss': 1.713, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 11, 'batch': 13, 'train_loss': 1.704, 'train_domain_loss': 8.492, 'train_null_loss': 1.704, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 11, 'batch': 14, 'train_loss': 1.71, 'train_domain_loss': 7.211, 'train_null_loss': 1.71, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 11, 'batch': 15, 'train_loss': 1.693, 'train_domain_loss': 4.036, 'train_null_loss': 1.693, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 11, 'batch': 16, 'train_loss': 1.696, 'train_domain_loss': 9.03, 'train_null_loss': 1.696, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 11, 'batch': 17, 'train_loss': 1.738, 'train_domain_loss': 9.094, 'train_null_loss': 1.738, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 11, 'batch': 18, 'train_loss': 1.606, 'train_domain_loss': 5.418, 'train_null_loss': 1.606, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 11, 'batch': 19, 'train_loss': 1.66, 'train_domain_loss': 7.597, 'train_null_loss': 1.66, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 11, 'batch': 20, 'train_loss': 1.738, 'train_domain_loss': 4.854, 'train_null_loss': 1.738, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 11, 'batch': 21, 'train_loss': 1.731, 'train_domain_loss': 7.24, 'train_null_loss': 1.731, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 11, 'batch': 22, 'train_loss': 1.738, 'train_domain_loss': 6.705, 'train_null_loss': 1.738, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 11, 'batch': 23, 'train_loss': 1.712, 'train_domain_loss': 5.343, 'train_null_loss': 1.712, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 11, 'batch': 24, 'train_loss': 1.587, 'train_domain_loss': 5.383, 'train_null_loss': 1.587, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 11, 'batch': 25, 'train_loss': 1.698, 'train_domain_loss': 6.561, 'train_null_loss': 1.698, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 11, 'batch': 26, 'train_loss': 1.618, 'train_domain_loss': 7.628, 'train_null_loss': 1.618, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 11, 'batch': 27, 'train_loss': 1.648, 'train_domain_loss': 7.888, 'train_null_loss': 1.648, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 11, 'batch': 28, 'train_loss': 1.677, 'train_domain_loss': 9.258, 'train_null_loss': 1.677, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 11, 'batch': 29, 'train_loss': 1.746, 'train_domain_loss': 4.606, 'train_null_loss': 1.746, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 11, 'batch': 30, 'train_loss': 1.7, 'train_domain_loss': 6.123, 'train_null_loss': 1.7, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 11, 'batch': 31, 'train_loss': 1.794, 'train_domain_loss': 9.68, 'train_null_loss': 1.794, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 11, 'batch': 32, 'train_loss': 1.726, 'train_domain_loss': 6.306, 'train_null_loss': 1.726, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 44.004, 'loss_diff': 0.0, 'epoch': 11, 'batch': 0}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 42.274, 'loss_diff': 0.0, 'epoch': 11, 'batch': 1}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 52.895, 'loss_diff': 0.0, 'epoch': 11, 'batch': 2}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 64.56, 'loss_diff': 0.0, 'epoch': 11, 'batch': 3}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 39.475, 'loss_diff': 0.0, 'epoch': 11, 'batch': 4}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 33.106, 'loss_diff': 0.0, 'epoch': 11, 'batch': 5}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 34.454, 'loss_diff': 0.0, 'epoch': 11, 'batch': 6}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+Epoch: 13 of 15 | Training loss: 1.68:  72%|█████████████████████████████████████████████████████████▏                     | 7824/10800 [10:46<04:44, 10.46it/s]
+Training model...
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 3
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+{'epoch': 12, 'batch': 0, 'train_loss': 1.687, 'train_domain_loss': 7.194, 'train_null_loss': 1.687, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 12, 'batch': 1, 'train_loss': 1.777, 'train_domain_loss': 7.99, 'train_null_loss': 1.777, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 12, 'batch': 2, 'train_loss': 1.663, 'train_domain_loss': 8.109, 'train_null_loss': 1.663, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 12, 'batch': 3, 'train_loss': 1.687, 'train_domain_loss': 6.964, 'train_null_loss': 1.687, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 12, 'batch': 4, 'train_loss': 1.712, 'train_domain_loss': 5.523, 'train_null_loss': 1.712, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 12, 'batch': 5, 'train_loss': 1.757, 'train_domain_loss': 9.134, 'train_null_loss': 1.757, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 12, 'batch': 6, 'train_loss': 1.682, 'train_domain_loss': 6.533, 'train_null_loss': 1.682, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 12, 'batch': 7, 'train_loss': 1.709, 'train_domain_loss': 6.639, 'train_null_loss': 1.709, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 12, 'batch': 8, 'train_loss': 1.685, 'train_domain_loss': 5.771, 'train_null_loss': 1.685, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 12, 'batch': 9, 'train_loss': 1.677, 'train_domain_loss': 6.09, 'train_null_loss': 1.677, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 12, 'batch': 10, 'train_loss': 1.643, 'train_domain_loss': 7.347, 'train_null_loss': 1.643, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 12, 'batch': 11, 'train_loss': 1.641, 'train_domain_loss': 6.91, 'train_null_loss': 1.641, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 12, 'batch': 12, 'train_loss': 1.695, 'train_domain_loss': 6.017, 'train_null_loss': 1.695, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 12, 'batch': 13, 'train_loss': 1.715, 'train_domain_loss': 7.833, 'train_null_loss': 1.715, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 12, 'batch': 14, 'train_loss': 1.613, 'train_domain_loss': 6.859, 'train_null_loss': 1.613, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 12, 'batch': 15, 'train_loss': 1.657, 'train_domain_loss': 10.064, 'train_null_loss': 1.657, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 12, 'batch': 16, 'train_loss': 1.69, 'train_domain_loss': 6.787, 'train_null_loss': 1.69, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 12, 'batch': 17, 'train_loss': 1.783, 'train_domain_loss': 7.778, 'train_null_loss': 1.783, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 12, 'batch': 18, 'train_loss': 1.676, 'train_domain_loss': 7.674, 'train_null_loss': 1.676, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 12, 'batch': 19, 'train_loss': 1.758, 'train_domain_loss': 6.37, 'train_null_loss': 1.758, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 12, 'batch': 20, 'train_loss': 1.644, 'train_domain_loss': 9.019, 'train_null_loss': 1.644, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 12, 'batch': 21, 'train_loss': 1.737, 'train_domain_loss': 7.809, 'train_null_loss': 1.737, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 12, 'batch': 22, 'train_loss': 1.673, 'train_domain_loss': 4.439, 'train_null_loss': 1.673, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 12, 'batch': 23, 'train_loss': 1.709, 'train_domain_loss': 8.146, 'train_null_loss': 1.709, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 12, 'batch': 24, 'train_loss': 1.67, 'train_domain_loss': 8.993, 'train_null_loss': 1.67, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 12, 'batch': 25, 'train_loss': 1.617, 'train_domain_loss': 6.315, 'train_null_loss': 1.617, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 12, 'batch': 26, 'train_loss': 1.689, 'train_domain_loss': 6.127, 'train_null_loss': 1.689, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 12, 'batch': 27, 'train_loss': 1.727, 'train_domain_loss': 8.09, 'train_null_loss': 1.727, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 12, 'batch': 28, 'train_loss': 1.586, 'train_domain_loss': 8.233, 'train_null_loss': 1.586, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 12, 'batch': 29, 'train_loss': 1.72, 'train_domain_loss': 5.405, 'train_null_loss': 1.72, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 12, 'batch': 30, 'train_loss': 1.715, 'train_domain_loss': 5.709, 'train_null_loss': 1.715, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 12, 'batch': 31, 'train_loss': 1.684, 'train_domain_loss': 5.559, 'train_null_loss': 1.684, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 12, 'batch': 32, 'train_loss': 1.686, 'train_domain_loss': 7.095, 'train_null_loss': 1.686, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 27.389, 'loss_diff': 0.0, 'epoch': 12, 'batch': 0}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 31.528, 'loss_diff': 0.0, 'epoch': 12, 'batch': 1}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 43.517, 'loss_diff': 0.0, 'epoch': 12, 'batch': 2}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 56.636, 'loss_diff': 0.0, 'epoch': 12, 'batch': 3}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 21.681, 'loss_diff': 0.0, 'epoch': 12, 'batch': 4}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 26.396, 'loss_diff': 0.0, 'epoch': 12, 'batch': 5}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 27.745, 'loss_diff': 0.0, 'epoch': 12, 'batch': 6}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+Epoch: 14 of 15 | Training loss: 1.56:  78%|█████████████████████████████████████████████████████████████▉                 | 8464/10800 [11:44<03:47, 10.27it/s]
+Training model...
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 3
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 20]))
+{'epoch': 13, 'batch': 0, 'train_loss': 1.67, 'train_domain_loss': 7.038, 'train_null_loss': 1.67, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 13, 'batch': 1, 'train_loss': 1.646, 'train_domain_loss': 5.616, 'train_null_loss': 1.646, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 13, 'batch': 2, 'train_loss': 1.711, 'train_domain_loss': 6.279, 'train_null_loss': 1.711, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 13, 'batch': 3, 'train_loss': 1.672, 'train_domain_loss': 4.7, 'train_null_loss': 1.672, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 13, 'batch': 4, 'train_loss': 1.764, 'train_domain_loss': 4.739, 'train_null_loss': 1.764, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 13, 'batch': 5, 'train_loss': 1.557, 'train_domain_loss': 6.798, 'train_null_loss': 1.557, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 13, 'batch': 6, 'train_loss': 1.706, 'train_domain_loss': 8.337, 'train_null_loss': 1.706, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 13, 'batch': 7, 'train_loss': 1.633, 'train_domain_loss': 12.414, 'train_null_loss': 1.633, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 13, 'batch': 8, 'train_loss': 1.556, 'train_domain_loss': 12.236, 'train_null_loss': 1.556, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 13, 'batch': 9, 'train_loss': 1.609, 'train_domain_loss': 6.951, 'train_null_loss': 1.609, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 13, 'batch': 10, 'train_loss': 1.725, 'train_domain_loss': 10.975, 'train_null_loss': 1.725, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 3
+{'epoch': 13, 'batch': 11, 'train_loss': 1.643, 'train_domain_loss': 12.271, 'train_null_loss': 1.643, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 13, 'batch': 12, 'train_loss': 1.598, 'train_domain_loss': 4.342, 'train_null_loss': 1.598, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 13, 'batch': 13, 'train_loss': 1.662, 'train_domain_loss': 6.434, 'train_null_loss': 1.662, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 3
+{'epoch': 13, 'batch': 14, 'train_loss': 1.658, 'train_domain_loss': 6.046, 'train_null_loss': 1.658, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 13, 'batch': 15, 'train_loss': 1.622, 'train_domain_loss': 6.734, 'train_null_loss': 1.622, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 13, 'batch': 16, 'train_loss': 1.723, 'train_domain_loss': 6.422, 'train_null_loss': 1.723, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 13, 'batch': 17, 'train_loss': 1.642, 'train_domain_loss': 9.346, 'train_null_loss': 1.642, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 13, 'batch': 18, 'train_loss': 1.668, 'train_domain_loss': 5.246, 'train_null_loss': 1.668, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 13, 'batch': 19, 'train_loss': 1.637, 'train_domain_loss': 5.898, 'train_null_loss': 1.637, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 13, 'batch': 20, 'train_loss': 1.638, 'train_domain_loss': 8.418, 'train_null_loss': 1.638, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 13, 'batch': 21, 'train_loss': 1.71, 'train_domain_loss': 6.566, 'train_null_loss': 1.71, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 13, 'batch': 22, 'train_loss': 1.687, 'train_domain_loss': 6.636, 'train_null_loss': 1.687, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 13, 'batch': 23, 'train_loss': 1.797, 'train_domain_loss': 5.948, 'train_null_loss': 1.797, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 13, 'batch': 24, 'train_loss': 1.629, 'train_domain_loss': 6.537, 'train_null_loss': 1.629, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 13, 'batch': 25, 'train_loss': 1.704, 'train_domain_loss': 8.319, 'train_null_loss': 1.704, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 13, 'batch': 26, 'train_loss': 1.562, 'train_domain_loss': 9.117, 'train_null_loss': 1.562, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 13, 'batch': 27, 'train_loss': 1.699, 'train_domain_loss': 7.436, 'train_null_loss': 1.699, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 13, 'batch': 28, 'train_loss': 1.776, 'train_domain_loss': 7.437, 'train_null_loss': 1.776, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 13, 'batch': 29, 'train_loss': 1.617, 'train_domain_loss': 6.315, 'train_null_loss': 1.617, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 3
+{'epoch': 13, 'batch': 30, 'train_loss': 1.716, 'train_domain_loss': 3.836, 'train_null_loss': 1.716, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 13, 'batch': 31, 'train_loss': 1.742, 'train_domain_loss': 6.196, 'train_null_loss': 1.742, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 4
+{'epoch': 13, 'batch': 32, 'train_loss': 1.738, 'train_domain_loss': 4.465, 'train_null_loss': 1.738, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 19.628, 'loss_diff': 0.0, 'epoch': 13, 'batch': 0}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 16.376, 'loss_diff': 0.0, 'epoch': 13, 'batch': 1}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 35.407, 'loss_diff': 0.0, 'epoch': 13, 'batch': 2}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 51.182, 'loss_diff': 0.0, 'epoch': 13, 'batch': 3}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 9.77, 'loss_diff': 0.0, 'epoch': 13, 'batch': 4}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 4.687, 'loss_diff': 0.0, 'epoch': 13, 'batch': 5}
+Domain pred shape: torch.Size([16, 20])
+Max domain label: 5
+{'valid_loss': 3.873, 'loss_diff': 0.0, 'epoch': 13, 'batch': 6}
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\experiments\train_runner.py", line 219, in <module>
+    run_training(parse_config_file(args.CONFIG_FP))
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\experiments\train_runner.py", line 206, in run_training
+    training.train(
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\experiments\train.py", line 619, in train
+    curr_joint_loss = self._validate_holistic(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\experiments\train.py", line 415, in _validate_holistic
+    "valid_null_domain_acc": self.acc(domain_gts, domain_null_preds),
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xande\anaconda3\Lib\site-packages\torch\nn\modules\module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xande\anaconda3\Lib\site-packages\torch\nn\modules\module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xande\anaconda3\Lib\site-packages\torchmetrics\metric.py", line 315, in forward
+    self._forward_cache = self._forward_reduce_state_update(*args, **kwargs)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xande\anaconda3\Lib\site-packages\torchmetrics\metric.py", line 384, in _forward_reduce_state_update
+    self.update(*args, **kwargs)
+  File "C:\Users\xande\anaconda3\Lib\site-packages\torchmetrics\metric.py", line 559, in wrapped_func
+    raise err
+  File "C:\Users\xande\anaconda3\Lib\site-packages\torchmetrics\metric.py", line 549, in wrapped_func
+    update(*args, **kwargs)
+  File "C:\Users\xande\anaconda3\Lib\site-packages\torchmetrics\classification\stat_scores.py", line 339, in update
+    _multiclass_stat_scores_tensor_validation(
+  File "C:\Users\xande\anaconda3\Lib\site-packages\torchmetrics\functional\classification\stat_scores.py", line 322, in _multiclass_stat_scores_tensor_validation
+    raise RuntimeError(
+RuntimeError: Detected more unique values in `target` than expected. Expected only 6 but found 9 in `target`. Found values: tensor([ 1,  2,  3,  4,  5,  6,  8, 10, 13]).

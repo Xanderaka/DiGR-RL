@@ -1,0 +1,1 @@
+{"train_gesture_embed":[],"_runtime":2635.5705764,"train_gesture_null":[],"_wandb":{"runtime":2635},"train_domain_embed":[],"train_loss_diff":0.0308380126953125,"train_domain_null":[],"_step":1849,"train_loss":1.6940982341766357,"_timestamp":1.7504337273166158e+09,"train_domain_loss":3.2029850482940674,"train_null_loss":1.6786792278289795,"train_embed_loss":1.709517240524292}

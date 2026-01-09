@@ -1,0 +1,129 @@
+_wandb:
+    value:
+        cli_version: 0.19.8
+        m: []
+        python_version: 3.12.3
+        t:
+            "1":
+                - 1
+                - 5
+                - 41
+                - 53
+                - 55
+            "2":
+                - 1
+                - 5
+                - 41
+                - 53
+                - 55
+            "3":
+                - 15
+                - 16
+                - 23
+                - 55
+            "4": 3.12.3
+            "5": 0.19.8
+            "8":
+                - 3
+                - 5
+            "12": 0.19.8
+            "13": windows-amd64
+agent:
+    value:
+        adaptive_switching: true
+        batch_size: 512
+        buffer_size: 50000
+        ent_coef: 0.07621830850607138
+        factor: 4
+        gradient_steps: 16
+        learning_rate: 0.0004229924098384421
+        learning_starts: 1600
+        sequential: true
+        switch_epoch: 20
+        threshold: 10
+        train_freq:
+            - 64
+            - step
+        window: 20
+data:
+    value:
+        amp_pipeline: <src.signal_processing.pipeline.Pipeline object at 0x000001C371F9A060>
+        bvp_agg: sum
+        bvp_pipeline: 0
+        data_dir: C:\Tue\Master\Jaar_2\graduation\code\own_approach\data
+        dataset_type: single_user
+        downsample_multiplier: 100
+        phase_pipeline: <src.signal_processing.pipeline.Pipeline object at 0x000001C36ED60410>
+        transformation: MarkovTransitionField()
+debug:
+    value:
+        is_debug: false
+        offline: false
+        on_cpu: false
+embed:
+    value:
+        actor_dropout: 0.3
+        actor_num_layers: 3
+        agent_type: sac
+        anneal_lr: true
+        clip_coef: 0.2
+        clip_value_loss: true
+        critic_dropout: 0.3
+        critic_num_layers: 3
+        embed_size: 33
+        entropy_coef: 0
+        epochs: 2
+        gae_lambda: 0.95
+        gamma: 0.99
+        lr: 0.0001
+        max_grad_norm: 0.5
+        norm_advantage: true
+        policy: do_nothing
+        reward_function: combined
+        start_epoch: 35
+        target_kl: null
+        value_func_coef: 0.5
+        value_type: probability-measure
+encoder:
+    value:
+        Backbone_type: ResNet
+        activation_fn: leaky
+        base_channels:
+            - 64
+            - 128
+            - 256
+        dropout: 0.047040600423743945
+        growth_rate: 32
+        init_channels: 64
+        initial_kernel_size: 11
+        latent_dim: 20
+        layers_per_stage:
+            - 2
+            - 2
+            - 2
+        normalization: false
+        num_conv_layers: null
+        patch_size: 64
+        vit_depth: 6
+        vit_heads: 4
+mt:
+    value:
+        d_predictor_activation_fn: gelu
+        d_predictor_dropout: 0.27986668432868433
+        d_predictor_num_layers: 4
+        predictor_activation_fn: selu
+        predictor_dropout: 0.08449720863043957
+        predictor_num_layers: 2
+optim_loss:
+    value:
+        alpha: 0.00025495817492071003
+        beta: 0.7059082984180771
+        lr: 0.0009107155814559353
+        optimizer: adam
+train:
+    value:
+        batch_size: 32
+        checkpoint_dir: \home2\xvreewij\Checkpoints
+        epochs: 100
+        tuning: false
+        ui: tqdm

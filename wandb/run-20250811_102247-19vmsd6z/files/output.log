@@ -1,0 +1,19 @@
+Running training on CPU
+Loading dataset train
+Loaded 150 samples in 0.01 s.
+Loading dataset validation
+Loaded 30 samples in 0.00 s.
+Building models...
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\experiments\train_runner.py", line 224, in <module>
+    best_loss = run_training(parse_config_file(args.CONFIG_FP))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\experiments\train_runner.py", line 145, in run_training
+    encoder, null_head, null_agent = build_model(
+                                     ^^^^^^^^^^^^
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\models\model_builder.py", line 124, in build_model
+    domain_label_size=len(train_dataset.domain_to_idx)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'WidarDataset' object has no attribute 'domain_to_idx'

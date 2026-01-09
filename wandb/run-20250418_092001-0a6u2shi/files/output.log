@@ -1,0 +1,13 @@
+Running training on CPU
+Loading dataset train
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\experiments\train_runner.py", line 209, in <module>
+    run_training(parse_config_file(args.CONFIG_FP))
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\experiments\train_runner.py", line 94, in run_training
+    train_dataset = WidarDataset(
+                    ^^^^^^^^^^^^^
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\data_utils\widar_dataset.py", line 123, in __init__
+    raise ValueError(f"Dataset type {dataset_type} is not one of the"
+ValueError: Dataset type single_user_gaf is not one of thepossible options [`small`, `single_domain`, `full`].

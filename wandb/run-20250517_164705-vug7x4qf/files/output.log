@@ -1,0 +1,766 @@
+Running training on CPU
+Loading dataset train
+Found pregenerated data dir. Using pregenerated data.
+Loading complete. Took 0.01 s.
+Loading dataset validation
+Found pregenerated data dir. Using pregenerated data.
+Loading complete. Took 0.00 s.
+Building models...
+Detected 25 unique domains.
+Completed model building. Took 0.76 s.
+                                                                                                                                                                
+Preparation complete. Starting training...
+Total unique domains: 25
+Top 10 most frequent domains: [((10, 0, 0, 1), 1), ((9, 4, 0, 1), 1), ((4, 0, 0, 1), 1), ((9, 1, 0, 1), 1), ((9, 2, 0, 1), 1), ((4, 2, 0, 1), 1), ((9, 3, 0, 1), 1), ((11, 1, 0, 1), 1), ((2, 3, 0, 1), 1), ((11, 3, 0, 1), 1)]
+Total unique domains: 5
+Top 10 most frequent domains: [((0, 0, 0, 1), 1), ((0, 4, 0, 1), 1), ((0, 1, 0, 1), 1), ((0, 2, 0, 1), 1), ((0, 3, 0, 1), 1)]
+Training model...
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 25]))
+{'epoch': 0, 'batch': 0, 'train_loss': 1.828, 'train_domain_loss': 3.221, 'train_null_loss': 1.828, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 1, 'train_loss': 1.812, 'train_domain_loss': 3.533, 'train_null_loss': 1.812, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 2, 'train_loss': 1.722, 'train_domain_loss': 4.082, 'train_null_loss': 1.722, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 3, 'train_loss': 1.768, 'train_domain_loss': 3.782, 'train_null_loss': 1.768, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 4, 'train_loss': 1.84, 'train_domain_loss': 3.641, 'train_null_loss': 1.84, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 5, 'train_loss': 1.808, 'train_domain_loss': 4.45, 'train_null_loss': 1.808, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 6, 'train_loss': 1.799, 'train_domain_loss': 4.435, 'train_null_loss': 1.799, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 7, 'train_loss': 1.836, 'train_domain_loss': 4.797, 'train_null_loss': 1.836, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 8, 'train_loss': 1.716, 'train_domain_loss': 6.296, 'train_null_loss': 1.716, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 9, 'train_loss': 1.796, 'train_domain_loss': 7.621, 'train_null_loss': 1.796, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 10, 'train_loss': 1.804, 'train_domain_loss': 7.018, 'train_null_loss': 1.804, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 11, 'train_loss': 1.861, 'train_domain_loss': 7.753, 'train_null_loss': 1.861, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 12, 'train_loss': 1.869, 'train_domain_loss': 6.499, 'train_null_loss': 1.869, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 13, 'train_loss': 1.794, 'train_domain_loss': 6.064, 'train_null_loss': 1.794, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 14, 'train_loss': 1.803, 'train_domain_loss': 7.6, 'train_null_loss': 1.803, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 15, 'train_loss': 1.753, 'train_domain_loss': 9.049, 'train_null_loss': 1.753, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 16, 'train_loss': 1.694, 'train_domain_loss': 5.796, 'train_null_loss': 1.694, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 17, 'train_loss': 1.819, 'train_domain_loss': 7.683, 'train_null_loss': 1.819, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 18, 'train_loss': 1.678, 'train_domain_loss': 7.392, 'train_null_loss': 1.678, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 19, 'train_loss': 1.795, 'train_domain_loss': 5.565, 'train_null_loss': 1.795, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 20, 'train_loss': 1.795, 'train_domain_loss': 8.423, 'train_null_loss': 1.795, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 21, 'train_loss': 1.829, 'train_domain_loss': 8.76, 'train_null_loss': 1.829, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 22, 'train_loss': 1.816, 'train_domain_loss': 7.855, 'train_null_loss': 1.816, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 23, 'train_loss': 1.748, 'train_domain_loss': 9.186, 'train_null_loss': 1.748, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 24, 'train_loss': 1.856, 'train_domain_loss': 10.083, 'train_null_loss': 1.856, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 25, 'train_loss': 1.773, 'train_domain_loss': 8.716, 'train_null_loss': 1.773, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 26, 'train_loss': 1.805, 'train_domain_loss': 10.471, 'train_null_loss': 1.805, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 27, 'train_loss': 1.783, 'train_domain_loss': 11.329, 'train_null_loss': 1.783, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 28, 'train_loss': 1.786, 'train_domain_loss': 8.216, 'train_null_loss': 1.786, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 29, 'train_loss': 1.836, 'train_domain_loss': 11.241, 'train_null_loss': 1.836, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 30, 'train_loss': 1.818, 'train_domain_loss': 12.348, 'train_null_loss': 1.818, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 31, 'train_loss': 1.741, 'train_domain_loss': 11.113, 'train_null_loss': 1.741, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 32, 'train_loss': 1.824, 'train_domain_loss': 11.548, 'train_null_loss': 1.824, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+{'valid_loss': 10.549, 'loss_diff': 0.0, 'epoch': 0, 'batch': 0}
+{'valid_loss': 6.319, 'loss_diff': 0.0, 'epoch': 0, 'batch': 1}
+{'valid_loss': 13.328, 'loss_diff': 0.0, 'epoch': 0, 'batch': 2}
+{'valid_loss': 20.092, 'loss_diff': 0.0, 'epoch': 0, 'batch': 3}
+{'valid_loss': 7.644, 'loss_diff': 0.0, 'epoch': 0, 'batch': 4}
+{'valid_loss': 6.716, 'loss_diff': 0.0, 'epoch': 0, 'batch': 5}
+{'valid_loss': 6.333, 'loss_diff': 0.0, 'epoch': 0, 'batch': 6}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 25]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+                                                                                                                                                                
+Training model...
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 25]))
+{'epoch': 1, 'batch': 0, 'train_loss': 1.822, 'train_domain_loss': 8.542, 'train_null_loss': 1.822, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 1, 'train_loss': 1.777, 'train_domain_loss': 10.738, 'train_null_loss': 1.777, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 2, 'train_loss': 1.802, 'train_domain_loss': 11.51, 'train_null_loss': 1.802, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 3, 'train_loss': 1.784, 'train_domain_loss': 10.088, 'train_null_loss': 1.784, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 4, 'train_loss': 1.733, 'train_domain_loss': 8.666, 'train_null_loss': 1.733, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 5, 'train_loss': 1.761, 'train_domain_loss': 9.608, 'train_null_loss': 1.761, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 6, 'train_loss': 1.835, 'train_domain_loss': 8.997, 'train_null_loss': 1.835, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 7, 'train_loss': 1.827, 'train_domain_loss': 8.976, 'train_null_loss': 1.827, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 8, 'train_loss': 1.82, 'train_domain_loss': 8.987, 'train_null_loss': 1.82, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 9, 'train_loss': 1.733, 'train_domain_loss': 7.984, 'train_null_loss': 1.733, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 10, 'train_loss': 1.752, 'train_domain_loss': 10.495, 'train_null_loss': 1.752, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 11, 'train_loss': 1.796, 'train_domain_loss': 10.608, 'train_null_loss': 1.796, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 12, 'train_loss': 1.79, 'train_domain_loss': 7.902, 'train_null_loss': 1.79, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 13, 'train_loss': 1.674, 'train_domain_loss': 10.931, 'train_null_loss': 1.674, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 14, 'train_loss': 1.809, 'train_domain_loss': 12.917, 'train_null_loss': 1.809, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 15, 'train_loss': 1.711, 'train_domain_loss': 10.123, 'train_null_loss': 1.711, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 16, 'train_loss': 1.745, 'train_domain_loss': 9.987, 'train_null_loss': 1.745, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 17, 'train_loss': 1.793, 'train_domain_loss': 9.82, 'train_null_loss': 1.793, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 18, 'train_loss': 1.748, 'train_domain_loss': 8.973, 'train_null_loss': 1.748, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 19, 'train_loss': 1.76, 'train_domain_loss': 13.754, 'train_null_loss': 1.76, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 20, 'train_loss': 1.704, 'train_domain_loss': 11.325, 'train_null_loss': 1.704, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 21, 'train_loss': 1.736, 'train_domain_loss': 9.775, 'train_null_loss': 1.736, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 22, 'train_loss': 1.817, 'train_domain_loss': 14.076, 'train_null_loss': 1.817, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 23, 'train_loss': 1.779, 'train_domain_loss': 9.767, 'train_null_loss': 1.779, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 24, 'train_loss': 1.775, 'train_domain_loss': 9.587, 'train_null_loss': 1.775, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 25, 'train_loss': 1.763, 'train_domain_loss': 9.146, 'train_null_loss': 1.763, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 26, 'train_loss': 1.805, 'train_domain_loss': 12.601, 'train_null_loss': 1.805, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 27, 'train_loss': 1.853, 'train_domain_loss': 12.677, 'train_null_loss': 1.853, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 28, 'train_loss': 1.705, 'train_domain_loss': 8.701, 'train_null_loss': 1.705, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 29, 'train_loss': 1.725, 'train_domain_loss': 14.183, 'train_null_loss': 1.725, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 30, 'train_loss': 1.762, 'train_domain_loss': 9.591, 'train_null_loss': 1.762, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 31, 'train_loss': 1.789, 'train_domain_loss': 10.236, 'train_null_loss': 1.789, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 32, 'train_loss': 1.737, 'train_domain_loss': 11.428, 'train_null_loss': 1.737, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+{'valid_loss': 11.925, 'loss_diff': 0.0, 'epoch': 1, 'batch': 0}
+{'valid_loss': 9.412, 'loss_diff': 0.0, 'epoch': 1, 'batch': 1}
+{'valid_loss': 14.382, 'loss_diff': 0.0, 'epoch': 1, 'batch': 2}
+{'valid_loss': 14.295, 'loss_diff': 0.0, 'epoch': 1, 'batch': 3}
+{'valid_loss': 9.478, 'loss_diff': 0.0, 'epoch': 1, 'batch': 4}
+{'valid_loss': 7.494, 'loss_diff': 0.0, 'epoch': 1, 'batch': 5}
+{'valid_loss': 9.231, 'loss_diff': 0.0, 'epoch': 1, 'batch': 6}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 25]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+                                                                                                                                                                
+Training model...
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 25]))
+{'epoch': 2, 'batch': 0, 'train_loss': 1.749, 'train_domain_loss': 10.941, 'train_null_loss': 1.749, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 2, 'batch': 1, 'train_loss': 1.697, 'train_domain_loss': 10.289, 'train_null_loss': 1.697, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 2, 'batch': 2, 'train_loss': 1.725, 'train_domain_loss': 9.138, 'train_null_loss': 1.725, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 2, 'batch': 3, 'train_loss': 1.792, 'train_domain_loss': 12.601, 'train_null_loss': 1.792, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 2, 'batch': 4, 'train_loss': 1.643, 'train_domain_loss': 13.422, 'train_null_loss': 1.643, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 2, 'batch': 5, 'train_loss': 1.697, 'train_domain_loss': 11.316, 'train_null_loss': 1.697, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 2, 'batch': 6, 'train_loss': 1.748, 'train_domain_loss': 9.243, 'train_null_loss': 1.748, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 2, 'batch': 7, 'train_loss': 1.732, 'train_domain_loss': 12.928, 'train_null_loss': 1.732, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 2, 'batch': 8, 'train_loss': 1.753, 'train_domain_loss': 7.751, 'train_null_loss': 1.753, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 2, 'batch': 9, 'train_loss': 1.732, 'train_domain_loss': 12.945, 'train_null_loss': 1.732, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 2, 'batch': 10, 'train_loss': 1.711, 'train_domain_loss': 12.985, 'train_null_loss': 1.711, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 2, 'batch': 11, 'train_loss': 1.738, 'train_domain_loss': 10.306, 'train_null_loss': 1.738, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 2, 'batch': 12, 'train_loss': 1.751, 'train_domain_loss': 10.617, 'train_null_loss': 1.751, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 2, 'batch': 13, 'train_loss': 1.803, 'train_domain_loss': 12.735, 'train_null_loss': 1.803, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 2, 'batch': 14, 'train_loss': 1.766, 'train_domain_loss': 13.064, 'train_null_loss': 1.766, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 2, 'batch': 15, 'train_loss': 1.759, 'train_domain_loss': 11.77, 'train_null_loss': 1.759, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 2, 'batch': 16, 'train_loss': 1.697, 'train_domain_loss': 16.85, 'train_null_loss': 1.697, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 2, 'batch': 17, 'train_loss': 1.694, 'train_domain_loss': 13.586, 'train_null_loss': 1.694, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 2, 'batch': 18, 'train_loss': 1.791, 'train_domain_loss': 12.744, 'train_null_loss': 1.791, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 2, 'batch': 19, 'train_loss': 1.752, 'train_domain_loss': 10.406, 'train_null_loss': 1.752, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 2, 'batch': 20, 'train_loss': 1.745, 'train_domain_loss': 11.155, 'train_null_loss': 1.745, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 2, 'batch': 21, 'train_loss': 1.768, 'train_domain_loss': 8.813, 'train_null_loss': 1.768, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 2, 'batch': 22, 'train_loss': 1.73, 'train_domain_loss': 9.671, 'train_null_loss': 1.73, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 2, 'batch': 23, 'train_loss': 1.74, 'train_domain_loss': 14.418, 'train_null_loss': 1.74, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 2, 'batch': 24, 'train_loss': 1.709, 'train_domain_loss': 13.357, 'train_null_loss': 1.709, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 2, 'batch': 25, 'train_loss': 1.746, 'train_domain_loss': 17.573, 'train_null_loss': 1.746, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 2, 'batch': 26, 'train_loss': 1.77, 'train_domain_loss': 9.708, 'train_null_loss': 1.77, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 2, 'batch': 27, 'train_loss': 1.73, 'train_domain_loss': 15.936, 'train_null_loss': 1.73, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 2, 'batch': 28, 'train_loss': 1.714, 'train_domain_loss': 15.473, 'train_null_loss': 1.714, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 2, 'batch': 29, 'train_loss': 1.754, 'train_domain_loss': 11.143, 'train_null_loss': 1.754, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 2, 'batch': 30, 'train_loss': 1.669, 'train_domain_loss': 15.84, 'train_null_loss': 1.669, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 2, 'batch': 31, 'train_loss': 1.663, 'train_domain_loss': 14.92, 'train_null_loss': 1.663, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 2, 'batch': 32, 'train_loss': 1.741, 'train_domain_loss': 17.58, 'train_null_loss': 1.741, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+{'valid_loss': 12.443, 'loss_diff': 0.0, 'epoch': 2, 'batch': 0}
+{'valid_loss': 9.741, 'loss_diff': 0.0, 'epoch': 2, 'batch': 1}
+{'valid_loss': 12.248, 'loss_diff': 0.0, 'epoch': 2, 'batch': 2}
+{'valid_loss': 15.796, 'loss_diff': 0.0, 'epoch': 2, 'batch': 3}
+{'valid_loss': 7.506, 'loss_diff': 0.0, 'epoch': 2, 'batch': 4}
+{'valid_loss': 8.579, 'loss_diff': 0.0, 'epoch': 2, 'batch': 5}
+{'valid_loss': 10.067, 'loss_diff': 0.0, 'epoch': 2, 'batch': 6}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 25]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+                                                                                                                                                                
+Training model...
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 25]))
+{'epoch': 3, 'batch': 0, 'train_loss': 1.637, 'train_domain_loss': 18.431, 'train_null_loss': 1.637, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 3, 'batch': 1, 'train_loss': 1.671, 'train_domain_loss': 14.673, 'train_null_loss': 1.671, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 3, 'batch': 2, 'train_loss': 1.691, 'train_domain_loss': 13.494, 'train_null_loss': 1.691, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 3, 'batch': 3, 'train_loss': 1.674, 'train_domain_loss': 9.637, 'train_null_loss': 1.674, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 3, 'batch': 4, 'train_loss': 1.763, 'train_domain_loss': 17.727, 'train_null_loss': 1.763, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 3, 'batch': 5, 'train_loss': 1.808, 'train_domain_loss': 11.648, 'train_null_loss': 1.808, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 3, 'batch': 6, 'train_loss': 1.743, 'train_domain_loss': 8.735, 'train_null_loss': 1.743, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 3, 'batch': 7, 'train_loss': 1.626, 'train_domain_loss': 12.564, 'train_null_loss': 1.626, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 3, 'batch': 8, 'train_loss': 1.795, 'train_domain_loss': 12.988, 'train_null_loss': 1.795, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 3, 'batch': 9, 'train_loss': 1.746, 'train_domain_loss': 16.739, 'train_null_loss': 1.746, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 3, 'batch': 10, 'train_loss': 1.743, 'train_domain_loss': 7.321, 'train_null_loss': 1.743, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 3, 'batch': 11, 'train_loss': 1.657, 'train_domain_loss': 10.169, 'train_null_loss': 1.657, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 3, 'batch': 12, 'train_loss': 1.754, 'train_domain_loss': 9.207, 'train_null_loss': 1.754, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 3, 'batch': 13, 'train_loss': 1.682, 'train_domain_loss': 12.72, 'train_null_loss': 1.682, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 3, 'batch': 14, 'train_loss': 1.686, 'train_domain_loss': 11.498, 'train_null_loss': 1.686, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 3, 'batch': 15, 'train_loss': 1.671, 'train_domain_loss': 12.784, 'train_null_loss': 1.671, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 3, 'batch': 16, 'train_loss': 1.717, 'train_domain_loss': 10.71, 'train_null_loss': 1.717, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 3, 'batch': 17, 'train_loss': 1.711, 'train_domain_loss': 13.091, 'train_null_loss': 1.711, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 3, 'batch': 18, 'train_loss': 1.701, 'train_domain_loss': 12.192, 'train_null_loss': 1.701, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 3, 'batch': 19, 'train_loss': 1.723, 'train_domain_loss': 12.748, 'train_null_loss': 1.723, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 3, 'batch': 20, 'train_loss': 1.735, 'train_domain_loss': 11.384, 'train_null_loss': 1.735, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 3, 'batch': 21, 'train_loss': 1.696, 'train_domain_loss': 8.391, 'train_null_loss': 1.696, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 3, 'batch': 22, 'train_loss': 1.682, 'train_domain_loss': 15.215, 'train_null_loss': 1.682, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 3, 'batch': 23, 'train_loss': 1.715, 'train_domain_loss': 12.773, 'train_null_loss': 1.715, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 3, 'batch': 24, 'train_loss': 1.713, 'train_domain_loss': 9.961, 'train_null_loss': 1.713, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 3, 'batch': 25, 'train_loss': 1.779, 'train_domain_loss': 12.146, 'train_null_loss': 1.779, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 3, 'batch': 26, 'train_loss': 1.693, 'train_domain_loss': 8.78, 'train_null_loss': 1.693, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 3, 'batch': 27, 'train_loss': 1.685, 'train_domain_loss': 12.63, 'train_null_loss': 1.685, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 3, 'batch': 28, 'train_loss': 1.723, 'train_domain_loss': 9.916, 'train_null_loss': 1.723, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 3, 'batch': 29, 'train_loss': 1.719, 'train_domain_loss': 7.012, 'train_null_loss': 1.719, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 3, 'batch': 30, 'train_loss': 1.725, 'train_domain_loss': 13.021, 'train_null_loss': 1.725, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 3, 'batch': 31, 'train_loss': 1.799, 'train_domain_loss': 8.823, 'train_null_loss': 1.799, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 3, 'batch': 32, 'train_loss': 1.777, 'train_domain_loss': 11.966, 'train_null_loss': 1.777, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+{'valid_loss': 14.648, 'loss_diff': 0.0, 'epoch': 3, 'batch': 0}
+{'valid_loss': 12.856, 'loss_diff': 0.0, 'epoch': 3, 'batch': 1}
+{'valid_loss': 13.025, 'loss_diff': 0.0, 'epoch': 3, 'batch': 2}
+{'valid_loss': 19.704, 'loss_diff': 0.0, 'epoch': 3, 'batch': 3}
+{'valid_loss': 8.063, 'loss_diff': 0.0, 'epoch': 3, 'batch': 4}
+{'valid_loss': 11.291, 'loss_diff': 0.0, 'epoch': 3, 'batch': 5}
+{'valid_loss': 12.872, 'loss_diff': 0.0, 'epoch': 3, 'batch': 6}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 25]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+                                                                                                                                                                
+Training model...
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 25]))
+{'epoch': 4, 'batch': 0, 'train_loss': 1.851, 'train_domain_loss': 15.643, 'train_null_loss': 1.851, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 4, 'batch': 1, 'train_loss': 1.66, 'train_domain_loss': 14.234, 'train_null_loss': 1.66, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 4, 'batch': 2, 'train_loss': 1.716, 'train_domain_loss': 10.699, 'train_null_loss': 1.716, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 4, 'batch': 3, 'train_loss': 1.773, 'train_domain_loss': 13.089, 'train_null_loss': 1.773, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 4, 'batch': 4, 'train_loss': 1.711, 'train_domain_loss': 12.566, 'train_null_loss': 1.711, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 4, 'batch': 5, 'train_loss': 1.698, 'train_domain_loss': 14.625, 'train_null_loss': 1.698, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 4, 'batch': 6, 'train_loss': 1.749, 'train_domain_loss': 9.365, 'train_null_loss': 1.749, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 4, 'batch': 7, 'train_loss': 1.734, 'train_domain_loss': 11.365, 'train_null_loss': 1.734, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 4, 'batch': 8, 'train_loss': 1.66, 'train_domain_loss': 11.323, 'train_null_loss': 1.66, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 4, 'batch': 9, 'train_loss': 1.686, 'train_domain_loss': 13.055, 'train_null_loss': 1.686, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 4, 'batch': 10, 'train_loss': 1.668, 'train_domain_loss': 14.74, 'train_null_loss': 1.668, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 4, 'batch': 11, 'train_loss': 1.737, 'train_domain_loss': 14.758, 'train_null_loss': 1.737, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 4, 'batch': 12, 'train_loss': 1.651, 'train_domain_loss': 14.182, 'train_null_loss': 1.651, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 4, 'batch': 13, 'train_loss': 1.77, 'train_domain_loss': 14.03, 'train_null_loss': 1.77, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 4, 'batch': 14, 'train_loss': 1.69, 'train_domain_loss': 12.712, 'train_null_loss': 1.69, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 4, 'batch': 15, 'train_loss': 1.703, 'train_domain_loss': 15.366, 'train_null_loss': 1.703, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 4, 'batch': 16, 'train_loss': 1.77, 'train_domain_loss': 13.939, 'train_null_loss': 1.77, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 4, 'batch': 17, 'train_loss': 1.746, 'train_domain_loss': 14.455, 'train_null_loss': 1.746, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 4, 'batch': 18, 'train_loss': 1.76, 'train_domain_loss': 14.207, 'train_null_loss': 1.76, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 4, 'batch': 19, 'train_loss': 1.664, 'train_domain_loss': 15.631, 'train_null_loss': 1.664, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 4, 'batch': 20, 'train_loss': 1.794, 'train_domain_loss': 11.217, 'train_null_loss': 1.794, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 4, 'batch': 21, 'train_loss': 1.603, 'train_domain_loss': 13.118, 'train_null_loss': 1.603, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 4, 'batch': 22, 'train_loss': 1.725, 'train_domain_loss': 10.066, 'train_null_loss': 1.725, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 4, 'batch': 23, 'train_loss': 1.786, 'train_domain_loss': 13.038, 'train_null_loss': 1.786, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 4, 'batch': 24, 'train_loss': 1.772, 'train_domain_loss': 15.094, 'train_null_loss': 1.772, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 4, 'batch': 25, 'train_loss': 1.715, 'train_domain_loss': 12.093, 'train_null_loss': 1.715, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 4, 'batch': 26, 'train_loss': 1.762, 'train_domain_loss': 12.019, 'train_null_loss': 1.762, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 4, 'batch': 27, 'train_loss': 1.715, 'train_domain_loss': 13.672, 'train_null_loss': 1.715, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 4, 'batch': 28, 'train_loss': 1.709, 'train_domain_loss': 13.718, 'train_null_loss': 1.709, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 4, 'batch': 29, 'train_loss': 1.685, 'train_domain_loss': 15.374, 'train_null_loss': 1.685, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 4, 'batch': 30, 'train_loss': 1.788, 'train_domain_loss': 12.519, 'train_null_loss': 1.788, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 4, 'batch': 31, 'train_loss': 1.839, 'train_domain_loss': 10.183, 'train_null_loss': 1.839, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 4, 'batch': 32, 'train_loss': 1.702, 'train_domain_loss': 10.346, 'train_null_loss': 1.702, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+{'valid_loss': 8.398, 'loss_diff': 0.0, 'epoch': 4, 'batch': 0}
+{'valid_loss': 9.155, 'loss_diff': 0.0, 'epoch': 4, 'batch': 1}
+{'valid_loss': 8.63, 'loss_diff': 0.0, 'epoch': 4, 'batch': 2}
+{'valid_loss': 10.099, 'loss_diff': 0.0, 'epoch': 4, 'batch': 3}
+{'valid_loss': 8.367, 'loss_diff': 0.0, 'epoch': 4, 'batch': 4}
+{'valid_loss': 9.317, 'loss_diff': 0.0, 'epoch': 4, 'batch': 5}
+{'valid_loss': 11.572, 'loss_diff': 0.0, 'epoch': 4, 'batch': 6}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 25]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+                                                                                                                                                                
+Training model...
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 25]))
+{'epoch': 5, 'batch': 0, 'train_loss': 1.616, 'train_domain_loss': 13.153, 'train_null_loss': 1.616, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 5, 'batch': 1, 'train_loss': 1.822, 'train_domain_loss': 9.61, 'train_null_loss': 1.822, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 5, 'batch': 2, 'train_loss': 1.789, 'train_domain_loss': 9.47, 'train_null_loss': 1.789, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 5, 'batch': 3, 'train_loss': 1.739, 'train_domain_loss': 11.163, 'train_null_loss': 1.739, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 5, 'batch': 4, 'train_loss': 1.78, 'train_domain_loss': 8.512, 'train_null_loss': 1.78, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 5, 'batch': 5, 'train_loss': 1.739, 'train_domain_loss': 12.519, 'train_null_loss': 1.739, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 5, 'batch': 6, 'train_loss': 1.737, 'train_domain_loss': 12.426, 'train_null_loss': 1.737, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 5, 'batch': 7, 'train_loss': 1.777, 'train_domain_loss': 10.498, 'train_null_loss': 1.777, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 5, 'batch': 8, 'train_loss': 1.71, 'train_domain_loss': 14.56, 'train_null_loss': 1.71, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 5, 'batch': 9, 'train_loss': 1.799, 'train_domain_loss': 13.867, 'train_null_loss': 1.799, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 5, 'batch': 10, 'train_loss': 1.819, 'train_domain_loss': 12.333, 'train_null_loss': 1.819, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 5, 'batch': 11, 'train_loss': 1.709, 'train_domain_loss': 12.681, 'train_null_loss': 1.709, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 5, 'batch': 12, 'train_loss': 1.722, 'train_domain_loss': 12.521, 'train_null_loss': 1.722, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 5, 'batch': 13, 'train_loss': 1.746, 'train_domain_loss': 11.932, 'train_null_loss': 1.746, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 5, 'batch': 14, 'train_loss': 1.653, 'train_domain_loss': 12.917, 'train_null_loss': 1.653, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 5, 'batch': 15, 'train_loss': 1.733, 'train_domain_loss': 12.924, 'train_null_loss': 1.733, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 5, 'batch': 16, 'train_loss': 1.709, 'train_domain_loss': 11.104, 'train_null_loss': 1.709, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 5, 'batch': 17, 'train_loss': 1.68, 'train_domain_loss': 8.476, 'train_null_loss': 1.68, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 5, 'batch': 18, 'train_loss': 1.66, 'train_domain_loss': 11.283, 'train_null_loss': 1.66, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 5, 'batch': 19, 'train_loss': 1.728, 'train_domain_loss': 14.492, 'train_null_loss': 1.728, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 5, 'batch': 20, 'train_loss': 1.75, 'train_domain_loss': 11.329, 'train_null_loss': 1.75, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 5, 'batch': 21, 'train_loss': 1.694, 'train_domain_loss': 12.134, 'train_null_loss': 1.694, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 5, 'batch': 22, 'train_loss': 1.741, 'train_domain_loss': 12.174, 'train_null_loss': 1.741, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 5, 'batch': 23, 'train_loss': 1.67, 'train_domain_loss': 13.577, 'train_null_loss': 1.67, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 5, 'batch': 24, 'train_loss': 1.689, 'train_domain_loss': 9.704, 'train_null_loss': 1.689, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 5, 'batch': 25, 'train_loss': 1.622, 'train_domain_loss': 10.26, 'train_null_loss': 1.622, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 5, 'batch': 26, 'train_loss': 1.71, 'train_domain_loss': 12.043, 'train_null_loss': 1.71, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 5, 'batch': 27, 'train_loss': 1.736, 'train_domain_loss': 12.778, 'train_null_loss': 1.736, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 5, 'batch': 28, 'train_loss': 1.674, 'train_domain_loss': 10.837, 'train_null_loss': 1.674, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 5, 'batch': 29, 'train_loss': 1.586, 'train_domain_loss': 12.463, 'train_null_loss': 1.586, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 5, 'batch': 30, 'train_loss': 1.716, 'train_domain_loss': 10.906, 'train_null_loss': 1.716, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 5, 'batch': 31, 'train_loss': 1.674, 'train_domain_loss': 11.278, 'train_null_loss': 1.674, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 5, 'batch': 32, 'train_loss': 1.693, 'train_domain_loss': 10.667, 'train_null_loss': 1.693, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+{'valid_loss': 6.452, 'loss_diff': 0.0, 'epoch': 5, 'batch': 0}
+{'valid_loss': 9.899, 'loss_diff': 0.0, 'epoch': 5, 'batch': 1}
+{'valid_loss': 9.088, 'loss_diff': 0.0, 'epoch': 5, 'batch': 2}
+{'valid_loss': 9.335, 'loss_diff': 0.0, 'epoch': 5, 'batch': 3}
+{'valid_loss': 8.81, 'loss_diff': 0.0, 'epoch': 5, 'batch': 4}
+{'valid_loss': 12.86, 'loss_diff': 0.0, 'epoch': 5, 'batch': 5}
+{'valid_loss': 12.428, 'loss_diff': 0.0, 'epoch': 5, 'batch': 6}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 25]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+                                                                                                                                                                
+Training model...
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 25]))
+{'epoch': 6, 'batch': 0, 'train_loss': 1.821, 'train_domain_loss': 10.992, 'train_null_loss': 1.821, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 6, 'batch': 1, 'train_loss': 1.584, 'train_domain_loss': 12.769, 'train_null_loss': 1.584, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 6, 'batch': 2, 'train_loss': 1.636, 'train_domain_loss': 12.639, 'train_null_loss': 1.636, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 6, 'batch': 3, 'train_loss': 1.651, 'train_domain_loss': 13.556, 'train_null_loss': 1.651, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 6, 'batch': 4, 'train_loss': 1.688, 'train_domain_loss': 10.664, 'train_null_loss': 1.688, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 6, 'batch': 5, 'train_loss': 1.736, 'train_domain_loss': 12.944, 'train_null_loss': 1.736, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 6, 'batch': 6, 'train_loss': 1.643, 'train_domain_loss': 10.248, 'train_null_loss': 1.643, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 6, 'batch': 7, 'train_loss': 1.654, 'train_domain_loss': 9.334, 'train_null_loss': 1.654, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 6, 'batch': 8, 'train_loss': 1.674, 'train_domain_loss': 10.851, 'train_null_loss': 1.674, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 6, 'batch': 9, 'train_loss': 1.727, 'train_domain_loss': 10.318, 'train_null_loss': 1.727, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 6, 'batch': 10, 'train_loss': 1.718, 'train_domain_loss': 14.818, 'train_null_loss': 1.718, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 6, 'batch': 11, 'train_loss': 1.631, 'train_domain_loss': 11.177, 'train_null_loss': 1.631, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 6, 'batch': 12, 'train_loss': 1.715, 'train_domain_loss': 11.149, 'train_null_loss': 1.715, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 6, 'batch': 13, 'train_loss': 1.597, 'train_domain_loss': 12.092, 'train_null_loss': 1.597, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 6, 'batch': 14, 'train_loss': 1.699, 'train_domain_loss': 10.627, 'train_null_loss': 1.699, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 6, 'batch': 15, 'train_loss': 1.766, 'train_domain_loss': 9.459, 'train_null_loss': 1.766, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 6, 'batch': 16, 'train_loss': 1.743, 'train_domain_loss': 13.303, 'train_null_loss': 1.743, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 6, 'batch': 17, 'train_loss': 1.72, 'train_domain_loss': 8.789, 'train_null_loss': 1.72, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 6, 'batch': 18, 'train_loss': 1.598, 'train_domain_loss': 11.831, 'train_null_loss': 1.598, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 6, 'batch': 19, 'train_loss': 1.655, 'train_domain_loss': 9.262, 'train_null_loss': 1.655, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 6, 'batch': 20, 'train_loss': 1.642, 'train_domain_loss': 9.44, 'train_null_loss': 1.642, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 6, 'batch': 21, 'train_loss': 1.637, 'train_domain_loss': 13.254, 'train_null_loss': 1.637, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 6, 'batch': 22, 'train_loss': 1.729, 'train_domain_loss': 9.704, 'train_null_loss': 1.729, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 6, 'batch': 23, 'train_loss': 1.711, 'train_domain_loss': 12.741, 'train_null_loss': 1.711, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 6, 'batch': 24, 'train_loss': 1.759, 'train_domain_loss': 9.287, 'train_null_loss': 1.759, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 6, 'batch': 25, 'train_loss': 1.626, 'train_domain_loss': 14.3, 'train_null_loss': 1.626, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 6, 'batch': 26, 'train_loss': 1.75, 'train_domain_loss': 10.05, 'train_null_loss': 1.75, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 6, 'batch': 27, 'train_loss': 1.722, 'train_domain_loss': 12.026, 'train_null_loss': 1.722, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 6, 'batch': 28, 'train_loss': 1.8, 'train_domain_loss': 11.321, 'train_null_loss': 1.8, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 6, 'batch': 29, 'train_loss': 1.674, 'train_domain_loss': 9.789, 'train_null_loss': 1.674, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 6, 'batch': 30, 'train_loss': 1.721, 'train_domain_loss': 11.669, 'train_null_loss': 1.721, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 6, 'batch': 31, 'train_loss': 1.692, 'train_domain_loss': 13.521, 'train_null_loss': 1.692, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 6, 'batch': 32, 'train_loss': 1.763, 'train_domain_loss': 15.289, 'train_null_loss': 1.763, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+{'valid_loss': 7.901, 'loss_diff': 0.0, 'epoch': 6, 'batch': 0}
+{'valid_loss': 6.177, 'loss_diff': 0.0, 'epoch': 6, 'batch': 1}
+{'valid_loss': 11.263, 'loss_diff': 0.0, 'epoch': 6, 'batch': 2}
+{'valid_loss': 12.369, 'loss_diff': 0.0, 'epoch': 6, 'batch': 3}
+{'valid_loss': 7.882, 'loss_diff': 0.0, 'epoch': 6, 'batch': 4}
+{'valid_loss': 8.438, 'loss_diff': 0.0, 'epoch': 6, 'batch': 5}
+{'valid_loss': 7.783, 'loss_diff': 0.0, 'epoch': 6, 'batch': 6}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 25]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+                                                                                                                                                                
+Training model...
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 25]))
+{'epoch': 7, 'batch': 0, 'train_loss': 1.648, 'train_domain_loss': 13.414, 'train_null_loss': 1.648, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 7, 'batch': 1, 'train_loss': 1.788, 'train_domain_loss': 12.0, 'train_null_loss': 1.788, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 7, 'batch': 2, 'train_loss': 1.753, 'train_domain_loss': 14.275, 'train_null_loss': 1.753, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 7, 'batch': 3, 'train_loss': 1.678, 'train_domain_loss': 8.234, 'train_null_loss': 1.678, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 7, 'batch': 4, 'train_loss': 1.644, 'train_domain_loss': 14.382, 'train_null_loss': 1.644, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 7, 'batch': 5, 'train_loss': 1.644, 'train_domain_loss': 13.09, 'train_null_loss': 1.644, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 7, 'batch': 6, 'train_loss': 1.611, 'train_domain_loss': 11.46, 'train_null_loss': 1.611, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 7, 'batch': 7, 'train_loss': 1.683, 'train_domain_loss': 11.089, 'train_null_loss': 1.683, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 7, 'batch': 8, 'train_loss': 1.769, 'train_domain_loss': 12.359, 'train_null_loss': 1.769, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 7, 'batch': 9, 'train_loss': 1.692, 'train_domain_loss': 14.093, 'train_null_loss': 1.692, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 7, 'batch': 10, 'train_loss': 1.717, 'train_domain_loss': 10.294, 'train_null_loss': 1.717, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 7, 'batch': 11, 'train_loss': 1.68, 'train_domain_loss': 10.319, 'train_null_loss': 1.68, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 7, 'batch': 12, 'train_loss': 1.712, 'train_domain_loss': 10.07, 'train_null_loss': 1.712, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 7, 'batch': 13, 'train_loss': 1.697, 'train_domain_loss': 8.536, 'train_null_loss': 1.697, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 7, 'batch': 14, 'train_loss': 1.639, 'train_domain_loss': 15.545, 'train_null_loss': 1.639, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 7, 'batch': 15, 'train_loss': 1.625, 'train_domain_loss': 10.677, 'train_null_loss': 1.625, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 7, 'batch': 16, 'train_loss': 1.71, 'train_domain_loss': 11.887, 'train_null_loss': 1.71, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 7, 'batch': 17, 'train_loss': 1.762, 'train_domain_loss': 14.098, 'train_null_loss': 1.762, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 7, 'batch': 18, 'train_loss': 1.758, 'train_domain_loss': 11.662, 'train_null_loss': 1.758, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 7, 'batch': 19, 'train_loss': 1.696, 'train_domain_loss': 12.14, 'train_null_loss': 1.696, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 7, 'batch': 20, 'train_loss': 1.606, 'train_domain_loss': 12.586, 'train_null_loss': 1.606, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 7, 'batch': 21, 'train_loss': 1.708, 'train_domain_loss': 12.738, 'train_null_loss': 1.708, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 7, 'batch': 22, 'train_loss': 1.743, 'train_domain_loss': 11.902, 'train_null_loss': 1.743, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 7, 'batch': 23, 'train_loss': 1.714, 'train_domain_loss': 7.971, 'train_null_loss': 1.714, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 7, 'batch': 24, 'train_loss': 1.742, 'train_domain_loss': 14.297, 'train_null_loss': 1.742, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 7, 'batch': 25, 'train_loss': 1.736, 'train_domain_loss': 14.198, 'train_null_loss': 1.736, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 7, 'batch': 26, 'train_loss': 1.708, 'train_domain_loss': 11.071, 'train_null_loss': 1.708, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 7, 'batch': 27, 'train_loss': 1.723, 'train_domain_loss': 9.342, 'train_null_loss': 1.723, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 7, 'batch': 28, 'train_loss': 1.737, 'train_domain_loss': 9.457, 'train_null_loss': 1.737, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 7, 'batch': 29, 'train_loss': 1.568, 'train_domain_loss': 8.919, 'train_null_loss': 1.568, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 7, 'batch': 30, 'train_loss': 1.711, 'train_domain_loss': 9.552, 'train_null_loss': 1.711, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 7, 'batch': 31, 'train_loss': 1.562, 'train_domain_loss': 13.944, 'train_null_loss': 1.562, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 7, 'batch': 32, 'train_loss': 1.817, 'train_domain_loss': 10.22, 'train_null_loss': 1.817, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+{'valid_loss': 6.321, 'loss_diff': 0.0, 'epoch': 7, 'batch': 0}
+{'valid_loss': 9.36, 'loss_diff': 0.0, 'epoch': 7, 'batch': 1}
+{'valid_loss': 8.532, 'loss_diff': 0.0, 'epoch': 7, 'batch': 2}
+{'valid_loss': 11.787, 'loss_diff': 0.0, 'epoch': 7, 'batch': 3}
+{'valid_loss': 6.936, 'loss_diff': 0.0, 'epoch': 7, 'batch': 4}
+{'valid_loss': 6.024, 'loss_diff': 0.0, 'epoch': 7, 'batch': 5}
+{'valid_loss': 7.619, 'loss_diff': 0.0, 'epoch': 7, 'batch': 6}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 25]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+                                                                                                                                                                
+Training model...
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 25]))
+{'epoch': 8, 'batch': 0, 'train_loss': 1.779, 'train_domain_loss': 10.564, 'train_null_loss': 1.779, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 8, 'batch': 1, 'train_loss': 1.585, 'train_domain_loss': 10.773, 'train_null_loss': 1.585, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 8, 'batch': 2, 'train_loss': 1.685, 'train_domain_loss': 12.537, 'train_null_loss': 1.685, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 8, 'batch': 3, 'train_loss': 1.555, 'train_domain_loss': 12.851, 'train_null_loss': 1.555, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 8, 'batch': 4, 'train_loss': 1.633, 'train_domain_loss': 10.14, 'train_null_loss': 1.633, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 8, 'batch': 5, 'train_loss': 1.704, 'train_domain_loss': 11.633, 'train_null_loss': 1.704, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 8, 'batch': 6, 'train_loss': 1.704, 'train_domain_loss': 8.927, 'train_null_loss': 1.704, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 8, 'batch': 7, 'train_loss': 1.682, 'train_domain_loss': 10.973, 'train_null_loss': 1.682, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 8, 'batch': 8, 'train_loss': 1.676, 'train_domain_loss': 10.556, 'train_null_loss': 1.676, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 8, 'batch': 9, 'train_loss': 1.703, 'train_domain_loss': 11.366, 'train_null_loss': 1.703, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 8, 'batch': 10, 'train_loss': 1.681, 'train_domain_loss': 12.075, 'train_null_loss': 1.681, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 8, 'batch': 11, 'train_loss': 1.663, 'train_domain_loss': 10.963, 'train_null_loss': 1.663, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 8, 'batch': 12, 'train_loss': 1.704, 'train_domain_loss': 10.31, 'train_null_loss': 1.704, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 8, 'batch': 13, 'train_loss': 1.68, 'train_domain_loss': 11.238, 'train_null_loss': 1.68, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 8, 'batch': 14, 'train_loss': 1.624, 'train_domain_loss': 9.582, 'train_null_loss': 1.624, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 8, 'batch': 15, 'train_loss': 1.731, 'train_domain_loss': 10.233, 'train_null_loss': 1.731, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 8, 'batch': 16, 'train_loss': 1.641, 'train_domain_loss': 9.675, 'train_null_loss': 1.641, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 8, 'batch': 17, 'train_loss': 1.687, 'train_domain_loss': 12.409, 'train_null_loss': 1.687, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 8, 'batch': 18, 'train_loss': 1.683, 'train_domain_loss': 11.293, 'train_null_loss': 1.683, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 8, 'batch': 19, 'train_loss': 1.675, 'train_domain_loss': 14.187, 'train_null_loss': 1.675, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 8, 'batch': 20, 'train_loss': 1.631, 'train_domain_loss': 13.14, 'train_null_loss': 1.631, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 8, 'batch': 21, 'train_loss': 1.686, 'train_domain_loss': 11.293, 'train_null_loss': 1.686, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 8, 'batch': 22, 'train_loss': 1.696, 'train_domain_loss': 12.282, 'train_null_loss': 1.696, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 8, 'batch': 23, 'train_loss': 1.642, 'train_domain_loss': 12.835, 'train_null_loss': 1.642, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 8, 'batch': 24, 'train_loss': 1.674, 'train_domain_loss': 10.946, 'train_null_loss': 1.674, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 8, 'batch': 25, 'train_loss': 1.718, 'train_domain_loss': 11.288, 'train_null_loss': 1.718, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 8, 'batch': 26, 'train_loss': 1.754, 'train_domain_loss': 10.756, 'train_null_loss': 1.754, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 8, 'batch': 27, 'train_loss': 1.713, 'train_domain_loss': 11.347, 'train_null_loss': 1.713, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 8, 'batch': 28, 'train_loss': 1.788, 'train_domain_loss': 12.057, 'train_null_loss': 1.788, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 8, 'batch': 29, 'train_loss': 1.727, 'train_domain_loss': 9.89, 'train_null_loss': 1.727, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 8, 'batch': 30, 'train_loss': 1.758, 'train_domain_loss': 12.454, 'train_null_loss': 1.758, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 8, 'batch': 31, 'train_loss': 1.772, 'train_domain_loss': 12.866, 'train_null_loss': 1.772, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 8, 'batch': 32, 'train_loss': 1.549, 'train_domain_loss': 12.914, 'train_null_loss': 1.549, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+{'valid_loss': 7.92, 'loss_diff': 0.0, 'epoch': 8, 'batch': 0}
+{'valid_loss': 11.273, 'loss_diff': 0.0, 'epoch': 8, 'batch': 1}
+{'valid_loss': 10.621, 'loss_diff': 0.0, 'epoch': 8, 'batch': 2}
+{'valid_loss': 12.277, 'loss_diff': 0.0, 'epoch': 8, 'batch': 3}
+{'valid_loss': 5.082, 'loss_diff': 0.0, 'epoch': 8, 'batch': 4}
+{'valid_loss': 4.34, 'loss_diff': 0.0, 'epoch': 8, 'batch': 5}
+{'valid_loss': 6.982, 'loss_diff': 0.0, 'epoch': 8, 'batch': 6}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 25]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+                                                                                                                                                                
+Training model...
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 25]))
+{'epoch': 9, 'batch': 0, 'train_loss': 1.658, 'train_domain_loss': 13.356, 'train_null_loss': 1.658, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 9, 'batch': 1, 'train_loss': 1.654, 'train_domain_loss': 11.185, 'train_null_loss': 1.654, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 9, 'batch': 2, 'train_loss': 1.707, 'train_domain_loss': 13.973, 'train_null_loss': 1.707, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 9, 'batch': 3, 'train_loss': 1.613, 'train_domain_loss': 14.013, 'train_null_loss': 1.613, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 9, 'batch': 4, 'train_loss': 1.553, 'train_domain_loss': 13.91, 'train_null_loss': 1.553, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 9, 'batch': 5, 'train_loss': 1.743, 'train_domain_loss': 13.759, 'train_null_loss': 1.743, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 9, 'batch': 6, 'train_loss': 1.682, 'train_domain_loss': 10.267, 'train_null_loss': 1.682, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 9, 'batch': 7, 'train_loss': 1.785, 'train_domain_loss': 8.742, 'train_null_loss': 1.785, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 9, 'batch': 8, 'train_loss': 1.544, 'train_domain_loss': 9.676, 'train_null_loss': 1.544, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 9, 'batch': 9, 'train_loss': 1.654, 'train_domain_loss': 14.798, 'train_null_loss': 1.654, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 9, 'batch': 10, 'train_loss': 1.651, 'train_domain_loss': 11.828, 'train_null_loss': 1.651, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 9, 'batch': 11, 'train_loss': 1.634, 'train_domain_loss': 10.262, 'train_null_loss': 1.634, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 9, 'batch': 12, 'train_loss': 1.651, 'train_domain_loss': 11.613, 'train_null_loss': 1.651, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 9, 'batch': 13, 'train_loss': 1.715, 'train_domain_loss': 11.347, 'train_null_loss': 1.715, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 9, 'batch': 14, 'train_loss': 1.619, 'train_domain_loss': 10.889, 'train_null_loss': 1.619, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 9, 'batch': 15, 'train_loss': 1.694, 'train_domain_loss': 15.158, 'train_null_loss': 1.694, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 9, 'batch': 16, 'train_loss': 1.792, 'train_domain_loss': 12.023, 'train_null_loss': 1.792, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 9, 'batch': 17, 'train_loss': 1.731, 'train_domain_loss': 13.406, 'train_null_loss': 1.731, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 9, 'batch': 18, 'train_loss': 1.723, 'train_domain_loss': 10.797, 'train_null_loss': 1.723, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 9, 'batch': 19, 'train_loss': 1.656, 'train_domain_loss': 10.527, 'train_null_loss': 1.656, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 9, 'batch': 20, 'train_loss': 1.747, 'train_domain_loss': 7.002, 'train_null_loss': 1.747, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 9, 'batch': 21, 'train_loss': 1.623, 'train_domain_loss': 10.804, 'train_null_loss': 1.623, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 9, 'batch': 22, 'train_loss': 1.73, 'train_domain_loss': 8.809, 'train_null_loss': 1.73, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 9, 'batch': 23, 'train_loss': 1.703, 'train_domain_loss': 11.866, 'train_null_loss': 1.703, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 9, 'batch': 24, 'train_loss': 1.741, 'train_domain_loss': 13.229, 'train_null_loss': 1.741, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 9, 'batch': 25, 'train_loss': 1.708, 'train_domain_loss': 15.25, 'train_null_loss': 1.708, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 9, 'batch': 26, 'train_loss': 1.667, 'train_domain_loss': 13.772, 'train_null_loss': 1.667, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 9, 'batch': 27, 'train_loss': 1.769, 'train_domain_loss': 9.776, 'train_null_loss': 1.769, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 9, 'batch': 28, 'train_loss': 1.658, 'train_domain_loss': 16.826, 'train_null_loss': 1.658, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 9, 'batch': 29, 'train_loss': 1.693, 'train_domain_loss': 13.598, 'train_null_loss': 1.693, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 9, 'batch': 30, 'train_loss': 1.636, 'train_domain_loss': 12.661, 'train_null_loss': 1.636, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 9, 'batch': 31, 'train_loss': 1.783, 'train_domain_loss': 10.518, 'train_null_loss': 1.783, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 9, 'batch': 32, 'train_loss': 1.646, 'train_domain_loss': 10.067, 'train_null_loss': 1.646, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+{'valid_loss': 7.071, 'loss_diff': 0.0, 'epoch': 9, 'batch': 0}
+{'valid_loss': 8.304, 'loss_diff': 0.0, 'epoch': 9, 'batch': 1}
+{'valid_loss': 9.72, 'loss_diff': 0.0, 'epoch': 9, 'batch': 2}
+{'valid_loss': 8.971, 'loss_diff': 0.0, 'epoch': 9, 'batch': 3}
+{'valid_loss': 5.58, 'loss_diff': 0.0, 'epoch': 9, 'batch': 4}
+{'valid_loss': 8.952, 'loss_diff': 0.0, 'epoch': 9, 'batch': 5}
+{'valid_loss': 7.451, 'loss_diff': 0.0, 'epoch': 9, 'batch': 6}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 25]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+                                                                                                                                                                
+Training model...
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 25]))
+{'epoch': 10, 'batch': 0, 'train_loss': 1.639, 'train_domain_loss': 14.379, 'train_null_loss': 1.639, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 10, 'batch': 1, 'train_loss': 1.636, 'train_domain_loss': 10.97, 'train_null_loss': 1.636, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 10, 'batch': 2, 'train_loss': 1.723, 'train_domain_loss': 10.07, 'train_null_loss': 1.723, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 10, 'batch': 3, 'train_loss': 1.685, 'train_domain_loss': 10.655, 'train_null_loss': 1.685, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 10, 'batch': 4, 'train_loss': 1.719, 'train_domain_loss': 8.594, 'train_null_loss': 1.719, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 10, 'batch': 5, 'train_loss': 1.658, 'train_domain_loss': 12.465, 'train_null_loss': 1.658, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 10, 'batch': 6, 'train_loss': 1.743, 'train_domain_loss': 10.387, 'train_null_loss': 1.743, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 10, 'batch': 7, 'train_loss': 1.672, 'train_domain_loss': 12.43, 'train_null_loss': 1.672, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 10, 'batch': 8, 'train_loss': 1.716, 'train_domain_loss': 13.884, 'train_null_loss': 1.716, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 10, 'batch': 9, 'train_loss': 1.753, 'train_domain_loss': 10.806, 'train_null_loss': 1.753, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 10, 'batch': 10, 'train_loss': 1.796, 'train_domain_loss': 10.68, 'train_null_loss': 1.796, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 10, 'batch': 11, 'train_loss': 1.708, 'train_domain_loss': 14.002, 'train_null_loss': 1.708, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 10, 'batch': 12, 'train_loss': 1.767, 'train_domain_loss': 11.894, 'train_null_loss': 1.767, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 10, 'batch': 13, 'train_loss': 1.62, 'train_domain_loss': 11.501, 'train_null_loss': 1.62, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 10, 'batch': 14, 'train_loss': 1.71, 'train_domain_loss': 11.904, 'train_null_loss': 1.71, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 10, 'batch': 15, 'train_loss': 1.649, 'train_domain_loss': 12.841, 'train_null_loss': 1.649, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 10, 'batch': 16, 'train_loss': 1.657, 'train_domain_loss': 14.794, 'train_null_loss': 1.657, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 10, 'batch': 17, 'train_loss': 1.698, 'train_domain_loss': 13.303, 'train_null_loss': 1.698, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 10, 'batch': 18, 'train_loss': 1.621, 'train_domain_loss': 11.851, 'train_null_loss': 1.621, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 10, 'batch': 19, 'train_loss': 1.584, 'train_domain_loss': 13.526, 'train_null_loss': 1.584, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 10, 'batch': 20, 'train_loss': 1.696, 'train_domain_loss': 8.936, 'train_null_loss': 1.696, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 10, 'batch': 21, 'train_loss': 1.643, 'train_domain_loss': 11.683, 'train_null_loss': 1.643, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 10, 'batch': 22, 'train_loss': 1.826, 'train_domain_loss': 13.161, 'train_null_loss': 1.826, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 10, 'batch': 23, 'train_loss': 1.617, 'train_domain_loss': 9.121, 'train_null_loss': 1.617, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 10, 'batch': 24, 'train_loss': 1.778, 'train_domain_loss': 11.794, 'train_null_loss': 1.778, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 10, 'batch': 25, 'train_loss': 1.629, 'train_domain_loss': 12.301, 'train_null_loss': 1.629, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 10, 'batch': 26, 'train_loss': 1.623, 'train_domain_loss': 13.096, 'train_null_loss': 1.623, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 10, 'batch': 27, 'train_loss': 1.733, 'train_domain_loss': 15.096, 'train_null_loss': 1.733, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 10, 'batch': 28, 'train_loss': 1.608, 'train_domain_loss': 11.813, 'train_null_loss': 1.608, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 10, 'batch': 29, 'train_loss': 1.752, 'train_domain_loss': 12.991, 'train_null_loss': 1.752, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 10, 'batch': 30, 'train_loss': 1.718, 'train_domain_loss': 13.459, 'train_null_loss': 1.718, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 10, 'batch': 31, 'train_loss': 1.588, 'train_domain_loss': 16.292, 'train_null_loss': 1.588, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 10, 'batch': 32, 'train_loss': 1.568, 'train_domain_loss': 12.455, 'train_null_loss': 1.568, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+{'valid_loss': 6.258, 'loss_diff': 0.0, 'epoch': 10, 'batch': 0}
+{'valid_loss': 9.845, 'loss_diff': 0.0, 'epoch': 10, 'batch': 1}
+{'valid_loss': 10.128, 'loss_diff': 0.0, 'epoch': 10, 'batch': 2}
+{'valid_loss': 9.597, 'loss_diff': 0.0, 'epoch': 10, 'batch': 3}
+{'valid_loss': 5.893, 'loss_diff': 0.0, 'epoch': 10, 'batch': 4}
+{'valid_loss': 8.968, 'loss_diff': 0.0, 'epoch': 10, 'batch': 5}
+{'valid_loss': 9.385, 'loss_diff': 0.0, 'epoch': 10, 'batch': 6}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 25]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+                                                                                                                                                                
+Training model...
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 25]))
+{'epoch': 11, 'batch': 0, 'train_loss': 1.811, 'train_domain_loss': 12.013, 'train_null_loss': 1.811, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 11, 'batch': 1, 'train_loss': 1.67, 'train_domain_loss': 18.311, 'train_null_loss': 1.67, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 11, 'batch': 2, 'train_loss': 1.787, 'train_domain_loss': 13.171, 'train_null_loss': 1.787, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 11, 'batch': 3, 'train_loss': 1.657, 'train_domain_loss': 11.158, 'train_null_loss': 1.657, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 11, 'batch': 4, 'train_loss': 1.705, 'train_domain_loss': 13.358, 'train_null_loss': 1.705, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 11, 'batch': 5, 'train_loss': 1.67, 'train_domain_loss': 13.215, 'train_null_loss': 1.67, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 11, 'batch': 6, 'train_loss': 1.618, 'train_domain_loss': 10.845, 'train_null_loss': 1.618, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 11, 'batch': 7, 'train_loss': 1.686, 'train_domain_loss': 10.889, 'train_null_loss': 1.686, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 11, 'batch': 8, 'train_loss': 1.659, 'train_domain_loss': 13.731, 'train_null_loss': 1.659, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 11, 'batch': 9, 'train_loss': 1.689, 'train_domain_loss': 11.917, 'train_null_loss': 1.689, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 11, 'batch': 10, 'train_loss': 1.628, 'train_domain_loss': 9.784, 'train_null_loss': 1.628, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 11, 'batch': 11, 'train_loss': 1.731, 'train_domain_loss': 10.608, 'train_null_loss': 1.731, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 11, 'batch': 12, 'train_loss': 1.569, 'train_domain_loss': 11.447, 'train_null_loss': 1.569, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 11, 'batch': 13, 'train_loss': 1.699, 'train_domain_loss': 15.259, 'train_null_loss': 1.699, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 11, 'batch': 14, 'train_loss': 1.64, 'train_domain_loss': 14.401, 'train_null_loss': 1.64, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 11, 'batch': 15, 'train_loss': 1.709, 'train_domain_loss': 12.521, 'train_null_loss': 1.709, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 11, 'batch': 16, 'train_loss': 1.682, 'train_domain_loss': 11.431, 'train_null_loss': 1.682, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 11, 'batch': 17, 'train_loss': 1.673, 'train_domain_loss': 10.141, 'train_null_loss': 1.673, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 11, 'batch': 18, 'train_loss': 1.809, 'train_domain_loss': 9.76, 'train_null_loss': 1.809, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 11, 'batch': 19, 'train_loss': 1.761, 'train_domain_loss': 9.197, 'train_null_loss': 1.761, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 11, 'batch': 20, 'train_loss': 1.634, 'train_domain_loss': 12.96, 'train_null_loss': 1.634, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 11, 'batch': 21, 'train_loss': 1.702, 'train_domain_loss': 11.809, 'train_null_loss': 1.702, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 11, 'batch': 22, 'train_loss': 1.597, 'train_domain_loss': 10.436, 'train_null_loss': 1.597, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 11, 'batch': 23, 'train_loss': 1.837, 'train_domain_loss': 10.484, 'train_null_loss': 1.837, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 11, 'batch': 24, 'train_loss': 1.691, 'train_domain_loss': 11.639, 'train_null_loss': 1.691, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 11, 'batch': 25, 'train_loss': 1.645, 'train_domain_loss': 9.885, 'train_null_loss': 1.645, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 11, 'batch': 26, 'train_loss': 1.76, 'train_domain_loss': 10.116, 'train_null_loss': 1.76, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 11, 'batch': 27, 'train_loss': 1.823, 'train_domain_loss': 10.484, 'train_null_loss': 1.823, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 11, 'batch': 28, 'train_loss': 1.694, 'train_domain_loss': 13.793, 'train_null_loss': 1.694, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 11, 'batch': 29, 'train_loss': 1.716, 'train_domain_loss': 13.201, 'train_null_loss': 1.716, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 11, 'batch': 30, 'train_loss': 1.666, 'train_domain_loss': 14.92, 'train_null_loss': 1.666, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 11, 'batch': 31, 'train_loss': 1.722, 'train_domain_loss': 12.637, 'train_null_loss': 1.722, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 11, 'batch': 32, 'train_loss': 1.639, 'train_domain_loss': 15.032, 'train_null_loss': 1.639, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+{'valid_loss': 9.786, 'loss_diff': 0.0, 'epoch': 11, 'batch': 0}
+{'valid_loss': 12.927, 'loss_diff': 0.0, 'epoch': 11, 'batch': 1}
+{'valid_loss': 17.89, 'loss_diff': 0.0, 'epoch': 11, 'batch': 2}
+{'valid_loss': 24.068, 'loss_diff': 0.0, 'epoch': 11, 'batch': 3}
+{'valid_loss': 6.602, 'loss_diff': 0.0, 'epoch': 11, 'batch': 4}
+{'valid_loss': 7.492, 'loss_diff': 0.0, 'epoch': 11, 'batch': 5}
+{'valid_loss': 7.512, 'loss_diff': 0.0, 'epoch': 11, 'batch': 6}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 25]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+                                                                                                                                                                
+Training model...
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 25]))
+{'epoch': 12, 'batch': 0, 'train_loss': 1.677, 'train_domain_loss': 10.345, 'train_null_loss': 1.677, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 12, 'batch': 1, 'train_loss': 1.789, 'train_domain_loss': 11.012, 'train_null_loss': 1.789, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 12, 'batch': 2, 'train_loss': 1.638, 'train_domain_loss': 13.26, 'train_null_loss': 1.638, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 12, 'batch': 3, 'train_loss': 1.614, 'train_domain_loss': 11.363, 'train_null_loss': 1.614, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 12, 'batch': 4, 'train_loss': 1.592, 'train_domain_loss': 9.897, 'train_null_loss': 1.592, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 12, 'batch': 5, 'train_loss': 1.696, 'train_domain_loss': 10.212, 'train_null_loss': 1.696, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 12, 'batch': 6, 'train_loss': 1.718, 'train_domain_loss': 13.063, 'train_null_loss': 1.718, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 12, 'batch': 7, 'train_loss': 1.659, 'train_domain_loss': 10.78, 'train_null_loss': 1.659, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 12, 'batch': 8, 'train_loss': 1.753, 'train_domain_loss': 12.776, 'train_null_loss': 1.753, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 12, 'batch': 9, 'train_loss': 1.665, 'train_domain_loss': 11.953, 'train_null_loss': 1.665, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 12, 'batch': 10, 'train_loss': 1.721, 'train_domain_loss': 12.037, 'train_null_loss': 1.721, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 12, 'batch': 11, 'train_loss': 1.653, 'train_domain_loss': 9.797, 'train_null_loss': 1.653, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 12, 'batch': 12, 'train_loss': 1.706, 'train_domain_loss': 10.11, 'train_null_loss': 1.706, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 12, 'batch': 13, 'train_loss': 1.604, 'train_domain_loss': 9.049, 'train_null_loss': 1.604, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 12, 'batch': 14, 'train_loss': 1.616, 'train_domain_loss': 8.498, 'train_null_loss': 1.616, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 12, 'batch': 15, 'train_loss': 1.618, 'train_domain_loss': 9.817, 'train_null_loss': 1.618, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 12, 'batch': 16, 'train_loss': 1.824, 'train_domain_loss': 14.12, 'train_null_loss': 1.824, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 12, 'batch': 17, 'train_loss': 1.665, 'train_domain_loss': 11.947, 'train_null_loss': 1.665, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 12, 'batch': 18, 'train_loss': 1.735, 'train_domain_loss': 8.346, 'train_null_loss': 1.735, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 12, 'batch': 19, 'train_loss': 1.733, 'train_domain_loss': 9.029, 'train_null_loss': 1.733, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 12, 'batch': 20, 'train_loss': 1.739, 'train_domain_loss': 8.607, 'train_null_loss': 1.739, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 12, 'batch': 21, 'train_loss': 1.736, 'train_domain_loss': 7.723, 'train_null_loss': 1.736, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 12, 'batch': 22, 'train_loss': 1.674, 'train_domain_loss': 11.117, 'train_null_loss': 1.674, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 12, 'batch': 23, 'train_loss': 1.736, 'train_domain_loss': 8.401, 'train_null_loss': 1.736, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 12, 'batch': 24, 'train_loss': 1.66, 'train_domain_loss': 13.677, 'train_null_loss': 1.66, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 12, 'batch': 25, 'train_loss': 1.724, 'train_domain_loss': 9.241, 'train_null_loss': 1.724, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 12, 'batch': 26, 'train_loss': 1.729, 'train_domain_loss': 10.369, 'train_null_loss': 1.729, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 12, 'batch': 27, 'train_loss': 1.659, 'train_domain_loss': 9.399, 'train_null_loss': 1.659, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 12, 'batch': 28, 'train_loss': 1.766, 'train_domain_loss': 8.761, 'train_null_loss': 1.766, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 12, 'batch': 29, 'train_loss': 1.679, 'train_domain_loss': 11.829, 'train_null_loss': 1.679, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 12, 'batch': 30, 'train_loss': 1.712, 'train_domain_loss': 10.081, 'train_null_loss': 1.712, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 12, 'batch': 31, 'train_loss': 1.746, 'train_domain_loss': 9.906, 'train_null_loss': 1.746, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 12, 'batch': 32, 'train_loss': 1.689, 'train_domain_loss': 8.406, 'train_null_loss': 1.689, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+{'valid_loss': 6.988, 'loss_diff': 0.0, 'epoch': 12, 'batch': 0}
+{'valid_loss': 9.409, 'loss_diff': 0.0, 'epoch': 12, 'batch': 1}
+{'valid_loss': 12.183, 'loss_diff': 0.0, 'epoch': 12, 'batch': 2}
+{'valid_loss': 13.86, 'loss_diff': 0.0, 'epoch': 12, 'batch': 3}
+{'valid_loss': 5.308, 'loss_diff': 0.0, 'epoch': 12, 'batch': 4}
+{'valid_loss': 7.828, 'loss_diff': 0.0, 'epoch': 12, 'batch': 5}
+{'valid_loss': 8.612, 'loss_diff': 0.0, 'epoch': 12, 'batch': 6}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 25]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+                                                                                                                                                                
+Training model...
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 25]))
+{'epoch': 13, 'batch': 0, 'train_loss': 1.721, 'train_domain_loss': 14.653, 'train_null_loss': 1.721, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 13, 'batch': 1, 'train_loss': 1.716, 'train_domain_loss': 10.152, 'train_null_loss': 1.716, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 13, 'batch': 2, 'train_loss': 1.624, 'train_domain_loss': 13.171, 'train_null_loss': 1.624, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 13, 'batch': 3, 'train_loss': 1.777, 'train_domain_loss': 9.174, 'train_null_loss': 1.777, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 13, 'batch': 4, 'train_loss': 1.674, 'train_domain_loss': 10.02, 'train_null_loss': 1.674, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 13, 'batch': 5, 'train_loss': 1.735, 'train_domain_loss': 11.733, 'train_null_loss': 1.735, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 13, 'batch': 6, 'train_loss': 1.605, 'train_domain_loss': 12.774, 'train_null_loss': 1.605, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 13, 'batch': 7, 'train_loss': 1.772, 'train_domain_loss': 9.524, 'train_null_loss': 1.772, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 13, 'batch': 8, 'train_loss': 1.635, 'train_domain_loss': 9.969, 'train_null_loss': 1.635, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 13, 'batch': 9, 'train_loss': 1.675, 'train_domain_loss': 10.587, 'train_null_loss': 1.675, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 13, 'batch': 10, 'train_loss': 1.783, 'train_domain_loss': 9.86, 'train_null_loss': 1.783, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 13, 'batch': 11, 'train_loss': 1.682, 'train_domain_loss': 11.358, 'train_null_loss': 1.682, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 13, 'batch': 12, 'train_loss': 1.734, 'train_domain_loss': 12.389, 'train_null_loss': 1.734, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 13, 'batch': 13, 'train_loss': 1.814, 'train_domain_loss': 9.798, 'train_null_loss': 1.814, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 13, 'batch': 14, 'train_loss': 1.727, 'train_domain_loss': 8.334, 'train_null_loss': 1.727, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 13, 'batch': 15, 'train_loss': 1.635, 'train_domain_loss': 13.545, 'train_null_loss': 1.635, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 13, 'batch': 16, 'train_loss': 1.668, 'train_domain_loss': 9.988, 'train_null_loss': 1.668, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 13, 'batch': 17, 'train_loss': 1.699, 'train_domain_loss': 10.734, 'train_null_loss': 1.699, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 13, 'batch': 18, 'train_loss': 1.755, 'train_domain_loss': 6.751, 'train_null_loss': 1.755, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 13, 'batch': 19, 'train_loss': 1.743, 'train_domain_loss': 10.766, 'train_null_loss': 1.743, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 13, 'batch': 20, 'train_loss': 1.73, 'train_domain_loss': 10.877, 'train_null_loss': 1.73, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 13, 'batch': 21, 'train_loss': 1.59, 'train_domain_loss': 10.026, 'train_null_loss': 1.59, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 13, 'batch': 22, 'train_loss': 1.725, 'train_domain_loss': 12.527, 'train_null_loss': 1.725, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 13, 'batch': 23, 'train_loss': 1.685, 'train_domain_loss': 12.222, 'train_null_loss': 1.685, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 13, 'batch': 24, 'train_loss': 1.655, 'train_domain_loss': 10.132, 'train_null_loss': 1.655, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 13, 'batch': 25, 'train_loss': 1.732, 'train_domain_loss': 9.323, 'train_null_loss': 1.732, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 13, 'batch': 26, 'train_loss': 1.588, 'train_domain_loss': 12.519, 'train_null_loss': 1.588, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 13, 'batch': 27, 'train_loss': 1.698, 'train_domain_loss': 10.374, 'train_null_loss': 1.698, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 13, 'batch': 28, 'train_loss': 1.669, 'train_domain_loss': 9.63, 'train_null_loss': 1.669, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 13, 'batch': 29, 'train_loss': 1.667, 'train_domain_loss': 8.762, 'train_null_loss': 1.667, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 13, 'batch': 30, 'train_loss': 1.697, 'train_domain_loss': 11.183, 'train_null_loss': 1.697, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 13, 'batch': 31, 'train_loss': 1.626, 'train_domain_loss': 11.317, 'train_null_loss': 1.626, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 13, 'batch': 32, 'train_loss': 1.61, 'train_domain_loss': 8.478, 'train_null_loss': 1.61, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+{'valid_loss': 13.679, 'loss_diff': 0.0, 'epoch': 13, 'batch': 0}
+{'valid_loss': 12.908, 'loss_diff': 0.0, 'epoch': 13, 'batch': 1}
+{'valid_loss': 15.064, 'loss_diff': 0.0, 'epoch': 13, 'batch': 2}
+{'valid_loss': 10.555, 'loss_diff': 0.0, 'epoch': 13, 'batch': 3}
+{'valid_loss': 16.342, 'loss_diff': 0.0, 'epoch': 13, 'batch': 4}
+{'valid_loss': 15.71, 'loss_diff': 0.0, 'epoch': 13, 'batch': 5}
+{'valid_loss': 14.742, 'loss_diff': 0.0, 'epoch': 13, 'batch': 6}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 25]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+                                                                                                                                                                
+Training model...
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 25]))
+{'epoch': 14, 'batch': 0, 'train_loss': 1.628, 'train_domain_loss': 11.624, 'train_null_loss': 1.628, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 14, 'batch': 1, 'train_loss': 1.668, 'train_domain_loss': 8.901, 'train_null_loss': 1.668, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 14, 'batch': 2, 'train_loss': 1.692, 'train_domain_loss': 12.273, 'train_null_loss': 1.692, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 14, 'batch': 3, 'train_loss': 1.665, 'train_domain_loss': 9.158, 'train_null_loss': 1.665, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 14, 'batch': 4, 'train_loss': 1.77, 'train_domain_loss': 10.169, 'train_null_loss': 1.77, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 14, 'batch': 5, 'train_loss': 1.613, 'train_domain_loss': 9.375, 'train_null_loss': 1.613, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 14, 'batch': 6, 'train_loss': 1.641, 'train_domain_loss': 10.934, 'train_null_loss': 1.641, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 14, 'batch': 7, 'train_loss': 1.647, 'train_domain_loss': 11.075, 'train_null_loss': 1.647, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 14, 'batch': 8, 'train_loss': 1.647, 'train_domain_loss': 9.352, 'train_null_loss': 1.647, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 14, 'batch': 9, 'train_loss': 1.743, 'train_domain_loss': 11.25, 'train_null_loss': 1.743, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 14, 'batch': 10, 'train_loss': 1.62, 'train_domain_loss': 10.604, 'train_null_loss': 1.62, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 14, 'batch': 11, 'train_loss': 1.644, 'train_domain_loss': 8.844, 'train_null_loss': 1.644, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 14, 'batch': 12, 'train_loss': 1.708, 'train_domain_loss': 12.599, 'train_null_loss': 1.708, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 14, 'batch': 13, 'train_loss': 1.668, 'train_domain_loss': 8.477, 'train_null_loss': 1.668, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 14, 'batch': 14, 'train_loss': 1.721, 'train_domain_loss': 12.037, 'train_null_loss': 1.721, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 14, 'batch': 15, 'train_loss': 1.573, 'train_domain_loss': 10.781, 'train_null_loss': 1.573, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 14, 'batch': 16, 'train_loss': 1.663, 'train_domain_loss': 11.733, 'train_null_loss': 1.663, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 14, 'batch': 17, 'train_loss': 1.689, 'train_domain_loss': 12.667, 'train_null_loss': 1.689, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 14, 'batch': 18, 'train_loss': 1.673, 'train_domain_loss': 14.289, 'train_null_loss': 1.673, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 14, 'batch': 19, 'train_loss': 1.711, 'train_domain_loss': 14.385, 'train_null_loss': 1.711, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 14, 'batch': 20, 'train_loss': 1.655, 'train_domain_loss': 13.284, 'train_null_loss': 1.655, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 14, 'batch': 21, 'train_loss': 1.733, 'train_domain_loss': 14.247, 'train_null_loss': 1.733, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 14, 'batch': 22, 'train_loss': 1.719, 'train_domain_loss': 11.912, 'train_null_loss': 1.719, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 14, 'batch': 23, 'train_loss': 1.622, 'train_domain_loss': 8.652, 'train_null_loss': 1.622, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 14, 'batch': 24, 'train_loss': 1.8, 'train_domain_loss': 11.094, 'train_null_loss': 1.8, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 14, 'batch': 25, 'train_loss': 1.664, 'train_domain_loss': 13.572, 'train_null_loss': 1.664, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 14, 'batch': 26, 'train_loss': 1.617, 'train_domain_loss': 10.425, 'train_null_loss': 1.617, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 14, 'batch': 27, 'train_loss': 1.658, 'train_domain_loss': 14.445, 'train_null_loss': 1.658, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 14, 'batch': 28, 'train_loss': 1.648, 'train_domain_loss': 12.803, 'train_null_loss': 1.648, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 14, 'batch': 29, 'train_loss': 1.629, 'train_domain_loss': 13.098, 'train_null_loss': 1.629, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 14, 'batch': 30, 'train_loss': 1.766, 'train_domain_loss': 13.648, 'train_null_loss': 1.766, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 14, 'batch': 31, 'train_loss': 1.71, 'train_domain_loss': 11.873, 'train_null_loss': 1.71, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 14, 'batch': 32, 'train_loss': 1.663, 'train_domain_loss': 8.899, 'train_null_loss': 1.663, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+{'valid_loss': 9.277, 'loss_diff': 0.0, 'epoch': 14, 'batch': 0}
+{'valid_loss': 9.647, 'loss_diff': 0.0, 'epoch': 14, 'batch': 1}
+{'valid_loss': 13.126, 'loss_diff': 0.0, 'epoch': 14, 'batch': 2}
+{'valid_loss': 10.614, 'loss_diff': 0.0, 'epoch': 14, 'batch': 3}
+{'valid_loss': 6.701, 'loss_diff': 0.0, 'epoch': 14, 'batch': 4}
+{'valid_loss': 10.992, 'loss_diff': 0.0, 'epoch': 14, 'batch': 5}
+{'valid_loss': 11.86, 'loss_diff': 0.0, 'epoch': 14, 'batch': 6}
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 25]))
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+
+Epoch: 15 of 15 | Validation loss: 11.86:  89%|███████████████████████████████████████████████████████████████████▌        | 9600/10800 [18:07<02:15,  8.83it/s]

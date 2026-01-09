@@ -1,0 +1,134 @@
+_wandb:
+    value:
+        cli_version: 0.21.0
+        e:
+            t3c10g2ocmypmg94q4cmmkl0qaeqtubo:
+                args:
+                    - C:\Tue\Master\Jaar_2\graduation\code\own_approach\run_configs\User\Backbone\gaf_CNN.yaml
+                cpu_count: 8
+                cpu_count_logical: 16
+                cudaVersion: "12.9"
+                disk:
+                    /:
+                        total: "1022893223936"
+                        used: "900819152896"
+                email: x.j.vreeswijk@student.tue.nl
+                executable: C:\Users\xande\anaconda3\envs\thesis\python.exe
+                gpu: NVIDIA GeForce RTX 3060 Laptop GPU
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ampere
+                      cudaCores: 3840
+                      memoryTotal: "6442450944"
+                      name: NVIDIA GeForce RTX 3060 Laptop GPU
+                      uuid: GPU-fa32d4ea-745b-861e-c8e8-4f74d68f5459
+                host: LAPTOP-542U5HR9
+                memory:
+                    total: "16800096256"
+                os: Windows-11-10.0.26100-SP0
+                program: -m src.experiments.train_runner
+                python: CPython 3.13.5
+                root: C:\Tue\Master\Jaar_2\graduation\code\own_approach
+                startedAt: "2025-10-19T12:35:59.410236Z"
+                writerId: t3c10g2ocmypmg94q4cmmkl0qaeqtubo
+        m: []
+        python_version: 3.13.5
+        t:
+            "1":
+                - 1
+                - 5
+                - 41
+                - 53
+            "2":
+                - 1
+                - 5
+                - 41
+                - 53
+            "3":
+                - 15
+                - 16
+            "4": 3.13.5
+            "5": 0.21.0
+            "8":
+                - 3
+            "12": 0.21.0
+            "13": windows-amd64
+agent:
+    value:
+        batch_size: 512
+        buffer_size: 50000
+        ent_coef: 0.094
+        factor: 2
+        gradient_steps: 16
+        learning_rate: 0.000312
+        learning_starts: 1600
+        sequential: true
+        switch_epoch: 1
+        threshold: 10
+        train_freq:
+            - 64
+            - step
+        window: 20
+data:
+    value:
+        amp_pipeline: <src.signal_processing.pipeline.Pipeline object at 0x0000018040443750>
+        bvp_agg: sum
+        data_dir: C:\Tue\Master\Jaar_2\graduation\code\own_approach\data
+        dataset_type: single_user
+        downsample_multiplier: 100
+        phase_pipeline: <src.signal_processing.pipeline.Pipeline object at 0x0000018034CF8510>
+        transformation: GramianAngularField()
+debug:
+    value:
+        is_debug: false
+        offline: false
+        on_cpu: false
+embed:
+    value:
+        agent_type: ppo
+        embed_size: 33
+        epochs: 2
+        policy: do_nothing
+        reward_function: combined
+        start_epoch: 5
+encoder:
+    value:
+        Backbone_type: CNN
+        activation_fn: leaky
+        base_channels: 128
+        dropout: 0.18
+        growth_rate: 32
+        init_channels: 64
+        initial_kernel_size: 7
+        latent_dim: 60
+        layers_per_stage:
+            - 2
+            - 2
+            - 2
+            - 2
+        normalization: false
+        num_conv_layers: null
+        patch_size: 64
+        vit_depth: 6
+        vit_heads: 4
+mt:
+    value:
+        d_predictor_activation_fn: gelu
+        d_predictor_dropout: 0.26
+        d_predictor_num_layers: 4
+        predictor_activation_fn: selu
+        predictor_dropout: 0.28
+        predictor_num_layers: 4
+optim_loss:
+    value:
+        alpha: 0.000255
+        beta: 0.5
+        lr: 0.000911
+        optimizer: adam
+train:
+    value:
+        batch_size: 32
+        checkpoint_dir: ..\Checkpoints
+        epochs: 100
+        tuning: false
+        ui: tqdm

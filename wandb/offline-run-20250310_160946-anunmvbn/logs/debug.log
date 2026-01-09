@@ -1,0 +1,23 @@
+2025-03-10 16:09:46,080 INFO    MainThread:26904 [wandb_setup.py:_flush():67] Current SDK version is 0.19.8
+2025-03-10 16:09:46,080 INFO    MainThread:26904 [wandb_setup.py:_flush():67] Configure stats pid to 26904
+2025-03-10 16:09:46,080 INFO    MainThread:26904 [wandb_setup.py:_flush():67] Loading settings from C:\Users\xande\.config\wandb\settings
+2025-03-10 16:09:46,080 INFO    MainThread:26904 [wandb_setup.py:_flush():67] Loading settings from C:\Tue\Master\Jaar_2\graduation\code\DARLInG\wandb\settings
+2025-03-10 16:09:46,080 INFO    MainThread:26904 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-03-10 16:09:46,080 INFO    MainThread:26904 [wandb_init.py:setup_run_log_directory():647] Logging user logs to C:\Tue\Master\Jaar_2\graduation\code\DARLInG\wandb\offline-run-20250310_160946-anunmvbn\logs\debug.log
+2025-03-10 16:09:46,080 INFO    MainThread:26904 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to C:\Tue\Master\Jaar_2\graduation\code\DARLInG\wandb\offline-run-20250310_160946-anunmvbn\logs\debug-internal.log
+2025-03-10 16:09:46,080 INFO    MainThread:26904 [wandb_init.py:init():761] calling init triggers
+2025-03-10 16:09:46,080 INFO    MainThread:26904 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'train': {'batch_size': 16, 'epochs': 50, 'ui': 'cluster_ui', 'checkpoint_dir': WindowsPath('../../checkpoints')}, 'data': {'data_dir': WindowsPath('C:/Tue/Master/Jaar_2/graduation/code/DARLInG/data'), 'dataset_type': 'single_user', 'downsample_multiplier': 100, 'transformation': <src.signal_to_image.gaf_transform.GAF object at 0x0000019BD67A2930>, 'bvp_agg': 'sum', 'amp_pipeline': <src.signal_processing.pipeline.Pipeline object at 0x0000019BD87DACF0>, 'phase_pipeline': <src.signal_processing.pipeline.Pipeline object at 0x0000019BD88AF170>, 'bvp_pipeline': 0}, 'encoder': {'dropout': 0.18, 'latent_dim': 60, 'activation_fn': 'leaky', 'num_conv_layers': 3, 'initial_kernel_size': 7}, 'mt': {'decoder_dropout': 0.26, 'decoder_activation_fn': 'leaky', 'predictor_dropout': 0.28, 'predictor_activation_fn': 'selu', 'predictor_num_layers': 4}, 'embed': {'value_type': 'probability-measure', 'agent_type': 'ppo', 'reward_function': 'maximize_difference', 'embed_size': 33, 'start_epoch': 15, 'epochs': 2, 'critic_num_layers': 3, 'critic_dropout': 0.3, 'actor_num_layers': 3, 'actor_dropout': 0.3, 'lr': 0.0001, 'anneal_lr': True, 'gamma': 0.99, 'gae_lambda': 0.95, 'norm_advantage': True, 'clip_coef': 0.2, 'clip_value_loss': True, 'entropy_coef': 0.0, 'value_func_coef': 0.5, 'max_grad_norm': 0.5, 'target_kl': None}, 'optim_loss': {'optimizer': 'adam', 'lr': 0.00022, 'alpha': 8e-05, 'beta': 0.5}, 'debug': {'is_debug': False, 'on_cpu': False, 'offline': False}, '_wandb': {}}
+2025-03-10 16:09:46,080 INFO    MainThread:26904 [wandb_init.py:init():784] starting backend
+2025-03-10 16:09:46,080 INFO    MainThread:26904 [wandb_init.py:init():788] sending inform_init request
+2025-03-10 16:09:46,125 INFO    MainThread:26904 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn, using: spawn
+2025-03-10 16:09:46,125 INFO    MainThread:26904 [wandb_init.py:init():798] backend started and connected
+2025-03-10 16:09:46,126 INFO    MainThread:26904 [wandb_init.py:init():891] updated telemetry
+2025-03-10 16:09:46,128 INFO    MainThread:26904 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-03-10 16:09:46,390 INFO    MainThread:26904 [wandb_init.py:init():990] starting run threads in backend
+2025-03-10 16:09:46,716 INFO    MainThread:26904 [wandb_run.py:_console_start():2375] atexit reg
+2025-03-10 16:09:46,716 INFO    MainThread:26904 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-10 16:09:46,716 INFO    MainThread:26904 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-10 16:09:46,716 INFO    MainThread:26904 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-03-10 16:09:46,718 INFO    MainThread:26904 [wandb_init.py:init():1032] run started, returning control to user process
+2025-03-10 16:09:47,400 INFO    MsgRouterThr:26904 [mailbox.py:close():129] Closing mailbox, abandoning 0 handles.

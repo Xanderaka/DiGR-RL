@@ -1,0 +1,65 @@
+data:
+  bvp_agg: sum
+  data_dir: "C:\\Tue\\Master\\Jaar_2\\graduation\\code\\DiGR-RL\\data"
+  dataset_type: single_user
+  downsample_multiplier: 100
+  amp_pipeline:
+    - "lowpass_filter"
+    - "standard_scalar"
+    - "transform"
+    - "torch.from_numpy"
+  phase_pipeline:
+    - "phase_unwrap"
+    - "phase_filter"
+    - "lowpass_filter"
+    - "standard_scalar"
+    - "transform"
+    - "torch.from_numpy"
+  transformation: mtf
+debug:
+  is_debug: false
+  offline: false
+  on_cpu: false
+embed:
+  agent_type: ppo
+  reward_function: task_performance
+  policy: do_nothing
+  start_epoch: 35
+  epochs: 2
+encoder:
+  activation_fn: leaky
+  dropout: 0.047
+  initial_kernel_size: 11
+  latent_dim: 20
+  type: ResNet
+  normalization: False
+  init_channels: 64
+  growth_rate: 32
+  layers_per_stage: [2,2,2]
+  base_channels: [64, 128, 256]
+mt:
+  d_predictor_activation_fn: gelu
+  d_predictor_dropout: 0.28
+  d_predictor_num_layers: 4
+  predictor_activation_fn: selu
+  predictor_dropout: 0.084
+  predictor_num_layers: 2
+agent:
+  ent_coef: 0.076
+  learning_rate: 0.00042
+  buffer_size: 50000
+  gradient_steps: 16
+  batch_size: 512
+  learning_starts: 1600
+  factor: 2
+  sequential: False
+optim_loss:
+  alpha: 0.000255
+  beta: 0.71
+  lr: 0.000911
+  optimizer: adam
+train:
+  batch_size: 32
+  checkpoint_dir: ../Checkpoints
+  epochs: 100
+  ui: tqdm

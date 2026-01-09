@@ -1,0 +1,19 @@
+Running training on CPU
+Loading dataset train
+Found pregenerated data dir. Using pregenerated data.
+Loading complete. Took 0.00 s.
+Loading dataset validation
+Found pregenerated data dir. Using pregenerated data.
+Loading complete. Took 0.00 s.
+Building models...
+Completed model building. Took 82.42 s.
+Epoch: 1 of 1 | Training loss: -.--:   0%|                                                                                             | 0/240 [00:00<?, ?it/s]
+Preparation complete. Starting training...
+Training VAE model...
+Memory used: 10171.21 MB
+Memory used: 11002.59 MB
+Memory used: 10746.91 MB
+Memory used: 7871.39 MB
+Memory used: 10718.34 MB
+Memory used: 10294.36 MB
+Memory used: 10404.90 MB

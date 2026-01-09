@@ -1,0 +1,49 @@
+Running training on CPU
+Loading dataset train
+Found pregenerated data dir.
+Loading complete. Took 0.01 s.
+Loading dataset validation
+Found pregenerated data dir.
+Loading complete. Took 0.00 s.
+Building models...
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\experiments\train_runner.py", line 235, in <module>
+    best_loss = run_training(parse_config_file(args.CONFIG_FP))
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\experiments\train_runner.py", line 157, in run_training
+    encoder, null_head, null_agent = build_model(
+                                     ~~~~~~~~~~~^
+        config,
+        ^^^^^^^
+        train_dataset
+        ^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\models\model_builder.py", line 82, in build_model
+    num_domains, _ = compute_num_domains(train_dataset)
+                     ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\models\model_builder.py", line 23, in compute_num_domains
+    _, _, _, info = dataset[i]
+                    ~~~~~~~^^^
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\data_utils\widar_dataset.py", line 155, in __getitem__
+    amp, phase = torch.tensor(data["x_amp"]), torch.tensor(data["x_phase"])
+                              ~~~~^^^^^^^^^
+  File "C:\Users\xande\anaconda3\envs\thesis\Lib\site-packages\numpy\lib\_npyio_impl.py", line 254, in __getitem__
+    return format.read_array(bytes,
+           ~~~~~~~~~~~~~~~~~^^^^^^^
+                             allow_pickle=self.allow_pickle,
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                             pickle_kwargs=self.pickle_kwargs,
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                             max_header_size=self.max_header_size)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xande\anaconda3\envs\thesis\Lib\site-packages\numpy\lib\format.py", line 851, in read_array
+    data = _read_bytes(fp, read_size, "array data")
+  File "C:\Users\xande\anaconda3\envs\thesis\Lib\site-packages\numpy\lib\format.py", line 986, in _read_bytes
+    r = fp.read(size - len(data))
+  File "C:\Users\xande\anaconda3\envs\thesis\Lib\zipfile\__init__.py", line 1015, in read
+    data = self._read1(n)
+  File "C:\Users\xande\anaconda3\envs\thesis\Lib\zipfile\__init__.py", line 1091, in _read1
+    data = self._decompressor.decompress(data, n)
+KeyboardInterrupt

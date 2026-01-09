@@ -1,0 +1,115 @@
+Running training on CPU
+Loading dataset train
+Found pregenerated data dir. Using pregenerated data.
+Loading complete. Took 0.00 s.
+Loading dataset validation
+Found pregenerated data dir. Using pregenerated data.
+Loading complete. Took 0.00 s.
+Building models...
+Completed model building. Took 0.09 s.
+Epoch: 1 of 50 | Training loss: -.--:   0%|                                                                                          | 0/12000 [00:00<?, ?it/s]
+Preparation complete. Starting training...
+Training model...
+torch.Size([16, 153])
+tensor([[-0.1731, -0.0348, -0.1822,  0.0960,  0.2164, -0.0595,  0.4518, -0.5093,
+          0.0521,  0.2873,  0.0795,  0.1690,  0.1726, -0.1395,  0.0311, -0.1634,
+          0.3152, -0.2474,  0.0911, -0.0016],
+        [-0.2418, -0.4368, -0.2326,  0.2123, -0.3426,  0.2565,  0.3655, -0.4317,
+         -0.2846,  0.4255,  0.2821,  0.1495,  0.3074, -0.2688,  0.1429, -0.1222,
+          0.3351, -0.3305, -0.0752, -0.1704],
+        [-0.1656, -0.3027, -0.2840,  0.2951, -0.0800, -0.0658,  0.5535, -0.5178,
+          0.0172,  0.4746,  0.2378,  0.2862,  0.4713, -0.2409, -0.0589, -0.0022,
+          0.0568, -0.4067, -0.0375, -0.1836],
+        [-0.2401,  0.0041, -0.2994,  0.2734,  0.1063,  0.0828,  0.1295, -0.1240,
+          0.0861,  0.3714,  0.3506,  0.1604,  0.2896, -0.2338,  0.2055, -0.4555,
+          0.2507, -0.1109, -0.2397, -0.1170],
+        [-0.3533, -0.1802, -0.2667,  0.3672, -0.1540,  0.3708,  0.3233, -0.2327,
+         -0.1165,  0.3490,  0.3871,  0.3418,  0.2313, -0.3237,  0.0482,  0.0816,
+          0.2788, -0.1977, -0.0697, -0.3151],
+        [-0.1500, -0.2775, -0.0679,  0.2617, -0.0874,  0.0879,  0.2100, -0.3127,
+         -0.2700,  0.3199, -0.0686,  0.1891,  0.1893,  0.0074,  0.1178, -0.2324,
+          0.2877, -0.1548, -0.3184, -0.0752],
+        [-0.2997, -0.2123, -0.2349,  0.0998, -0.2294,  0.0042,  0.4977, -0.3728,
+         -0.1885,  0.2718,  0.1359,  0.0316,  0.2217, -0.3114,  0.0711, -0.3003,
+          0.1869, -0.2094, -0.0272,  0.0487],
+        [-0.2559, -0.2811, -0.2289,  0.2969,  0.0089,  0.2591,  0.3999, -0.2553,
+         -0.1271,  0.1927,  0.2506,  0.3305,  0.1634, -0.2081, -0.0228, -0.4199,
+          0.3117, -0.2376, -0.2885, -0.2747],
+        [-0.4366, -0.1139,  0.0261,  0.4258, -0.0869, -0.0987,  0.1886, -0.5638,
+          0.0174,  0.1991,  0.5314,  0.2228,  0.3222, -0.1830, -0.0044, -0.0804,
+          0.3146, -0.2658,  0.2208,  0.0096],
+        [-0.4859, -0.1357, -0.1761,  0.3365,  0.1307, -0.1130,  0.3463, -0.1449,
+         -0.0652,  0.2992,  0.2418,  0.4256,  0.1508, -0.2723, -0.1015, -0.1958,
+          0.4261, -0.2403,  0.0649, -0.0547],
+        [-0.2647, -0.3245, -0.5151,  0.2949, -0.0055,  0.0415,  0.4443, -0.2855,
+         -0.2936,  0.4865,  0.2081,  0.2905,  0.3080, -0.3564,  0.0951, -0.3174,
+          0.4074, -0.4385, -0.2261, -0.2410],
+        [-0.5080, -0.4032, -0.3609,  0.1062,  0.1084,  0.0229,  0.3956, -0.4645,
+         -0.1313,  0.3277,  0.2938,  0.1706,  0.2830, -0.2472,  0.0771, -0.2007,
+          0.2798, -0.2165,  0.0744,  0.1180],
+        [-0.3306, -0.3539, -0.2345,  0.2971, -0.0513, -0.0648,  0.3997, -0.3852,
+         -0.1881,  0.2828,  0.2704,  0.1696,  0.2492, -0.2395,  0.0696, -0.3030,
+          0.2610, -0.3954, -0.0928, -0.1286],
+        [-0.1178, -0.3991, -0.1889,  0.1758,  0.3385,  0.0461,  0.5378, -0.1020,
+         -0.2247,  0.1995,  0.1273,  0.3296,  0.3204, -0.1875,  0.1579, -0.4263,
+          0.2818, -0.3156, -0.1405, -0.1672],
+        [-0.3445, -0.3871, -0.5390,  0.2152,  0.1728,  0.2706,  0.2921, -0.0379,
+         -0.2406,  0.2670,  0.4183,  0.1458,  0.0357, -0.2912,  0.2210, -0.2538,
+          0.0846, -0.4859, -0.2841, -0.1594],
+        [-0.2980, -0.2452, -0.1930,  0.3414,  0.2268,  0.1523,  0.3296, -0.1775,
+         -0.1921,  0.1901,  0.0433,  0.1490,  0.3266, -0.0018,  0.0169, -0.4226,
+          0.4710, -0.3426, -0.1173, -0.0045]], grad_fn=<AddmmBackward0>)
+tensor([[0.2095, 0.0852, 0.0477, 0.5249, 0.0476, 0.0852],
+        [0.0370, 0.1218, 0.2326, 0.0340, 0.1624, 0.4122],
+        [0.0757, 0.0372, 0.0502, 0.7502, 0.0495, 0.0373],
+        [0.0215, 0.3874, 0.0839, 0.0839, 0.3995, 0.0237],
+        [0.0385, 0.4030, 0.0130, 0.4206, 0.0863, 0.0385],
+        [0.5150, 0.0397, 0.0677, 0.2966, 0.0133, 0.0677],
+        [0.4071, 0.0272, 0.1337, 0.1645, 0.1337, 0.1337],
+        [0.1859, 0.1764, 0.3789, 0.0392, 0.0432, 0.1764],
+        [0.1627, 0.3912, 0.1048, 0.1048, 0.0671, 0.1695],
+        [0.0456, 0.2562, 0.0258, 0.0754, 0.2638, 0.3331],
+        [0.0373, 0.0997, 0.0336, 0.4426, 0.2870, 0.0997],
+        [0.1377, 0.0314, 0.5615, 0.1377, 0.0279, 0.1038],
+        [0.1769, 0.0589, 0.0806, 0.0426, 0.0410, 0.6000],
+        [0.1971, 0.4965, 0.1465, 0.0363, 0.0618, 0.0618],
+        [0.0224, 0.0064, 0.3829, 0.0574, 0.1699, 0.3611],
+        [0.6276, 0.0226, 0.0416, 0.0955, 0.0312, 0.1816]],
+       grad_fn=<SoftmaxBackward0>)
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\experiments\train_runner.py", line 209, in <module>
+    run_training(parse_config_file(args.CONFIG_FP))
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\experiments\train_runner.py", line 196, in run_training
+    training.train(
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\experiments\train.py", line 544, in train
+    if not self._train_vae(train_loader, device, epoch):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\experiments\train.py", line 221, in _train_vae
+    pass_result = self._forward_pass(amp, phase, bvp, info["gesture"],
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\experiments\train.py", line 188, in _forward_pass
+    loss_dict = self.loss_func(
+                ^^^^^^^^^^^^^^^
+  File "C:\Users\xande\anaconda3\Lib\site-packages\torch\nn\modules\module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xande\anaconda3\Lib\site-packages\torch\nn\modules\module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\loss\multi_joint_loss.py", line 35, in forward
+    null_domain_loss = self.ce(null_domain_pred, domain_label)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xande\anaconda3\Lib\site-packages\torch\nn\modules\module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xande\anaconda3\Lib\site-packages\torch\nn\modules\module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xande\anaconda3\Lib\site-packages\torch\nn\modules\loss.py", line 1295, in forward
+    return F.cross_entropy(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\xande\anaconda3\Lib\site-packages\torch\nn\functional.py", line 3494, in cross_entropy
+    return torch._C._nn.cross_entropy_loss(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: cross_entropy_loss(): argument 'target' (position 2) must be Tensor, not NoneType

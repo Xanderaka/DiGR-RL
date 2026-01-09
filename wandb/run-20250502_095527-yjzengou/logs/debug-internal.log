@@ -1,0 +1,7 @@
+{"time":"2025-05-02T09:55:27.9975835+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Tue\\Master\\Jaar_2\\graduation\\code\\own_approach\\wandb\\run-20250502_095527-yjzengou\\logs\\debug-core.log"}
+{"time":"2025-05-02T09:55:28.1587905+02:00","level":"INFO","msg":"created new stream","id":"yjzengou"}
+{"time":"2025-05-02T09:55:28.1587905+02:00","level":"INFO","msg":"stream: started","id":"yjzengou"}
+{"time":"2025-05-02T09:55:28.1595067+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"yjzengou"}
+{"time":"2025-05-02T09:55:28.1595067+02:00","level":"INFO","msg":"sender: started","stream_id":"yjzengou"}
+{"time":"2025-05-02T09:55:28.1595067+02:00","level":"INFO","msg":"handler: started","stream_id":"yjzengou"}
+{"time":"2025-05-02T09:55:28.5600657+02:00","level":"INFO","msg":"Starting system monitor"}

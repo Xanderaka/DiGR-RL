@@ -1,0 +1,16 @@
+{"time":"2025-10-19T09:38:28.2621204+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Tue\\Master\\Jaar_2\\graduation\\code\\own_approach\\wandb\\run-20251019_093828-zcyo5b7h\\logs\\debug-core.log"}
+{"time":"2025-10-19T09:38:28.6308735+02:00","level":"INFO","msg":"created new stream","id":"zcyo5b7h"}
+{"time":"2025-10-19T09:38:28.6308735+02:00","level":"INFO","msg":"stream: started","id":"zcyo5b7h"}
+{"time":"2025-10-19T09:38:28.6308735+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"zcyo5b7h"}
+{"time":"2025-10-19T09:38:28.6308735+02:00","level":"INFO","msg":"sender: started","stream_id":"zcyo5b7h"}
+{"time":"2025-10-19T09:38:28.6308735+02:00","level":"INFO","msg":"handler: started","stream_id":"zcyo5b7h"}
+{"time":"2025-10-19T09:38:29.1351051+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-10-19T09:38:44.7105932+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/x-j-vreeswijk-eindhoven-university-of-technology/master-thesis-test/zcyo5b7h/file_stream\": read tcp 192.168.68.58:61394->35.186.228.49:443: wsarecv: An existing connection was forcibly closed by the remote host."}
+{"time":"2025-10-19T10:27:33.5283487+02:00","level":"INFO","msg":"stream: closing","id":"zcyo5b7h"}
+{"time":"2025-10-19T10:27:33.5299423+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-10-19T10:27:33.5351984+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-10-19T10:27:34.5000526+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-10-19T10:27:34.7191323+02:00","level":"INFO","msg":"handler: closed","stream_id":"zcyo5b7h"}
+{"time":"2025-10-19T10:27:34.7197026+02:00","level":"INFO","msg":"sender: closed","stream_id":"zcyo5b7h"}
+{"time":"2025-10-19T10:27:34.7191323+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"zcyo5b7h"}
+{"time":"2025-10-19T10:27:34.7197026+02:00","level":"INFO","msg":"stream: closed","id":"zcyo5b7h"}

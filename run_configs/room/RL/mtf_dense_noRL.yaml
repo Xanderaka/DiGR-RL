@@ -1,0 +1,56 @@
+data:
+  bvp_agg: sum
+  bvp_pipeline: 0
+  data_dir: "C:\\Tue\\Master\\Jaar_2\\graduation\\code\\own_approach\\data"
+  dataset_type: single_user
+  downsample_multiplier: 100
+  amp_pipeline:
+    - "lowpass_filter"
+    - "standard_scalar"
+    - "transform"
+    - "torch.from_numpy"
+  phase_pipeline:
+    - "phase_unwrap"
+    - "phase_filter"
+    - "lowpass_filter"
+    - "standard_scalar"
+    - "transform"
+    - "torch.from_numpy"
+  transformation: mtf
+debug:
+  is_debug: false
+  offline: false
+  on_cpu: false
+embed:
+  agent_type: ppo
+  reward_function: environment_adaptation
+  policy: exploitation
+  start_epoch: 101
+  value_type: probability-measure
+  epochs: 2
+encoder:
+  activation_fn: relu
+  dropout: 0.06949780642398673
+  initial_kernel_size: 5
+  latent_dim: 30
+  type: DenseNet
+  normalization: False
+  init_channels: 64
+  growth_rate: 56
+mt:
+  d_predictor_activation_fn: gelu
+  d_predictor_dropout: 0.27986668432868433
+  d_predictor_num_layers: 4
+  predictor_activation_fn: selu
+  predictor_dropout: 0.08449720863043957
+  predictor_num_layers: 2
+optim_loss:
+  alpha: 0.00025495817492071003
+  beta: 0.7059082984180771
+  lr: 0.0009107155814559353
+  optimizer: adam
+train:
+  batch_size: 32
+  checkpoint_dir: /home2/xvreewij/Checkpoints
+  epochs: 100
+  ui: tqdm

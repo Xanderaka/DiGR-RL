@@ -1,0 +1,7 @@
+{"time":"2025-04-22T14:36:53.0698118+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Tue\\Master\\Jaar_2\\graduation\\code\\own_approach\\wandb\\run-20250422_143652-8iq24xtx\\logs\\debug-core.log"}
+{"time":"2025-04-22T14:36:53.2608778+02:00","level":"INFO","msg":"created new stream","id":"8iq24xtx"}
+{"time":"2025-04-22T14:36:53.2608778+02:00","level":"INFO","msg":"stream: started","id":"8iq24xtx"}
+{"time":"2025-04-22T14:36:53.2608778+02:00","level":"INFO","msg":"sender: started","stream_id":"8iq24xtx"}
+{"time":"2025-04-22T14:36:53.2608778+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"8iq24xtx"}
+{"time":"2025-04-22T14:36:53.2608778+02:00","level":"INFO","msg":"handler: started","stream_id":"8iq24xtx"}
+{"time":"2025-04-22T14:36:53.6873916+02:00","level":"INFO","msg":"Starting system monitor"}

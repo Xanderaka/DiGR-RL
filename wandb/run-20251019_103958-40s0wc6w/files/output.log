@@ -1,0 +1,178 @@
+Running training on CPU
+Loading dataset train
+Found pregenerated data dir.
+Loading complete. Took 0.01 s.
+Loading dataset validation
+Found pregenerated data dir.
+Loading complete. Took 0.00 s.
+Building models...
+Completed model building. Took 23.32 s.
+[2025-10-19 10:40:23 E001 S0000000] Preparation complete. Starting training...
+[2025-10-19 10:40:50 E001 S0000000] Training model...
+[2025-10-19 10:40:57 E001 S0000000] Started epoch 1, epoch: 0, batch: 0, train_loss: 1.77, train_domain_loss: 3.22, train_null_loss: 1.77, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:41:03 E001 S0000032] Started epoch 1, epoch: 0, batch: 1, train_loss: 1.82, train_domain_loss: 3.23, train_null_loss: 1.82, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:41:09 E001 S0000064] Started epoch 1, epoch: 0, batch: 2, train_loss: 1.81, train_domain_loss: 3.22, train_null_loss: 1.81, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:41:15 E001 S0000096] Started epoch 1, epoch: 0, batch: 3, train_loss: 1.79, train_domain_loss: 3.24, train_null_loss: 1.79, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:41:21 E001 S0000128] Started epoch 1, epoch: 0, batch: 4, train_loss: 1.8, train_domain_loss: 3.22, train_null_loss: 1.8, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:41:28 E001 S0000160] Started epoch 1, epoch: 0, batch: 5, train_loss: 1.82, train_domain_loss: 3.24, train_null_loss: 1.82, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:41:34 E001 S0000192] Started epoch 1, epoch: 0, batch: 6, train_loss: 1.77, train_domain_loss: 3.2, train_null_loss: 1.77, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:41:40 E001 S0000224] Started epoch 1, epoch: 0, batch: 7, train_loss: 1.75, train_domain_loss: 3.22, train_null_loss: 1.75, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:41:47 E001 S0000256] Started epoch 1, epoch: 0, batch: 8, train_loss: 1.69, train_domain_loss: 3.22, train_null_loss: 1.69, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:41:53 E001 S0000288] Started epoch 1, epoch: 0, batch: 9, train_loss: 1.79, train_domain_loss: 3.24, train_null_loss: 1.79, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:41:59 E001 S0000320] Started epoch 1, epoch: 0, batch: 10, train_loss: 1.8, train_domain_loss: 3.22, train_null_loss: 1.8, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:42:05 E001 S0000352] Started epoch 1, epoch: 0, batch: 11, train_loss: 1.8, train_domain_loss: 3.22, train_null_loss: 1.8, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:42:11 E001 S0000384] Started epoch 1, epoch: 0, batch: 12, train_loss: 1.76, train_domain_loss: 3.22, train_null_loss: 1.76, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:42:18 E001 S0000416] Started epoch 1, epoch: 0, batch: 13, train_loss: 1.7, train_domain_loss: 3.22, train_null_loss: 1.7, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:42:24 E001 S0000448] Started epoch 1, epoch: 0, batch: 14, train_loss: 1.74, train_domain_loss: 3.21, train_null_loss: 1.74, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:42:30 E001 S0000480] Started epoch 1, epoch: 0, batch: 15, train_loss: 1.73, train_domain_loss: 3.21, train_null_loss: 1.73, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:42:37 E001 S0000512] Started epoch 1, epoch: 0, batch: 16, train_loss: 1.67, train_domain_loss: 3.22, train_null_loss: 1.67, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:42:43 E001 S0000544] Started epoch 1, epoch: 0, batch: 17, train_loss: 1.69, train_domain_loss: 3.24, train_null_loss: 1.69, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:42:43 E001 S0000576] Running validation...
+[2025-10-19 10:42:47 E001 S0000576] Started epoch 1, valid_loss: 5.11, loss_diff: 0.0, epoch: 0, batch: 0
+[2025-10-19 10:42:50 E001 S0000608] Started epoch 1, valid_loss: 4.62, loss_diff: 0.0, epoch: 0, batch: 1
+[2025-10-19 10:42:54 E001 S0000640] Started epoch 1, valid_loss: 4.86, loss_diff: 0.0, epoch: 0, batch: 2
+[2025-10-19 10:42:55 E001 S0000672] Training model...
+[2025-10-19 10:43:01 E002 S0000672] Started epoch 2, epoch: 1, batch: 0, train_loss: 1.73, train_domain_loss: 3.25, train_null_loss: 1.73, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:43:07 E002 S0000704] Started epoch 2, epoch: 1, batch: 1, train_loss: 1.73, train_domain_loss: 3.24, train_null_loss: 1.73, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:43:14 E002 S0000736] Started epoch 2, epoch: 1, batch: 2, train_loss: 1.68, train_domain_loss: 3.22, train_null_loss: 1.68, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:43:20 E002 S0000768] Started epoch 2, epoch: 1, batch: 3, train_loss: 1.7, train_domain_loss: 3.22, train_null_loss: 1.7, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:43:26 E002 S0000800] Started epoch 2, epoch: 1, batch: 4, train_loss: 1.71, train_domain_loss: 3.22, train_null_loss: 1.71, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:43:33 E002 S0000832] Started epoch 2, epoch: 1, batch: 5, train_loss: 1.66, train_domain_loss: 3.21, train_null_loss: 1.66, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:43:39 E002 S0000864] Started epoch 2, epoch: 1, batch: 6, train_loss: 1.78, train_domain_loss: 3.23, train_null_loss: 1.78, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:43:46 E002 S0000896] Started epoch 2, epoch: 1, batch: 7, train_loss: 1.7, train_domain_loss: 3.22, train_null_loss: 1.7, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:43:52 E002 S0000928] Started epoch 2, epoch: 1, batch: 8, train_loss: 1.67, train_domain_loss: 3.23, train_null_loss: 1.67, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:43:58 E002 S0000960] Started epoch 2, epoch: 1, batch: 9, train_loss: 1.69, train_domain_loss: 3.19, train_null_loss: 1.69, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:44:05 E002 S0000992] Started epoch 2, epoch: 1, batch: 10, train_loss: 1.71, train_domain_loss: 3.21, train_null_loss: 1.71, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:44:11 E002 S0001024] Started epoch 2, epoch: 1, batch: 11, train_loss: 1.72, train_domain_loss: 3.2, train_null_loss: 1.72, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:44:17 E002 S0001056] Started epoch 2, epoch: 1, batch: 12, train_loss: 1.7, train_domain_loss: 3.22, train_null_loss: 1.7, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:44:24 E002 S0001088] Started epoch 2, epoch: 1, batch: 13, train_loss: 1.75, train_domain_loss: 3.22, train_null_loss: 1.75, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:44:30 E002 S0001120] Started epoch 2, epoch: 1, batch: 14, train_loss: 1.71, train_domain_loss: 3.21, train_null_loss: 1.71, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:44:37 E002 S0001152] Started epoch 2, epoch: 1, batch: 15, train_loss: 1.63, train_domain_loss: 3.22, train_null_loss: 1.63, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:44:43 E002 S0001184] Started epoch 2, epoch: 1, batch: 16, train_loss: 1.62, train_domain_loss: 3.22, train_null_loss: 1.62, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:44:50 E002 S0001216] Started epoch 2, epoch: 1, batch: 17, train_loss: 1.7, train_domain_loss: 3.22, train_null_loss: 1.7, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:44:50 E002 S0001248] Running validation...
+[2025-10-19 10:44:53 E002 S0001248] Started epoch 2, valid_loss: 5.04, loss_diff: 0.0, epoch: 1, batch: 0
+[2025-10-19 10:44:57 E002 S0001280] Started epoch 2, valid_loss: 4.61, loss_diff: 0.0, epoch: 1, batch: 1
+[2025-10-19 10:45:01 E002 S0001312] Started epoch 2, valid_loss: 4.84, loss_diff: 0.0, epoch: 1, batch: 2
+[2025-10-19 10:45:01 E002 S0001344] Training model...
+[2025-10-19 10:45:07 E003 S0001344] Started epoch 3, epoch: 2, batch: 0, train_loss: 1.73, train_domain_loss: 3.22, train_null_loss: 1.73, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:45:14 E003 S0001376] Started epoch 3, epoch: 2, batch: 1, train_loss: 1.7, train_domain_loss: 3.22, train_null_loss: 1.7, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:45:20 E003 S0001408] Started epoch 3, epoch: 2, batch: 2, train_loss: 1.62, train_domain_loss: 3.21, train_null_loss: 1.62, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:45:27 E003 S0001440] Started epoch 3, epoch: 2, batch: 3, train_loss: 1.71, train_domain_loss: 3.2, train_null_loss: 1.71, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:45:33 E003 S0001472] Started epoch 3, epoch: 2, batch: 4, train_loss: 1.73, train_domain_loss: 3.2, train_null_loss: 1.73, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:45:39 E003 S0001504] Started epoch 3, epoch: 2, batch: 5, train_loss: 1.7, train_domain_loss: 3.23, train_null_loss: 1.7, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:45:46 E003 S0001536] Started epoch 3, epoch: 2, batch: 6, train_loss: 1.73, train_domain_loss: 3.21, train_null_loss: 1.73, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:45:52 E003 S0001568] Started epoch 3, epoch: 2, batch: 7, train_loss: 1.7, train_domain_loss: 3.24, train_null_loss: 1.7, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:45:59 E003 S0001600] Started epoch 3, epoch: 2, batch: 8, train_loss: 1.74, train_domain_loss: 3.21, train_null_loss: 1.74, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:46:05 E003 S0001632] Started epoch 3, epoch: 2, batch: 9, train_loss: 1.67, train_domain_loss: 3.21, train_null_loss: 1.67, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:46:12 E003 S0001664] Started epoch 3, epoch: 2, batch: 10, train_loss: 1.71, train_domain_loss: 3.19, train_null_loss: 1.71, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:46:18 E003 S0001696] Started epoch 3, epoch: 2, batch: 11, train_loss: 1.65, train_domain_loss: 3.22, train_null_loss: 1.65, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:46:24 E003 S0001728] Started epoch 3, epoch: 2, batch: 12, train_loss: 1.66, train_domain_loss: 3.2, train_null_loss: 1.66, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:46:31 E003 S0001760] Started epoch 3, epoch: 2, batch: 13, train_loss: 1.71, train_domain_loss: 3.21, train_null_loss: 1.71, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:46:37 E003 S0001792] Started epoch 3, epoch: 2, batch: 14, train_loss: 1.74, train_domain_loss: 3.22, train_null_loss: 1.74, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:46:44 E003 S0001824] Started epoch 3, epoch: 2, batch: 15, train_loss: 1.67, train_domain_loss: 3.2, train_null_loss: 1.67, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:46:50 E003 S0001856] Started epoch 3, epoch: 2, batch: 16, train_loss: 1.66, train_domain_loss: 3.22, train_null_loss: 1.66, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:46:56 E003 S0001888] Started epoch 3, epoch: 2, batch: 17, train_loss: 1.69, train_domain_loss: 3.21, train_null_loss: 1.69, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:46:56 E003 S0001920] Running validation...
+[2025-10-19 10:47:00 E003 S0001920] Started epoch 3, valid_loss: 4.97, loss_diff: 0.0, epoch: 2, batch: 0
+[2025-10-19 10:47:04 E003 S0001952] Started epoch 3, valid_loss: 4.67, loss_diff: 0.0, epoch: 2, batch: 1
+[2025-10-19 10:47:07 E003 S0001984] Started epoch 3, valid_loss: 4.82, loss_diff: 0.0, epoch: 2, batch: 2
+[2025-10-19 10:47:08 E003 S0002016] Training model...
+[2025-10-19 10:47:14 E004 S0002016] Started epoch 4, epoch: 3, batch: 0, train_loss: 1.68, train_domain_loss: 3.22, train_null_loss: 1.68, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:47:20 E004 S0002048] Started epoch 4, epoch: 3, batch: 1, train_loss: 1.58, train_domain_loss: 3.18, train_null_loss: 1.58, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:47:27 E004 S0002080] Started epoch 4, epoch: 3, batch: 2, train_loss: 1.68, train_domain_loss: 3.22, train_null_loss: 1.68, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:47:34 E004 S0002112] Started epoch 4, epoch: 3, batch: 3, train_loss: 1.76, train_domain_loss: 3.19, train_null_loss: 1.76, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:47:41 E004 S0002144] Started epoch 4, epoch: 3, batch: 4, train_loss: 1.65, train_domain_loss: 3.2, train_null_loss: 1.65, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:47:48 E004 S0002176] Started epoch 4, epoch: 3, batch: 5, train_loss: 1.68, train_domain_loss: 3.17, train_null_loss: 1.68, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:47:55 E004 S0002208] Started epoch 4, epoch: 3, batch: 6, train_loss: 1.65, train_domain_loss: 3.19, train_null_loss: 1.65, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:48:02 E004 S0002240] Started epoch 4, epoch: 3, batch: 7, train_loss: 1.68, train_domain_loss: 3.21, train_null_loss: 1.68, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:48:09 E004 S0002272] Started epoch 4, epoch: 3, batch: 8, train_loss: 1.69, train_domain_loss: 3.16, train_null_loss: 1.69, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:48:18 E004 S0002304] Started epoch 4, epoch: 3, batch: 9, train_loss: 1.72, train_domain_loss: 3.17, train_null_loss: 1.72, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:48:26 E004 S0002336] Started epoch 4, epoch: 3, batch: 10, train_loss: 1.64, train_domain_loss: 3.23, train_null_loss: 1.64, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:48:35 E004 S0002368] Started epoch 4, epoch: 3, batch: 11, train_loss: 1.73, train_domain_loss: 3.18, train_null_loss: 1.73, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:48:46 E004 S0002400] Started epoch 4, epoch: 3, batch: 12, train_loss: 1.71, train_domain_loss: 3.17, train_null_loss: 1.71, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:48:57 E004 S0002432] Started epoch 4, epoch: 3, batch: 13, train_loss: 1.69, train_domain_loss: 3.17, train_null_loss: 1.69, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:49:09 E004 S0002464] Started epoch 4, epoch: 3, batch: 14, train_loss: 1.72, train_domain_loss: 3.15, train_null_loss: 1.72, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:49:20 E004 S0002496] Started epoch 4, epoch: 3, batch: 15, train_loss: 1.68, train_domain_loss: 3.16, train_null_loss: 1.68, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:49:31 E004 S0002528] Started epoch 4, epoch: 3, batch: 16, train_loss: 1.7, train_domain_loss: 3.18, train_null_loss: 1.7, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:49:42 E004 S0002560] Started epoch 4, epoch: 3, batch: 17, train_loss: 1.62, train_domain_loss: 3.18, train_null_loss: 1.62, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:49:42 E004 S0002592] Running validation...
+[2025-10-19 10:49:48 E004 S0002592] Started epoch 4, valid_loss: 4.95, loss_diff: 0.0, epoch: 3, batch: 0
+[2025-10-19 10:49:53 E004 S0002624] Started epoch 4, valid_loss: 4.74, loss_diff: 0.0, epoch: 3, batch: 1
+[2025-10-19 10:50:00 E004 S0002656] Started epoch 4, valid_loss: 4.67, loss_diff: 0.0, epoch: 3, batch: 2
+[2025-10-19 10:50:00 E004 S0002688] Training model...
+[2025-10-19 10:50:11 E005 S0002688] Started epoch 5, epoch: 4, batch: 0, train_loss: 1.74, train_domain_loss: 3.15, train_null_loss: 1.74, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:50:23 E005 S0002720] Started epoch 5, epoch: 4, batch: 1, train_loss: 1.71, train_domain_loss: 3.2, train_null_loss: 1.71, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:50:34 E005 S0002752] Started epoch 5, epoch: 4, batch: 2, train_loss: 1.65, train_domain_loss: 3.13, train_null_loss: 1.65, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:50:45 E005 S0002784] Started epoch 5, epoch: 4, batch: 3, train_loss: 1.62, train_domain_loss: 3.18, train_null_loss: 1.62, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:50:57 E005 S0002816] Started epoch 5, epoch: 4, batch: 4, train_loss: 1.68, train_domain_loss: 3.13, train_null_loss: 1.68, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:51:07 E005 S0002848] Started epoch 5, epoch: 4, batch: 5, train_loss: 1.67, train_domain_loss: 3.12, train_null_loss: 1.67, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:51:19 E005 S0002880] Started epoch 5, epoch: 4, batch: 6, train_loss: 1.57, train_domain_loss: 3.16, train_null_loss: 1.57, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:51:30 E005 S0002912] Started epoch 5, epoch: 4, batch: 7, train_loss: 1.71, train_domain_loss: 3.04, train_null_loss: 1.71, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:51:41 E005 S0002944] Started epoch 5, epoch: 4, batch: 8, train_loss: 1.68, train_domain_loss: 3.13, train_null_loss: 1.68, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:51:53 E005 S0002976] Started epoch 5, epoch: 4, batch: 9, train_loss: 1.71, train_domain_loss: 3.1, train_null_loss: 1.71, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:52:04 E005 S0003008] Started epoch 5, epoch: 4, batch: 10, train_loss: 1.7, train_domain_loss: 3.23, train_null_loss: 1.7, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:52:15 E005 S0003040] Started epoch 5, epoch: 4, batch: 11, train_loss: 1.63, train_domain_loss: 3.14, train_null_loss: 1.63, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:52:26 E005 S0003072] Started epoch 5, epoch: 4, batch: 12, train_loss: 1.7, train_domain_loss: 3.11, train_null_loss: 1.7, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:52:37 E005 S0003104] Started epoch 5, epoch: 4, batch: 13, train_loss: 1.67, train_domain_loss: 3.07, train_null_loss: 1.67, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:52:48 E005 S0003136] Started epoch 5, epoch: 4, batch: 14, train_loss: 1.72, train_domain_loss: 3.15, train_null_loss: 1.72, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:52:59 E005 S0003168] Started epoch 5, epoch: 4, batch: 15, train_loss: 1.71, train_domain_loss: 3.09, train_null_loss: 1.71, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:53:10 E005 S0003200] Started epoch 5, epoch: 4, batch: 16, train_loss: 1.72, train_domain_loss: 3.14, train_null_loss: 1.72, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:53:22 E005 S0003232] Started epoch 5, epoch: 4, batch: 17, train_loss: 1.66, train_domain_loss: 3.18, train_null_loss: 1.66, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:53:22 E005 S0003264] Running validation...
+[2025-10-19 10:53:28 E005 S0003264] Started epoch 5, valid_loss: 5.08, loss_diff: 0.0, epoch: 4, batch: 0
+[2025-10-19 10:53:34 E005 S0003296] Started epoch 5, valid_loss: 4.96, loss_diff: 0.0, epoch: 4, batch: 1
+[2025-10-19 10:53:40 E005 S0003328] Started epoch 5, valid_loss: 4.6, loss_diff: 0.0, epoch: 4, batch: 2
+[2025-10-19 10:53:41 E005 S0003360] Training embedding agent starting this epoch...
+[2025-10-19 10:53:41 E005 S0003360] Training agent for 1200 steps...
+[2025-10-19 11:14:27 E005 S0003360] Training model...
+[2025-10-19 11:14:33 E006 S0003360] Started epoch 6, epoch: 5, batch: 0, train_loss: 1.67, train_domain_loss: 3.1, train_null_loss: 1.65, train_embed_loss: 1.69, train_loss_diff: 0.03
+[2025-10-19 11:14:39 E006 S0003392] Started epoch 6, epoch: 5, batch: 1, train_loss: 1.65, train_domain_loss: 3.06, train_null_loss: 1.65, train_embed_loss: 1.65, train_loss_diff: -0.0
+[2025-10-19 11:14:45 E006 S0003424] Started epoch 6, epoch: 5, batch: 2, train_loss: 1.72, train_domain_loss: 3.23, train_null_loss: 1.74, train_embed_loss: 1.71, train_loss_diff: -0.03
+[2025-10-19 11:14:52 E006 S0003456] Started epoch 6, epoch: 5, batch: 3, train_loss: 1.65, train_domain_loss: 3.07, train_null_loss: 1.67, train_embed_loss: 1.62, train_loss_diff: -0.05
+[2025-10-19 11:14:58 E006 S0003488] Started epoch 6, epoch: 5, batch: 4, train_loss: 1.69, train_domain_loss: 3.12, train_null_loss: 1.71, train_embed_loss: 1.68, train_loss_diff: -0.04
+[2025-10-19 11:15:04 E006 S0003520] Started epoch 6, epoch: 5, batch: 5, train_loss: 1.63, train_domain_loss: 3.23, train_null_loss: 1.67, train_embed_loss: 1.6, train_loss_diff: -0.06
+[2025-10-19 11:15:10 E006 S0003552] Started epoch 6, epoch: 5, batch: 6, train_loss: 1.61, train_domain_loss: 3.18, train_null_loss: 1.64, train_embed_loss: 1.59, train_loss_diff: -0.05
+[2025-10-19 11:15:16 E006 S0003584] Started epoch 6, epoch: 5, batch: 7, train_loss: 1.7, train_domain_loss: 3.18, train_null_loss: 1.7, train_embed_loss: 1.71, train_loss_diff: 0.01
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\experiments\train_runner.py", line 235, in <module>
+    best_loss = run_training(parse_config_file(args.CONFIG_FP))
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\experiments\train_runner.py", line 221, in run_training
+    best_loss = training.train(
+        train_loader=train_dataloader,
+    ...<3 lines>...
+        agent_epochs=config["embed"]["epochs"]
+    )
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\experiments\train.py", line 594, in train
+    if not self._train_backbone(train_loader, device, epoch):
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\experiments\train.py", line 243, in _train_backbone
+    pass_result["joint_loss"].backward()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\xande\anaconda3\envs\thesis\Lib\site-packages\torch\_tensor.py", line 648, in backward
+    torch.autograd.backward(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        self, gradient, retain_graph, create_graph, inputs=inputs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\xande\anaconda3\envs\thesis\Lib\site-packages\torch\autograd\__init__.py", line 353, in backward
+    _engine_run_backward(
+    ~~~~~~~~~~~~~~~~~~~~^
+        tensors,
+        ^^^^^^^^
+    ...<5 lines>...
+        accumulate_grad=True,
+        ^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\xande\anaconda3\envs\thesis\Lib\site-packages\torch\autograd\graph.py", line 824, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        t_outputs, *args, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )  # Calls into the C++ engine to run the backward pass
+    ^
+KeyboardInterrupt

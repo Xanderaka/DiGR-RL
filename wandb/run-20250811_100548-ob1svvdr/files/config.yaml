@@ -1,0 +1,125 @@
+_wandb:
+    value:
+        cli_version: 0.19.8
+        m: []
+        python_version: 3.12.3
+        t:
+            "1":
+                - 1
+                - 5
+                - 41
+                - 53
+                - 55
+            "2":
+                - 1
+                - 5
+                - 41
+                - 53
+                - 55
+            "3":
+                - 15
+                - 16
+                - 23
+                - 55
+            "4": 3.12.3
+            "5": 0.19.8
+            "8":
+                - 3
+                - 5
+            "12": 0.19.8
+            "13": windows-amd64
+agent:
+    value:
+        adaptive_switching: true
+        batch_size: 512
+        buffer_size: 20000
+        ent_coef: 0.018
+        factor: 3
+        gradient_steps: 16
+        learning_rate: 5.28e-05
+        learning_starts: 3600
+        switch_epoch: 20
+        threshold: 5
+        train_freq:
+            - 64
+            - step
+        window: 20
+data:
+    value:
+        amp_pipeline: <src.signal_processing.pipeline.Pipeline object at 0x000001E3C345E7B0>
+        bvp_agg: sum
+        bvp_pipeline: 0
+        data_dir: C:\Tue\Master\Jaar_2\graduation\code\own_approach\data
+        dataset_type: single_user
+        downsample_multiplier: 100
+        phase_pipeline: <src.signal_processing.pipeline.Pipeline object at 0x000001E3C5C2BFE0>
+        transformation: GramianAngularField()
+debug:
+    value:
+        is_debug: false
+        offline: false
+        on_cpu: false
+embed:
+    value:
+        actor_dropout: 0.3
+        actor_num_layers: 3
+        agent_type: ppo
+        anneal_lr: true
+        clip_coef: 0.2
+        clip_value_loss: true
+        critic_dropout: 0.3
+        critic_num_layers: 3
+        embed_size: 33
+        entropy_coef: 0
+        epochs: 2
+        gae_lambda: 0.95
+        gamma: 0.99
+        lr: 0.0001
+        max_grad_norm: 0.5
+        norm_advantage: true
+        policy: exploration
+        reward_function: task_performance
+        start_epoch: 3
+        target_kl: null
+        value_func_coef: 0.5
+encoder:
+    value:
+        Backbone_type: ViT
+        activation_fn: gelu
+        base_channels: 64
+        dropout: 0.25
+        growth_rate: 32
+        init_channels: 64
+        initial_kernel_size: 3
+        latent_dim: 50
+        layers_per_stage:
+            - 2
+            - 2
+            - 2
+            - 2
+        normalization: false
+        num_conv_layers: null
+        patch_size: 4
+        vit_depth: 4
+        vit_heads: 4
+mt:
+    value:
+        d_predictor_activation_fn: leaky
+        d_predictor_dropout: 0.067
+        d_predictor_num_layers: 6
+        predictor_activation_fn: selu
+        predictor_dropout: 0.11
+        predictor_num_layers: 4
+optim_loss:
+    value:
+        alpha: 0.000363
+        beta: 0.37
+        lr: 0.000629
+        optimizer: adam
+train:
+    value:
+        batch_size: 16
+        checkpoint_dir: C:\Tue\Master\Jaar_2\graduation\code\own_approach\checkpoints
+        epochs: 6
+        tuning: false
+        ui: tqdm

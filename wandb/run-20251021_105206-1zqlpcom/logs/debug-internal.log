@@ -1,0 +1,19 @@
+{"time":"2025-10-21T10:52:06.0822062+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Tue\\Master\\Jaar_2\\graduation\\code\\DiGR-RL\\wandb\\run-20251021_105206-1zqlpcom\\logs\\debug-core.log"}
+{"time":"2025-10-21T10:52:06.5663978+02:00","level":"INFO","msg":"created new stream","id":"1zqlpcom"}
+{"time":"2025-10-21T10:52:06.5663978+02:00","level":"INFO","msg":"stream: started","id":"1zqlpcom"}
+{"time":"2025-10-21T10:52:06.5663978+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"1zqlpcom"}
+{"time":"2025-10-21T10:52:06.5663978+02:00","level":"INFO","msg":"handler: started","stream_id":"1zqlpcom"}
+{"time":"2025-10-21T10:52:06.5663978+02:00","level":"INFO","msg":"sender: started","stream_id":"1zqlpcom"}
+{"time":"2025-10-21T10:52:07.0909229+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-10-21T10:57:22.7176859+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/x-j-vreeswijk-eindhoven-university-of-technology/master-thesis-test/1zqlpcom/file_stream\": read tcp 100.80.112.170:64566->35.186.228.49:443: wsarecv: An existing connection was forcibly closed by the remote host."}
+{"time":"2025-10-21T11:57:37.7528922+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/x-j-vreeswijk-eindhoven-university-of-technology/master-thesis-test/1zqlpcom/file_stream\": read tcp 100.80.112.170:57232->35.186.228.49:443: wsarecv: An existing connection was forcibly closed by the remote host."}
+{"time":"2025-10-21T12:21:22.7403681+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/x-j-vreeswijk-eindhoven-university-of-technology/master-thesis-test/1zqlpcom/file_stream\": read tcp 100.80.112.170:51558->35.186.228.49:443: wsarecv: An existing connection was forcibly closed by the remote host."}
+{"time":"2025-10-21T12:46:22.7461764+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/x-j-vreeswijk-eindhoven-university-of-technology/master-thesis-test/1zqlpcom/file_stream\": read tcp 100.80.112.170:54015->35.186.228.49:443: wsarecv: An existing connection was forcibly closed by the remote host."}
+{"time":"2025-10-21T13:06:44.2661544+02:00","level":"INFO","msg":"stream: closing","id":"1zqlpcom"}
+{"time":"2025-10-21T13:06:44.2672169+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-10-21T13:06:44.2726468+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-10-21T13:06:44.9108799+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-10-21T13:06:45.2181547+02:00","level":"INFO","msg":"handler: closed","stream_id":"1zqlpcom"}
+{"time":"2025-10-21T13:06:45.2181547+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"1zqlpcom"}
+{"time":"2025-10-21T13:06:45.2181547+02:00","level":"INFO","msg":"sender: closed","stream_id":"1zqlpcom"}
+{"time":"2025-10-21T13:06:45.2186731+02:00","level":"INFO","msg":"stream: closed","id":"1zqlpcom"}

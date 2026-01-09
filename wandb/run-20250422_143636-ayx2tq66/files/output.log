@@ -1,0 +1,128 @@
+Running training on CPU
+Loading dataset train
+Found pregenerated data dir. Using pregenerated data.
+Loading complete. Took 0.00 s.
+Loading dataset validation
+Found pregenerated data dir. Using pregenerated data.
+Loading complete. Took 0.00 s.
+Building models...
+Completed model building. Took 0.12 s.
+                                                                                                                                                               
+Preparation complete. Starting training...
+Training model...
+{'epoch': 0, 'batch': 0, 'train_loss': 1.752, 'train_elbo_loss': 0.519, 'train_null_loss': 1.752, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 1, 'train_loss': 1.787, 'train_elbo_loss': 0.469, 'train_null_loss': 1.787, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 2, 'train_loss': 1.794, 'train_elbo_loss': 0.424, 'train_null_loss': 1.794, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 3, 'train_loss': 1.799, 'train_elbo_loss': 0.378, 'train_null_loss': 1.799, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 4, 'train_loss': 1.835, 'train_elbo_loss': 0.339, 'train_null_loss': 1.835, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 5, 'train_loss': 1.81, 'train_elbo_loss': 0.308, 'train_null_loss': 1.81, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 6, 'train_loss': 1.791, 'train_elbo_loss': 0.283, 'train_null_loss': 1.791, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+{'valid_loss': 2.343, 'loss_diff': 0.0, 'epoch': 0, 'batch': 0}
+{'valid_loss': 2.266, 'loss_diff': 0.0, 'epoch': 0, 'batch': 1}
+{'valid_loss': 2.264, 'loss_diff': 0.0, 'epoch': 0, 'batch': 2}
+{'valid_loss': 2.272, 'loss_diff': 0.0, 'epoch': 0, 'batch': 3}
+{'valid_loss': 2.212, 'loss_diff': 0.0, 'epoch': 0, 'batch': 4}
+{'valid_loss': 2.289, 'loss_diff': 0.0, 'epoch': 0, 'batch': 5}
+{'valid_loss': 2.23, 'loss_diff': 0.0, 'epoch': 0, 'batch': 6}
+Training model...
+{'epoch': 1, 'batch': 0, 'train_loss': 1.767, 'train_elbo_loss': 0.266, 'train_null_loss': 1.767, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 1, 'train_loss': 1.74, 'train_elbo_loss': 0.237, 'train_null_loss': 1.74, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 2, 'train_loss': 1.801, 'train_elbo_loss': 0.21, 'train_null_loss': 1.801, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 3, 'train_loss': 1.739, 'train_elbo_loss': 0.186, 'train_null_loss': 1.739, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 4, 'train_loss': 1.771, 'train_elbo_loss': 0.174, 'train_null_loss': 1.771, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 5, 'train_loss': 1.756, 'train_elbo_loss': 0.158, 'train_null_loss': 1.756, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 6, 'train_loss': 1.776, 'train_elbo_loss': 0.131, 'train_null_loss': 1.776, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+{'valid_loss': 2.333, 'loss_diff': 0.0, 'epoch': 1, 'batch': 0}
+{'valid_loss': 2.223, 'loss_diff': 0.0, 'epoch': 1, 'batch': 1}
+{'valid_loss': 2.24, 'loss_diff': 0.0, 'epoch': 1, 'batch': 2}
+{'valid_loss': 2.252, 'loss_diff': 0.0, 'epoch': 1, 'batch': 3}
+{'valid_loss': 2.11, 'loss_diff': 0.0, 'epoch': 1, 'batch': 4}
+{'valid_loss': 2.183, 'loss_diff': 0.0, 'epoch': 1, 'batch': 5}
+{'valid_loss': 2.214, 'loss_diff': 0.0, 'epoch': 1, 'batch': 6}
+Training model...
+{'epoch': 2, 'batch': 0, 'train_loss': 1.821, 'train_elbo_loss': 0.117, 'train_null_loss': 1.821, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 2, 'batch': 1, 'train_loss': 1.811, 'train_elbo_loss': 0.103, 'train_null_loss': 1.811, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 2, 'batch': 2, 'train_loss': 1.702, 'train_elbo_loss': 0.097, 'train_null_loss': 1.702, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 2, 'batch': 3, 'train_loss': 1.696, 'train_elbo_loss': 0.087, 'train_null_loss': 1.696, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 2, 'batch': 4, 'train_loss': 1.818, 'train_elbo_loss': 0.069, 'train_null_loss': 1.818, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 2, 'batch': 5, 'train_loss': 1.691, 'train_elbo_loss': 0.073, 'train_null_loss': 1.691, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 2, 'batch': 6, 'train_loss': 1.845, 'train_elbo_loss': 0.06, 'train_null_loss': 1.845, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+{'valid_loss': 2.217, 'loss_diff': 0.0, 'epoch': 2, 'batch': 0}
+{'valid_loss': 2.115, 'loss_diff': 0.0, 'epoch': 2, 'batch': 1}
+{'valid_loss': 2.147, 'loss_diff': 0.0, 'epoch': 2, 'batch': 2}
+{'valid_loss': 2.174, 'loss_diff': 0.0, 'epoch': 2, 'batch': 3}
+{'valid_loss': 2.044, 'loss_diff': 0.0, 'epoch': 2, 'batch': 4}
+{'valid_loss': 1.972, 'loss_diff': 0.0, 'epoch': 2, 'batch': 5}
+{'valid_loss': 2.048, 'loss_diff': 0.0, 'epoch': 2, 'batch': 6}
+Training model...
+{'epoch': 3, 'batch': 0, 'train_loss': 1.799, 'train_elbo_loss': 0.057, 'train_null_loss': 1.799, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 3, 'batch': 1, 'train_loss': 1.737, 'train_elbo_loss': 0.051, 'train_null_loss': 1.737, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 3, 'batch': 2, 'train_loss': 1.825, 'train_elbo_loss': 0.046, 'train_null_loss': 1.825, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 3, 'batch': 3, 'train_loss': 1.621, 'train_elbo_loss': 0.043, 'train_null_loss': 1.621, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 3, 'batch': 4, 'train_loss': 1.747, 'train_elbo_loss': 0.042, 'train_null_loss': 1.747, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 3, 'batch': 5, 'train_loss': 1.77, 'train_elbo_loss': 0.038, 'train_null_loss': 1.77, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 3, 'batch': 6, 'train_loss': 1.758, 'train_elbo_loss': 0.038, 'train_null_loss': 1.758, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+{'valid_loss': 2.068, 'loss_diff': 0.0, 'epoch': 3, 'batch': 0}
+{'valid_loss': 2.002, 'loss_diff': 0.0, 'epoch': 3, 'batch': 1}
+{'valid_loss': 2.027, 'loss_diff': 0.0, 'epoch': 3, 'batch': 2}
+{'valid_loss': 2.041, 'loss_diff': 0.0, 'epoch': 3, 'batch': 3}
+{'valid_loss': 1.924, 'loss_diff': 0.0, 'epoch': 3, 'batch': 4}
+{'valid_loss': 1.623, 'loss_diff': 0.0, 'epoch': 3, 'batch': 5}
+{'valid_loss': 1.877, 'loss_diff': 0.0, 'epoch': 3, 'batch': 6}
+Training model...
+{'epoch': 4, 'batch': 0, 'train_loss': 1.653, 'train_elbo_loss': 0.036, 'train_null_loss': 1.653, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 4, 'batch': 1, 'train_loss': 1.768, 'train_elbo_loss': 0.033, 'train_null_loss': 1.768, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 4, 'batch': 2, 'train_loss': 1.723, 'train_elbo_loss': 0.032, 'train_null_loss': 1.723, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 4, 'batch': 3, 'train_loss': 1.761, 'train_elbo_loss': 0.03, 'train_null_loss': 1.761, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 4, 'batch': 4, 'train_loss': 1.746, 'train_elbo_loss': 0.03, 'train_null_loss': 1.746, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 4, 'batch': 5, 'train_loss': 1.719, 'train_elbo_loss': 0.029, 'train_null_loss': 1.719, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 4, 'batch': 6, 'train_loss': 1.728, 'train_elbo_loss': 0.028, 'train_null_loss': 1.728, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+{'valid_loss': 1.99, 'loss_diff': 0.0, 'epoch': 4, 'batch': 0}
+{'valid_loss': 1.943, 'loss_diff': 0.0, 'epoch': 4, 'batch': 1}
+{'valid_loss': 1.96, 'loss_diff': 0.0, 'epoch': 4, 'batch': 2}
+{'valid_loss': 1.969, 'loss_diff': 0.0, 'epoch': 4, 'batch': 3}
+{'valid_loss': 1.849, 'loss_diff': 0.0, 'epoch': 4, 'batch': 4}
+{'valid_loss': 1.485, 'loss_diff': 0.0, 'epoch': 4, 'batch': 5}
+{'valid_loss': 1.766, 'loss_diff': 0.0, 'epoch': 4, 'batch': 6}
+Training model...
+{'epoch': 5, 'batch': 0, 'train_loss': 1.633, 'train_elbo_loss': 0.027, 'train_null_loss': 1.633, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 5, 'batch': 1, 'train_loss': 1.818, 'train_elbo_loss': 0.026, 'train_null_loss': 1.818, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 5, 'batch': 2, 'train_loss': 1.706, 'train_elbo_loss': 0.028, 'train_null_loss': 1.706, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 5, 'batch': 3, 'train_loss': 1.657, 'train_elbo_loss': 0.025, 'train_null_loss': 1.657, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 5, 'batch': 4, 'train_loss': 1.688, 'train_elbo_loss': 0.026, 'train_null_loss': 1.688, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 5, 'batch': 5, 'train_loss': 1.712, 'train_elbo_loss': 0.026, 'train_null_loss': 1.712, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 5, 'batch': 6, 'train_loss': 1.795, 'train_elbo_loss': 0.025, 'train_null_loss': 1.795, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+{'valid_loss': 1.968, 'loss_diff': 0.0, 'epoch': 5, 'batch': 0}
+{'valid_loss': 1.903, 'loss_diff': 0.0, 'epoch': 5, 'batch': 1}
+{'valid_loss': 1.871, 'loss_diff': 0.0, 'epoch': 5, 'batch': 2}
+{'valid_loss': 1.916, 'loss_diff': 0.0, 'epoch': 5, 'batch': 3}
+{'valid_loss': 1.825, 'loss_diff': 0.0, 'epoch': 5, 'batch': 4}
+{'valid_loss': 1.438, 'loss_diff': 0.0, 'epoch': 5, 'batch': 5}
+{'valid_loss': 1.783, 'loss_diff': 0.0, 'epoch': 5, 'batch': 6}
+Training model...
+{'epoch': 6, 'batch': 0, 'train_loss': 1.718, 'train_elbo_loss': 0.026, 'train_null_loss': 1.718, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 6, 'batch': 1, 'train_loss': 1.731, 'train_elbo_loss': 0.025, 'train_null_loss': 1.731, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 6, 'batch': 2, 'train_loss': 1.726, 'train_elbo_loss': 0.025, 'train_null_loss': 1.726, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 6, 'batch': 3, 'train_loss': 1.791, 'train_elbo_loss': 0.025, 'train_null_loss': 1.791, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 6, 'batch': 4, 'train_loss': 1.676, 'train_elbo_loss': 0.023, 'train_null_loss': 1.676, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 6, 'batch': 5, 'train_loss': 1.636, 'train_elbo_loss': 0.023, 'train_null_loss': 1.636, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 6, 'batch': 6, 'train_loss': 1.7, 'train_elbo_loss': 0.023, 'train_null_loss': 1.7, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+{'valid_loss': 1.958, 'loss_diff': 0.0, 'epoch': 6, 'batch': 0}
+{'valid_loss': 1.893, 'loss_diff': 0.0, 'epoch': 6, 'batch': 1}
+{'valid_loss': 1.789, 'loss_diff': 0.0, 'epoch': 6, 'batch': 2}
+{'valid_loss': 1.821, 'loss_diff': 0.0, 'epoch': 6, 'batch': 3}
+{'valid_loss': 1.823, 'loss_diff': 0.0, 'epoch': 6, 'batch': 4}
+{'valid_loss': 1.545, 'loss_diff': 0.0, 'epoch': 6, 'batch': 5}
+{'valid_loss': 1.732, 'loss_diff': 0.0, 'epoch': 6, 'batch': 6}
+Training model...
+{'epoch': 7, 'batch': 0, 'train_loss': 1.689, 'train_elbo_loss': 0.023, 'train_null_loss': 1.689, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 7, 'batch': 1, 'train_loss': 1.638, 'train_elbo_loss': 0.022, 'train_null_loss': 1.638, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 7, 'batch': 2, 'train_loss': 1.614, 'train_elbo_loss': 0.024, 'train_null_loss': 1.614, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 7, 'batch': 3, 'train_loss': 1.718, 'train_elbo_loss': 0.025, 'train_null_loss': 1.718, 'train_embed_loss': nan, 'train_loss_diff': nan}

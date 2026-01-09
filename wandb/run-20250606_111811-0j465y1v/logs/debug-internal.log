@@ -1,0 +1,16 @@
+{"time":"2025-06-06T11:18:11.3635662+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Tue\\Master\\Jaar_2\\graduation\\code\\own_approach\\wandb\\run-20250606_111811-0j465y1v\\logs\\debug-core.log"}
+{"time":"2025-06-06T11:18:11.5397829+02:00","level":"INFO","msg":"created new stream","id":"0j465y1v"}
+{"time":"2025-06-06T11:18:11.5397829+02:00","level":"INFO","msg":"stream: started","id":"0j465y1v"}
+{"time":"2025-06-06T11:18:11.5397829+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"0j465y1v"}
+{"time":"2025-06-06T11:18:11.5397829+02:00","level":"INFO","msg":"sender: started","stream_id":"0j465y1v"}
+{"time":"2025-06-06T11:18:11.5397829+02:00","level":"INFO","msg":"handler: started","stream_id":"0j465y1v"}
+{"time":"2025-06-06T11:18:11.976435+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-06T14:00:12.0118631+02:00","level":"ERROR","msg":"monitor: error sampling metrics: The system cannot find the file specified."}
+{"time":"2025-06-06T14:57:04.0196597+02:00","level":"INFO","msg":"stream: closing","id":"0j465y1v"}
+{"time":"2025-06-06T14:57:04.0201963+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-06T14:57:04.0240468+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-06T14:57:04.9648858+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-06T14:57:05.2879199+02:00","level":"INFO","msg":"handler: closed","stream_id":"0j465y1v"}
+{"time":"2025-06-06T14:57:05.2879199+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"0j465y1v"}
+{"time":"2025-06-06T14:57:05.2885711+02:00","level":"INFO","msg":"sender: closed","stream_id":"0j465y1v"}
+{"time":"2025-06-06T14:57:05.2885711+02:00","level":"INFO","msg":"stream: closed","id":"0j465y1v"}

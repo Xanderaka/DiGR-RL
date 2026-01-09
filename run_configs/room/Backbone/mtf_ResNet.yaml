@@ -1,0 +1,68 @@
+data:
+  bvp_agg: sum
+  bvp_pipeline: 0
+  data_dir: "C:\\Tue\\Master\\Jaar_2\\graduation\\code\\own_approach\\data"
+  dataset_type: room
+  downsample_multiplier: 100
+  amp_pipeline:
+    - "lowpass_filter"
+    - "standard_scalar"
+    - "transform"
+    - "torch.from_numpy"
+  phase_pipeline:
+    - "phase_unwrap"
+    - "phase_filter"
+    - "lowpass_filter"
+    - "standard_scalar"
+    - "transform"
+    - "torch.from_numpy"
+  transformation: mtf
+debug:
+  is_debug: false
+  offline: false
+  on_cpu: false
+embed:
+  agent_type: ppo
+  reward_function: combined
+  policy: do_nothing
+  start_epoch: 35
+  value_type: probability-measure
+  epochs: 2
+encoder:
+  activation_fn: leaky
+  dropout: 0.047040600423743945
+  initial_kernel_size: 11
+  latent_dim: 20
+  type: ResNet
+  normalization: False
+  init_channels: 64
+  growth_rate: 32
+  layers_per_stage: [2,2,2]
+  base_channels: [64, 128, 256]
+mt:
+  d_predictor_activation_fn: gelu
+  d_predictor_dropout: 0.27986668432868433
+  d_predictor_num_layers: 4
+  predictor_activation_fn: selu
+  predictor_dropout: 0.08449720863043957
+  predictor_num_layers: 2
+agent:
+  ent_coef: 0.07621830850607138
+  learning_rate: 0.0004229924098384421
+  buffer_size: 50000
+  gradient_steps: 16
+  batch_size: 512
+  learning_starts: 1600
+  factor: 4
+  threshold: 10
+  sequential: True
+optim_loss:
+  alpha: 0.00025495817492071003
+  beta: 0.7059082984180771
+  lr: 0.0009107155814559353
+  optimizer: adam
+train:
+  batch_size: 32
+  checkpoint_dir: /home2/xvreewij/Checkpoints
+  epochs: 100
+  ui: tqdm
