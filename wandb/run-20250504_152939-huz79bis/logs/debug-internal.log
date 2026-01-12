@@ -1,7 +1,0 @@
-{"time":"2025-05-04T15:29:39.6425197+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Tue\\Master\\Jaar_2\\graduation\\code\\own_approach\\wandb\\run-20250504_152939-huz79bis\\logs\\debug-core.log"}
-{"time":"2025-05-04T15:29:39.7991929+02:00","level":"INFO","msg":"created new stream","id":"huz79bis"}
-{"time":"2025-05-04T15:29:39.7999716+02:00","level":"INFO","msg":"stream: started","id":"huz79bis"}
-{"time":"2025-05-04T15:29:39.7999716+02:00","level":"INFO","msg":"handler: started","stream_id":"huz79bis"}
-{"time":"2025-05-04T15:29:39.7999716+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"huz79bis"}
-{"time":"2025-05-04T15:29:39.7999716+02:00","level":"INFO","msg":"sender: started","stream_id":"huz79bis"}
-{"time":"2025-05-04T15:29:40.1248487+02:00","level":"INFO","msg":"Starting system monitor"}
