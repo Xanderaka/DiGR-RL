@@ -1,0 +1,77 @@
+Running training on CPU
+Loading dataset train
+Found pregenerated data dir.
+Loading complete. Took 0.01 s.
+Loading dataset validation
+Found pregenerated data dir.
+Loading complete. Took 0.00 s.
+Building models...
+Completed model building. Took 9.53 s.
+                                                                                                                                                                     
+Preparation complete. Starting training...
+Training model...
+{'epoch': 0, 'batch': 0, 'train_loss': 1.825, 'train_domain_loss': 3.234, 'train_null_loss': 1.825, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 1, 'train_loss': 1.817, 'train_domain_loss': 3.218, 'train_null_loss': 1.817, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 2, 'train_loss': 1.807, 'train_domain_loss': 3.237, 'train_null_loss': 1.807, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 3, 'train_loss': 1.86, 'train_domain_loss': 3.237, 'train_null_loss': 1.86, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 4, 'train_loss': 1.793, 'train_domain_loss': 3.203, 'train_null_loss': 1.793, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 5, 'train_loss': 1.804, 'train_domain_loss': 3.184, 'train_null_loss': 1.804, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 6, 'train_loss': 1.739, 'train_domain_loss': 3.204, 'train_null_loss': 1.739, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 7, 'train_loss': 1.743, 'train_domain_loss': 3.256, 'train_null_loss': 1.743, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 8, 'train_loss': 1.799, 'train_domain_loss': 3.2, 'train_null_loss': 1.799, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 9, 'train_loss': 1.786, 'train_domain_loss': 3.208, 'train_null_loss': 1.786, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 10, 'train_loss': 1.78, 'train_domain_loss': 3.211, 'train_null_loss': 1.78, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 11, 'train_loss': 1.692, 'train_domain_loss': 3.203, 'train_null_loss': 1.692, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 12, 'train_loss': 1.814, 'train_domain_loss': 3.261, 'train_null_loss': 1.814, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 13, 'train_loss': 1.724, 'train_domain_loss': 3.245, 'train_null_loss': 1.724, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 14, 'train_loss': 1.794, 'train_domain_loss': 3.231, 'train_null_loss': 1.794, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 15, 'train_loss': 1.728, 'train_domain_loss': 3.226, 'train_null_loss': 1.728, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 16, 'train_loss': 1.841, 'train_domain_loss': 3.223, 'train_null_loss': 1.841, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 17, 'train_loss': 1.794, 'train_domain_loss': 3.214, 'train_null_loss': 1.794, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 18, 'train_loss': 1.756, 'train_domain_loss': 3.205, 'train_null_loss': 1.756, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 19, 'train_loss': 1.747, 'train_domain_loss': 3.216, 'train_null_loss': 1.747, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 20, 'train_loss': 1.811, 'train_domain_loss': 3.202, 'train_null_loss': 1.811, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 21, 'train_loss': 1.797, 'train_domain_loss': 3.256, 'train_null_loss': 1.797, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 22, 'train_loss': 1.827, 'train_domain_loss': 3.237, 'train_null_loss': 1.827, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 23, 'train_loss': 1.764, 'train_domain_loss': 3.252, 'train_null_loss': 1.764, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 24, 'train_loss': 1.768, 'train_domain_loss': 3.228, 'train_null_loss': 1.768, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 25, 'train_loss': 1.83, 'train_domain_loss': 3.235, 'train_null_loss': 1.83, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 26, 'train_loss': 1.701, 'train_domain_loss': 3.187, 'train_null_loss': 1.701, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 27, 'train_loss': 1.808, 'train_domain_loss': 3.223, 'train_null_loss': 1.808, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 28, 'train_loss': 1.774, 'train_domain_loss': 3.224, 'train_null_loss': 1.774, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 29, 'train_loss': 1.767, 'train_domain_loss': 3.226, 'train_null_loss': 1.767, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 30, 'train_loss': 1.766, 'train_domain_loss': 3.237, 'train_null_loss': 1.766, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 31, 'train_loss': 1.805, 'train_domain_loss': 3.241, 'train_null_loss': 1.805, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 32, 'train_loss': 1.763, 'train_domain_loss': 3.222, 'train_null_loss': 1.763, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 33, 'train_loss': 1.755, 'train_domain_loss': 3.221, 'train_null_loss': 1.755, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 34, 'train_loss': 1.751, 'train_domain_loss': 3.231, 'train_null_loss': 1.751, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 35, 'train_loss': 1.82, 'train_domain_loss': 3.231, 'train_null_loss': 1.82, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 36, 'train_loss': 1.671, 'train_domain_loss': 3.202, 'train_null_loss': 1.671, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+{'valid_loss': 4.949, 'loss_diff': 0.0, 'epoch': 0, 'batch': 0}
+{'valid_loss': 4.937, 'loss_diff': 0.0, 'epoch': 0, 'batch': 1}
+{'valid_loss': 4.893, 'loss_diff': 0.0, 'epoch': 0, 'batch': 2}
+{'valid_loss': 4.812, 'loss_diff': 0.0, 'epoch': 0, 'batch': 3}
+{'valid_loss': 5.006, 'loss_diff': 0.0, 'epoch': 0, 'batch': 4}
+{'valid_loss': 4.902, 'loss_diff': 0.0, 'epoch': 0, 'batch': 5}
+{'valid_loss': 4.885, 'loss_diff': 0.0, 'epoch': 0, 'batch': 6}
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\experiments\train_runner.py", line 225, in <module>
+    best_loss = run_training(parse_config_file(args.CONFIG_FP))
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\experiments\train_runner.py", line 211, in run_training
+    best_loss = training.train(
+        train_loader=train_dataloader,
+    ...<3 lines>...
+        agent_epochs=config["embed"]["epochs"]
+    )
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\experiments\train.py", line 581, in train
+    curr_joint_loss = self._validate_holistic(
+        valid_loader, device, epoch
+    )
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\experiments\train.py", line 389, in _validate_holistic
+    "valid_gesture_conf_mat": self._conf_matrix(gesture_gts, gesture_null_preds),
+                              ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\experiments\train.py", line 416, in _conf_matrix
+    import seaborn as sns
+ModuleNotFoundError: No module named 'seaborn'

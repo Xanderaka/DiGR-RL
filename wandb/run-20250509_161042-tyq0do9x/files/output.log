@@ -1,0 +1,1155 @@
+Running training on CPU
+Loading dataset train
+Found pregenerated data dir. Using pregenerated data.
+Loading complete. Took 0.00 s.
+Loading dataset validation
+Found pregenerated data dir. Using pregenerated data.
+Loading complete. Took 0.00 s.
+Building models...
+Completed model building. Took 0.12 s.
+                                                                                                                                                              
+Preparation complete. Starting training...
+Training model...
+{'epoch': 0, 'batch': 0, 'train_loss': 1.868, 'train_elbo_loss': 0.499, 'train_null_loss': 1.868, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 1, 'train_loss': 1.823, 'train_elbo_loss': 0.444, 'train_null_loss': 1.823, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 2, 'train_loss': 1.765, 'train_elbo_loss': 0.399, 'train_null_loss': 1.765, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 3, 'train_loss': 1.839, 'train_elbo_loss': 0.358, 'train_null_loss': 1.839, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 4, 'train_loss': 1.868, 'train_elbo_loss': 0.319, 'train_null_loss': 1.868, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 5, 'train_loss': 1.801, 'train_elbo_loss': 0.286, 'train_null_loss': 1.801, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+{'valid_loss': 2.28, 'loss_diff': 0.0, 'epoch': 0, 'batch': 0}
+{'valid_loss': 2.219, 'loss_diff': 0.0, 'epoch': 0, 'batch': 1}
+{'valid_loss': 2.224, 'loss_diff': 0.0, 'epoch': 0, 'batch': 2}
+{'valid_loss': 2.266, 'loss_diff': 0.0, 'epoch': 0, 'batch': 3}
+{'valid_loss': 2.3, 'loss_diff': 0.0, 'epoch': 0, 'batch': 4}
+{'valid_loss': 2.302, 'loss_diff': 0.0, 'epoch': 0, 'batch': 5}
+{'valid_loss': 2.267, 'loss_diff': 0.0, 'epoch': 0, 'batch': 6}
+Training model...
+{'epoch': 1, 'batch': 0, 'train_loss': 1.77, 'train_elbo_loss': 0.264, 'train_null_loss': 1.77, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 1, 'train_loss': 1.789, 'train_elbo_loss': 0.236, 'train_null_loss': 1.789, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 2, 'train_loss': 1.803, 'train_elbo_loss': 0.212, 'train_null_loss': 1.803, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 3, 'train_loss': 1.855, 'train_elbo_loss': 0.185, 'train_null_loss': 1.855, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 4, 'train_loss': 1.829, 'train_elbo_loss': 0.161, 'train_null_loss': 1.829, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 5, 'train_loss': 1.645, 'train_elbo_loss': 0.143, 'train_null_loss': 1.645, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+{'valid_loss': 2.278, 'loss_diff': 0.0, 'epoch': 1, 'batch': 0}
+{'valid_loss': 2.197, 'loss_diff': 0.0, 'epoch': 1, 'batch': 1}
+{'valid_loss': 2.201, 'loss_diff': 0.0, 'epoch': 1, 'batch': 2}
+{'valid_loss': 2.241, 'loss_diff': 0.0, 'epoch': 1, 'batch': 3}
+{'valid_loss': 2.253, 'loss_diff': 0.0, 'epoch': 1, 'batch': 4}
+{'valid_loss': 2.198, 'loss_diff': 0.0, 'epoch': 1, 'batch': 5}
+{'valid_loss': 2.234, 'loss_diff': 0.0, 'epoch': 1, 'batch': 6}
+Training model...
+{'epoch': 2, 'batch': 0, 'train_loss': 1.771, 'train_elbo_loss': 0.124, 'train_null_loss': 1.771, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 2, 'batch': 1, 'train_loss': 1.752, 'train_elbo_loss': 0.11, 'train_null_loss': 1.752, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 2, 'batch': 2, 'train_loss': 1.789, 'train_elbo_loss': 0.095, 'train_null_loss': 1.789, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 2, 'batch': 3, 'train_loss': 1.788, 'train_elbo_loss': 0.088, 'train_null_loss': 1.788, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 2, 'batch': 4, 'train_loss': 1.746, 'train_elbo_loss': 0.076, 'train_null_loss': 1.746, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 2, 'batch': 5, 'train_loss': 1.761, 'train_elbo_loss': 0.067, 'train_null_loss': 1.761, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+{'valid_loss': 2.182, 'loss_diff': 0.0, 'epoch': 2, 'batch': 0}
+{'valid_loss': 2.196, 'loss_diff': 0.0, 'epoch': 2, 'batch': 1}
+{'valid_loss': 2.117, 'loss_diff': 0.0, 'epoch': 2, 'batch': 2}
+{'valid_loss': 2.062, 'loss_diff': 0.0, 'epoch': 2, 'batch': 3}
+{'valid_loss': 2.136, 'loss_diff': 0.0, 'epoch': 2, 'batch': 4}
+{'valid_loss': 2.098, 'loss_diff': 0.0, 'epoch': 2, 'batch': 5}
+{'valid_loss': 2.158, 'loss_diff': 0.0, 'epoch': 2, 'batch': 6}
+Training model...
+{'epoch': 3, 'batch': 0, 'train_loss': 1.712, 'train_elbo_loss': 0.061, 'train_null_loss': 1.712, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 3, 'batch': 1, 'train_loss': 1.753, 'train_elbo_loss': 0.056, 'train_null_loss': 1.753, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 3, 'batch': 2, 'train_loss': 1.599, 'train_elbo_loss': 0.05, 'train_null_loss': 1.599, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 3, 'batch': 3, 'train_loss': 1.759, 'train_elbo_loss': 0.046, 'train_null_loss': 1.759, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 3, 'batch': 4, 'train_loss': 1.757, 'train_elbo_loss': 0.042, 'train_null_loss': 1.757, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 3, 'batch': 5, 'train_loss': 1.822, 'train_elbo_loss': 0.041, 'train_null_loss': 1.822, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+{'valid_loss': 2.012, 'loss_diff': 0.0, 'epoch': 3, 'batch': 0}
+{'valid_loss': 2.051, 'loss_diff': 0.0, 'epoch': 3, 'batch': 1}
+{'valid_loss': 1.967, 'loss_diff': 0.0, 'epoch': 3, 'batch': 2}
+{'valid_loss': 1.896, 'loss_diff': 0.0, 'epoch': 3, 'batch': 3}
+{'valid_loss': 1.95, 'loss_diff': 0.0, 'epoch': 3, 'batch': 4}
+{'valid_loss': 1.916, 'loss_diff': 0.0, 'epoch': 3, 'batch': 5}
+{'valid_loss': 2.02, 'loss_diff': 0.0, 'epoch': 3, 'batch': 6}
+Training model...
+{'epoch': 4, 'batch': 0, 'train_loss': 1.619, 'train_elbo_loss': 0.041, 'train_null_loss': 1.619, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 4, 'batch': 1, 'train_loss': 1.708, 'train_elbo_loss': 0.036, 'train_null_loss': 1.708, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 4, 'batch': 2, 'train_loss': 1.743, 'train_elbo_loss': 0.035, 'train_null_loss': 1.743, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 4, 'batch': 3, 'train_loss': 1.755, 'train_elbo_loss': 0.034, 'train_null_loss': 1.755, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 4, 'batch': 4, 'train_loss': 1.678, 'train_elbo_loss': 0.033, 'train_null_loss': 1.678, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 4, 'batch': 5, 'train_loss': 1.839, 'train_elbo_loss': 0.031, 'train_null_loss': 1.839, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+{'valid_loss': 1.897, 'loss_diff': 0.0, 'epoch': 4, 'batch': 0}
+{'valid_loss': 1.924, 'loss_diff': 0.0, 'epoch': 4, 'batch': 1}
+{'valid_loss': 1.864, 'loss_diff': 0.0, 'epoch': 4, 'batch': 2}
+{'valid_loss': 1.814, 'loss_diff': 0.0, 'epoch': 4, 'batch': 3}
+{'valid_loss': 1.87, 'loss_diff': 0.0, 'epoch': 4, 'batch': 4}
+{'valid_loss': 1.659, 'loss_diff': 0.0, 'epoch': 4, 'batch': 5}
+{'valid_loss': 1.885, 'loss_diff': 0.0, 'epoch': 4, 'batch': 6}
+Training model...
+{'epoch': 5, 'batch': 0, 'train_loss': 1.745, 'train_elbo_loss': 0.032, 'train_null_loss': 1.745, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 5, 'batch': 1, 'train_loss': 1.818, 'train_elbo_loss': 0.028, 'train_null_loss': 1.818, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 5, 'batch': 2, 'train_loss': 1.678, 'train_elbo_loss': 0.029, 'train_null_loss': 1.678, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 5, 'batch': 3, 'train_loss': 1.652, 'train_elbo_loss': 0.029, 'train_null_loss': 1.652, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 5, 'batch': 4, 'train_loss': 1.697, 'train_elbo_loss': 0.027, 'train_null_loss': 1.697, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 5, 'batch': 5, 'train_loss': 1.726, 'train_elbo_loss': 0.027, 'train_null_loss': 1.726, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+{'valid_loss': 1.843, 'loss_diff': 0.0, 'epoch': 5, 'batch': 0}
+{'valid_loss': 1.886, 'loss_diff': 0.0, 'epoch': 5, 'batch': 1}
+{'valid_loss': 1.82, 'loss_diff': 0.0, 'epoch': 5, 'batch': 2}
+{'valid_loss': 1.775, 'loss_diff': 0.0, 'epoch': 5, 'batch': 3}
+{'valid_loss': 1.904, 'loss_diff': 0.0, 'epoch': 5, 'batch': 4}
+{'valid_loss': 1.469, 'loss_diff': 0.0, 'epoch': 5, 'batch': 5}
+{'valid_loss': 1.834, 'loss_diff': 0.0, 'epoch': 5, 'batch': 6}
+Training model...
+{'epoch': 6, 'batch': 0, 'train_loss': 1.634, 'train_elbo_loss': 0.026, 'train_null_loss': 1.634, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 6, 'batch': 1, 'train_loss': 1.724, 'train_elbo_loss': 0.026, 'train_null_loss': 1.724, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 6, 'batch': 2, 'train_loss': 1.752, 'train_elbo_loss': 0.024, 'train_null_loss': 1.752, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 6, 'batch': 3, 'train_loss': 1.688, 'train_elbo_loss': 0.024, 'train_null_loss': 1.688, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 6, 'batch': 4, 'train_loss': 1.626, 'train_elbo_loss': 0.026, 'train_null_loss': 1.626, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 6, 'batch': 5, 'train_loss': 1.686, 'train_elbo_loss': 0.024, 'train_null_loss': 1.686, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+{'valid_loss': 1.816, 'loss_diff': 0.0, 'epoch': 6, 'batch': 0}
+{'valid_loss': 1.862, 'loss_diff': 0.0, 'epoch': 6, 'batch': 1}
+{'valid_loss': 1.776, 'loss_diff': 0.0, 'epoch': 6, 'batch': 2}
+{'valid_loss': 1.743, 'loss_diff': 0.0, 'epoch': 6, 'batch': 3}
+{'valid_loss': 1.931, 'loss_diff': 0.0, 'epoch': 6, 'batch': 4}
+{'valid_loss': 1.384, 'loss_diff': 0.0, 'epoch': 6, 'batch': 5}
+{'valid_loss': 1.828, 'loss_diff': 0.0, 'epoch': 6, 'batch': 6}
+Training model...
+{'epoch': 7, 'batch': 0, 'train_loss': 1.619, 'train_elbo_loss': 0.024, 'train_null_loss': 1.619, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 7, 'batch': 1, 'train_loss': 1.662, 'train_elbo_loss': 0.023, 'train_null_loss': 1.662, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 7, 'batch': 2, 'train_loss': 1.7, 'train_elbo_loss': 0.022, 'train_null_loss': 1.7, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 7, 'batch': 3, 'train_loss': 1.615, 'train_elbo_loss': 0.023, 'train_null_loss': 1.615, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 7, 'batch': 4, 'train_loss': 1.746, 'train_elbo_loss': 0.024, 'train_null_loss': 1.746, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 7, 'batch': 5, 'train_loss': 1.689, 'train_elbo_loss': 0.023, 'train_null_loss': 1.689, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+{'valid_loss': 1.836, 'loss_diff': 0.0, 'epoch': 7, 'batch': 0}
+{'valid_loss': 1.798, 'loss_diff': 0.0, 'epoch': 7, 'batch': 1}
+{'valid_loss': 1.682, 'loss_diff': 0.0, 'epoch': 7, 'batch': 2}
+{'valid_loss': 1.709, 'loss_diff': 0.0, 'epoch': 7, 'batch': 3}
+{'valid_loss': 1.947, 'loss_diff': 0.0, 'epoch': 7, 'batch': 4}
+{'valid_loss': 1.333, 'loss_diff': 0.0, 'epoch': 7, 'batch': 5}
+{'valid_loss': 1.801, 'loss_diff': 0.0, 'epoch': 7, 'batch': 6}
+Training model...
+{'epoch': 8, 'batch': 0, 'train_loss': 1.7, 'train_elbo_loss': 0.024, 'train_null_loss': 1.7, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 8, 'batch': 1, 'train_loss': 1.709, 'train_elbo_loss': 0.023, 'train_null_loss': 1.709, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 8, 'batch': 2, 'train_loss': 1.584, 'train_elbo_loss': 0.022, 'train_null_loss': 1.584, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 8, 'batch': 3, 'train_loss': 1.791, 'train_elbo_loss': 0.022, 'train_null_loss': 1.791, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 8, 'batch': 4, 'train_loss': 1.63, 'train_elbo_loss': 0.021, 'train_null_loss': 1.63, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 8, 'batch': 5, 'train_loss': 1.643, 'train_elbo_loss': 0.022, 'train_null_loss': 1.643, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+{'valid_loss': 1.86, 'loss_diff': 0.0, 'epoch': 8, 'batch': 0}
+{'valid_loss': 1.853, 'loss_diff': 0.0, 'epoch': 8, 'batch': 1}
+{'valid_loss': 1.685, 'loss_diff': 0.0, 'epoch': 8, 'batch': 2}
+{'valid_loss': 1.681, 'loss_diff': 0.0, 'epoch': 8, 'batch': 3}
+{'valid_loss': 1.934, 'loss_diff': 0.0, 'epoch': 8, 'batch': 4}
+{'valid_loss': 1.374, 'loss_diff': 0.0, 'epoch': 8, 'batch': 5}
+{'valid_loss': 1.719, 'loss_diff': 0.0, 'epoch': 8, 'batch': 6}
+Training model...
+{'epoch': 9, 'batch': 0, 'train_loss': 1.683, 'train_elbo_loss': 0.022, 'train_null_loss': 1.683, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 9, 'batch': 1, 'train_loss': 1.612, 'train_elbo_loss': 0.021, 'train_null_loss': 1.612, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 9, 'batch': 2, 'train_loss': 1.725, 'train_elbo_loss': 0.022, 'train_null_loss': 1.725, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 9, 'batch': 3, 'train_loss': 1.66, 'train_elbo_loss': 0.02, 'train_null_loss': 1.66, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 9, 'batch': 4, 'train_loss': 1.646, 'train_elbo_loss': 0.02, 'train_null_loss': 1.646, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 9, 'batch': 5, 'train_loss': 1.707, 'train_elbo_loss': 0.02, 'train_null_loss': 1.707, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+{'valid_loss': 1.746, 'loss_diff': 0.0, 'epoch': 9, 'batch': 0}
+{'valid_loss': 1.779, 'loss_diff': 0.0, 'epoch': 9, 'batch': 1}
+{'valid_loss': 1.662, 'loss_diff': 0.0, 'epoch': 9, 'batch': 2}
+{'valid_loss': 1.648, 'loss_diff': 0.0, 'epoch': 9, 'batch': 3}
+{'valid_loss': 1.93, 'loss_diff': 0.0, 'epoch': 9, 'batch': 4}
+{'valid_loss': 1.419, 'loss_diff': 0.0, 'epoch': 9, 'batch': 5}
+{'valid_loss': 1.764, 'loss_diff': 0.0, 'epoch': 9, 'batch': 6}
+Training model...
+{'epoch': 10, 'batch': 0, 'train_loss': 1.639, 'train_elbo_loss': 0.02, 'train_null_loss': 1.639, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 10, 'batch': 1, 'train_loss': 1.71, 'train_elbo_loss': 0.02, 'train_null_loss': 1.71, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 10, 'batch': 2, 'train_loss': 1.641, 'train_elbo_loss': 0.02, 'train_null_loss': 1.641, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 10, 'batch': 3, 'train_loss': 1.732, 'train_elbo_loss': 0.02, 'train_null_loss': 1.732, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 10, 'batch': 4, 'train_loss': 1.654, 'train_elbo_loss': 0.018, 'train_null_loss': 1.654, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 10, 'batch': 5, 'train_loss': 1.529, 'train_elbo_loss': 0.018, 'train_null_loss': 1.529, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+{'valid_loss': 1.736, 'loss_diff': 0.0, 'epoch': 10, 'batch': 0}
+{'valid_loss': 1.819, 'loss_diff': 0.0, 'epoch': 10, 'batch': 1}
+{'valid_loss': 1.71, 'loss_diff': 0.0, 'epoch': 10, 'batch': 2}
+{'valid_loss': 1.647, 'loss_diff': 0.0, 'epoch': 10, 'batch': 3}
+{'valid_loss': 1.905, 'loss_diff': 0.0, 'epoch': 10, 'batch': 4}
+{'valid_loss': 1.52, 'loss_diff': 0.0, 'epoch': 10, 'batch': 5}
+{'valid_loss': 1.726, 'loss_diff': 0.0, 'epoch': 10, 'batch': 6}
+Training model...
+{'epoch': 11, 'batch': 0, 'train_loss': 1.545, 'train_elbo_loss': 0.019, 'train_null_loss': 1.545, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 11, 'batch': 1, 'train_loss': 1.683, 'train_elbo_loss': 0.018, 'train_null_loss': 1.683, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 11, 'batch': 2, 'train_loss': 1.585, 'train_elbo_loss': 0.019, 'train_null_loss': 1.585, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 11, 'batch': 3, 'train_loss': 1.63, 'train_elbo_loss': 0.019, 'train_null_loss': 1.63, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 11, 'batch': 4, 'train_loss': 1.647, 'train_elbo_loss': 0.021, 'train_null_loss': 1.647, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 11, 'batch': 5, 'train_loss': 1.638, 'train_elbo_loss': 0.02, 'train_null_loss': 1.638, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+{'valid_loss': 1.797, 'loss_diff': 0.0, 'epoch': 11, 'batch': 0}
+{'valid_loss': 1.761, 'loss_diff': 0.0, 'epoch': 11, 'batch': 1}
+{'valid_loss': 1.632, 'loss_diff': 0.0, 'epoch': 11, 'batch': 2}
+{'valid_loss': 1.62, 'loss_diff': 0.0, 'epoch': 11, 'batch': 3}
+{'valid_loss': 1.938, 'loss_diff': 0.0, 'epoch': 11, 'batch': 4}
+{'valid_loss': 1.452, 'loss_diff': 0.0, 'epoch': 11, 'batch': 5}
+{'valid_loss': 1.807, 'loss_diff': 0.0, 'epoch': 11, 'batch': 6}
+Training model...
+{'epoch': 12, 'batch': 0, 'train_loss': 1.649, 'train_elbo_loss': 0.018, 'train_null_loss': 1.649, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 12, 'batch': 1, 'train_loss': 1.664, 'train_elbo_loss': 0.018, 'train_null_loss': 1.664, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 12, 'batch': 2, 'train_loss': 1.751, 'train_elbo_loss': 0.018, 'train_null_loss': 1.751, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 12, 'batch': 3, 'train_loss': 1.661, 'train_elbo_loss': 0.019, 'train_null_loss': 1.661, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 12, 'batch': 4, 'train_loss': 1.577, 'train_elbo_loss': 0.02, 'train_null_loss': 1.577, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 12, 'batch': 5, 'train_loss': 1.752, 'train_elbo_loss': 0.019, 'train_null_loss': 1.752, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+{'valid_loss': 1.883, 'loss_diff': 0.0, 'epoch': 12, 'batch': 0}
+{'valid_loss': 1.688, 'loss_diff': 0.0, 'epoch': 12, 'batch': 1}
+{'valid_loss': 1.557, 'loss_diff': 0.0, 'epoch': 12, 'batch': 2}
+{'valid_loss': 1.682, 'loss_diff': 0.0, 'epoch': 12, 'batch': 3}
+{'valid_loss': 1.96, 'loss_diff': 0.0, 'epoch': 12, 'batch': 4}
+{'valid_loss': 1.402, 'loss_diff': 0.0, 'epoch': 12, 'batch': 5}
+{'valid_loss': 1.875, 'loss_diff': 0.0, 'epoch': 12, 'batch': 6}
+Training model...
+{'epoch': 13, 'batch': 0, 'train_loss': 1.597, 'train_elbo_loss': 0.018, 'train_null_loss': 1.597, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 13, 'batch': 1, 'train_loss': 1.628, 'train_elbo_loss': 0.017, 'train_null_loss': 1.628, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 13, 'batch': 2, 'train_loss': 1.534, 'train_elbo_loss': 0.018, 'train_null_loss': 1.534, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 13, 'batch': 3, 'train_loss': 1.664, 'train_elbo_loss': 0.019, 'train_null_loss': 1.664, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 13, 'batch': 4, 'train_loss': 1.555, 'train_elbo_loss': 0.018, 'train_null_loss': 1.555, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 13, 'batch': 5, 'train_loss': 1.583, 'train_elbo_loss': 0.018, 'train_null_loss': 1.583, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+{'valid_loss': 1.793, 'loss_diff': 0.0, 'epoch': 13, 'batch': 0}
+{'valid_loss': 1.606, 'loss_diff': 0.0, 'epoch': 13, 'batch': 1}
+{'valid_loss': 1.593, 'loss_diff': 0.0, 'epoch': 13, 'batch': 2}
+{'valid_loss': 1.704, 'loss_diff': 0.0, 'epoch': 13, 'batch': 3}
+{'valid_loss': 1.959, 'loss_diff': 0.0, 'epoch': 13, 'batch': 4}
+{'valid_loss': 1.65, 'loss_diff': 0.0, 'epoch': 13, 'batch': 5}
+{'valid_loss': 1.912, 'loss_diff': 0.0, 'epoch': 13, 'batch': 6}
+Training model...
+{'epoch': 14, 'batch': 0, 'train_loss': 1.552, 'train_elbo_loss': 0.019, 'train_null_loss': 1.552, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 14, 'batch': 1, 'train_loss': 1.641, 'train_elbo_loss': 0.016, 'train_null_loss': 1.641, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 14, 'batch': 2, 'train_loss': 1.589, 'train_elbo_loss': 0.017, 'train_null_loss': 1.589, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 14, 'batch': 3, 'train_loss': 1.714, 'train_elbo_loss': 0.019, 'train_null_loss': 1.714, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 14, 'batch': 4, 'train_loss': 1.65, 'train_elbo_loss': 0.019, 'train_null_loss': 1.65, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 14, 'batch': 5, 'train_loss': 1.639, 'train_elbo_loss': 0.017, 'train_null_loss': 1.639, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+{'valid_loss': 1.71, 'loss_diff': 0.0, 'epoch': 14, 'batch': 0}
+{'valid_loss': 1.706, 'loss_diff': 0.0, 'epoch': 14, 'batch': 1}
+{'valid_loss': 1.709, 'loss_diff': 0.0, 'epoch': 14, 'batch': 2}
+{'valid_loss': 1.776, 'loss_diff': 0.0, 'epoch': 14, 'batch': 3}
+{'valid_loss': 1.931, 'loss_diff': 0.0, 'epoch': 14, 'batch': 4}
+{'valid_loss': 1.779, 'loss_diff': 0.0, 'epoch': 14, 'batch': 5}
+{'valid_loss': 1.855, 'loss_diff': 0.0, 'epoch': 14, 'batch': 6}
+Training embedding agent starting this epoch...
+Using cpu device
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+Training agent for 216 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 108      |
+|    ep_rew_mean     | 17.1     |
+| time/              |          |
+|    fps             | 28       |
+|    iterations      | 1        |
+|    time_elapsed    | 71       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+{'epoch': 15, 'batch': 0, 'train_loss': 1.559, 'train_elbo_loss': 0.019, 'train_null_loss': 1.538, 'train_embed_loss': 1.58, 'train_loss_diff': 0.042}
+{'epoch': 15, 'batch': 1, 'train_loss': 1.659, 'train_elbo_loss': 0.017, 'train_null_loss': 1.651, 'train_embed_loss': 1.667, 'train_loss_diff': 0.016}
+{'epoch': 15, 'batch': 2, 'train_loss': 1.694, 'train_elbo_loss': 0.018, 'train_null_loss': 1.705, 'train_embed_loss': 1.682, 'train_loss_diff': -0.024}
+{'epoch': 15, 'batch': 3, 'train_loss': 1.573, 'train_elbo_loss': 0.016, 'train_null_loss': 1.585, 'train_embed_loss': 1.561, 'train_loss_diff': -0.024}
+{'epoch': 15, 'batch': 4, 'train_loss': 1.564, 'train_elbo_loss': 0.018, 'train_null_loss': 1.541, 'train_embed_loss': 1.587, 'train_loss_diff': 0.046}
+{'epoch': 15, 'batch': 5, 'train_loss': 1.617, 'train_elbo_loss': 0.018, 'train_null_loss': 1.595, 'train_embed_loss': 1.639, 'train_loss_diff': 0.044}
+Running validation...
+{'valid_loss': 3.252, 'loss_diff': 0.0, 'epoch': 15, 'batch': 0, 'embed_loss': 0.017}
+{'valid_loss': 3.548, 'loss_diff': 0.0, 'epoch': 15, 'batch': 1, 'embed_loss': 0.006}
+{'valid_loss': 3.526, 'loss_diff': 0.0, 'epoch': 15, 'batch': 2, 'embed_loss': -0.006}
+{'valid_loss': 3.484, 'loss_diff': 0.0, 'epoch': 15, 'batch': 3, 'embed_loss': -0.014}
+{'valid_loss': 3.836, 'loss_diff': 0.0, 'epoch': 15, 'batch': 4, 'embed_loss': 0.001}
+{'valid_loss': 3.631, 'loss_diff': 0.0, 'epoch': 15, 'batch': 5, 'embed_loss': -0.006}
+{'valid_loss': 3.557, 'loss_diff': 0.0, 'epoch': 15, 'batch': 6, 'embed_loss': 0.003}
+amp_backbone.conv1.0.weight not found in the encoder's state_dict
+Training agent for 216 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 108      |
+|    ep_rew_mean     | 231      |
+| time/              |          |
+|    fps             | 28       |
+|    iterations      | 1        |
+|    time_elapsed    | 72       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+{'epoch': 16, 'batch': 0, 'train_loss': 1.565, 'train_elbo_loss': 0.018, 'train_null_loss': 1.568, 'train_embed_loss': 1.562, 'train_loss_diff': -0.006}
+{'epoch': 16, 'batch': 1, 'train_loss': 1.549, 'train_elbo_loss': 0.018, 'train_null_loss': 1.572, 'train_embed_loss': 1.525, 'train_loss_diff': -0.047}
+{'epoch': 16, 'batch': 2, 'train_loss': 1.613, 'train_elbo_loss': 0.016, 'train_null_loss': 1.542, 'train_embed_loss': 1.685, 'train_loss_diff': 0.142}
+{'epoch': 16, 'batch': 3, 'train_loss': 1.61, 'train_elbo_loss': 0.017, 'train_null_loss': 1.563, 'train_embed_loss': 1.656, 'train_loss_diff': 0.093}
+{'epoch': 16, 'batch': 4, 'train_loss': 1.546, 'train_elbo_loss': 0.018, 'train_null_loss': 1.54, 'train_embed_loss': 1.553, 'train_loss_diff': 0.013}
+{'epoch': 16, 'batch': 5, 'train_loss': 1.585, 'train_elbo_loss': 0.017, 'train_null_loss': 1.594, 'train_embed_loss': 1.576, 'train_loss_diff': -0.018}
+Running validation...
+{'valid_loss': 3.433, 'loss_diff': 0.0, 'epoch': 16, 'batch': 0, 'embed_loss': 0.014}
+{'valid_loss': 3.629, 'loss_diff': 0.0, 'epoch': 16, 'batch': 1, 'embed_loss': 0.008}
+{'valid_loss': 3.433, 'loss_diff': 0.0, 'epoch': 16, 'batch': 2, 'embed_loss': -0.008}
+{'valid_loss': 3.371, 'loss_diff': 0.0, 'epoch': 16, 'batch': 3, 'embed_loss': -0.027}
+{'valid_loss': 3.793, 'loss_diff': 0.0, 'epoch': 16, 'batch': 4, 'embed_loss': -0.001}
+{'valid_loss': 3.473, 'loss_diff': 0.0, 'epoch': 16, 'batch': 5, 'embed_loss': -0.002}
+{'valid_loss': 3.333, 'loss_diff': 0.0, 'epoch': 16, 'batch': 6, 'embed_loss': -0.012}
+amp_backbone.conv1.0.weight not found in the encoder's state_dict
+Training agent for 216 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 108      |
+|    ep_rew_mean     | 174      |
+| time/              |          |
+|    fps             | 28       |
+|    iterations      | 1        |
+|    time_elapsed    | 71       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+{'epoch': 17, 'batch': 0, 'train_loss': 1.599, 'train_elbo_loss': 0.016, 'train_null_loss': 1.541, 'train_embed_loss': 1.657, 'train_loss_diff': 0.115}
+{'epoch': 17, 'batch': 1, 'train_loss': 1.618, 'train_elbo_loss': 0.017, 'train_null_loss': 1.664, 'train_embed_loss': 1.573, 'train_loss_diff': -0.091}
+{'epoch': 17, 'batch': 2, 'train_loss': 1.563, 'train_elbo_loss': 0.016, 'train_null_loss': 1.593, 'train_embed_loss': 1.534, 'train_loss_diff': -0.059}
+{'epoch': 17, 'batch': 3, 'train_loss': 1.519, 'train_elbo_loss': 0.017, 'train_null_loss': 1.539, 'train_embed_loss': 1.498, 'train_loss_diff': -0.04}
+{'epoch': 17, 'batch': 4, 'train_loss': 1.581, 'train_elbo_loss': 0.018, 'train_null_loss': 1.578, 'train_embed_loss': 1.583, 'train_loss_diff': 0.005}
+{'epoch': 17, 'batch': 5, 'train_loss': 1.576, 'train_elbo_loss': 0.02, 'train_null_loss': 1.578, 'train_embed_loss': 1.574, 'train_loss_diff': -0.005}
+Running validation...
+{'valid_loss': 3.58, 'loss_diff': 0.0, 'epoch': 17, 'batch': 0, 'embed_loss': 0.017}
+{'valid_loss': 3.637, 'loss_diff': 0.0, 'epoch': 17, 'batch': 1, 'embed_loss': 0.006}
+{'valid_loss': 3.288, 'loss_diff': 0.0, 'epoch': 17, 'batch': 2, 'embed_loss': -0.023}
+{'valid_loss': 3.29, 'loss_diff': 0.0, 'epoch': 17, 'batch': 3, 'embed_loss': -0.035}
+{'valid_loss': 3.809, 'loss_diff': 0.0, 'epoch': 17, 'batch': 4, 'embed_loss': 0.004}
+{'valid_loss': 3.263, 'loss_diff': 0.0, 'epoch': 17, 'batch': 5, 'embed_loss': -0.008}
+{'valid_loss': 3.379, 'loss_diff': 0.0, 'epoch': 17, 'batch': 6, 'embed_loss': -0.007}
+amp_backbone.conv1.0.weight not found in the encoder's state_dict
+Training agent for 216 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 108      |
+|    ep_rew_mean     | 146      |
+| time/              |          |
+|    fps             | 26       |
+|    iterations      | 1        |
+|    time_elapsed    | 77       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+{'epoch': 18, 'batch': 0, 'train_loss': 1.578, 'train_elbo_loss': 0.018, 'train_null_loss': 1.631, 'train_embed_loss': 1.526, 'train_loss_diff': -0.105}
+{'epoch': 18, 'batch': 1, 'train_loss': 1.594, 'train_elbo_loss': 0.017, 'train_null_loss': 1.577, 'train_embed_loss': 1.611, 'train_loss_diff': 0.034}
+{'epoch': 18, 'batch': 2, 'train_loss': 1.538, 'train_elbo_loss': 0.018, 'train_null_loss': 1.561, 'train_embed_loss': 1.514, 'train_loss_diff': -0.046}
+{'epoch': 18, 'batch': 3, 'train_loss': 1.507, 'train_elbo_loss': 0.018, 'train_null_loss': 1.544, 'train_embed_loss': 1.469, 'train_loss_diff': -0.075}
+{'epoch': 18, 'batch': 4, 'train_loss': 1.467, 'train_elbo_loss': 0.016, 'train_null_loss': 1.454, 'train_embed_loss': 1.48, 'train_loss_diff': 0.026}
+{'epoch': 18, 'batch': 5, 'train_loss': 1.581, 'train_elbo_loss': 0.017, 'train_null_loss': 1.592, 'train_embed_loss': 1.57, 'train_loss_diff': -0.022}
+Running validation...
+{'valid_loss': 3.582, 'loss_diff': 0.0, 'epoch': 18, 'batch': 0, 'embed_loss': 0.025}
+{'valid_loss': 3.34, 'loss_diff': 0.0, 'epoch': 18, 'batch': 1, 'embed_loss': -0.011}
+{'valid_loss': 3.123, 'loss_diff': 0.0, 'epoch': 18, 'batch': 2, 'embed_loss': -0.048}
+{'valid_loss': 3.282, 'loss_diff': 0.0, 'epoch': 18, 'batch': 3, 'embed_loss': -0.044}
+{'valid_loss': 3.823, 'loss_diff': 0.0, 'epoch': 18, 'batch': 4, 'embed_loss': 0.008}
+{'valid_loss': 3.222, 'loss_diff': 0.0, 'epoch': 18, 'batch': 5, 'embed_loss': -0.018}
+{'valid_loss': 3.526, 'loss_diff': 0.0, 'epoch': 18, 'batch': 6, 'embed_loss': 0.01}
+amp_backbone.conv1.0.weight not found in the encoder's state_dict
+Training agent for 216 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 108      |
+|    ep_rew_mean     | 226      |
+| time/              |          |
+|    fps             | 27       |
+|    iterations      | 1        |
+|    time_elapsed    | 73       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+{'epoch': 19, 'batch': 0, 'train_loss': 1.555, 'train_elbo_loss': 0.016, 'train_null_loss': 1.585, 'train_embed_loss': 1.524, 'train_loss_diff': -0.061}
+{'epoch': 19, 'batch': 1, 'train_loss': 1.575, 'train_elbo_loss': 0.017, 'train_null_loss': 1.644, 'train_embed_loss': 1.506, 'train_loss_diff': -0.138}
+{'epoch': 19, 'batch': 2, 'train_loss': 1.515, 'train_elbo_loss': 0.018, 'train_null_loss': 1.443, 'train_embed_loss': 1.587, 'train_loss_diff': 0.144}
+{'epoch': 19, 'batch': 3, 'train_loss': 1.571, 'train_elbo_loss': 0.015, 'train_null_loss': 1.515, 'train_embed_loss': 1.626, 'train_loss_diff': 0.111}
+{'epoch': 19, 'batch': 4, 'train_loss': 1.557, 'train_elbo_loss': 0.018, 'train_null_loss': 1.586, 'train_embed_loss': 1.529, 'train_loss_diff': -0.057}
+{'epoch': 19, 'batch': 5, 'train_loss': 1.604, 'train_elbo_loss': 0.017, 'train_null_loss': 1.643, 'train_embed_loss': 1.565, 'train_loss_diff': -0.078}
+Running validation...
+{'valid_loss': 3.636, 'loss_diff': 0.0, 'epoch': 19, 'batch': 0, 'embed_loss': 0.004}
+{'valid_loss': 3.377, 'loss_diff': 0.0, 'epoch': 19, 'batch': 1, 'embed_loss': -0.02}
+{'valid_loss': 3.129, 'loss_diff': 0.0, 'epoch': 19, 'batch': 2, 'embed_loss': -0.036}
+{'valid_loss': 3.313, 'loss_diff': 0.0, 'epoch': 19, 'batch': 3, 'embed_loss': -0.026}
+{'valid_loss': 3.777, 'loss_diff': 0.0, 'epoch': 19, 'batch': 4, 'embed_loss': 0.009}
+{'valid_loss': 3.049, 'loss_diff': 0.0, 'epoch': 19, 'batch': 5, 'embed_loss': -0.013}
+{'valid_loss': 3.43, 'loss_diff': 0.0, 'epoch': 19, 'batch': 6, 'embed_loss': 0.008}
+amp_backbone.conv1.0.weight not found in the encoder's state_dict
+Training agent for 216 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 108      |
+|    ep_rew_mean     | 217      |
+| time/              |          |
+|    fps             | 28       |
+|    iterations      | 1        |
+|    time_elapsed    | 72       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+{'epoch': 20, 'batch': 0, 'train_loss': 1.613, 'train_elbo_loss': 0.017, 'train_null_loss': 1.619, 'train_embed_loss': 1.607, 'train_loss_diff': -0.013}
+{'epoch': 20, 'batch': 1, 'train_loss': 1.584, 'train_elbo_loss': 0.017, 'train_null_loss': 1.673, 'train_embed_loss': 1.496, 'train_loss_diff': -0.176}
+{'epoch': 20, 'batch': 2, 'train_loss': 1.622, 'train_elbo_loss': 0.017, 'train_null_loss': 1.586, 'train_embed_loss': 1.658, 'train_loss_diff': 0.073}
+{'epoch': 20, 'batch': 3, 'train_loss': 1.586, 'train_elbo_loss': 0.017, 'train_null_loss': 1.606, 'train_embed_loss': 1.566, 'train_loss_diff': -0.04}
+{'epoch': 20, 'batch': 4, 'train_loss': 1.509, 'train_elbo_loss': 0.019, 'train_null_loss': 1.57, 'train_embed_loss': 1.447, 'train_loss_diff': -0.122}
+{'epoch': 20, 'batch': 5, 'train_loss': 1.622, 'train_elbo_loss': 0.017, 'train_null_loss': 1.524, 'train_embed_loss': 1.719, 'train_loss_diff': 0.195}
+Running validation...
+{'valid_loss': 3.518, 'loss_diff': 0.0, 'epoch': 20, 'batch': 0, 'embed_loss': -0.007}
+{'valid_loss': 3.564, 'loss_diff': 0.0, 'epoch': 20, 'batch': 1, 'embed_loss': -0.001}
+{'valid_loss': 3.322, 'loss_diff': 0.0, 'epoch': 20, 'batch': 2, 'embed_loss': -0.008}
+{'valid_loss': 3.336, 'loss_diff': 0.0, 'epoch': 20, 'batch': 3, 'embed_loss': -0.016}
+{'valid_loss': 3.735, 'loss_diff': 0.0, 'epoch': 20, 'batch': 4, 'embed_loss': -0.002}
+{'valid_loss': 3.148, 'loss_diff': 0.0, 'epoch': 20, 'batch': 5, 'embed_loss': 0.014}
+{'valid_loss': 3.343, 'loss_diff': 0.0, 'epoch': 20, 'batch': 6, 'embed_loss': -0.008}
+Training agent for 216 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 108      |
+|    ep_rew_mean     | 284      |
+| time/              |          |
+|    fps             | 27       |
+|    iterations      | 1        |
+|    time_elapsed    | 74       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+{'epoch': 21, 'batch': 0, 'train_loss': 1.596, 'train_elbo_loss': 0.016, 'train_null_loss': 1.614, 'train_embed_loss': 1.578, 'train_loss_diff': -0.037}
+{'epoch': 21, 'batch': 1, 'train_loss': 1.486, 'train_elbo_loss': 0.017, 'train_null_loss': 1.485, 'train_embed_loss': 1.486, 'train_loss_diff': 0.001}
+{'epoch': 21, 'batch': 2, 'train_loss': 1.591, 'train_elbo_loss': 0.017, 'train_null_loss': 1.64, 'train_embed_loss': 1.542, 'train_loss_diff': -0.098}
+{'epoch': 21, 'batch': 3, 'train_loss': 1.525, 'train_elbo_loss': 0.016, 'train_null_loss': 1.529, 'train_embed_loss': 1.521, 'train_loss_diff': -0.007}
+{'epoch': 21, 'batch': 4, 'train_loss': 1.563, 'train_elbo_loss': 0.017, 'train_null_loss': 1.569, 'train_embed_loss': 1.556, 'train_loss_diff': -0.013}
+{'epoch': 21, 'batch': 5, 'train_loss': 1.484, 'train_elbo_loss': 0.017, 'train_null_loss': 1.532, 'train_embed_loss': 1.437, 'train_loss_diff': -0.094}
+Running validation...
+{'valid_loss': 3.383, 'loss_diff': 0.0, 'epoch': 21, 'batch': 0, 'embed_loss': -0.012}
+{'valid_loss': 3.554, 'loss_diff': 0.0, 'epoch': 21, 'batch': 1, 'embed_loss': -0.004}
+{'valid_loss': 3.39, 'loss_diff': 0.0, 'epoch': 21, 'batch': 2, 'embed_loss': -0.0}
+{'valid_loss': 3.331, 'loss_diff': 0.0, 'epoch': 21, 'batch': 3, 'embed_loss': -0.005}
+{'valid_loss': 3.748, 'loss_diff': 0.0, 'epoch': 21, 'batch': 4, 'embed_loss': 0.006}
+{'valid_loss': 3.236, 'loss_diff': 0.0, 'epoch': 21, 'batch': 5, 'embed_loss': -0.018}
+{'valid_loss': 3.445, 'loss_diff': 0.0, 'epoch': 21, 'batch': 6, 'embed_loss': 0.003}
+Training agent for 216 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 108      |
+|    ep_rew_mean     | 222      |
+| time/              |          |
+|    fps             | 29       |
+|    iterations      | 1        |
+|    time_elapsed    | 69       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+{'epoch': 22, 'batch': 0, 'train_loss': 1.517, 'train_elbo_loss': 0.017, 'train_null_loss': 1.494, 'train_embed_loss': 1.54, 'train_loss_diff': 0.046}
+{'epoch': 22, 'batch': 1, 'train_loss': 1.616, 'train_elbo_loss': 0.017, 'train_null_loss': 1.6, 'train_embed_loss': 1.632, 'train_loss_diff': 0.033}
+{'epoch': 22, 'batch': 2, 'train_loss': 1.509, 'train_elbo_loss': 0.018, 'train_null_loss': 1.549, 'train_embed_loss': 1.468, 'train_loss_diff': -0.081}
+{'epoch': 22, 'batch': 3, 'train_loss': 1.525, 'train_elbo_loss': 0.017, 'train_null_loss': 1.479, 'train_embed_loss': 1.571, 'train_loss_diff': 0.092}
+{'epoch': 22, 'batch': 4, 'train_loss': 1.565, 'train_elbo_loss': 0.017, 'train_null_loss': 1.593, 'train_embed_loss': 1.538, 'train_loss_diff': -0.055}
+{'epoch': 22, 'batch': 5, 'train_loss': 1.48, 'train_elbo_loss': 0.016, 'train_null_loss': 1.49, 'train_embed_loss': 1.471, 'train_loss_diff': -0.02}
+Running validation...
+{'valid_loss': 3.273, 'loss_diff': 0.0, 'epoch': 22, 'batch': 0, 'embed_loss': -0.033}
+{'valid_loss': 3.509, 'loss_diff': 0.0, 'epoch': 22, 'batch': 1, 'embed_loss': 0.001}
+{'valid_loss': 3.361, 'loss_diff': 0.0, 'epoch': 22, 'batch': 2, 'embed_loss': 0.016}
+{'valid_loss': 3.345, 'loss_diff': 0.0, 'epoch': 22, 'batch': 3, 'embed_loss': 0.014}
+{'valid_loss': 3.847, 'loss_diff': 0.0, 'epoch': 22, 'batch': 4, 'embed_loss': 0.001}
+{'valid_loss': 3.348, 'loss_diff': 0.0, 'epoch': 22, 'batch': 5, 'embed_loss': -0.011}
+{'valid_loss': 3.592, 'loss_diff': 0.0, 'epoch': 22, 'batch': 6, 'embed_loss': -0.003}
+Training agent for 216 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 108      |
+|    ep_rew_mean     | 275      |
+| time/              |          |
+|    fps             | 29       |
+|    iterations      | 1        |
+|    time_elapsed    | 68       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+{'epoch': 23, 'batch': 0, 'train_loss': 1.512, 'train_elbo_loss': 0.017, 'train_null_loss': 1.529, 'train_embed_loss': 1.496, 'train_loss_diff': -0.033}
+{'epoch': 23, 'batch': 1, 'train_loss': 1.515, 'train_elbo_loss': 0.019, 'train_null_loss': 1.522, 'train_embed_loss': 1.507, 'train_loss_diff': -0.014}
+{'epoch': 23, 'batch': 2, 'train_loss': 1.492, 'train_elbo_loss': 0.018, 'train_null_loss': 1.491, 'train_embed_loss': 1.494, 'train_loss_diff': 0.002}
+{'epoch': 23, 'batch': 3, 'train_loss': 1.568, 'train_elbo_loss': 0.018, 'train_null_loss': 1.54, 'train_embed_loss': 1.597, 'train_loss_diff': 0.057}
+{'epoch': 23, 'batch': 4, 'train_loss': 1.53, 'train_elbo_loss': 0.016, 'train_null_loss': 1.523, 'train_embed_loss': 1.537, 'train_loss_diff': 0.014}
+{'epoch': 23, 'batch': 5, 'train_loss': 1.599, 'train_elbo_loss': 0.017, 'train_null_loss': 1.608, 'train_embed_loss': 1.59, 'train_loss_diff': -0.018}
+Running validation...
+{'valid_loss': 3.401, 'loss_diff': 0.0, 'epoch': 23, 'batch': 0, 'embed_loss': -0.029}
+{'valid_loss': 3.525, 'loss_diff': 0.0, 'epoch': 23, 'batch': 1, 'embed_loss': 0.005}
+{'valid_loss': 3.295, 'loss_diff': 0.0, 'epoch': 23, 'batch': 2, 'embed_loss': 0.013}
+{'valid_loss': 3.396, 'loss_diff': 0.0, 'epoch': 23, 'batch': 3, 'embed_loss': 0.005}
+{'valid_loss': 3.82, 'loss_diff': 0.0, 'epoch': 23, 'batch': 4, 'embed_loss': 0.005}
+{'valid_loss': 3.418, 'loss_diff': 0.0, 'epoch': 23, 'batch': 5, 'embed_loss': -0.008}
+{'valid_loss': 3.615, 'loss_diff': 0.0, 'epoch': 23, 'batch': 6, 'embed_loss': -0.005}
+Training agent for 216 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 108      |
+|    ep_rew_mean     | 293      |
+| time/              |          |
+|    fps             | 36       |
+|    iterations      | 1        |
+|    time_elapsed    | 56       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+{'epoch': 24, 'batch': 0, 'train_loss': 1.58, 'train_elbo_loss': 0.017, 'train_null_loss': 1.562, 'train_embed_loss': 1.597, 'train_loss_diff': 0.035}
+{'epoch': 24, 'batch': 1, 'train_loss': 1.473, 'train_elbo_loss': 0.017, 'train_null_loss': 1.488, 'train_embed_loss': 1.458, 'train_loss_diff': -0.03}
+{'epoch': 24, 'batch': 2, 'train_loss': 1.514, 'train_elbo_loss': 0.017, 'train_null_loss': 1.525, 'train_embed_loss': 1.502, 'train_loss_diff': -0.023}
+{'epoch': 24, 'batch': 3, 'train_loss': 1.547, 'train_elbo_loss': 0.016, 'train_null_loss': 1.575, 'train_embed_loss': 1.519, 'train_loss_diff': -0.057}
+{'epoch': 24, 'batch': 4, 'train_loss': 1.553, 'train_elbo_loss': 0.018, 'train_null_loss': 1.52, 'train_embed_loss': 1.586, 'train_loss_diff': 0.066}
+{'epoch': 24, 'batch': 5, 'train_loss': 1.556, 'train_elbo_loss': 0.017, 'train_null_loss': 1.572, 'train_embed_loss': 1.54, 'train_loss_diff': -0.032}
+Running validation...
+{'valid_loss': 3.453, 'loss_diff': 0.0, 'epoch': 24, 'batch': 0, 'embed_loss': -0.043}
+{'valid_loss': 3.503, 'loss_diff': 0.0, 'epoch': 24, 'batch': 1, 'embed_loss': -0.005}
+{'valid_loss': 3.284, 'loss_diff': 0.0, 'epoch': 24, 'batch': 2, 'embed_loss': 0.03}
+{'valid_loss': 3.343, 'loss_diff': 0.0, 'epoch': 24, 'batch': 3, 'embed_loss': 0.023}
+{'valid_loss': 3.8, 'loss_diff': 0.0, 'epoch': 24, 'batch': 4, 'embed_loss': 0.006}
+{'valid_loss': 3.585, 'loss_diff': 0.0, 'epoch': 24, 'batch': 5, 'embed_loss': 0.007}
+{'valid_loss': 3.47, 'loss_diff': 0.0, 'epoch': 24, 'batch': 6, 'embed_loss': 0.005}
+Training agent for 216 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 108      |
+|    ep_rew_mean     | 375      |
+| time/              |          |
+|    fps             | 37       |
+|    iterations      | 1        |
+|    time_elapsed    | 54       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+{'epoch': 25, 'batch': 0, 'train_loss': 1.546, 'train_elbo_loss': 0.017, 'train_null_loss': 1.579, 'train_embed_loss': 1.513, 'train_loss_diff': -0.066}
+{'epoch': 25, 'batch': 1, 'train_loss': 1.51, 'train_elbo_loss': 0.016, 'train_null_loss': 1.527, 'train_embed_loss': 1.492, 'train_loss_diff': -0.036}
+{'epoch': 25, 'batch': 2, 'train_loss': 1.45, 'train_elbo_loss': 0.018, 'train_null_loss': 1.462, 'train_embed_loss': 1.439, 'train_loss_diff': -0.024}
+{'epoch': 25, 'batch': 3, 'train_loss': 1.487, 'train_elbo_loss': 0.016, 'train_null_loss': 1.492, 'train_embed_loss': 1.481, 'train_loss_diff': -0.011}
+{'epoch': 25, 'batch': 4, 'train_loss': 1.564, 'train_elbo_loss': 0.018, 'train_null_loss': 1.656, 'train_embed_loss': 1.473, 'train_loss_diff': -0.183}
+{'epoch': 25, 'batch': 5, 'train_loss': 1.538, 'train_elbo_loss': 0.018, 'train_null_loss': 1.535, 'train_embed_loss': 1.541, 'train_loss_diff': 0.006}
+Running validation...
+{'valid_loss': 3.598, 'loss_diff': 0.0, 'epoch': 25, 'batch': 0, 'embed_loss': 0.022}
+{'valid_loss': 3.524, 'loss_diff': 0.0, 'epoch': 25, 'batch': 1, 'embed_loss': -0.016}
+{'valid_loss': 3.172, 'loss_diff': 0.0, 'epoch': 25, 'batch': 2, 'embed_loss': -0.033}
+{'valid_loss': 3.293, 'loss_diff': 0.0, 'epoch': 25, 'batch': 3, 'embed_loss': -0.018}
+{'valid_loss': 3.719, 'loss_diff': 0.0, 'epoch': 25, 'batch': 4, 'embed_loss': 0.015}
+{'valid_loss': 3.519, 'loss_diff': 0.0, 'epoch': 25, 'batch': 5, 'embed_loss': 0.007}
+{'valid_loss': 3.363, 'loss_diff': 0.0, 'epoch': 25, 'batch': 6, 'embed_loss': 0.022}
+Training agent for 216 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 108      |
+|    ep_rew_mean     | 350      |
+| time/              |          |
+|    fps             | 37       |
+|    iterations      | 1        |
+|    time_elapsed    | 54       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+{'epoch': 26, 'batch': 0, 'train_loss': 1.419, 'train_elbo_loss': 0.016, 'train_null_loss': 1.373, 'train_embed_loss': 1.466, 'train_loss_diff': 0.093}
+{'epoch': 26, 'batch': 1, 'train_loss': 1.517, 'train_elbo_loss': 0.017, 'train_null_loss': 1.539, 'train_embed_loss': 1.495, 'train_loss_diff': -0.044}
+{'epoch': 26, 'batch': 2, 'train_loss': 1.505, 'train_elbo_loss': 0.018, 'train_null_loss': 1.508, 'train_embed_loss': 1.502, 'train_loss_diff': -0.006}
+{'epoch': 26, 'batch': 3, 'train_loss': 1.533, 'train_elbo_loss': 0.017, 'train_null_loss': 1.533, 'train_embed_loss': 1.533, 'train_loss_diff': -0.0}
+{'epoch': 26, 'batch': 4, 'train_loss': 1.54, 'train_elbo_loss': 0.016, 'train_null_loss': 1.565, 'train_embed_loss': 1.515, 'train_loss_diff': -0.05}
+{'epoch': 26, 'batch': 5, 'train_loss': 1.518, 'train_elbo_loss': 0.018, 'train_null_loss': 1.551, 'train_embed_loss': 1.485, 'train_loss_diff': -0.066}
+Running validation...
+{'valid_loss': 3.682, 'loss_diff': 0.0, 'epoch': 26, 'batch': 0, 'embed_loss': 0.027}
+{'valid_loss': 3.559, 'loss_diff': 0.0, 'epoch': 26, 'batch': 1, 'embed_loss': 0.01}
+{'valid_loss': 3.159, 'loss_diff': 0.0, 'epoch': 26, 'batch': 2, 'embed_loss': -0.031}
+{'valid_loss': 3.288, 'loss_diff': 0.0, 'epoch': 26, 'batch': 3, 'embed_loss': -0.042}
+{'valid_loss': 3.68, 'loss_diff': 0.0, 'epoch': 26, 'batch': 4, 'embed_loss': 0.002}
+{'valid_loss': 3.35, 'loss_diff': 0.0, 'epoch': 26, 'batch': 5, 'embed_loss': -0.002}
+{'valid_loss': 3.281, 'loss_diff': 0.0, 'epoch': 26, 'batch': 6, 'embed_loss': 0.003}
+Training agent for 216 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 108      |
+|    ep_rew_mean     | 320      |
+| time/              |          |
+|    fps             | 36       |
+|    iterations      | 1        |
+|    time_elapsed    | 56       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+{'epoch': 27, 'batch': 0, 'train_loss': 1.578, 'train_elbo_loss': 0.017, 'train_null_loss': 1.546, 'train_embed_loss': 1.609, 'train_loss_diff': 0.062}
+{'epoch': 27, 'batch': 1, 'train_loss': 1.53, 'train_elbo_loss': 0.016, 'train_null_loss': 1.595, 'train_embed_loss': 1.465, 'train_loss_diff': -0.13}
+{'epoch': 27, 'batch': 2, 'train_loss': 1.556, 'train_elbo_loss': 0.018, 'train_null_loss': 1.612, 'train_embed_loss': 1.5, 'train_loss_diff': -0.112}
+{'epoch': 27, 'batch': 3, 'train_loss': 1.521, 'train_elbo_loss': 0.018, 'train_null_loss': 1.508, 'train_embed_loss': 1.534, 'train_loss_diff': 0.026}
+{'epoch': 27, 'batch': 4, 'train_loss': 1.588, 'train_elbo_loss': 0.017, 'train_null_loss': 1.578, 'train_embed_loss': 1.597, 'train_loss_diff': 0.02}
+{'epoch': 27, 'batch': 5, 'train_loss': 1.457, 'train_elbo_loss': 0.017, 'train_null_loss': 1.498, 'train_embed_loss': 1.416, 'train_loss_diff': -0.082}
+Running validation...
+{'valid_loss': 3.623, 'loss_diff': 0.0, 'epoch': 27, 'batch': 0, 'embed_loss': 0.016}
+{'valid_loss': 3.714, 'loss_diff': 0.0, 'epoch': 27, 'batch': 1, 'embed_loss': 0.005}
+{'valid_loss': 3.389, 'loss_diff': 0.0, 'epoch': 27, 'batch': 2, 'embed_loss': -0.022}
+{'valid_loss': 3.319, 'loss_diff': 0.0, 'epoch': 27, 'batch': 3, 'embed_loss': -0.038}
+{'valid_loss': 3.494, 'loss_diff': 0.0, 'epoch': 27, 'batch': 4, 'embed_loss': 0.013}
+{'valid_loss': 3.134, 'loss_diff': 0.0, 'epoch': 27, 'batch': 5, 'embed_loss': -0.031}
+{'valid_loss': 3.398, 'loss_diff': 0.0, 'epoch': 27, 'batch': 6, 'embed_loss': 0.016}
+Training agent for 216 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 108      |
+|    ep_rew_mean     | 273      |
+| time/              |          |
+|    fps             | 37       |
+|    iterations      | 1        |
+|    time_elapsed    | 54       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+{'epoch': 28, 'batch': 0, 'train_loss': 1.472, 'train_elbo_loss': 0.017, 'train_null_loss': 1.442, 'train_embed_loss': 1.503, 'train_loss_diff': 0.061}
+{'epoch': 28, 'batch': 1, 'train_loss': 1.487, 'train_elbo_loss': 0.016, 'train_null_loss': 1.46, 'train_embed_loss': 1.514, 'train_loss_diff': 0.054}
+{'epoch': 28, 'batch': 2, 'train_loss': 1.467, 'train_elbo_loss': 0.017, 'train_null_loss': 1.507, 'train_embed_loss': 1.426, 'train_loss_diff': -0.081}
+{'epoch': 28, 'batch': 3, 'train_loss': 1.397, 'train_elbo_loss': 0.018, 'train_null_loss': 1.4, 'train_embed_loss': 1.394, 'train_loss_diff': -0.005}
+{'epoch': 28, 'batch': 4, 'train_loss': 1.358, 'train_elbo_loss': 0.017, 'train_null_loss': 1.365, 'train_embed_loss': 1.352, 'train_loss_diff': -0.013}
+{'epoch': 28, 'batch': 5, 'train_loss': 1.527, 'train_elbo_loss': 0.018, 'train_null_loss': 1.592, 'train_embed_loss': 1.462, 'train_loss_diff': -0.13}
+Running validation...
+{'valid_loss': 3.54, 'loss_diff': 0.0, 'epoch': 28, 'batch': 0, 'embed_loss': -0.012}
+{'valid_loss': 3.701, 'loss_diff': 0.0, 'epoch': 28, 'batch': 1, 'embed_loss': 0.004}
+{'valid_loss': 3.44, 'loss_diff': 0.0, 'epoch': 28, 'batch': 2, 'embed_loss': 0.009}
+{'valid_loss': 3.359, 'loss_diff': 0.0, 'epoch': 28, 'batch': 3, 'embed_loss': 0.002}
+{'valid_loss': 3.546, 'loss_diff': 0.0, 'epoch': 28, 'batch': 4, 'embed_loss': 0.0}
+{'valid_loss': 3.021, 'loss_diff': 0.0, 'epoch': 28, 'batch': 5, 'embed_loss': -0.021}
+{'valid_loss': 3.452, 'loss_diff': 0.0, 'epoch': 28, 'batch': 6, 'embed_loss': 0.019}
+Training agent for 216 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 108      |
+|    ep_rew_mean     | 183      |
+| time/              |          |
+|    fps             | 37       |
+|    iterations      | 1        |
+|    time_elapsed    | 54       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+{'epoch': 29, 'batch': 0, 'train_loss': 1.391, 'train_elbo_loss': 0.017, 'train_null_loss': 1.349, 'train_embed_loss': 1.433, 'train_loss_diff': 0.084}
+{'epoch': 29, 'batch': 1, 'train_loss': 1.395, 'train_elbo_loss': 0.017, 'train_null_loss': 1.375, 'train_embed_loss': 1.415, 'train_loss_diff': 0.039}
+{'epoch': 29, 'batch': 2, 'train_loss': 1.444, 'train_elbo_loss': 0.017, 'train_null_loss': 1.418, 'train_embed_loss': 1.47, 'train_loss_diff': 0.052}
+{'epoch': 29, 'batch': 3, 'train_loss': 1.5, 'train_elbo_loss': 0.018, 'train_null_loss': 1.571, 'train_embed_loss': 1.43, 'train_loss_diff': -0.141}
+{'epoch': 29, 'batch': 4, 'train_loss': 1.446, 'train_elbo_loss': 0.017, 'train_null_loss': 1.535, 'train_embed_loss': 1.356, 'train_loss_diff': -0.179}
+{'epoch': 29, 'batch': 5, 'train_loss': 1.411, 'train_elbo_loss': 0.017, 'train_null_loss': 1.411, 'train_embed_loss': 1.411, 'train_loss_diff': 0.0}
+Running validation...
+{'valid_loss': 3.547, 'loss_diff': 0.0, 'epoch': 29, 'batch': 0, 'embed_loss': -0.005}
+{'valid_loss': 3.691, 'loss_diff': 0.0, 'epoch': 29, 'batch': 1, 'embed_loss': 0.008}
+{'valid_loss': 3.402, 'loss_diff': 0.0, 'epoch': 29, 'batch': 2, 'embed_loss': 0.005}
+{'valid_loss': 3.249, 'loss_diff': 0.0, 'epoch': 29, 'batch': 3, 'embed_loss': -0.007}
+{'valid_loss': 3.592, 'loss_diff': 0.0, 'epoch': 29, 'batch': 4, 'embed_loss': -0.009}
+{'valid_loss': 3.103, 'loss_diff': 0.0, 'epoch': 29, 'batch': 5, 'embed_loss': -0.046}
+{'valid_loss': 3.443, 'loss_diff': 0.0, 'epoch': 29, 'batch': 6, 'embed_loss': 0.054}
+Training agent for 216 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 108      |
+|    ep_rew_mean     | 327      |
+| time/              |          |
+|    fps             | 37       |
+|    iterations      | 1        |
+|    time_elapsed    | 54       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+{'epoch': 30, 'batch': 0, 'train_loss': 1.52, 'train_elbo_loss': 0.017, 'train_null_loss': 1.552, 'train_embed_loss': 1.488, 'train_loss_diff': -0.064}
+{'epoch': 30, 'batch': 1, 'train_loss': 1.405, 'train_elbo_loss': 0.017, 'train_null_loss': 1.425, 'train_embed_loss': 1.386, 'train_loss_diff': -0.04}
+{'epoch': 30, 'batch': 2, 'train_loss': 1.527, 'train_elbo_loss': 0.017, 'train_null_loss': 1.523, 'train_embed_loss': 1.531, 'train_loss_diff': 0.008}
+{'epoch': 30, 'batch': 3, 'train_loss': 1.432, 'train_elbo_loss': 0.016, 'train_null_loss': 1.389, 'train_embed_loss': 1.474, 'train_loss_diff': 0.084}
+{'epoch': 30, 'batch': 4, 'train_loss': 1.544, 'train_elbo_loss': 0.017, 'train_null_loss': 1.55, 'train_embed_loss': 1.537, 'train_loss_diff': -0.013}
+{'epoch': 30, 'batch': 5, 'train_loss': 1.448, 'train_elbo_loss': 0.017, 'train_null_loss': 1.496, 'train_embed_loss': 1.399, 'train_loss_diff': -0.097}
+Running validation...
+{'valid_loss': 3.638, 'loss_diff': 0.0, 'epoch': 30, 'batch': 0, 'embed_loss': -0.002}
+{'valid_loss': 3.705, 'loss_diff': 0.0, 'epoch': 30, 'batch': 1, 'embed_loss': 0.015}
+{'valid_loss': 3.333, 'loss_diff': 0.0, 'epoch': 30, 'batch': 2, 'embed_loss': 0.02}
+{'valid_loss': 3.17, 'loss_diff': 0.0, 'epoch': 30, 'batch': 3, 'embed_loss': 0.004}
+{'valid_loss': 3.615, 'loss_diff': 0.0, 'epoch': 30, 'batch': 4, 'embed_loss': -0.028}
+{'valid_loss': 3.161, 'loss_diff': 0.0, 'epoch': 30, 'batch': 5, 'embed_loss': -0.004}
+{'valid_loss': 3.459, 'loss_diff': 0.0, 'epoch': 30, 'batch': 6, 'embed_loss': 0.038}
+Training agent for 216 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 108      |
+|    ep_rew_mean     | 194      |
+| time/              |          |
+|    fps             | 37       |
+|    iterations      | 1        |
+|    time_elapsed    | 55       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+{'epoch': 31, 'batch': 0, 'train_loss': 1.484, 'train_elbo_loss': 0.017, 'train_null_loss': 1.479, 'train_embed_loss': 1.489, 'train_loss_diff': 0.01}
+{'epoch': 31, 'batch': 1, 'train_loss': 1.454, 'train_elbo_loss': 0.018, 'train_null_loss': 1.419, 'train_embed_loss': 1.488, 'train_loss_diff': 0.069}
+{'epoch': 31, 'batch': 2, 'train_loss': 1.454, 'train_elbo_loss': 0.015, 'train_null_loss': 1.499, 'train_embed_loss': 1.409, 'train_loss_diff': -0.09}
+{'epoch': 31, 'batch': 3, 'train_loss': 1.427, 'train_elbo_loss': 0.017, 'train_null_loss': 1.397, 'train_embed_loss': 1.458, 'train_loss_diff': 0.061}
+{'epoch': 31, 'batch': 4, 'train_loss': 1.432, 'train_elbo_loss': 0.018, 'train_null_loss': 1.439, 'train_embed_loss': 1.425, 'train_loss_diff': -0.014}
+{'epoch': 31, 'batch': 5, 'train_loss': 1.473, 'train_elbo_loss': 0.017, 'train_null_loss': 1.485, 'train_embed_loss': 1.462, 'train_loss_diff': -0.023}
+Running validation...
+{'valid_loss': 3.629, 'loss_diff': 0.0, 'epoch': 31, 'batch': 0, 'embed_loss': 0.003}
+{'valid_loss': 3.679, 'loss_diff': 0.0, 'epoch': 31, 'batch': 1, 'embed_loss': 0.015}
+{'valid_loss': 3.369, 'loss_diff': 0.0, 'epoch': 31, 'batch': 2, 'embed_loss': 0.019}
+{'valid_loss': 3.236, 'loss_diff': 0.0, 'epoch': 31, 'batch': 3, 'embed_loss': 0.003}
+{'valid_loss': 3.558, 'loss_diff': 0.0, 'epoch': 31, 'batch': 4, 'embed_loss': -0.018}
+{'valid_loss': 3.276, 'loss_diff': 0.0, 'epoch': 31, 'batch': 5, 'embed_loss': -0.003}
+{'valid_loss': 3.434, 'loss_diff': 0.0, 'epoch': 31, 'batch': 6, 'embed_loss': 0.017}
+Training agent for 216 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 108      |
+|    ep_rew_mean     | 172      |
+| time/              |          |
+|    fps             | 37       |
+|    iterations      | 1        |
+|    time_elapsed    | 54       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+{'epoch': 32, 'batch': 0, 'train_loss': 1.506, 'train_elbo_loss': 0.017, 'train_null_loss': 1.474, 'train_embed_loss': 1.538, 'train_loss_diff': 0.064}
+{'epoch': 32, 'batch': 1, 'train_loss': 1.561, 'train_elbo_loss': 0.016, 'train_null_loss': 1.468, 'train_embed_loss': 1.654, 'train_loss_diff': 0.185}
+{'epoch': 32, 'batch': 2, 'train_loss': 1.501, 'train_elbo_loss': 0.017, 'train_null_loss': 1.514, 'train_embed_loss': 1.487, 'train_loss_diff': -0.027}
+{'epoch': 32, 'batch': 3, 'train_loss': 1.427, 'train_elbo_loss': 0.017, 'train_null_loss': 1.415, 'train_embed_loss': 1.44, 'train_loss_diff': 0.025}
+{'epoch': 32, 'batch': 4, 'train_loss': 1.532, 'train_elbo_loss': 0.017, 'train_null_loss': 1.654, 'train_embed_loss': 1.411, 'train_loss_diff': -0.243}
+{'epoch': 32, 'batch': 5, 'train_loss': 1.494, 'train_elbo_loss': 0.02, 'train_null_loss': 1.521, 'train_embed_loss': 1.466, 'train_loss_diff': -0.055}
+Running validation...
+{'valid_loss': 3.684, 'loss_diff': 0.0, 'epoch': 32, 'batch': 0, 'embed_loss': 0.017}
+{'valid_loss': 3.656, 'loss_diff': 0.0, 'epoch': 32, 'batch': 1, 'embed_loss': 0.036}
+{'valid_loss': 3.358, 'loss_diff': 0.0, 'epoch': 32, 'batch': 2, 'embed_loss': 0.009}
+{'valid_loss': 3.262, 'loss_diff': 0.0, 'epoch': 32, 'batch': 3, 'embed_loss': -0.034}
+{'valid_loss': 3.635, 'loss_diff': 0.0, 'epoch': 32, 'batch': 4, 'embed_loss': 0.009}
+{'valid_loss': 3.163, 'loss_diff': 0.0, 'epoch': 32, 'batch': 5, 'embed_loss': -0.014}
+{'valid_loss': 3.493, 'loss_diff': 0.0, 'epoch': 32, 'batch': 6, 'embed_loss': 0.006}
+Training agent for 216 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 108      |
+|    ep_rew_mean     | 131      |
+| time/              |          |
+|    fps             | 37       |
+|    iterations      | 1        |
+|    time_elapsed    | 54       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+{'epoch': 33, 'batch': 0, 'train_loss': 1.476, 'train_elbo_loss': 0.017, 'train_null_loss': 1.575, 'train_embed_loss': 1.377, 'train_loss_diff': -0.198}
+{'epoch': 33, 'batch': 1, 'train_loss': 1.578, 'train_elbo_loss': 0.017, 'train_null_loss': 1.559, 'train_embed_loss': 1.597, 'train_loss_diff': 0.038}
+{'epoch': 33, 'batch': 2, 'train_loss': 1.394, 'train_elbo_loss': 0.018, 'train_null_loss': 1.389, 'train_embed_loss': 1.4, 'train_loss_diff': 0.011}
+{'epoch': 33, 'batch': 3, 'train_loss': 1.477, 'train_elbo_loss': 0.017, 'train_null_loss': 1.495, 'train_embed_loss': 1.459, 'train_loss_diff': -0.035}
+{'epoch': 33, 'batch': 4, 'train_loss': 1.478, 'train_elbo_loss': 0.016, 'train_null_loss': 1.437, 'train_embed_loss': 1.52, 'train_loss_diff': 0.083}
+{'epoch': 33, 'batch': 5, 'train_loss': 1.492, 'train_elbo_loss': 0.017, 'train_null_loss': 1.474, 'train_embed_loss': 1.511, 'train_loss_diff': 0.037}
+Running validation...
+{'valid_loss': 3.485, 'loss_diff': 0.0, 'epoch': 33, 'batch': 0, 'embed_loss': -0.004}
+{'valid_loss': 3.534, 'loss_diff': 0.0, 'epoch': 33, 'batch': 1, 'embed_loss': 0.027}
+{'valid_loss': 3.412, 'loss_diff': 0.0, 'epoch': 33, 'batch': 2, 'embed_loss': 0.025}
+{'valid_loss': 3.402, 'loss_diff': 0.0, 'epoch': 33, 'batch': 3, 'embed_loss': 0.004}
+{'valid_loss': 3.745, 'loss_diff': 0.0, 'epoch': 33, 'batch': 4, 'embed_loss': -0.015}
+{'valid_loss': 3.244, 'loss_diff': 0.0, 'epoch': 33, 'batch': 5, 'embed_loss': -0.014}
+{'valid_loss': 3.526, 'loss_diff': 0.0, 'epoch': 33, 'batch': 6, 'embed_loss': -0.0}
+Training agent for 216 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 108      |
+|    ep_rew_mean     | 273      |
+| time/              |          |
+|    fps             | 37       |
+|    iterations      | 1        |
+|    time_elapsed    | 54       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+{'epoch': 34, 'batch': 0, 'train_loss': 1.453, 'train_elbo_loss': 0.016, 'train_null_loss': 1.491, 'train_embed_loss': 1.415, 'train_loss_diff': -0.076}
+{'epoch': 34, 'batch': 1, 'train_loss': 1.401, 'train_elbo_loss': 0.018, 'train_null_loss': 1.424, 'train_embed_loss': 1.377, 'train_loss_diff': -0.047}
+{'epoch': 34, 'batch': 2, 'train_loss': 1.524, 'train_elbo_loss': 0.017, 'train_null_loss': 1.566, 'train_embed_loss': 1.481, 'train_loss_diff': -0.085}
+{'epoch': 34, 'batch': 3, 'train_loss': 1.421, 'train_elbo_loss': 0.019, 'train_null_loss': 1.399, 'train_embed_loss': 1.443, 'train_loss_diff': 0.044}
+{'epoch': 34, 'batch': 4, 'train_loss': 1.401, 'train_elbo_loss': 0.017, 'train_null_loss': 1.35, 'train_embed_loss': 1.453, 'train_loss_diff': 0.103}
+{'epoch': 34, 'batch': 5, 'train_loss': 1.471, 'train_elbo_loss': 0.018, 'train_null_loss': 1.539, 'train_embed_loss': 1.403, 'train_loss_diff': -0.136}
+Running validation...
+{'valid_loss': 3.428, 'loss_diff': 0.0, 'epoch': 34, 'batch': 0, 'embed_loss': -0.0}
+{'valid_loss': 3.211, 'loss_diff': 0.0, 'epoch': 34, 'batch': 1, 'embed_loss': 0.018}
+{'valid_loss': 3.195, 'loss_diff': 0.0, 'epoch': 34, 'batch': 2, 'embed_loss': 0.003}
+{'valid_loss': 3.432, 'loss_diff': 0.0, 'epoch': 34, 'batch': 3, 'embed_loss': -0.004}
+{'valid_loss': 3.837, 'loss_diff': 0.0, 'epoch': 34, 'batch': 4, 'embed_loss': -0.008}
+{'valid_loss': 3.38, 'loss_diff': 0.0, 'epoch': 34, 'batch': 5, 'embed_loss': -0.007}
+{'valid_loss': 3.677, 'loss_diff': 0.0, 'epoch': 34, 'batch': 6, 'embed_loss': -0.012}
+Training agent for 216 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 108      |
+|    ep_rew_mean     | 337      |
+| time/              |          |
+|    fps             | 37       |
+|    iterations      | 1        |
+|    time_elapsed    | 54       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+{'epoch': 35, 'batch': 0, 'train_loss': 1.446, 'train_elbo_loss': 0.017, 'train_null_loss': 1.47, 'train_embed_loss': 1.423, 'train_loss_diff': -0.047}
+{'epoch': 35, 'batch': 1, 'train_loss': 1.489, 'train_elbo_loss': 0.017, 'train_null_loss': 1.577, 'train_embed_loss': 1.402, 'train_loss_diff': -0.175}
+{'epoch': 35, 'batch': 2, 'train_loss': 1.504, 'train_elbo_loss': 0.017, 'train_null_loss': 1.534, 'train_embed_loss': 1.474, 'train_loss_diff': -0.059}
+{'epoch': 35, 'batch': 3, 'train_loss': 1.432, 'train_elbo_loss': 0.018, 'train_null_loss': 1.366, 'train_embed_loss': 1.499, 'train_loss_diff': 0.133}
+{'epoch': 35, 'batch': 4, 'train_loss': 1.427, 'train_elbo_loss': 0.017, 'train_null_loss': 1.394, 'train_embed_loss': 1.461, 'train_loss_diff': 0.067}
+{'epoch': 35, 'batch': 5, 'train_loss': 1.412, 'train_elbo_loss': 0.018, 'train_null_loss': 1.467, 'train_embed_loss': 1.356, 'train_loss_diff': -0.111}
+Running validation...
+{'valid_loss': 3.574, 'loss_diff': 0.0, 'epoch': 35, 'batch': 0, 'embed_loss': -0.0}
+{'valid_loss': 3.168, 'loss_diff': 0.0, 'epoch': 35, 'batch': 1, 'embed_loss': -0.013}
+{'valid_loss': 3.039, 'loss_diff': 0.0, 'epoch': 35, 'batch': 2, 'embed_loss': 0.003}
+{'valid_loss': 3.356, 'loss_diff': 0.0, 'epoch': 35, 'batch': 3, 'embed_loss': 0.026}
+{'valid_loss': 3.868, 'loss_diff': 0.0, 'epoch': 35, 'batch': 4, 'embed_loss': -0.004}
+{'valid_loss': 3.4, 'loss_diff': 0.0, 'epoch': 35, 'batch': 5, 'embed_loss': -0.003}
+{'valid_loss': 3.732, 'loss_diff': 0.0, 'epoch': 35, 'batch': 6, 'embed_loss': -0.003}
+Training agent for 216 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 108      |
+|    ep_rew_mean     | 351      |
+| time/              |          |
+|    fps             | 37       |
+|    iterations      | 1        |
+|    time_elapsed    | 54       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+{'epoch': 36, 'batch': 0, 'train_loss': 1.426, 'train_elbo_loss': 0.017, 'train_null_loss': 1.463, 'train_embed_loss': 1.388, 'train_loss_diff': -0.075}
+{'epoch': 36, 'batch': 1, 'train_loss': 1.449, 'train_elbo_loss': 0.019, 'train_null_loss': 1.522, 'train_embed_loss': 1.376, 'train_loss_diff': -0.147}
+{'epoch': 36, 'batch': 2, 'train_loss': 1.447, 'train_elbo_loss': 0.016, 'train_null_loss': 1.503, 'train_embed_loss': 1.391, 'train_loss_diff': -0.112}
+{'epoch': 36, 'batch': 3, 'train_loss': 1.476, 'train_elbo_loss': 0.019, 'train_null_loss': 1.47, 'train_embed_loss': 1.482, 'train_loss_diff': 0.012}
+{'epoch': 36, 'batch': 4, 'train_loss': 1.535, 'train_elbo_loss': 0.017, 'train_null_loss': 1.49, 'train_embed_loss': 1.58, 'train_loss_diff': 0.09}
+{'epoch': 36, 'batch': 5, 'train_loss': 1.544, 'train_elbo_loss': 0.016, 'train_null_loss': 1.55, 'train_embed_loss': 1.538, 'train_loss_diff': -0.012}
+Running validation...
+{'valid_loss': 3.644, 'loss_diff': 0.0, 'epoch': 36, 'batch': 0, 'embed_loss': -0.012}
+{'valid_loss': 3.293, 'loss_diff': 0.0, 'epoch': 36, 'batch': 1, 'embed_loss': 0.007}
+{'valid_loss': 3.098, 'loss_diff': 0.0, 'epoch': 36, 'batch': 2, 'embed_loss': 0.009}
+{'valid_loss': 3.348, 'loss_diff': 0.0, 'epoch': 36, 'batch': 3, 'embed_loss': 0.006}
+{'valid_loss': 3.828, 'loss_diff': 0.0, 'epoch': 36, 'batch': 4, 'embed_loss': -0.01}
+{'valid_loss': 3.414, 'loss_diff': 0.0, 'epoch': 36, 'batch': 5, 'embed_loss': -0.006}
+{'valid_loss': 3.726, 'loss_diff': 0.0, 'epoch': 36, 'batch': 6, 'embed_loss': 0.001}
+Training agent for 216 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 108      |
+|    ep_rew_mean     | 213      |
+| time/              |          |
+|    fps             | 37       |
+|    iterations      | 1        |
+|    time_elapsed    | 54       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+{'epoch': 37, 'batch': 0, 'train_loss': 1.417, 'train_elbo_loss': 0.017, 'train_null_loss': 1.45, 'train_embed_loss': 1.384, 'train_loss_diff': -0.066}
+{'epoch': 37, 'batch': 1, 'train_loss': 1.373, 'train_elbo_loss': 0.017, 'train_null_loss': 1.403, 'train_embed_loss': 1.344, 'train_loss_diff': -0.058}
+{'epoch': 37, 'batch': 2, 'train_loss': 1.52, 'train_elbo_loss': 0.017, 'train_null_loss': 1.416, 'train_embed_loss': 1.625, 'train_loss_diff': 0.209}
+{'epoch': 37, 'batch': 3, 'train_loss': 1.53, 'train_elbo_loss': 0.018, 'train_null_loss': 1.537, 'train_embed_loss': 1.524, 'train_loss_diff': -0.014}
+{'epoch': 37, 'batch': 4, 'train_loss': 1.522, 'train_elbo_loss': 0.017, 'train_null_loss': 1.529, 'train_embed_loss': 1.515, 'train_loss_diff': -0.014}
+{'epoch': 37, 'batch': 5, 'train_loss': 1.435, 'train_elbo_loss': 0.016, 'train_null_loss': 1.429, 'train_embed_loss': 1.44, 'train_loss_diff': 0.011}
+Running validation...
+{'valid_loss': 3.705, 'loss_diff': 0.0, 'epoch': 37, 'batch': 0, 'embed_loss': 0.005}
+{'valid_loss': 3.332, 'loss_diff': 0.0, 'epoch': 37, 'batch': 1, 'embed_loss': -0.001}
+{'valid_loss': 3.155, 'loss_diff': 0.0, 'epoch': 37, 'batch': 2, 'embed_loss': 0.007}
+{'valid_loss': 3.393, 'loss_diff': 0.0, 'epoch': 37, 'batch': 3, 'embed_loss': 0.012}
+{'valid_loss': 3.718, 'loss_diff': 0.0, 'epoch': 37, 'batch': 4, 'embed_loss': -0.011}
+{'valid_loss': 3.426, 'loss_diff': 0.0, 'epoch': 37, 'batch': 5, 'embed_loss': 0.025}
+{'valid_loss': 3.737, 'loss_diff': 0.0, 'epoch': 37, 'batch': 6, 'embed_loss': 0.005}
+Training agent for 216 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 108      |
+|    ep_rew_mean     | -36.1    |
+| time/              |          |
+|    fps             | 37       |
+|    iterations      | 1        |
+|    time_elapsed    | 54       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+{'epoch': 38, 'batch': 0, 'train_loss': 1.515, 'train_elbo_loss': 0.016, 'train_null_loss': 1.508, 'train_embed_loss': 1.523, 'train_loss_diff': 0.015}
+{'epoch': 38, 'batch': 1, 'train_loss': 1.388, 'train_elbo_loss': 0.017, 'train_null_loss': 1.306, 'train_embed_loss': 1.47, 'train_loss_diff': 0.164}
+{'epoch': 38, 'batch': 2, 'train_loss': 1.402, 'train_elbo_loss': 0.018, 'train_null_loss': 1.426, 'train_embed_loss': 1.379, 'train_loss_diff': -0.047}
+{'epoch': 38, 'batch': 3, 'train_loss': 1.506, 'train_elbo_loss': 0.017, 'train_null_loss': 1.573, 'train_embed_loss': 1.439, 'train_loss_diff': -0.134}
+{'epoch': 38, 'batch': 4, 'train_loss': 1.411, 'train_elbo_loss': 0.017, 'train_null_loss': 1.488, 'train_embed_loss': 1.335, 'train_loss_diff': -0.153}
+{'epoch': 38, 'batch': 5, 'train_loss': 1.41, 'train_elbo_loss': 0.019, 'train_null_loss': 1.377, 'train_embed_loss': 1.442, 'train_loss_diff': 0.065}
+Running validation...
+{'valid_loss': 3.711, 'loss_diff': 0.0, 'epoch': 38, 'batch': 0, 'embed_loss': -0.002}
+{'valid_loss': 3.4, 'loss_diff': 0.0, 'epoch': 38, 'batch': 1, 'embed_loss': 0.006}
+{'valid_loss': 3.23, 'loss_diff': 0.0, 'epoch': 38, 'batch': 2, 'embed_loss': 0.015}
+{'valid_loss': 3.426, 'loss_diff': 0.0, 'epoch': 38, 'batch': 3, 'embed_loss': 0.009}
+{'valid_loss': 3.693, 'loss_diff': 0.0, 'epoch': 38, 'batch': 4, 'embed_loss': -0.02}
+{'valid_loss': 3.27, 'loss_diff': 0.0, 'epoch': 38, 'batch': 5, 'embed_loss': 0.045}
+{'valid_loss': 3.69, 'loss_diff': 0.0, 'epoch': 38, 'batch': 6, 'embed_loss': -0.003}
+Training agent for 216 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 108      |
+|    ep_rew_mean     | 120      |
+| time/              |          |
+|    fps             | 37       |
+|    iterations      | 1        |
+|    time_elapsed    | 54       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+{'epoch': 39, 'batch': 0, 'train_loss': 1.392, 'train_elbo_loss': 0.018, 'train_null_loss': 1.383, 'train_embed_loss': 1.401, 'train_loss_diff': 0.018}
+{'epoch': 39, 'batch': 1, 'train_loss': 1.412, 'train_elbo_loss': 0.017, 'train_null_loss': 1.42, 'train_embed_loss': 1.404, 'train_loss_diff': -0.016}
+{'epoch': 39, 'batch': 2, 'train_loss': 1.447, 'train_elbo_loss': 0.017, 'train_null_loss': 1.448, 'train_embed_loss': 1.446, 'train_loss_diff': -0.002}
+{'epoch': 39, 'batch': 3, 'train_loss': 1.373, 'train_elbo_loss': 0.017, 'train_null_loss': 1.395, 'train_embed_loss': 1.35, 'train_loss_diff': -0.045}
+{'epoch': 39, 'batch': 4, 'train_loss': 1.413, 'train_elbo_loss': 0.017, 'train_null_loss': 1.375, 'train_embed_loss': 1.451, 'train_loss_diff': 0.076}
+{'epoch': 39, 'batch': 5, 'train_loss': 1.439, 'train_elbo_loss': 0.017, 'train_null_loss': 1.491, 'train_embed_loss': 1.386, 'train_loss_diff': -0.105}
+Running validation...
+{'valid_loss': 3.647, 'loss_diff': 0.0, 'epoch': 39, 'batch': 0, 'embed_loss': 0.001}
+{'valid_loss': 3.376, 'loss_diff': 0.0, 'epoch': 39, 'batch': 1, 'embed_loss': 0.003}
+{'valid_loss': 3.241, 'loss_diff': 0.0, 'epoch': 39, 'batch': 2, 'embed_loss': 0.009}
+{'valid_loss': 3.427, 'loss_diff': 0.0, 'epoch': 39, 'batch': 3, 'embed_loss': 0.011}
+{'valid_loss': 3.697, 'loss_diff': 0.0, 'epoch': 39, 'batch': 4, 'embed_loss': -0.017}
+{'valid_loss': 3.226, 'loss_diff': 0.0, 'epoch': 39, 'batch': 5, 'embed_loss': 0.032}
+{'valid_loss': 3.676, 'loss_diff': 0.0, 'epoch': 39, 'batch': 6, 'embed_loss': -0.006}
+Training agent for 216 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 108      |
+|    ep_rew_mean     | 173      |
+| time/              |          |
+|    fps             | 37       |
+|    iterations      | 1        |
+|    time_elapsed    | 54       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+{'epoch': 40, 'batch': 0, 'train_loss': 1.53, 'train_elbo_loss': 0.016, 'train_null_loss': 1.509, 'train_embed_loss': 1.551, 'train_loss_diff': 0.042}
+{'epoch': 40, 'batch': 1, 'train_loss': 1.555, 'train_elbo_loss': 0.019, 'train_null_loss': 1.569, 'train_embed_loss': 1.541, 'train_loss_diff': -0.027}
+{'epoch': 40, 'batch': 2, 'train_loss': 1.454, 'train_elbo_loss': 0.016, 'train_null_loss': 1.4, 'train_embed_loss': 1.509, 'train_loss_diff': 0.109}
+{'epoch': 40, 'batch': 3, 'train_loss': 1.414, 'train_elbo_loss': 0.018, 'train_null_loss': 1.445, 'train_embed_loss': 1.384, 'train_loss_diff': -0.062}
+{'epoch': 40, 'batch': 4, 'train_loss': 1.463, 'train_elbo_loss': 0.017, 'train_null_loss': 1.513, 'train_embed_loss': 1.412, 'train_loss_diff': -0.101}
+{'epoch': 40, 'batch': 5, 'train_loss': 1.364, 'train_elbo_loss': 0.017, 'train_null_loss': 1.374, 'train_embed_loss': 1.355, 'train_loss_diff': -0.02}
+Running validation...
+{'valid_loss': 3.525, 'loss_diff': 0.0, 'epoch': 40, 'batch': 0, 'embed_loss': 0.022}
+{'valid_loss': 3.311, 'loss_diff': 0.0, 'epoch': 40, 'batch': 1, 'embed_loss': 0.025}
+{'valid_loss': 3.23, 'loss_diff': 0.0, 'epoch': 40, 'batch': 2, 'embed_loss': 0.011}
+{'valid_loss': 3.463, 'loss_diff': 0.0, 'epoch': 40, 'batch': 3, 'embed_loss': -0.007}
+{'valid_loss': 3.658, 'loss_diff': 0.0, 'epoch': 40, 'batch': 4, 'embed_loss': -0.036}
+{'valid_loss': 3.377, 'loss_diff': 0.0, 'epoch': 40, 'batch': 5, 'embed_loss': 0.014}
+{'valid_loss': 3.629, 'loss_diff': 0.0, 'epoch': 40, 'batch': 6, 'embed_loss': 0.0}
+Training agent for 216 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 108      |
+|    ep_rew_mean     | 113      |
+| time/              |          |
+|    fps             | 37       |
+|    iterations      | 1        |
+|    time_elapsed    | 54       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+{'epoch': 41, 'batch': 0, 'train_loss': 1.487, 'train_elbo_loss': 0.017, 'train_null_loss': 1.409, 'train_embed_loss': 1.565, 'train_loss_diff': 0.156}
+{'epoch': 41, 'batch': 1, 'train_loss': 1.43, 'train_elbo_loss': 0.016, 'train_null_loss': 1.428, 'train_embed_loss': 1.433, 'train_loss_diff': 0.005}
+{'epoch': 41, 'batch': 2, 'train_loss': 1.382, 'train_elbo_loss': 0.016, 'train_null_loss': 1.44, 'train_embed_loss': 1.325, 'train_loss_diff': -0.115}
+{'epoch': 41, 'batch': 3, 'train_loss': 1.528, 'train_elbo_loss': 0.018, 'train_null_loss': 1.519, 'train_embed_loss': 1.538, 'train_loss_diff': 0.019}
+{'epoch': 41, 'batch': 4, 'train_loss': 1.42, 'train_elbo_loss': 0.016, 'train_null_loss': 1.423, 'train_embed_loss': 1.418, 'train_loss_diff': -0.006}
+{'epoch': 41, 'batch': 5, 'train_loss': 1.397, 'train_elbo_loss': 0.018, 'train_null_loss': 1.39, 'train_embed_loss': 1.404, 'train_loss_diff': 0.014}
+Running validation...
+{'valid_loss': 3.557, 'loss_diff': 0.0, 'epoch': 41, 'batch': 0, 'embed_loss': 0.043}
+{'valid_loss': 3.33, 'loss_diff': 0.0, 'epoch': 41, 'batch': 1, 'embed_loss': 0.025}
+{'valid_loss': 3.16, 'loss_diff': 0.0, 'epoch': 41, 'batch': 2, 'embed_loss': -0.011}
+{'valid_loss': 3.373, 'loss_diff': 0.0, 'epoch': 41, 'batch': 3, 'embed_loss': -0.027}
+{'valid_loss': 3.607, 'loss_diff': 0.0, 'epoch': 41, 'batch': 4, 'embed_loss': -0.031}
+{'valid_loss': 3.453, 'loss_diff': 0.0, 'epoch': 41, 'batch': 5, 'embed_loss': 0.006}
+{'valid_loss': 3.527, 'loss_diff': 0.0, 'epoch': 41, 'batch': 6, 'embed_loss': 0.015}
+Training agent for 216 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 108      |
+|    ep_rew_mean     | 133      |
+| time/              |          |
+|    fps             | 37       |
+|    iterations      | 1        |
+|    time_elapsed    | 54       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+{'epoch': 42, 'batch': 0, 'train_loss': 1.436, 'train_elbo_loss': 0.018, 'train_null_loss': 1.459, 'train_embed_loss': 1.412, 'train_loss_diff': -0.047}
+{'epoch': 42, 'batch': 1, 'train_loss': 1.478, 'train_elbo_loss': 0.016, 'train_null_loss': 1.472, 'train_embed_loss': 1.485, 'train_loss_diff': 0.012}
+{'epoch': 42, 'batch': 2, 'train_loss': 1.483, 'train_elbo_loss': 0.016, 'train_null_loss': 1.465, 'train_embed_loss': 1.502, 'train_loss_diff': 0.037}
+{'epoch': 42, 'batch': 3, 'train_loss': 1.439, 'train_elbo_loss': 0.017, 'train_null_loss': 1.396, 'train_embed_loss': 1.481, 'train_loss_diff': 0.084}
+{'epoch': 42, 'batch': 4, 'train_loss': 1.46, 'train_elbo_loss': 0.018, 'train_null_loss': 1.448, 'train_embed_loss': 1.472, 'train_loss_diff': 0.024}
+{'epoch': 42, 'batch': 5, 'train_loss': 1.371, 'train_elbo_loss': 0.017, 'train_null_loss': 1.334, 'train_embed_loss': 1.408, 'train_loss_diff': 0.073}
+Running validation...
+{'valid_loss': 3.527, 'loss_diff': 0.0, 'epoch': 42, 'batch': 0, 'embed_loss': 0.004}
+{'valid_loss': 3.496, 'loss_diff': 0.0, 'epoch': 42, 'batch': 1, 'embed_loss': 0.002}
+{'valid_loss': 3.251, 'loss_diff': 0.0, 'epoch': 42, 'batch': 2, 'embed_loss': 0.008}
+{'valid_loss': 3.283, 'loss_diff': 0.0, 'epoch': 42, 'batch': 3, 'embed_loss': 0.008}
+{'valid_loss': 3.579, 'loss_diff': 0.0, 'epoch': 42, 'batch': 4, 'embed_loss': -0.021}
+{'valid_loss': 3.443, 'loss_diff': 0.0, 'epoch': 42, 'batch': 5, 'embed_loss': 0.008}
+{'valid_loss': 3.427, 'loss_diff': 0.0, 'epoch': 42, 'batch': 6, 'embed_loss': 0.019}
+Training agent for 216 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 108      |
+|    ep_rew_mean     | 124      |
+| time/              |          |
+|    fps             | 37       |
+|    iterations      | 1        |
+|    time_elapsed    | 54       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+{'epoch': 43, 'batch': 0, 'train_loss': 1.505, 'train_elbo_loss': 0.017, 'train_null_loss': 1.476, 'train_embed_loss': 1.533, 'train_loss_diff': 0.058}
+{'epoch': 43, 'batch': 1, 'train_loss': 1.416, 'train_elbo_loss': 0.016, 'train_null_loss': 1.509, 'train_embed_loss': 1.323, 'train_loss_diff': -0.185}
+{'epoch': 43, 'batch': 2, 'train_loss': 1.401, 'train_elbo_loss': 0.018, 'train_null_loss': 1.398, 'train_embed_loss': 1.404, 'train_loss_diff': 0.006}
+{'epoch': 43, 'batch': 3, 'train_loss': 1.464, 'train_elbo_loss': 0.017, 'train_null_loss': 1.51, 'train_embed_loss': 1.418, 'train_loss_diff': -0.092}
+{'epoch': 43, 'batch': 4, 'train_loss': 1.498, 'train_elbo_loss': 0.016, 'train_null_loss': 1.544, 'train_embed_loss': 1.453, 'train_loss_diff': -0.091}
+{'epoch': 43, 'batch': 5, 'train_loss': 1.461, 'train_elbo_loss': 0.018, 'train_null_loss': 1.538, 'train_embed_loss': 1.385, 'train_loss_diff': -0.153}
+Running validation...
+{'valid_loss': 3.399, 'loss_diff': 0.0, 'epoch': 43, 'batch': 0, 'embed_loss': 0.02}
+{'valid_loss': 3.55, 'loss_diff': 0.0, 'epoch': 43, 'batch': 1, 'embed_loss': -0.003}
+{'valid_loss': 3.355, 'loss_diff': 0.0, 'epoch': 43, 'batch': 2, 'embed_loss': -0.01}
+{'valid_loss': 3.311, 'loss_diff': 0.0, 'epoch': 43, 'batch': 3, 'embed_loss': -0.005}
+{'valid_loss': 3.62, 'loss_diff': 0.0, 'epoch': 43, 'batch': 4, 'embed_loss': 0.007}
+{'valid_loss': 3.407, 'loss_diff': 0.0, 'epoch': 43, 'batch': 5, 'embed_loss': 0.002}
+{'valid_loss': 3.427, 'loss_diff': 0.0, 'epoch': 43, 'batch': 6, 'embed_loss': 0.01}
+Training agent for 216 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 108      |
+|    ep_rew_mean     | 113      |
+| time/              |          |
+|    fps             | 35       |
+|    iterations      | 1        |
+|    time_elapsed    | 57       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+{'epoch': 44, 'batch': 0, 'train_loss': 1.326, 'train_elbo_loss': 0.017, 'train_null_loss': 1.364, 'train_embed_loss': 1.289, 'train_loss_diff': -0.075}
+{'epoch': 44, 'batch': 1, 'train_loss': 1.474, 'train_elbo_loss': 0.017, 'train_null_loss': 1.411, 'train_embed_loss': 1.537, 'train_loss_diff': 0.126}
+{'epoch': 44, 'batch': 2, 'train_loss': 1.511, 'train_elbo_loss': 0.017, 'train_null_loss': 1.451, 'train_embed_loss': 1.57, 'train_loss_diff': 0.12}
+{'epoch': 44, 'batch': 3, 'train_loss': 1.422, 'train_elbo_loss': 0.016, 'train_null_loss': 1.46, 'train_embed_loss': 1.383, 'train_loss_diff': -0.077}
+{'epoch': 44, 'batch': 4, 'train_loss': 1.429, 'train_elbo_loss': 0.021, 'train_null_loss': 1.404, 'train_embed_loss': 1.455, 'train_loss_diff': 0.051}
+{'epoch': 44, 'batch': 5, 'train_loss': 1.454, 'train_elbo_loss': 0.016, 'train_null_loss': 1.429, 'train_embed_loss': 1.48, 'train_loss_diff': 0.052}
+Running validation...
+{'valid_loss': 3.522, 'loss_diff': 0.0, 'epoch': 44, 'batch': 0, 'embed_loss': 0.029}
+{'valid_loss': 3.633, 'loss_diff': 0.0, 'epoch': 44, 'batch': 1, 'embed_loss': 0.001}
+{'valid_loss': 3.346, 'loss_diff': 0.0, 'epoch': 44, 'batch': 2, 'embed_loss': -0.007}
+{'valid_loss': 3.155, 'loss_diff': 0.0, 'epoch': 44, 'batch': 3, 'embed_loss': -0.012}
+{'valid_loss': 3.547, 'loss_diff': 0.0, 'epoch': 44, 'batch': 4, 'embed_loss': -0.011}
+{'valid_loss': 3.574, 'loss_diff': 0.0, 'epoch': 44, 'batch': 5, 'embed_loss': -0.013}
+{'valid_loss': 3.437, 'loss_diff': 0.0, 'epoch': 44, 'batch': 6, 'embed_loss': 0.022}
+Training agent for 216 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 108      |
+|    ep_rew_mean     | 152      |
+| time/              |          |
+|    fps             | 33       |
+|    iterations      | 1        |
+|    time_elapsed    | 61       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+{'epoch': 45, 'batch': 0, 'train_loss': 1.464, 'train_elbo_loss': 0.016, 'train_null_loss': 1.535, 'train_embed_loss': 1.393, 'train_loss_diff': -0.142}
+{'epoch': 45, 'batch': 1, 'train_loss': 1.442, 'train_elbo_loss': 0.017, 'train_null_loss': 1.476, 'train_embed_loss': 1.407, 'train_loss_diff': -0.069}
+{'epoch': 45, 'batch': 2, 'train_loss': 1.414, 'train_elbo_loss': 0.018, 'train_null_loss': 1.403, 'train_embed_loss': 1.425, 'train_loss_diff': 0.021}
+{'epoch': 45, 'batch': 3, 'train_loss': 1.367, 'train_elbo_loss': 0.018, 'train_null_loss': 1.413, 'train_embed_loss': 1.322, 'train_loss_diff': -0.092}
+{'epoch': 45, 'batch': 4, 'train_loss': 1.366, 'train_elbo_loss': 0.017, 'train_null_loss': 1.468, 'train_embed_loss': 1.264, 'train_loss_diff': -0.204}
+{'epoch': 45, 'batch': 5, 'train_loss': 1.373, 'train_elbo_loss': 0.016, 'train_null_loss': 1.392, 'train_embed_loss': 1.353, 'train_loss_diff': -0.039}
+Running validation...
+{'valid_loss': 3.476, 'loss_diff': 0.0, 'epoch': 45, 'batch': 0, 'embed_loss': -0.012}
+{'valid_loss': 3.632, 'loss_diff': 0.0, 'epoch': 45, 'batch': 1, 'embed_loss': -0.006}
+{'valid_loss': 3.367, 'loss_diff': 0.0, 'epoch': 45, 'batch': 2, 'embed_loss': 0.021}
+{'valid_loss': 3.134, 'loss_diff': 0.0, 'epoch': 45, 'batch': 3, 'embed_loss': 0.027}
+{'valid_loss': 3.603, 'loss_diff': 0.0, 'epoch': 45, 'batch': 4, 'embed_loss': -0.023}
+{'valid_loss': 3.485, 'loss_diff': 0.0, 'epoch': 45, 'batch': 5, 'embed_loss': -0.002}
+{'valid_loss': 3.481, 'loss_diff': 0.0, 'epoch': 45, 'batch': 6, 'embed_loss': 0.024}
+Training agent for 216 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 108      |
+|    ep_rew_mean     | 177      |
+| time/              |          |
+|    fps             | 28       |
+|    iterations      | 1        |
+|    time_elapsed    | 73       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+{'epoch': 46, 'batch': 0, 'train_loss': 1.41, 'train_elbo_loss': 0.017, 'train_null_loss': 1.405, 'train_embed_loss': 1.415, 'train_loss_diff': 0.01}
+{'epoch': 46, 'batch': 1, 'train_loss': 1.371, 'train_elbo_loss': 0.017, 'train_null_loss': 1.286, 'train_embed_loss': 1.456, 'train_loss_diff': 0.171}
+{'epoch': 46, 'batch': 2, 'train_loss': 1.466, 'train_elbo_loss': 0.017, 'train_null_loss': 1.453, 'train_embed_loss': 1.478, 'train_loss_diff': 0.025}
+{'epoch': 46, 'batch': 3, 'train_loss': 1.388, 'train_elbo_loss': 0.017, 'train_null_loss': 1.379, 'train_embed_loss': 1.396, 'train_loss_diff': 0.017}
+{'epoch': 46, 'batch': 4, 'train_loss': 1.462, 'train_elbo_loss': 0.016, 'train_null_loss': 1.465, 'train_embed_loss': 1.459, 'train_loss_diff': -0.007}
+{'epoch': 46, 'batch': 5, 'train_loss': 1.376, 'train_elbo_loss': 0.018, 'train_null_loss': 1.433, 'train_embed_loss': 1.319, 'train_loss_diff': -0.114}
+Running validation...
+{'valid_loss': 3.314, 'loss_diff': 0.0, 'epoch': 46, 'batch': 0, 'embed_loss': -0.015}
+{'valid_loss': 3.585, 'loss_diff': 0.0, 'epoch': 46, 'batch': 1, 'embed_loss': -0.014}
+{'valid_loss': 3.453, 'loss_diff': 0.0, 'epoch': 46, 'batch': 2, 'embed_loss': 0.017}
+{'valid_loss': 3.214, 'loss_diff': 0.0, 'epoch': 46, 'batch': 3, 'embed_loss': 0.031}
+{'valid_loss': 3.671, 'loss_diff': 0.0, 'epoch': 46, 'batch': 4, 'embed_loss': -0.001}
+{'valid_loss': 3.519, 'loss_diff': 0.0, 'epoch': 46, 'batch': 5, 'embed_loss': 0.002}
+{'valid_loss': 3.483, 'loss_diff': 0.0, 'epoch': 46, 'batch': 6, 'embed_loss': 0.016}
+Training agent for 216 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 108      |
+|    ep_rew_mean     | 173      |
+| time/              |          |
+|    fps             | 23       |
+|    iterations      | 1        |
+|    time_elapsed    | 87       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+{'epoch': 47, 'batch': 0, 'train_loss': 1.462, 'train_elbo_loss': 0.016, 'train_null_loss': 1.458, 'train_embed_loss': 1.467, 'train_loss_diff': 0.009}
+{'epoch': 47, 'batch': 1, 'train_loss': 1.514, 'train_elbo_loss': 0.018, 'train_null_loss': 1.474, 'train_embed_loss': 1.554, 'train_loss_diff': 0.08}
+{'epoch': 47, 'batch': 2, 'train_loss': 1.474, 'train_elbo_loss': 0.018, 'train_null_loss': 1.499, 'train_embed_loss': 1.448, 'train_loss_diff': -0.051}
+{'epoch': 47, 'batch': 3, 'train_loss': 1.466, 'train_elbo_loss': 0.015, 'train_null_loss': 1.439, 'train_embed_loss': 1.494, 'train_loss_diff': 0.055}
+{'epoch': 47, 'batch': 4, 'train_loss': 1.456, 'train_elbo_loss': 0.016, 'train_null_loss': 1.528, 'train_embed_loss': 1.384, 'train_loss_diff': -0.144}
+{'epoch': 47, 'batch': 5, 'train_loss': 1.359, 'train_elbo_loss': 0.016, 'train_null_loss': 1.337, 'train_embed_loss': 1.381, 'train_loss_diff': 0.044}
+Running validation...
+{'valid_loss': 3.478, 'loss_diff': 0.0, 'epoch': 47, 'batch': 0, 'embed_loss': -0.027}
+{'valid_loss': 3.57, 'loss_diff': 0.0, 'epoch': 47, 'batch': 1, 'embed_loss': -0.01}
+{'valid_loss': 3.31, 'loss_diff': 0.0, 'epoch': 47, 'batch': 2, 'embed_loss': 0.023}
+{'valid_loss': 3.097, 'loss_diff': 0.0, 'epoch': 47, 'batch': 3, 'embed_loss': 0.033}
+{'valid_loss': 3.786, 'loss_diff': 0.0, 'epoch': 47, 'batch': 4, 'embed_loss': 0.005}
+{'valid_loss': 3.536, 'loss_diff': 0.0, 'epoch': 47, 'batch': 5, 'embed_loss': -0.012}
+{'valid_loss': 3.424, 'loss_diff': 0.0, 'epoch': 47, 'batch': 6, 'embed_loss': 0.01}
+Training agent for 216 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 108      |
+|    ep_rew_mean     | 98.5     |
+| time/              |          |
+|    fps             | 22       |
+|    iterations      | 1        |
+|    time_elapsed    | 89       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+{'epoch': 48, 'batch': 0, 'train_loss': 1.433, 'train_elbo_loss': 0.017, 'train_null_loss': 1.343, 'train_embed_loss': 1.523, 'train_loss_diff': 0.18}
+{'epoch': 48, 'batch': 1, 'train_loss': 1.479, 'train_elbo_loss': 0.017, 'train_null_loss': 1.521, 'train_embed_loss': 1.438, 'train_loss_diff': -0.082}
+{'epoch': 48, 'batch': 2, 'train_loss': 1.379, 'train_elbo_loss': 0.018, 'train_null_loss': 1.376, 'train_embed_loss': 1.382, 'train_loss_diff': 0.006}
+{'epoch': 48, 'batch': 3, 'train_loss': 1.458, 'train_elbo_loss': 0.016, 'train_null_loss': 1.545, 'train_embed_loss': 1.37, 'train_loss_diff': -0.175}
+{'epoch': 48, 'batch': 4, 'train_loss': 1.41, 'train_elbo_loss': 0.015, 'train_null_loss': 1.39, 'train_embed_loss': 1.431, 'train_loss_diff': 0.041}
+{'epoch': 48, 'batch': 5, 'train_loss': 1.429, 'train_elbo_loss': 0.018, 'train_null_loss': 1.372, 'train_embed_loss': 1.486, 'train_loss_diff': 0.113}
+Running validation...
+{'valid_loss': 3.557, 'loss_diff': 0.0, 'epoch': 48, 'batch': 0, 'embed_loss': -0.024}
+{'valid_loss': 3.403, 'loss_diff': 0.0, 'epoch': 48, 'batch': 1, 'embed_loss': -0.001}
+{'valid_loss': 3.196, 'loss_diff': 0.0, 'epoch': 48, 'batch': 2, 'embed_loss': 0.023}
+{'valid_loss': 3.207, 'loss_diff': 0.0, 'epoch': 48, 'batch': 3, 'embed_loss': 0.037}
+{'valid_loss': 3.808, 'loss_diff': 0.0, 'epoch': 48, 'batch': 4, 'embed_loss': 0.004}
+{'valid_loss': 3.553, 'loss_diff': 0.0, 'epoch': 48, 'batch': 5, 'embed_loss': -0.006}
+{'valid_loss': 3.439, 'loss_diff': 0.0, 'epoch': 48, 'batch': 6, 'embed_loss': -0.012}
+Training agent for 216 steps...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 108      |
+|    ep_rew_mean     | 127      |
+| time/              |          |
+|    fps             | 20       |
+|    iterations      | 1        |
+|    time_elapsed    | 98       |
+|    total_timesteps | 2048     |
+---------------------------------
+Training model...
+{'epoch': 49, 'batch': 0, 'train_loss': 1.513, 'train_elbo_loss': 0.019, 'train_null_loss': 1.612, 'train_embed_loss': 1.413, 'train_loss_diff': -0.199}
+{'epoch': 49, 'batch': 1, 'train_loss': 1.421, 'train_elbo_loss': 0.018, 'train_null_loss': 1.485, 'train_embed_loss': 1.356, 'train_loss_diff': -0.129}
+{'epoch': 49, 'batch': 2, 'train_loss': 1.448, 'train_elbo_loss': 0.016, 'train_null_loss': 1.468, 'train_embed_loss': 1.427, 'train_loss_diff': -0.04}
+{'epoch': 49, 'batch': 3, 'train_loss': 1.47, 'train_elbo_loss': 0.015, 'train_null_loss': 1.519, 'train_embed_loss': 1.422, 'train_loss_diff': -0.097}
+{'epoch': 49, 'batch': 4, 'train_loss': 1.418, 'train_elbo_loss': 0.018, 'train_null_loss': 1.408, 'train_embed_loss': 1.428, 'train_loss_diff': 0.021}
+{'epoch': 49, 'batch': 5, 'train_loss': 1.536, 'train_elbo_loss': 0.015, 'train_null_loss': 1.536, 'train_embed_loss': 1.537, 'train_loss_diff': 0.001}
+Running validation...
+{'valid_loss': 3.557, 'loss_diff': 0.0, 'epoch': 49, 'batch': 0, 'embed_loss': -0.016}
+{'valid_loss': 3.35, 'loss_diff': 0.0, 'epoch': 49, 'batch': 1, 'embed_loss': 0.008}
+{'valid_loss': 3.152, 'loss_diff': 0.0, 'epoch': 49, 'batch': 2, 'embed_loss': 0.013}
+{'valid_loss': 3.233, 'loss_diff': 0.0, 'epoch': 49, 'batch': 3, 'embed_loss': 0.008}
+{'valid_loss': 3.775, 'loss_diff': 0.0, 'epoch': 49, 'batch': 4, 'embed_loss': 0.003}
+{'valid_loss': 3.461, 'loss_diff': 0.0, 'epoch': 49, 'batch': 5, 'embed_loss': -0.015}
+{'valid_loss': 3.525, 'loss_diff': 0.0, 'epoch': 49, 'batch': 6, 'embed_loss': 0.0}

@@ -1,0 +1,401 @@
+Running training on CPU
+Loading dataset train
+Found pregenerated data dir.
+Loading complete. Took 0.01 s.
+Loading dataset validation
+Found pregenerated data dir.
+Loading complete. Took 0.00 s.
+Building models...
+Completed model building. Took 27.20 s.
+                                                                                                                                                               
+Preparation complete. Starting training...
+Training model...
+{'epoch': 0, 'batch': 0, 'train_loss': 1.806, 'train_domain_loss': 3.218, 'train_null_loss': 1.806, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 1, 'train_loss': 1.756, 'train_domain_loss': 3.2, 'train_null_loss': 1.756, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 2, 'train_loss': 1.785, 'train_domain_loss': 3.229, 'train_null_loss': 1.785, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 3, 'train_loss': 1.74, 'train_domain_loss': 3.221, 'train_null_loss': 1.74, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 4, 'train_loss': 1.79, 'train_domain_loss': 3.192, 'train_null_loss': 1.79, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 5, 'train_loss': 1.732, 'train_domain_loss': 3.21, 'train_null_loss': 1.732, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 6, 'train_loss': 1.793, 'train_domain_loss': 3.218, 'train_null_loss': 1.793, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 7, 'train_loss': 1.714, 'train_domain_loss': 3.206, 'train_null_loss': 1.714, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 8, 'train_loss': 1.77, 'train_domain_loss': 3.251, 'train_null_loss': 1.77, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 9, 'train_loss': 1.755, 'train_domain_loss': 3.222, 'train_null_loss': 1.755, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 10, 'train_loss': 1.729, 'train_domain_loss': 3.246, 'train_null_loss': 1.729, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 11, 'train_loss': 1.733, 'train_domain_loss': 3.224, 'train_null_loss': 1.733, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 12, 'train_loss': 1.782, 'train_domain_loss': 3.23, 'train_null_loss': 1.782, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 13, 'train_loss': 1.742, 'train_domain_loss': 3.244, 'train_null_loss': 1.742, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 14, 'train_loss': 1.766, 'train_domain_loss': 3.222, 'train_null_loss': 1.766, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 15, 'train_loss': 1.668, 'train_domain_loss': 3.237, 'train_null_loss': 1.668, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 16, 'train_loss': 1.765, 'train_domain_loss': 3.224, 'train_null_loss': 1.765, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 17, 'train_loss': 1.694, 'train_domain_loss': 3.238, 'train_null_loss': 1.694, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+{'valid_loss': 5.184, 'loss_diff': 0.0, 'epoch': 0, 'batch': 0}
+{'valid_loss': 4.635, 'loss_diff': 0.0, 'epoch': 0, 'batch': 1}
+{'valid_loss': 5.018, 'loss_diff': 0.0, 'epoch': 0, 'batch': 2}
+Training model...
+{'epoch': 1, 'batch': 0, 'train_loss': 1.752, 'train_domain_loss': 3.198, 'train_null_loss': 1.752, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 1, 'train_loss': 1.758, 'train_domain_loss': 3.217, 'train_null_loss': 1.758, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 2, 'train_loss': 1.713, 'train_domain_loss': 3.224, 'train_null_loss': 1.713, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 3, 'train_loss': 1.701, 'train_domain_loss': 3.224, 'train_null_loss': 1.701, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 4, 'train_loss': 1.724, 'train_domain_loss': 3.197, 'train_null_loss': 1.724, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 5, 'train_loss': 1.684, 'train_domain_loss': 3.22, 'train_null_loss': 1.684, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 6, 'train_loss': 1.688, 'train_domain_loss': 3.23, 'train_null_loss': 1.688, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 7, 'train_loss': 1.639, 'train_domain_loss': 3.222, 'train_null_loss': 1.639, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 8, 'train_loss': 1.712, 'train_domain_loss': 3.235, 'train_null_loss': 1.712, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 9, 'train_loss': 1.775, 'train_domain_loss': 3.235, 'train_null_loss': 1.775, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 10, 'train_loss': 1.751, 'train_domain_loss': 3.207, 'train_null_loss': 1.751, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 11, 'train_loss': 1.643, 'train_domain_loss': 3.217, 'train_null_loss': 1.643, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 12, 'train_loss': 1.714, 'train_domain_loss': 3.217, 'train_null_loss': 1.714, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 13, 'train_loss': 1.633, 'train_domain_loss': 3.24, 'train_null_loss': 1.633, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 14, 'train_loss': 1.736, 'train_domain_loss': 3.236, 'train_null_loss': 1.736, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 15, 'train_loss': 1.688, 'train_domain_loss': 3.218, 'train_null_loss': 1.688, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 16, 'train_loss': 1.664, 'train_domain_loss': 3.194, 'train_null_loss': 1.664, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 17, 'train_loss': 1.692, 'train_domain_loss': 3.222, 'train_null_loss': 1.692, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+{'valid_loss': 5.103, 'loss_diff': 0.0, 'epoch': 1, 'batch': 0}
+{'valid_loss': 4.616, 'loss_diff': 0.0, 'epoch': 1, 'batch': 1}
+{'valid_loss': 4.986, 'loss_diff': 0.0, 'epoch': 1, 'batch': 2}
+Training model...
+{'epoch': 2, 'batch': 0, 'train_loss': 1.692, 'train_domain_loss': 3.197, 'train_null_loss': 1.692, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 2, 'batch': 1, 'train_loss': 1.649, 'train_domain_loss': 3.204, 'train_null_loss': 1.649, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 2, 'batch': 2, 'train_loss': 1.665, 'train_domain_loss': 3.183, 'train_null_loss': 1.665, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 2, 'batch': 3, 'train_loss': 1.697, 'train_domain_loss': 3.217, 'train_null_loss': 1.697, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 2, 'batch': 4, 'train_loss': 1.598, 'train_domain_loss': 3.225, 'train_null_loss': 1.598, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 2, 'batch': 5, 'train_loss': 1.702, 'train_domain_loss': 3.203, 'train_null_loss': 1.702, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 2, 'batch': 6, 'train_loss': 1.653, 'train_domain_loss': 3.182, 'train_null_loss': 1.653, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 2, 'batch': 7, 'train_loss': 1.664, 'train_domain_loss': 3.219, 'train_null_loss': 1.664, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 2, 'batch': 8, 'train_loss': 1.61, 'train_domain_loss': 3.222, 'train_null_loss': 1.61, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 2, 'batch': 9, 'train_loss': 1.719, 'train_domain_loss': 3.174, 'train_null_loss': 1.719, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 2, 'batch': 10, 'train_loss': 1.571, 'train_domain_loss': 3.202, 'train_null_loss': 1.571, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 2, 'batch': 11, 'train_loss': 1.761, 'train_domain_loss': 3.211, 'train_null_loss': 1.761, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 2, 'batch': 12, 'train_loss': 1.737, 'train_domain_loss': 3.235, 'train_null_loss': 1.737, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 2, 'batch': 13, 'train_loss': 1.698, 'train_domain_loss': 3.202, 'train_null_loss': 1.698, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 2, 'batch': 14, 'train_loss': 1.657, 'train_domain_loss': 3.198, 'train_null_loss': 1.657, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 2, 'batch': 15, 'train_loss': 1.65, 'train_domain_loss': 3.225, 'train_null_loss': 1.65, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 2, 'batch': 16, 'train_loss': 1.697, 'train_domain_loss': 3.18, 'train_null_loss': 1.697, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 2, 'batch': 17, 'train_loss': 1.711, 'train_domain_loss': 3.173, 'train_null_loss': 1.711, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+{'valid_loss': 4.841, 'loss_diff': 0.0, 'epoch': 2, 'batch': 0}
+{'valid_loss': 4.618, 'loss_diff': 0.0, 'epoch': 2, 'batch': 1}
+{'valid_loss': 4.775, 'loss_diff': 0.0, 'epoch': 2, 'batch': 2}
+Training model...
+{'epoch': 3, 'batch': 0, 'train_loss': 1.585, 'train_domain_loss': 3.187, 'train_null_loss': 1.585, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 3, 'batch': 1, 'train_loss': 1.699, 'train_domain_loss': 3.177, 'train_null_loss': 1.699, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 3, 'batch': 2, 'train_loss': 1.699, 'train_domain_loss': 3.129, 'train_null_loss': 1.699, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 3, 'batch': 3, 'train_loss': 1.609, 'train_domain_loss': 3.141, 'train_null_loss': 1.609, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 3, 'batch': 4, 'train_loss': 1.689, 'train_domain_loss': 3.163, 'train_null_loss': 1.689, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 3, 'batch': 5, 'train_loss': 1.66, 'train_domain_loss': 3.197, 'train_null_loss': 1.66, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 3, 'batch': 6, 'train_loss': 1.631, 'train_domain_loss': 3.21, 'train_null_loss': 1.631, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 3, 'batch': 7, 'train_loss': 1.664, 'train_domain_loss': 3.235, 'train_null_loss': 1.664, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 3, 'batch': 8, 'train_loss': 1.587, 'train_domain_loss': 3.182, 'train_null_loss': 1.587, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 3, 'batch': 9, 'train_loss': 1.627, 'train_domain_loss': 3.113, 'train_null_loss': 1.627, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 3, 'batch': 10, 'train_loss': 1.743, 'train_domain_loss': 3.12, 'train_null_loss': 1.743, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 3, 'batch': 11, 'train_loss': 1.735, 'train_domain_loss': 3.13, 'train_null_loss': 1.735, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 3, 'batch': 12, 'train_loss': 1.652, 'train_domain_loss': 3.191, 'train_null_loss': 1.652, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 3, 'batch': 13, 'train_loss': 1.772, 'train_domain_loss': 3.17, 'train_null_loss': 1.772, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 3, 'batch': 14, 'train_loss': 1.726, 'train_domain_loss': 3.146, 'train_null_loss': 1.726, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 3, 'batch': 15, 'train_loss': 1.669, 'train_domain_loss': 3.085, 'train_null_loss': 1.669, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 3, 'batch': 16, 'train_loss': 1.719, 'train_domain_loss': 3.048, 'train_null_loss': 1.719, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 3, 'batch': 17, 'train_loss': 1.713, 'train_domain_loss': 3.183, 'train_null_loss': 1.713, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+{'valid_loss': 4.862, 'loss_diff': 0.0, 'epoch': 3, 'batch': 0}
+{'valid_loss': 4.601, 'loss_diff': 0.0, 'epoch': 3, 'batch': 1}
+{'valid_loss': 4.584, 'loss_diff': 0.0, 'epoch': 3, 'batch': 2}
+Training model...
+{'epoch': 4, 'batch': 0, 'train_loss': 1.689, 'train_domain_loss': 3.203, 'train_null_loss': 1.689, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 4, 'batch': 1, 'train_loss': 1.714, 'train_domain_loss': 3.14, 'train_null_loss': 1.714, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 4, 'batch': 2, 'train_loss': 1.626, 'train_domain_loss': 3.072, 'train_null_loss': 1.626, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 4, 'batch': 3, 'train_loss': 1.614, 'train_domain_loss': 3.134, 'train_null_loss': 1.614, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 4, 'batch': 4, 'train_loss': 1.695, 'train_domain_loss': 3.166, 'train_null_loss': 1.695, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 4, 'batch': 5, 'train_loss': 1.716, 'train_domain_loss': 3.014, 'train_null_loss': 1.716, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 4, 'batch': 6, 'train_loss': 1.651, 'train_domain_loss': 3.131, 'train_null_loss': 1.651, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 4, 'batch': 7, 'train_loss': 1.706, 'train_domain_loss': 3.138, 'train_null_loss': 1.706, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 4, 'batch': 8, 'train_loss': 1.644, 'train_domain_loss': 3.101, 'train_null_loss': 1.644, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 4, 'batch': 9, 'train_loss': 1.766, 'train_domain_loss': 3.119, 'train_null_loss': 1.766, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 4, 'batch': 10, 'train_loss': 1.669, 'train_domain_loss': 3.024, 'train_null_loss': 1.669, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 4, 'batch': 11, 'train_loss': 1.712, 'train_domain_loss': 3.09, 'train_null_loss': 1.712, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 4, 'batch': 12, 'train_loss': 1.752, 'train_domain_loss': 3.023, 'train_null_loss': 1.752, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 4, 'batch': 13, 'train_loss': 1.57, 'train_domain_loss': 3.19, 'train_null_loss': 1.57, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 4, 'batch': 14, 'train_loss': 1.674, 'train_domain_loss': 3.008, 'train_null_loss': 1.674, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 4, 'batch': 15, 'train_loss': 1.679, 'train_domain_loss': 3.13, 'train_null_loss': 1.679, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 4, 'batch': 16, 'train_loss': 1.705, 'train_domain_loss': 3.135, 'train_null_loss': 1.705, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 4, 'batch': 17, 'train_loss': 1.657, 'train_domain_loss': 3.15, 'train_null_loss': 1.657, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+{'valid_loss': 4.762, 'loss_diff': 0.0, 'epoch': 4, 'batch': 0}
+{'valid_loss': 4.538, 'loss_diff': 0.0, 'epoch': 4, 'batch': 1}
+{'valid_loss': 4.564, 'loss_diff': 0.0, 'epoch': 4, 'batch': 2}
+Training embedding agent starting this epoch...
+Training agent for 1200 steps...
+Training model...
+{'epoch': 5, 'batch': 0, 'train_loss': 1.674, 'train_domain_loss': 3.055, 'train_null_loss': 1.679, 'train_embed_loss': 1.668, 'train_loss_diff': -0.011}
+{'epoch': 5, 'batch': 1, 'train_loss': 1.699, 'train_domain_loss': 3.026, 'train_null_loss': 1.715, 'train_embed_loss': 1.682, 'train_loss_diff': -0.033}
+{'epoch': 5, 'batch': 2, 'train_loss': 1.618, 'train_domain_loss': 3.104, 'train_null_loss': 1.584, 'train_embed_loss': 1.652, 'train_loss_diff': 0.068}
+{'epoch': 5, 'batch': 3, 'train_loss': 1.704, 'train_domain_loss': 2.977, 'train_null_loss': 1.68, 'train_embed_loss': 1.728, 'train_loss_diff': 0.048}
+{'epoch': 5, 'batch': 4, 'train_loss': 1.66, 'train_domain_loss': 3.071, 'train_null_loss': 1.688, 'train_embed_loss': 1.633, 'train_loss_diff': -0.055}
+{'epoch': 5, 'batch': 5, 'train_loss': 1.666, 'train_domain_loss': 3.06, 'train_null_loss': 1.677, 'train_embed_loss': 1.655, 'train_loss_diff': -0.021}
+{'epoch': 5, 'batch': 6, 'train_loss': 1.658, 'train_domain_loss': 3.252, 'train_null_loss': 1.646, 'train_embed_loss': 1.671, 'train_loss_diff': 0.025}
+{'epoch': 5, 'batch': 7, 'train_loss': 1.681, 'train_domain_loss': 3.084, 'train_null_loss': 1.652, 'train_embed_loss': 1.711, 'train_loss_diff': 0.059}
+{'epoch': 5, 'batch': 8, 'train_loss': 1.721, 'train_domain_loss': 3.024, 'train_null_loss': 1.752, 'train_embed_loss': 1.69, 'train_loss_diff': -0.063}
+{'epoch': 5, 'batch': 9, 'train_loss': 1.68, 'train_domain_loss': 3.137, 'train_null_loss': 1.701, 'train_embed_loss': 1.659, 'train_loss_diff': -0.042}
+{'epoch': 5, 'batch': 10, 'train_loss': 1.604, 'train_domain_loss': 3.123, 'train_null_loss': 1.624, 'train_embed_loss': 1.584, 'train_loss_diff': -0.039}
+{'epoch': 5, 'batch': 11, 'train_loss': 1.648, 'train_domain_loss': 3.308, 'train_null_loss': 1.666, 'train_embed_loss': 1.63, 'train_loss_diff': -0.035}
+{'epoch': 5, 'batch': 12, 'train_loss': 1.66, 'train_domain_loss': 3.012, 'train_null_loss': 1.682, 'train_embed_loss': 1.638, 'train_loss_diff': -0.044}
+{'epoch': 5, 'batch': 13, 'train_loss': 1.597, 'train_domain_loss': 3.206, 'train_null_loss': 1.607, 'train_embed_loss': 1.588, 'train_loss_diff': -0.019}
+{'epoch': 5, 'batch': 14, 'train_loss': 1.696, 'train_domain_loss': 3.053, 'train_null_loss': 1.708, 'train_embed_loss': 1.685, 'train_loss_diff': -0.023}
+{'epoch': 5, 'batch': 15, 'train_loss': 1.685, 'train_domain_loss': 3.063, 'train_null_loss': 1.688, 'train_embed_loss': 1.683, 'train_loss_diff': -0.005}
+{'epoch': 5, 'batch': 16, 'train_loss': 1.637, 'train_domain_loss': 3.128, 'train_null_loss': 1.605, 'train_embed_loss': 1.669, 'train_loss_diff': 0.064}
+{'epoch': 5, 'batch': 17, 'train_loss': 1.681, 'train_domain_loss': 3.093, 'train_null_loss': 1.683, 'train_embed_loss': 1.679, 'train_loss_diff': -0.004}
+Running validation...
+{'valid_loss': 6.638, 'loss_diff': 0.0, 'epoch': 5, 'batch': 0, 'embed_loss': -0.0}
+{'valid_loss': 6.334, 'loss_diff': 0.0, 'epoch': 5, 'batch': 1, 'embed_loss': 0.006}
+{'valid_loss': 6.673, 'loss_diff': 0.0, 'epoch': 5, 'batch': 2, 'embed_loss': 0.007}
+Training agent for 1200 steps...
+Training model...
+{'epoch': 6, 'batch': 0, 'train_loss': 1.616, 'train_domain_loss': 3.049, 'train_null_loss': 1.656, 'train_embed_loss': 1.577, 'train_loss_diff': -0.079}
+{'epoch': 6, 'batch': 1, 'train_loss': 1.656, 'train_domain_loss': 3.053, 'train_null_loss': 1.648, 'train_embed_loss': 1.665, 'train_loss_diff': 0.017}
+{'epoch': 6, 'batch': 2, 'train_loss': 1.712, 'train_domain_loss': 2.927, 'train_null_loss': 1.739, 'train_embed_loss': 1.685, 'train_loss_diff': -0.054}
+{'epoch': 6, 'batch': 3, 'train_loss': 1.66, 'train_domain_loss': 2.987, 'train_null_loss': 1.683, 'train_embed_loss': 1.637, 'train_loss_diff': -0.045}
+{'epoch': 6, 'batch': 4, 'train_loss': 1.712, 'train_domain_loss': 2.973, 'train_null_loss': 1.656, 'train_embed_loss': 1.769, 'train_loss_diff': 0.113}
+{'epoch': 6, 'batch': 5, 'train_loss': 1.642, 'train_domain_loss': 3.067, 'train_null_loss': 1.648, 'train_embed_loss': 1.636, 'train_loss_diff': -0.012}
+{'epoch': 6, 'batch': 6, 'train_loss': 1.635, 'train_domain_loss': 3.158, 'train_null_loss': 1.614, 'train_embed_loss': 1.655, 'train_loss_diff': 0.041}
+{'epoch': 6, 'batch': 7, 'train_loss': 1.68, 'train_domain_loss': 3.04, 'train_null_loss': 1.718, 'train_embed_loss': 1.642, 'train_loss_diff': -0.076}
+{'epoch': 6, 'batch': 8, 'train_loss': 1.645, 'train_domain_loss': 3.092, 'train_null_loss': 1.626, 'train_embed_loss': 1.663, 'train_loss_diff': 0.037}
+{'epoch': 6, 'batch': 9, 'train_loss': 1.612, 'train_domain_loss': 3.029, 'train_null_loss': 1.633, 'train_embed_loss': 1.591, 'train_loss_diff': -0.042}
+{'epoch': 6, 'batch': 10, 'train_loss': 1.643, 'train_domain_loss': 2.942, 'train_null_loss': 1.599, 'train_embed_loss': 1.688, 'train_loss_diff': 0.09}
+{'epoch': 6, 'batch': 11, 'train_loss': 1.661, 'train_domain_loss': 3.076, 'train_null_loss': 1.64, 'train_embed_loss': 1.683, 'train_loss_diff': 0.042}
+{'epoch': 6, 'batch': 12, 'train_loss': 1.627, 'train_domain_loss': 3.028, 'train_null_loss': 1.603, 'train_embed_loss': 1.651, 'train_loss_diff': 0.048}
+{'epoch': 6, 'batch': 13, 'train_loss': 1.625, 'train_domain_loss': 3.064, 'train_null_loss': 1.62, 'train_embed_loss': 1.63, 'train_loss_diff': 0.011}
+{'epoch': 6, 'batch': 14, 'train_loss': 1.621, 'train_domain_loss': 3.142, 'train_null_loss': 1.635, 'train_embed_loss': 1.607, 'train_loss_diff': -0.028}
+{'epoch': 6, 'batch': 15, 'train_loss': 1.64, 'train_domain_loss': 3.174, 'train_null_loss': 1.622, 'train_embed_loss': 1.658, 'train_loss_diff': 0.036}
+{'epoch': 6, 'batch': 16, 'train_loss': 1.631, 'train_domain_loss': 3.12, 'train_null_loss': 1.645, 'train_embed_loss': 1.617, 'train_loss_diff': -0.028}
+{'epoch': 6, 'batch': 17, 'train_loss': 1.626, 'train_domain_loss': 3.053, 'train_null_loss': 1.619, 'train_embed_loss': 1.634, 'train_loss_diff': 0.015}
+Running validation...
+{'valid_loss': 6.758, 'loss_diff': 0.0, 'epoch': 6, 'batch': 0, 'embed_loss': -0.001}
+{'valid_loss': 6.315, 'loss_diff': 0.0, 'epoch': 6, 'batch': 1, 'embed_loss': 0.018}
+{'valid_loss': 6.884, 'loss_diff': 0.0, 'epoch': 6, 'batch': 2, 'embed_loss': 0.024}
+Training agent for 1200 steps...
+Training model...
+{'epoch': 7, 'batch': 0, 'train_loss': 1.665, 'train_domain_loss': 3.088, 'train_null_loss': 1.669, 'train_embed_loss': 1.66, 'train_loss_diff': -0.009}
+{'epoch': 7, 'batch': 1, 'train_loss': 1.631, 'train_domain_loss': 3.059, 'train_null_loss': 1.602, 'train_embed_loss': 1.66, 'train_loss_diff': 0.058}
+{'epoch': 7, 'batch': 2, 'train_loss': 1.67, 'train_domain_loss': 3.087, 'train_null_loss': 1.703, 'train_embed_loss': 1.637, 'train_loss_diff': -0.066}
+{'epoch': 7, 'batch': 3, 'train_loss': 1.665, 'train_domain_loss': 3.002, 'train_null_loss': 1.636, 'train_embed_loss': 1.694, 'train_loss_diff': 0.057}
+{'epoch': 7, 'batch': 4, 'train_loss': 1.621, 'train_domain_loss': 3.067, 'train_null_loss': 1.68, 'train_embed_loss': 1.563, 'train_loss_diff': -0.118}
+{'epoch': 7, 'batch': 5, 'train_loss': 1.62, 'train_domain_loss': 3.061, 'train_null_loss': 1.642, 'train_embed_loss': 1.598, 'train_loss_diff': -0.044}
+{'epoch': 7, 'batch': 6, 'train_loss': 1.573, 'train_domain_loss': 3.085, 'train_null_loss': 1.534, 'train_embed_loss': 1.612, 'train_loss_diff': 0.079}
+{'epoch': 7, 'batch': 7, 'train_loss': 1.662, 'train_domain_loss': 3.012, 'train_null_loss': 1.661, 'train_embed_loss': 1.662, 'train_loss_diff': 0.001}
+{'epoch': 7, 'batch': 8, 'train_loss': 1.632, 'train_domain_loss': 3.041, 'train_null_loss': 1.597, 'train_embed_loss': 1.667, 'train_loss_diff': 0.071}
+{'epoch': 7, 'batch': 9, 'train_loss': 1.646, 'train_domain_loss': 3.025, 'train_null_loss': 1.623, 'train_embed_loss': 1.67, 'train_loss_diff': 0.047}
+{'epoch': 7, 'batch': 10, 'train_loss': 1.667, 'train_domain_loss': 3.039, 'train_null_loss': 1.697, 'train_embed_loss': 1.636, 'train_loss_diff': -0.061}
+{'epoch': 7, 'batch': 11, 'train_loss': 1.587, 'train_domain_loss': 3.044, 'train_null_loss': 1.606, 'train_embed_loss': 1.568, 'train_loss_diff': -0.039}
+{'epoch': 7, 'batch': 12, 'train_loss': 1.586, 'train_domain_loss': 3.165, 'train_null_loss': 1.604, 'train_embed_loss': 1.568, 'train_loss_diff': -0.035}
+{'epoch': 7, 'batch': 13, 'train_loss': 1.597, 'train_domain_loss': 3.103, 'train_null_loss': 1.573, 'train_embed_loss': 1.621, 'train_loss_diff': 0.049}
+{'epoch': 7, 'batch': 14, 'train_loss': 1.622, 'train_domain_loss': 2.902, 'train_null_loss': 1.589, 'train_embed_loss': 1.656, 'train_loss_diff': 0.067}
+{'epoch': 7, 'batch': 15, 'train_loss': 1.617, 'train_domain_loss': 2.962, 'train_null_loss': 1.619, 'train_embed_loss': 1.616, 'train_loss_diff': -0.002}
+{'epoch': 7, 'batch': 16, 'train_loss': 1.653, 'train_domain_loss': 2.975, 'train_null_loss': 1.664, 'train_embed_loss': 1.641, 'train_loss_diff': -0.023}
+{'epoch': 7, 'batch': 17, 'train_loss': 1.617, 'train_domain_loss': 3.042, 'train_null_loss': 1.607, 'train_embed_loss': 1.627, 'train_loss_diff': 0.02}
+Running validation...
+{'valid_loss': 5.849, 'loss_diff': 0.0, 'epoch': 7, 'batch': 0, 'embed_loss': -0.026}
+{'valid_loss': 5.82, 'loss_diff': 0.0, 'epoch': 7, 'batch': 1, 'embed_loss': 0.012}
+{'valid_loss': 6.072, 'loss_diff': 0.0, 'epoch': 7, 'batch': 2, 'embed_loss': 0.039}
+Training agent for 1200 steps...
+Training model...
+{'epoch': 8, 'batch': 0, 'train_loss': 1.641, 'train_domain_loss': 3.014, 'train_null_loss': 1.59, 'train_embed_loss': 1.692, 'train_loss_diff': 0.103}
+{'epoch': 8, 'batch': 1, 'train_loss': 1.589, 'train_domain_loss': 3.077, 'train_null_loss': 1.583, 'train_embed_loss': 1.595, 'train_loss_diff': 0.012}
+{'epoch': 8, 'batch': 2, 'train_loss': 1.647, 'train_domain_loss': 2.977, 'train_null_loss': 1.658, 'train_embed_loss': 1.636, 'train_loss_diff': -0.022}
+{'epoch': 8, 'batch': 3, 'train_loss': 1.609, 'train_domain_loss': 2.929, 'train_null_loss': 1.623, 'train_embed_loss': 1.594, 'train_loss_diff': -0.029}
+{'epoch': 8, 'batch': 4, 'train_loss': 1.661, 'train_domain_loss': 2.996, 'train_null_loss': 1.636, 'train_embed_loss': 1.685, 'train_loss_diff': 0.049}
+{'epoch': 8, 'batch': 5, 'train_loss': 1.66, 'train_domain_loss': 3.121, 'train_null_loss': 1.637, 'train_embed_loss': 1.683, 'train_loss_diff': 0.046}
+{'epoch': 8, 'batch': 6, 'train_loss': 1.618, 'train_domain_loss': 3.153, 'train_null_loss': 1.59, 'train_embed_loss': 1.647, 'train_loss_diff': 0.057}
+{'epoch': 8, 'batch': 7, 'train_loss': 1.56, 'train_domain_loss': 3.081, 'train_null_loss': 1.553, 'train_embed_loss': 1.568, 'train_loss_diff': 0.015}
+{'epoch': 8, 'batch': 8, 'train_loss': 1.689, 'train_domain_loss': 2.832, 'train_null_loss': 1.663, 'train_embed_loss': 1.715, 'train_loss_diff': 0.052}
+{'epoch': 8, 'batch': 9, 'train_loss': 1.633, 'train_domain_loss': 2.873, 'train_null_loss': 1.65, 'train_embed_loss': 1.617, 'train_loss_diff': -0.033}
+{'epoch': 8, 'batch': 10, 'train_loss': 1.642, 'train_domain_loss': 2.981, 'train_null_loss': 1.627, 'train_embed_loss': 1.658, 'train_loss_diff': 0.031}
+{'epoch': 8, 'batch': 11, 'train_loss': 1.663, 'train_domain_loss': 2.98, 'train_null_loss': 1.665, 'train_embed_loss': 1.661, 'train_loss_diff': -0.003}
+{'epoch': 8, 'batch': 12, 'train_loss': 1.663, 'train_domain_loss': 2.943, 'train_null_loss': 1.662, 'train_embed_loss': 1.664, 'train_loss_diff': 0.002}
+{'epoch': 8, 'batch': 13, 'train_loss': 1.699, 'train_domain_loss': 3.082, 'train_null_loss': 1.646, 'train_embed_loss': 1.752, 'train_loss_diff': 0.107}
+{'epoch': 8, 'batch': 14, 'train_loss': 1.67, 'train_domain_loss': 3.008, 'train_null_loss': 1.669, 'train_embed_loss': 1.672, 'train_loss_diff': 0.003}
+{'epoch': 8, 'batch': 15, 'train_loss': 1.628, 'train_domain_loss': 2.889, 'train_null_loss': 1.612, 'train_embed_loss': 1.643, 'train_loss_diff': 0.031}
+{'epoch': 8, 'batch': 16, 'train_loss': 1.573, 'train_domain_loss': 3.204, 'train_null_loss': 1.582, 'train_embed_loss': 1.564, 'train_loss_diff': -0.017}
+{'epoch': 8, 'batch': 17, 'train_loss': 1.599, 'train_domain_loss': 3.189, 'train_null_loss': 1.617, 'train_embed_loss': 1.581, 'train_loss_diff': -0.036}
+Running validation...
+{'valid_loss': 5.996, 'loss_diff': 0.0, 'epoch': 8, 'batch': 0, 'embed_loss': 0.014}
+{'valid_loss': 5.444, 'loss_diff': 0.0, 'epoch': 8, 'batch': 1, 'embed_loss': 0.002}
+{'valid_loss': 6.057, 'loss_diff': 0.0, 'epoch': 8, 'batch': 2, 'embed_loss': -0.005}
+Training agent for 1200 steps...
+Training model...
+{'epoch': 9, 'batch': 0, 'train_loss': 1.569, 'train_domain_loss': 3.066, 'train_null_loss': 1.637, 'train_embed_loss': 1.5, 'train_loss_diff': -0.137}
+{'epoch': 9, 'batch': 1, 'train_loss': 1.621, 'train_domain_loss': 2.947, 'train_null_loss': 1.583, 'train_embed_loss': 1.659, 'train_loss_diff': 0.076}
+{'epoch': 9, 'batch': 2, 'train_loss': 1.646, 'train_domain_loss': 2.961, 'train_null_loss': 1.674, 'train_embed_loss': 1.617, 'train_loss_diff': -0.057}
+{'epoch': 9, 'batch': 3, 'train_loss': 1.621, 'train_domain_loss': 3.063, 'train_null_loss': 1.635, 'train_embed_loss': 1.608, 'train_loss_diff': -0.027}
+{'epoch': 9, 'batch': 4, 'train_loss': 1.592, 'train_domain_loss': 2.967, 'train_null_loss': 1.611, 'train_embed_loss': 1.573, 'train_loss_diff': -0.038}
+{'epoch': 9, 'batch': 5, 'train_loss': 1.642, 'train_domain_loss': 3.011, 'train_null_loss': 1.652, 'train_embed_loss': 1.632, 'train_loss_diff': -0.021}
+{'epoch': 9, 'batch': 6, 'train_loss': 1.582, 'train_domain_loss': 3.174, 'train_null_loss': 1.596, 'train_embed_loss': 1.568, 'train_loss_diff': -0.029}
+{'epoch': 9, 'batch': 7, 'train_loss': 1.632, 'train_domain_loss': 2.988, 'train_null_loss': 1.649, 'train_embed_loss': 1.615, 'train_loss_diff': -0.034}
+{'epoch': 9, 'batch': 8, 'train_loss': 1.595, 'train_domain_loss': 3.069, 'train_null_loss': 1.607, 'train_embed_loss': 1.583, 'train_loss_diff': -0.024}
+{'epoch': 9, 'batch': 9, 'train_loss': 1.607, 'train_domain_loss': 3.076, 'train_null_loss': 1.609, 'train_embed_loss': 1.604, 'train_loss_diff': -0.004}
+{'epoch': 9, 'batch': 10, 'train_loss': 1.628, 'train_domain_loss': 2.947, 'train_null_loss': 1.654, 'train_embed_loss': 1.602, 'train_loss_diff': -0.052}
+{'epoch': 9, 'batch': 11, 'train_loss': 1.721, 'train_domain_loss': 3.188, 'train_null_loss': 1.726, 'train_embed_loss': 1.716, 'train_loss_diff': -0.01}
+{'epoch': 9, 'batch': 12, 'train_loss': 1.601, 'train_domain_loss': 3.001, 'train_null_loss': 1.638, 'train_embed_loss': 1.563, 'train_loss_diff': -0.075}
+{'epoch': 9, 'batch': 13, 'train_loss': 1.65, 'train_domain_loss': 2.883, 'train_null_loss': 1.636, 'train_embed_loss': 1.664, 'train_loss_diff': 0.028}
+{'epoch': 9, 'batch': 14, 'train_loss': 1.584, 'train_domain_loss': 3.038, 'train_null_loss': 1.582, 'train_embed_loss': 1.585, 'train_loss_diff': 0.003}
+{'epoch': 9, 'batch': 15, 'train_loss': 1.576, 'train_domain_loss': 3.143, 'train_null_loss': 1.567, 'train_embed_loss': 1.585, 'train_loss_diff': 0.018}
+{'epoch': 9, 'batch': 16, 'train_loss': 1.595, 'train_domain_loss': 3.07, 'train_null_loss': 1.611, 'train_embed_loss': 1.579, 'train_loss_diff': -0.032}
+{'epoch': 9, 'batch': 17, 'train_loss': 1.699, 'train_domain_loss': 3.076, 'train_null_loss': 1.699, 'train_embed_loss': 1.699, 'train_loss_diff': 0.001}
+Running validation...
+{'valid_loss': 5.795, 'loss_diff': 0.0, 'epoch': 9, 'batch': 0, 'embed_loss': -0.002}
+{'valid_loss': 5.857, 'loss_diff': 0.0, 'epoch': 9, 'batch': 1, 'embed_loss': 0.03}
+{'valid_loss': 5.959, 'loss_diff': 0.0, 'epoch': 9, 'batch': 2, 'embed_loss': 0.0}
+Training agent for 1200 steps...
+Training model...
+{'epoch': 10, 'batch': 0, 'train_loss': 1.607, 'train_domain_loss': 2.958, 'train_null_loss': 1.615, 'train_embed_loss': 1.599, 'train_loss_diff': -0.015}
+{'epoch': 10, 'batch': 1, 'train_loss': 1.628, 'train_domain_loss': 3.191, 'train_null_loss': 1.596, 'train_embed_loss': 1.66, 'train_loss_diff': 0.064}
+{'epoch': 10, 'batch': 2, 'train_loss': 1.584, 'train_domain_loss': 3.052, 'train_null_loss': 1.565, 'train_embed_loss': 1.602, 'train_loss_diff': 0.038}
+{'epoch': 10, 'batch': 3, 'train_loss': 1.633, 'train_domain_loss': 3.034, 'train_null_loss': 1.615, 'train_embed_loss': 1.652, 'train_loss_diff': 0.038}
+{'epoch': 10, 'batch': 4, 'train_loss': 1.582, 'train_domain_loss': 3.066, 'train_null_loss': 1.592, 'train_embed_loss': 1.573, 'train_loss_diff': -0.018}
+{'epoch': 10, 'batch': 5, 'train_loss': 1.602, 'train_domain_loss': 3.206, 'train_null_loss': 1.63, 'train_embed_loss': 1.573, 'train_loss_diff': -0.057}
+{'epoch': 10, 'batch': 6, 'train_loss': 1.608, 'train_domain_loss': 2.839, 'train_null_loss': 1.606, 'train_embed_loss': 1.61, 'train_loss_diff': 0.004}
+{'epoch': 10, 'batch': 7, 'train_loss': 1.643, 'train_domain_loss': 2.931, 'train_null_loss': 1.643, 'train_embed_loss': 1.643, 'train_loss_diff': -0.0}
+{'epoch': 10, 'batch': 8, 'train_loss': 1.618, 'train_domain_loss': 2.897, 'train_null_loss': 1.625, 'train_embed_loss': 1.611, 'train_loss_diff': -0.015}
+{'epoch': 10, 'batch': 9, 'train_loss': 1.618, 'train_domain_loss': 2.959, 'train_null_loss': 1.657, 'train_embed_loss': 1.578, 'train_loss_diff': -0.079}
+{'epoch': 10, 'batch': 10, 'train_loss': 1.615, 'train_domain_loss': 2.88, 'train_null_loss': 1.607, 'train_embed_loss': 1.623, 'train_loss_diff': 0.017}
+{'epoch': 10, 'batch': 11, 'train_loss': 1.592, 'train_domain_loss': 3.048, 'train_null_loss': 1.569, 'train_embed_loss': 1.615, 'train_loss_diff': 0.046}
+{'epoch': 10, 'batch': 12, 'train_loss': 1.529, 'train_domain_loss': 3.06, 'train_null_loss': 1.507, 'train_embed_loss': 1.552, 'train_loss_diff': 0.044}
+{'epoch': 10, 'batch': 13, 'train_loss': 1.583, 'train_domain_loss': 3.052, 'train_null_loss': 1.58, 'train_embed_loss': 1.587, 'train_loss_diff': 0.007}
+{'epoch': 10, 'batch': 14, 'train_loss': 1.652, 'train_domain_loss': 2.964, 'train_null_loss': 1.633, 'train_embed_loss': 1.672, 'train_loss_diff': 0.039}
+{'epoch': 10, 'batch': 15, 'train_loss': 1.607, 'train_domain_loss': 3.106, 'train_null_loss': 1.603, 'train_embed_loss': 1.612, 'train_loss_diff': 0.01}
+{'epoch': 10, 'batch': 16, 'train_loss': 1.624, 'train_domain_loss': 2.929, 'train_null_loss': 1.626, 'train_embed_loss': 1.622, 'train_loss_diff': -0.003}
+{'epoch': 10, 'batch': 17, 'train_loss': 1.558, 'train_domain_loss': 2.978, 'train_null_loss': 1.512, 'train_embed_loss': 1.605, 'train_loss_diff': 0.093}
+Running validation...
+{'valid_loss': 6.317, 'loss_diff': 0.0, 'epoch': 10, 'batch': 0, 'embed_loss': 0.011}
+{'valid_loss': 6.513, 'loss_diff': 0.0, 'epoch': 10, 'batch': 1, 'embed_loss': 0.013}
+{'valid_loss': 6.496, 'loss_diff': 0.0, 'epoch': 10, 'batch': 2, 'embed_loss': -0.005}
+  fig, ax = plt.subplots(figsize=(6, 5))
+                                                                                                                                                               
+Training agent for 1200 steps...
+Training model...
+{'epoch': 11, 'batch': 0, 'train_loss': 1.564, 'train_domain_loss': 2.978, 'train_null_loss': 1.552, 'train_embed_loss': 1.577, 'train_loss_diff': 0.025}
+{'epoch': 11, 'batch': 1, 'train_loss': 1.647, 'train_domain_loss': 2.909, 'train_null_loss': 1.676, 'train_embed_loss': 1.619, 'train_loss_diff': -0.057}
+{'epoch': 11, 'batch': 2, 'train_loss': 1.592, 'train_domain_loss': 3.06, 'train_null_loss': 1.561, 'train_embed_loss': 1.622, 'train_loss_diff': 0.061}
+{'epoch': 11, 'batch': 3, 'train_loss': 1.594, 'train_domain_loss': 2.874, 'train_null_loss': 1.593, 'train_embed_loss': 1.594, 'train_loss_diff': 0.001}
+{'epoch': 11, 'batch': 4, 'train_loss': 1.606, 'train_domain_loss': 2.847, 'train_null_loss': 1.608, 'train_embed_loss': 1.603, 'train_loss_diff': -0.005}
+{'epoch': 11, 'batch': 5, 'train_loss': 1.606, 'train_domain_loss': 2.932, 'train_null_loss': 1.616, 'train_embed_loss': 1.596, 'train_loss_diff': -0.021}
+{'epoch': 11, 'batch': 6, 'train_loss': 1.556, 'train_domain_loss': 2.965, 'train_null_loss': 1.567, 'train_embed_loss': 1.546, 'train_loss_diff': -0.021}
+{'epoch': 11, 'batch': 7, 'train_loss': 1.549, 'train_domain_loss': 3.079, 'train_null_loss': 1.491, 'train_embed_loss': 1.607, 'train_loss_diff': 0.115}
+{'epoch': 11, 'batch': 8, 'train_loss': 1.621, 'train_domain_loss': 2.894, 'train_null_loss': 1.6, 'train_embed_loss': 1.642, 'train_loss_diff': 0.042}
+{'epoch': 11, 'batch': 9, 'train_loss': 1.608, 'train_domain_loss': 2.877, 'train_null_loss': 1.649, 'train_embed_loss': 1.567, 'train_loss_diff': -0.082}
+{'epoch': 11, 'batch': 10, 'train_loss': 1.616, 'train_domain_loss': 2.942, 'train_null_loss': 1.61, 'train_embed_loss': 1.622, 'train_loss_diff': 0.012}
+{'epoch': 11, 'batch': 11, 'train_loss': 1.677, 'train_domain_loss': 3.0, 'train_null_loss': 1.678, 'train_embed_loss': 1.676, 'train_loss_diff': -0.002}
+{'epoch': 11, 'batch': 12, 'train_loss': 1.66, 'train_domain_loss': 2.893, 'train_null_loss': 1.702, 'train_embed_loss': 1.618, 'train_loss_diff': -0.084}
+{'epoch': 11, 'batch': 13, 'train_loss': 1.594, 'train_domain_loss': 2.972, 'train_null_loss': 1.613, 'train_embed_loss': 1.574, 'train_loss_diff': -0.04}
+{'epoch': 11, 'batch': 14, 'train_loss': 1.558, 'train_domain_loss': 3.02, 'train_null_loss': 1.532, 'train_embed_loss': 1.585, 'train_loss_diff': 0.053}
+{'epoch': 11, 'batch': 15, 'train_loss': 1.668, 'train_domain_loss': 3.034, 'train_null_loss': 1.668, 'train_embed_loss': 1.669, 'train_loss_diff': 0.001}
+{'epoch': 11, 'batch': 16, 'train_loss': 1.576, 'train_domain_loss': 3.0, 'train_null_loss': 1.605, 'train_embed_loss': 1.547, 'train_loss_diff': -0.058}
+{'epoch': 11, 'batch': 17, 'train_loss': 1.597, 'train_domain_loss': 2.955, 'train_null_loss': 1.61, 'train_embed_loss': 1.584, 'train_loss_diff': -0.026}
+Running validation...
+{'valid_loss': 4.932, 'loss_diff': 0.0, 'epoch': 11, 'batch': 0, 'embed_loss': -0.017}
+{'valid_loss': 5.572, 'loss_diff': 0.0, 'epoch': 11, 'batch': 1, 'embed_loss': 0.033}
+{'valid_loss': 5.771, 'loss_diff': 0.0, 'epoch': 11, 'batch': 2, 'embed_loss': 0.061}
+Training agent for 1200 steps...
+Training model...
+{'epoch': 12, 'batch': 0, 'train_loss': 1.639, 'train_domain_loss': 3.024, 'train_null_loss': 1.659, 'train_embed_loss': 1.62, 'train_loss_diff': -0.04}
+{'epoch': 12, 'batch': 1, 'train_loss': 1.666, 'train_domain_loss': 3.093, 'train_null_loss': 1.697, 'train_embed_loss': 1.636, 'train_loss_diff': -0.061}
+{'epoch': 12, 'batch': 2, 'train_loss': 1.554, 'train_domain_loss': 2.892, 'train_null_loss': 1.582, 'train_embed_loss': 1.526, 'train_loss_diff': -0.055}
+{'epoch': 12, 'batch': 3, 'train_loss': 1.646, 'train_domain_loss': 2.964, 'train_null_loss': 1.681, 'train_embed_loss': 1.612, 'train_loss_diff': -0.069}
+{'epoch': 12, 'batch': 4, 'train_loss': 1.617, 'train_domain_loss': 2.875, 'train_null_loss': 1.595, 'train_embed_loss': 1.639, 'train_loss_diff': 0.044}
+{'epoch': 12, 'batch': 5, 'train_loss': 1.67, 'train_domain_loss': 2.959, 'train_null_loss': 1.652, 'train_embed_loss': 1.687, 'train_loss_diff': 0.035}
+{'epoch': 12, 'batch': 6, 'train_loss': 1.632, 'train_domain_loss': 2.947, 'train_null_loss': 1.675, 'train_embed_loss': 1.589, 'train_loss_diff': -0.087}
+{'epoch': 12, 'batch': 7, 'train_loss': 1.554, 'train_domain_loss': 3.037, 'train_null_loss': 1.523, 'train_embed_loss': 1.585, 'train_loss_diff': 0.062}
+{'epoch': 12, 'batch': 8, 'train_loss': 1.454, 'train_domain_loss': 2.916, 'train_null_loss': 1.458, 'train_embed_loss': 1.451, 'train_loss_diff': -0.007}
+{'epoch': 12, 'batch': 9, 'train_loss': 1.57, 'train_domain_loss': 3.095, 'train_null_loss': 1.555, 'train_embed_loss': 1.585, 'train_loss_diff': 0.03}
+{'epoch': 12, 'batch': 10, 'train_loss': 1.583, 'train_domain_loss': 2.94, 'train_null_loss': 1.654, 'train_embed_loss': 1.513, 'train_loss_diff': -0.141}
+{'epoch': 12, 'batch': 11, 'train_loss': 1.571, 'train_domain_loss': 2.921, 'train_null_loss': 1.531, 'train_embed_loss': 1.611, 'train_loss_diff': 0.08}
+{'epoch': 12, 'batch': 12, 'train_loss': 1.626, 'train_domain_loss': 2.901, 'train_null_loss': 1.608, 'train_embed_loss': 1.643, 'train_loss_diff': 0.035}
+{'epoch': 12, 'batch': 13, 'train_loss': 1.519, 'train_domain_loss': 2.99, 'train_null_loss': 1.469, 'train_embed_loss': 1.569, 'train_loss_diff': 0.1}
+{'epoch': 12, 'batch': 14, 'train_loss': 1.619, 'train_domain_loss': 2.852, 'train_null_loss': 1.606, 'train_embed_loss': 1.633, 'train_loss_diff': 0.027}
+{'epoch': 12, 'batch': 15, 'train_loss': 1.591, 'train_domain_loss': 2.876, 'train_null_loss': 1.598, 'train_embed_loss': 1.584, 'train_loss_diff': -0.013}
+{'epoch': 12, 'batch': 16, 'train_loss': 1.636, 'train_domain_loss': 2.89, 'train_null_loss': 1.69, 'train_embed_loss': 1.583, 'train_loss_diff': -0.107}
+{'epoch': 12, 'batch': 17, 'train_loss': 1.65, 'train_domain_loss': 2.914, 'train_null_loss': 1.625, 'train_embed_loss': 1.675, 'train_loss_diff': 0.049}
+Running validation...
+{'valid_loss': 5.25, 'loss_diff': 0.0, 'epoch': 12, 'batch': 0, 'embed_loss': -0.027}
+{'valid_loss': 5.235, 'loss_diff': 0.0, 'epoch': 12, 'batch': 1, 'embed_loss': 0.019}
+{'valid_loss': 5.89, 'loss_diff': 0.0, 'epoch': 12, 'batch': 2, 'embed_loss': 0.029}
+Training agent for 1200 steps...
+Training model...
+{'epoch': 13, 'batch': 0, 'train_loss': 1.609, 'train_domain_loss': 2.918, 'train_null_loss': 1.592, 'train_embed_loss': 1.626, 'train_loss_diff': 0.034}
+{'epoch': 13, 'batch': 1, 'train_loss': 1.524, 'train_domain_loss': 3.109, 'train_null_loss': 1.535, 'train_embed_loss': 1.513, 'train_loss_diff': -0.023}
+{'epoch': 13, 'batch': 2, 'train_loss': 1.614, 'train_domain_loss': 2.875, 'train_null_loss': 1.625, 'train_embed_loss': 1.604, 'train_loss_diff': -0.021}
+{'epoch': 13, 'batch': 3, 'train_loss': 1.528, 'train_domain_loss': 2.938, 'train_null_loss': 1.548, 'train_embed_loss': 1.509, 'train_loss_diff': -0.039}
+{'epoch': 13, 'batch': 4, 'train_loss': 1.591, 'train_domain_loss': 2.927, 'train_null_loss': 1.58, 'train_embed_loss': 1.601, 'train_loss_diff': 0.021}
+{'epoch': 13, 'batch': 5, 'train_loss': 1.615, 'train_domain_loss': 2.95, 'train_null_loss': 1.622, 'train_embed_loss': 1.609, 'train_loss_diff': -0.014}
+{'epoch': 13, 'batch': 6, 'train_loss': 1.563, 'train_domain_loss': 3.051, 'train_null_loss': 1.578, 'train_embed_loss': 1.548, 'train_loss_diff': -0.031}
+{'epoch': 13, 'batch': 7, 'train_loss': 1.606, 'train_domain_loss': 2.992, 'train_null_loss': 1.573, 'train_embed_loss': 1.639, 'train_loss_diff': 0.066}
+{'epoch': 13, 'batch': 8, 'train_loss': 1.571, 'train_domain_loss': 3.085, 'train_null_loss': 1.509, 'train_embed_loss': 1.633, 'train_loss_diff': 0.123}
+{'epoch': 13, 'batch': 9, 'train_loss': 1.689, 'train_domain_loss': 3.071, 'train_null_loss': 1.741, 'train_embed_loss': 1.637, 'train_loss_diff': -0.105}
+{'epoch': 13, 'batch': 10, 'train_loss': 1.577, 'train_domain_loss': 3.064, 'train_null_loss': 1.547, 'train_embed_loss': 1.607, 'train_loss_diff': 0.06}
+{'epoch': 13, 'batch': 11, 'train_loss': 1.607, 'train_domain_loss': 2.989, 'train_null_loss': 1.644, 'train_embed_loss': 1.571, 'train_loss_diff': -0.073}
+{'epoch': 13, 'batch': 12, 'train_loss': 1.597, 'train_domain_loss': 3.1, 'train_null_loss': 1.615, 'train_embed_loss': 1.579, 'train_loss_diff': -0.036}
+{'epoch': 13, 'batch': 13, 'train_loss': 1.52, 'train_domain_loss': 2.94, 'train_null_loss': 1.541, 'train_embed_loss': 1.498, 'train_loss_diff': -0.042}
+{'epoch': 13, 'batch': 14, 'train_loss': 1.666, 'train_domain_loss': 3.095, 'train_null_loss': 1.659, 'train_embed_loss': 1.673, 'train_loss_diff': 0.013}
+{'epoch': 13, 'batch': 15, 'train_loss': 1.614, 'train_domain_loss': 2.848, 'train_null_loss': 1.655, 'train_embed_loss': 1.573, 'train_loss_diff': -0.083}
+{'epoch': 13, 'batch': 16, 'train_loss': 1.605, 'train_domain_loss': 2.989, 'train_null_loss': 1.611, 'train_embed_loss': 1.6, 'train_loss_diff': -0.012}
+{'epoch': 13, 'batch': 17, 'train_loss': 1.546, 'train_domain_loss': 2.866, 'train_null_loss': 1.54, 'train_embed_loss': 1.552, 'train_loss_diff': 0.012}
+Running validation...
+{'valid_loss': 6.023, 'loss_diff': 0.0, 'epoch': 13, 'batch': 0, 'embed_loss': -0.002}
+{'valid_loss': 6.177, 'loss_diff': 0.0, 'epoch': 13, 'batch': 1, 'embed_loss': -0.007}
+{'valid_loss': 5.719, 'loss_diff': 0.0, 'epoch': 13, 'batch': 2, 'embed_loss': -0.006}
+Training agent for 1200 steps...
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Tue\Master\Jaar_2\graduation\code\DiGR-RL\src\experiments\train_runner.py", line 235, in <module>
+    best_loss = run_training(parse_config_file(args.CONFIG_FP))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tue\Master\Jaar_2\graduation\code\DiGR-RL\src\experiments\train_runner.py", line 221, in run_training
+    best_loss = training.train(
+                ^^^^^^^^^^^^^^^
+  File "C:\Tue\Master\Jaar_2\graduation\code\DiGR-RL\src\experiments\train.py", line 577, in train
+    self.embedding_agent.learn(total_timesteps=total_agent_timesteps, callback=callback)
+  File "C:\Users\xande\anaconda3\Lib\site-packages\stable_baselines3\ppo\ppo.py", line 311, in learn
+    return super().learn(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\xande\anaconda3\Lib\site-packages\stable_baselines3\common\on_policy_algorithm.py", line 323, in learn
+    continue_training = self.collect_rollouts(self.env, callback, self.rollout_buffer, n_rollout_steps=self.n_steps)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xande\anaconda3\Lib\site-packages\stable_baselines3\common\on_policy_algorithm.py", line 218, in collect_rollouts
+    new_obs, rewards, dones, infos = env.step(clipped_actions)
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xande\anaconda3\Lib\site-packages\stable_baselines3\common\vec_env\base_vec_env.py", line 207, in step
+    return self.step_wait()
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\xande\anaconda3\Lib\site-packages\stable_baselines3\common\vec_env\dummy_vec_env.py", line 59, in step_wait
+    obs, self.buf_rews[env_idx], terminated, truncated, self.buf_infos[env_idx] = self.envs[env_idx].step(  # type: ignore[assignment]
+                                                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xande\anaconda3\Lib\site-packages\stable_baselines3\common\monitor.py", line 94, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+                                                       ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xande\anaconda3\Lib\site-packages\gymnasium\wrappers\common.py", line 125, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+                                                       ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tue\Master\Jaar_2\graduation\code\DiGR-RL\src\rl\latent_environment.py", line 109, in step
+    self._set_obs(self.current_step)
+  File "C:\Tue\Master\Jaar_2\graduation\code\DiGR-RL\src\rl\latent_environment.py", line 55, in _set_obs
+    amp, phase, bvp, info = self.dataset[step_num]
+                            ~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Tue\Master\Jaar_2\graduation\code\DiGR-RL\src\data_utils\widar_dataset.py", line 154, in __getitem__
+    amp, phase = torch.tensor(data["x_amp"]), torch.tensor(data["x_phase"])
+                              ~~~~^^^^^^^^^
+  File "C:\Users\xande\anaconda3\Lib\site-packages\numpy\lib\npyio.py", line 256, in __getitem__
+    return format.read_array(bytes,
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xande\anaconda3\Lib\site-packages\numpy\lib\format.py", line 831, in read_array
+    data = _read_bytes(fp, read_size, "array data")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xande\anaconda3\Lib\site-packages\numpy\lib\format.py", line 966, in _read_bytes
+    r = fp.read(size - len(data))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xande\anaconda3\Lib\zipfile\__init__.py", line 989, in read
+    data = self._read1(n)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\xande\anaconda3\Lib\zipfile\__init__.py", line 1065, in _read1
+    data = self._decompressor.decompress(data, n)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

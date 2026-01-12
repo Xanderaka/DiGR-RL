@@ -1,0 +1,23 @@
+2025-06-22 14:10:25,765 INFO    MainThread:19556 [wandb_setup.py:_flush():67] Current SDK version is 0.19.8
+2025-06-22 14:10:25,766 INFO    MainThread:19556 [wandb_setup.py:_flush():67] Configure stats pid to 19556
+2025-06-22 14:10:25,766 INFO    MainThread:19556 [wandb_setup.py:_flush():67] Loading settings from C:\Users\xande\.config\wandb\settings
+2025-06-22 14:10:25,766 INFO    MainThread:19556 [wandb_setup.py:_flush():67] Loading settings from C:\Tue\Master\Jaar_2\graduation\code\own_approach\wandb\settings
+2025-06-22 14:10:25,767 INFO    MainThread:19556 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-06-22 14:10:25,767 INFO    MainThread:19556 [wandb_init.py:setup_run_log_directory():647] Logging user logs to C:\Tue\Master\Jaar_2\graduation\code\own_approach\wandb\run-20250622_141025-8irf7h79\logs\debug.log
+2025-06-22 14:10:25,769 INFO    MainThread:19556 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to C:\Tue\Master\Jaar_2\graduation\code\own_approach\wandb\run-20250622_141025-8irf7h79\logs\debug-internal.log
+2025-06-22 14:10:25,769 INFO    MainThread:19556 [wandb_init.py:init():761] calling init triggers
+2025-06-22 14:10:25,770 INFO    MainThread:19556 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'train': {'batch_size': 16, 'epochs': 15, 'ui': 'tqdm', 'checkpoint_dir': WindowsPath('C:/Tue/Master/Jaar_2/graduation/code/own_approach/checkpoints')}, 'data': {'data_dir': WindowsPath('C:/Tue/Master/Jaar_2/graduation/code/own_approach/data'), 'dataset_type': 'single_user', 'downsample_multiplier': 100, 'transformation': <src.signal_to_image.gaf_transform.GAF object at 0x000002584595C650>, 'bvp_agg': 'sum', 'amp_pipeline': <src.signal_processing.pipeline.Pipeline object at 0x0000025845B24CE0>, 'phase_pipeline': <src.signal_processing.pipeline.Pipeline object at 0x0000025845BADBB0>, 'bvp_pipeline': 0}, 'encoder': {'dropout': 0.18, 'latent_dim': 60, 'activation_fn': 'leaky', 'Backbone_type': 'ViT', 'normalization': False, 'initial_kernel_size': 7, 'init_channels': 64, 'growth_rate': 32, 'num_layers': [6, 12, 24], 'num_conv_layers': None}, 'mt': {'d_predictor_dropout': 0.28, 'd_predictor_activation_fn': 'selu', 'd_predictor_num_layers': 4, 'predictor_dropout': 0.28, 'predictor_activation_fn': 'selu', 'predictor_num_layers': 4}, 'agent': {'ent_coef': 0.1, 'learning_rate': 0.0003, 'buffer_size': 50000, 'train_freq': [64, 'step'], 'gradient_steps': 1, 'batch_size': 64, 'learning_starts': 1000}, 'embed': {'value_type': 'probability-measure', 'agent_type': 'ppo', 'reward_function': 'exploration_driven', 'policy': 'exploration', 'embed_size': 33, 'start_epoch': 5, 'epochs': 2, 'critic_num_layers': 3, 'critic_dropout': 0.3, 'actor_num_layers': 3, 'actor_dropout': 0.3, 'lr': 0.0001, 'anneal_lr': True, 'gamma': 0.99, 'gae_lambda': 0.95, 'norm_advantage': True, 'clip_coef': 0.2, 'clip_value_loss': True, 'entropy_coef': 0.0, 'value_func_coef': 0.5, 'max_grad_norm': 0.5, 'target_kl': None}, 'optim_loss': {'optimizer': 'adam', 'lr': 0.00022, 'alpha': 8e-05, 'beta': 0.5}, 'debug': {'is_debug': False, 'on_cpu': False, 'offline': False}, '_wandb': {}}
+2025-06-22 14:10:25,771 INFO    MainThread:19556 [wandb_init.py:init():784] starting backend
+2025-06-22 14:10:25,771 INFO    MainThread:19556 [wandb_init.py:init():788] sending inform_init request
+2025-06-22 14:10:25,910 INFO    MainThread:19556 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn, using: spawn
+2025-06-22 14:10:25,910 INFO    MainThread:19556 [wandb_init.py:init():798] backend started and connected
+2025-06-22 14:10:25,916 INFO    MainThread:19556 [wandb_init.py:init():891] updated telemetry
+2025-06-22 14:10:25,922 INFO    MainThread:19556 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-06-22 14:10:28,006 INFO    MainThread:19556 [wandb_init.py:init():990] starting run threads in backend
+2025-06-22 14:10:29,764 INFO    MainThread:19556 [wandb_run.py:_console_start():2375] atexit reg
+2025-06-22 14:10:29,764 INFO    MainThread:19556 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-06-22 14:10:29,766 INFO    MainThread:19556 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-06-22 14:10:29,767 INFO    MainThread:19556 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-06-22 14:10:29,791 INFO    MainThread:19556 [wandb_init.py:init():1032] run started, returning control to user process
+2025-06-22 14:11:57,889 INFO    MsgRouterThr:19556 [mailbox.py:close():129] Closing mailbox, abandoning 1 handles.

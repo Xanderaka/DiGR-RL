@@ -1,0 +1,48 @@
+Running training on CPU
+Loading dataset train
+Found pregenerated data dir.
+Loading complete. Took 0.01 s.
+Loading dataset validation
+Found pregenerated data dir.
+Loading complete. Took 0.00 s.
+Building models...
+Completed model building. Took 32.01 s.
+[2025-10-19 10:25:06 E001 S0000000] Preparation complete. Starting training...
+[2025-10-19 10:25:42 E001 S0000000] Training model...
+[2025-10-19 10:25:51 E001 S0000000] Started epoch 1, epoch: 0, batch: 0, train_loss: 1.81, train_domain_loss: 3.22, train_null_loss: 1.81, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:25:59 E001 S0000032] Started epoch 1, epoch: 0, batch: 1, train_loss: 1.77, train_domain_loss: 3.21, train_null_loss: 1.77, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:26:06 E001 S0000064] Started epoch 1, epoch: 0, batch: 2, train_loss: 1.79, train_domain_loss: 3.24, train_null_loss: 1.79, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:26:14 E001 S0000096] Started epoch 1, epoch: 0, batch: 3, train_loss: 1.77, train_domain_loss: 3.23, train_null_loss: 1.77, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:26:22 E001 S0000128] Started epoch 1, epoch: 0, batch: 4, train_loss: 1.79, train_domain_loss: 3.24, train_null_loss: 1.79, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:26:29 E001 S0000160] Started epoch 1, epoch: 0, batch: 5, train_loss: 1.77, train_domain_loss: 3.24, train_null_loss: 1.77, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:26:37 E001 S0000192] Started epoch 1, epoch: 0, batch: 6, train_loss: 1.76, train_domain_loss: 3.2, train_null_loss: 1.76, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:26:45 E001 S0000224] Started epoch 1, epoch: 0, batch: 7, train_loss: 1.79, train_domain_loss: 3.25, train_null_loss: 1.79, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:26:53 E001 S0000256] Started epoch 1, epoch: 0, batch: 8, train_loss: 1.79, train_domain_loss: 3.21, train_null_loss: 1.79, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:27:01 E001 S0000288] Started epoch 1, epoch: 0, batch: 9, train_loss: 1.76, train_domain_loss: 3.23, train_null_loss: 1.76, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:27:08 E001 S0000320] Started epoch 1, epoch: 0, batch: 10, train_loss: 1.78, train_domain_loss: 3.25, train_null_loss: 1.78, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:27:16 E001 S0000352] Started epoch 1, epoch: 0, batch: 11, train_loss: 1.77, train_domain_loss: 3.23, train_null_loss: 1.77, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:27:25 E001 S0000384] Started epoch 1, epoch: 0, batch: 12, train_loss: 1.73, train_domain_loss: 3.21, train_null_loss: 1.73, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:27:33 E001 S0000416] Started epoch 1, epoch: 0, batch: 13, train_loss: 1.73, train_domain_loss: 3.22, train_null_loss: 1.73, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:27:39 E001 S0000448] Started epoch 1, epoch: 0, batch: 14, train_loss: 1.77, train_domain_loss: 3.23, train_null_loss: 1.77, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:27:45 E001 S0000480] Started epoch 1, epoch: 0, batch: 15, train_loss: 1.76, train_domain_loss: 3.22, train_null_loss: 1.76, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:27:51 E001 S0000512] Started epoch 1, epoch: 0, batch: 16, train_loss: 1.67, train_domain_loss: 3.2, train_null_loss: 1.67, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:27:58 E001 S0000544] Started epoch 1, epoch: 0, batch: 17, train_loss: 1.76, train_domain_loss: 3.21, train_null_loss: 1.76, train_embed_loss: nan, train_loss_diff: nan
+[2025-10-19 10:27:58 E001 S0000576] Running validation...
+[2025-10-19 10:28:01 E001 S0000576] Started epoch 1, valid_loss: 5.06, loss_diff: 0.0, epoch: 0, batch: 0
+[2025-10-19 10:28:05 E001 S0000608] Started epoch 1, valid_loss: 4.63, loss_diff: 0.0, epoch: 0, batch: 1
+[2025-10-19 10:28:08 E001 S0000640] Started epoch 1, valid_loss: 5.1, loss_diff: 0.0, epoch: 0, batch: 2
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\experiments\train_runner.py", line 235, in <module>
+    best_loss = run_training(parse_config_file(args.CONFIG_FP))
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\experiments\train_runner.py", line 221, in run_training
+    best_loss = training.train(
+        train_loader=train_dataloader,
+    ...<3 lines>...
+        agent_epochs=config["embed"]["epochs"]
+    )
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\experiments\train.py", line 581, in train
+    curr_joint_loss, f1_score = self._validate_holistic(
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: cannot unpack non-iterable float object

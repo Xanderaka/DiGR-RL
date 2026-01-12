@@ -1,0 +1,13 @@
+{"time":"2025-10-19T10:39:58.9297971+02:00","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-10-19T10:39:59.3635956+02:00","level":"INFO","msg":"stream: created new stream","id":"40s0wc6w"}
+{"time":"2025-10-19T10:39:59.3635956+02:00","level":"INFO","msg":"stream: started","id":"40s0wc6w"}
+{"time":"2025-10-19T10:39:59.3635956+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"40s0wc6w"}
+{"time":"2025-10-19T10:39:59.3635956+02:00","level":"INFO","msg":"sender: started","stream_id":"40s0wc6w"}
+{"time":"2025-10-19T10:39:59.3641282+02:00","level":"INFO","msg":"handler: started","stream_id":"40s0wc6w"}
+{"time":"2025-10-19T11:13:00.2435952+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/x-j-vreeswijk-eindhoven-university-of-technology/master-thesis-test/40s0wc6w/file_stream\": read tcp 100.80.112.51:62798->35.186.228.49:443: wsarecv: An existing connection was forcibly closed by the remote host."}
+{"time":"2025-10-19T11:15:23.3998401+02:00","level":"INFO","msg":"stream: closing","id":"40s0wc6w"}
+{"time":"2025-10-19T11:15:24.3755147+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-10-19T11:15:24.6158686+02:00","level":"INFO","msg":"handler: closed","stream_id":"40s0wc6w"}
+{"time":"2025-10-19T11:15:24.6158686+02:00","level":"INFO","msg":"sender: closed","stream_id":"40s0wc6w"}
+{"time":"2025-10-19T11:15:24.6158686+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"40s0wc6w"}
+{"time":"2025-10-19T11:15:24.6158686+02:00","level":"INFO","msg":"stream: closed","id":"40s0wc6w"}

@@ -1,0 +1,86 @@
+Running training on CPU
+Loading dataset train
+Found pregenerated data dir. Using pregenerated data.
+Loading complete. Took 0.01 s.
+Loading dataset validation
+Found pregenerated data dir. Using pregenerated data.
+Loading complete. Took 0.00 s.
+Building models...
+Detected 5 unique domains.
+Completed model building. Took 0.76 s.
+                                                                                                                                                                
+Preparation complete. Starting training...
+Training model...
+Skipping gesture_null image visualization: gesture_null tensor is not image-like (got shape torch.Size([16, 6]))
+Skipping domain_null image visualization: domain_null tensor is not image-like (got shape torch.Size([16, 5]))
+{'epoch': 0, 'batch': 0, 'train_loss': 1.854, 'train_domain_loss': 1.575, 'train_null_loss': 1.854, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 1, 'train_loss': 1.803, 'train_domain_loss': 1.702, 'train_null_loss': 1.803, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 2, 'train_loss': 1.84, 'train_domain_loss': 2.038, 'train_null_loss': 1.84, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 3, 'train_loss': 1.766, 'train_domain_loss': 2.654, 'train_null_loss': 1.766, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 4, 'train_loss': 1.769, 'train_domain_loss': 2.154, 'train_null_loss': 1.769, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 5, 'train_loss': 1.834, 'train_domain_loss': 2.682, 'train_null_loss': 1.834, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 6, 'train_loss': 1.821, 'train_domain_loss': 3.428, 'train_null_loss': 1.821, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 7, 'train_loss': 1.797, 'train_domain_loss': 3.474, 'train_null_loss': 1.797, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 8, 'train_loss': 1.823, 'train_domain_loss': 2.804, 'train_null_loss': 1.823, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 9, 'train_loss': 1.803, 'train_domain_loss': 3.082, 'train_null_loss': 1.803, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 10, 'train_loss': 1.831, 'train_domain_loss': 4.132, 'train_null_loss': 1.831, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 11, 'train_loss': 1.849, 'train_domain_loss': 2.775, 'train_null_loss': 1.849, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 12, 'train_loss': 1.838, 'train_domain_loss': 3.845, 'train_null_loss': 1.838, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 13, 'train_loss': 1.78, 'train_domain_loss': 5.045, 'train_null_loss': 1.78, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 14, 'train_loss': 1.794, 'train_domain_loss': 4.853, 'train_null_loss': 1.794, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 15, 'train_loss': 1.812, 'train_domain_loss': 5.704, 'train_null_loss': 1.812, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 16, 'train_loss': 1.793, 'train_domain_loss': 5.016, 'train_null_loss': 1.793, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 17, 'train_loss': 1.8, 'train_domain_loss': 6.978, 'train_null_loss': 1.8, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 18, 'train_loss': 1.808, 'train_domain_loss': 6.3, 'train_null_loss': 1.808, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 19, 'train_loss': 1.835, 'train_domain_loss': 5.727, 'train_null_loss': 1.835, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 20, 'train_loss': 1.799, 'train_domain_loss': 7.888, 'train_null_loss': 1.799, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 21, 'train_loss': 1.813, 'train_domain_loss': 6.241, 'train_null_loss': 1.813, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 22, 'train_loss': 1.82, 'train_domain_loss': 5.863, 'train_null_loss': 1.82, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 23, 'train_loss': 1.778, 'train_domain_loss': 5.309, 'train_null_loss': 1.778, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 24, 'train_loss': 1.791, 'train_domain_loss': 5.147, 'train_null_loss': 1.791, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 25, 'train_loss': 1.76, 'train_domain_loss': 6.432, 'train_null_loss': 1.76, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 26, 'train_loss': 1.813, 'train_domain_loss': 6.668, 'train_null_loss': 1.813, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 27, 'train_loss': 1.823, 'train_domain_loss': 3.584, 'train_null_loss': 1.823, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 28, 'train_loss': 1.79, 'train_domain_loss': 4.466, 'train_null_loss': 1.79, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 29, 'train_loss': 1.755, 'train_domain_loss': 6.144, 'train_null_loss': 1.755, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 30, 'train_loss': 1.808, 'train_domain_loss': 5.882, 'train_null_loss': 1.808, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 31, 'train_loss': 1.762, 'train_domain_loss': 5.252, 'train_null_loss': 1.762, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 32, 'train_loss': 1.798, 'train_domain_loss': 4.499, 'train_null_loss': 1.798, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\experiments\train_runner.py", line 219, in <module>
+    run_training(parse_config_file(args.CONFIG_FP))
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\experiments\train_runner.py", line 206, in run_training
+    training.train(
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\experiments\train.py", line 623, in train
+    curr_joint_loss = self._validate_holistic(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\experiments\train.py", line 335, in _validate_holistic
+    pass_result = self._forward_pass(amp, phase, bvp, info["gesture"], info, device, True, domain_label)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\experiments\train.py", line 187, in _forward_pass
+    loss_dict = self.loss_func(
+                ^^^^^^^^^^^^^^^
+  File "C:\Users\xande\anaconda3\Lib\site-packages\torch\nn\modules\module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xande\anaconda3\Lib\site-packages\torch\nn\modules\module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\loss\multi_joint_loss.py", line 35, in forward
+    null_domain_loss = self.ce(null_domain_pred, domain_label)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xande\anaconda3\Lib\site-packages\torch\nn\modules\module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xande\anaconda3\Lib\site-packages\torch\nn\modules\module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xande\anaconda3\Lib\site-packages\torch\nn\modules\loss.py", line 1295, in forward
+    return F.cross_entropy(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\xande\anaconda3\Lib\site-packages\torch\nn\functional.py", line 3494, in cross_entropy
+    return torch._C._nn.cross_entropy_loss(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: Target 5 is out of bounds.

@@ -1,0 +1,35 @@
+Running training on CPU
+Loading dataset train
+Found pregenerated data dir. Using pregenerated data.
+Loading complete. Took 0.00 s.
+Loading dataset validation
+Found pregenerated data dir. Using pregenerated data.
+Loading complete. Took 0.00 s.
+Building models...
+Completed model building. Took 0.09 s.
+Epoch: 1 of 50 | Training loss: 1.74:   1%|▊                                                                                   | 112/12000 [00:03<06:38, 29.84it/s]Traceback (most recent call last):
+Preparation complete. Starting training...
+Training model...
+Skipping gesture_null image visualization: too many indices for tensor of dimension 2
+Skipping domain_null image visualization: too many indices for tensor of dimension 2
+{'epoch': 0, 'batch': 0, 'train_loss': 1.842, 'train_domain_loss': 3.189, 'train_null_loss': 1.842, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 1, 'train_loss': 1.83, 'train_domain_loss': 3.181, 'train_null_loss': 1.83, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 2, 'train_loss': 1.843, 'train_domain_loss': 3.08, 'train_null_loss': 1.843, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 3, 'train_loss': 1.751, 'train_domain_loss': 3.106, 'train_null_loss': 1.751, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 4, 'train_loss': 1.733, 'train_domain_loss': 2.954, 'train_null_loss': 1.733, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 5, 'train_loss': 1.824, 'train_domain_loss': 3.01, 'train_null_loss': 1.824, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 6, 'train_loss': 1.744, 'train_domain_loss': 3.031, 'train_null_loss': 1.744, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\experiments\train_runner.py", line 209, in <module>
+    run_training(parse_config_file(args.CONFIG_FP))
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\experiments\train_runner.py", line 196, in run_training
+    training.train(
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\experiments\train.py", line 625, in train
+    curr_joint_loss = self._validate_holistic(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\experiments\train.py", line 321, in _validate_holistic
+    embed_loss_value = pass_result["embed_joint_loss"]
+                       ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: 'embed_joint_loss'

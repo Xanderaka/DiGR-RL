@@ -1,0 +1,52 @@
+Running training on CPU
+Loading dataset train
+Found pregenerated data dir.
+Domain to index mapping:
+Domain 0: (2, 0, 0, 1)
+Domain 1: (2, 1, 0, 1)
+Domain 2: (2, 2, 0, 1)
+Domain 3: (2, 3, 0, 1)
+Domain 4: (2, 4, 0, 1)
+Domain 5: (4, 0, 0, 1)
+Domain 6: (4, 1, 0, 1)
+Domain 7: (4, 2, 0, 1)
+Domain 8: (4, 3, 0, 1)
+Domain 9: (4, 4, 0, 1)
+Domain 10: (9, 0, 0, 1)
+Domain 11: (9, 1, 0, 1)
+Domain 12: (9, 2, 0, 1)
+Domain 13: (9, 3, 0, 1)
+Domain 14: (9, 4, 0, 1)
+Domain 15: (10, 0, 0, 1)
+Domain 16: (10, 1, 0, 1)
+Domain 17: (10, 2, 0, 1)
+Domain 18: (10, 3, 0, 1)
+Domain 19: (10, 4, 0, 1)
+Domain 20: (11, 0, 0, 1)
+Domain 21: (11, 1, 0, 1)
+Domain 22: (11, 2, 0, 1)
+Domain 23: (11, 3, 0, 1)
+Domain 24: (11, 4, 0, 1)
+Loading complete. Took 0.02 s.
+Loading dataset validation
+Found pregenerated data dir.
+Domain to index mapping:
+Domain 0: (0, 0, 0, 1)
+Domain 1: (0, 1, 0, 1)
+Domain 2: (0, 2, 0, 1)
+Domain 3: (0, 3, 0, 1)
+Domain 4: (0, 4, 0, 1)
+Loading complete. Took 0.00 s.
+Building models...
+Completed model building. Took 24.59 s.
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\experiments\train_runner.py", line 219, in <module>
+    run_training(parse_config_file(args.CONFIG_FP))
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\experiments\train_runner.py", line 163, in run_training
+    reward_function = func_from_str(config["embed"]["reward_function"])
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\rl\reward_functions_new.py", line 20, in func_from_str
+    raise ValueError(f"Reward function given {reward_func_name} is not"
+ValueError: Reward function given exploration_driven_reward is notknown.

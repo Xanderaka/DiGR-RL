@@ -1,0 +1,35 @@
+Running training on CPU
+Loading dataset train
+Found pregenerated data dir. Using pregenerated data.
+Loading complete. Took 0.00 s.
+Loading dataset validation
+Found pregenerated data dir. Using pregenerated data.
+Loading complete. Took 0.00 s.
+Building models...
+Completed model building. Took 0.10 s.
+Epoch: 1 of 50 | Training loss: 1.79:   1%|▊                                                                                   | 112/12000 [00:03<06:32, 30.26it/s]Traceback (most recent call last):
+Preparation complete. Starting training...
+Training model...
+Skipping gesture_null image visualization: too many indices for tensor of dimension 2
+Skipping domain_null image visualization: too many indices for tensor of dimension 2
+{'epoch': 0, 'batch': 0, 'train_loss': 1.811, 'train_domain_loss': 3.304, 'train_null_loss': 1.811, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 1, 'train_loss': 1.803, 'train_domain_loss': 3.28, 'train_null_loss': 1.803, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 2, 'train_loss': 1.801, 'train_domain_loss': 3.216, 'train_null_loss': 1.801, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 3, 'train_loss': 1.826, 'train_domain_loss': 3.195, 'train_null_loss': 1.826, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 4, 'train_loss': 1.834, 'train_domain_loss': 3.18, 'train_null_loss': 1.834, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 5, 'train_loss': 1.868, 'train_domain_loss': 3.139, 'train_null_loss': 1.868, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 6, 'train_loss': 1.794, 'train_domain_loss': 3.217, 'train_null_loss': 1.794, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\experiments\train_runner.py", line 209, in <module>
+    run_training(parse_config_file(args.CONFIG_FP))
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\experiments\train_runner.py", line 196, in run_training
+    training.train(
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\experiments\train.py", line 624, in train
+    curr_joint_loss = self._validate_holistic(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\experiments\train.py", line 317, in _validate_holistic
+    pass_result = self._forward_pass(amp, phase, bvp, info["gesture"], info, device, train=False)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Training._forward_pass() got an unexpected keyword argument 'train'

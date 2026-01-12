@@ -1,0 +1,25 @@
+Running training on CPU
+Loading dataset train
+Found pregenerated data dir. Using pregenerated data.
+Loading complete. Took 0.00 s.
+Loading dataset validation
+Found pregenerated data dir. Using pregenerated data.
+Loading complete. Took 0.00 s.
+Building models...
+Completed model building. Took 0.11 s.
+Epoch: 1 of 50 | Training loss: -.--:   0%|                                                                                              | 0/12000 [00:00<?, ?it/s]Traceback (most recent call last):
+Preparation complete. Starting training...
+Training model...
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\experiments\train_runner.py", line 209, in <module>
+    run_training(parse_config_file(args.CONFIG_FP))
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\experiments\train_runner.py", line 196, in run_training
+    training.train(
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\experiments\train.py", line 628, in train
+    if not self._train_vae(train_loader, device, epoch):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\experiments\train.py", line 281, in _train_vae
+    info["domain"].detach().cpu(),
+    ~~~~^^^^^^^^^^
+KeyError: 'domain'

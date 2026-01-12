@@ -1,0 +1,15 @@
+{"time":"2025-04-22T17:30:57.817116+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Tue\\Master\\Jaar_2\\graduation\\code\\own_approach\\wandb\\run-20250422_173057-plm8pf24\\logs\\debug-core.log"}
+{"time":"2025-04-22T17:30:57.9961609+02:00","level":"INFO","msg":"created new stream","id":"plm8pf24"}
+{"time":"2025-04-22T17:30:57.9961609+02:00","level":"INFO","msg":"stream: started","id":"plm8pf24"}
+{"time":"2025-04-22T17:30:57.9961609+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"plm8pf24"}
+{"time":"2025-04-22T17:30:57.9961609+02:00","level":"INFO","msg":"handler: started","stream_id":"plm8pf24"}
+{"time":"2025-04-22T17:30:57.9961609+02:00","level":"INFO","msg":"sender: started","stream_id":"plm8pf24"}
+{"time":"2025-04-22T17:30:58.3362914+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-22T17:30:59.869691+02:00","level":"INFO","msg":"stream: closing","id":"plm8pf24"}
+{"time":"2025-04-22T17:30:59.869691+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-22T17:30:59.8711965+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-22T17:31:00.486128+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-22T17:31:00.8920163+02:00","level":"INFO","msg":"handler: closed","stream_id":"plm8pf24"}
+{"time":"2025-04-22T17:31:00.8920163+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"plm8pf24"}
+{"time":"2025-04-22T17:31:00.8920163+02:00","level":"INFO","msg":"sender: closed","stream_id":"plm8pf24"}
+{"time":"2025-04-22T17:31:00.8920163+02:00","level":"INFO","msg":"stream: closed","id":"plm8pf24"}

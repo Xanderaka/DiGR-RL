@@ -1,0 +1,17 @@
+{"time":"2025-03-14T10:33:08.689592+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Tue\\Master\\Jaar_2\\graduation\\code\\DARLInG\\wandb\\run-20250314_103308-b64gy626\\logs\\debug-core.log"}
+{"time":"2025-03-14T10:33:08.839536+01:00","level":"INFO","msg":"created new stream","id":"b64gy626"}
+{"time":"2025-03-14T10:33:08.839536+01:00","level":"INFO","msg":"stream: started","id":"b64gy626"}
+{"time":"2025-03-14T10:33:08.839536+01:00","level":"INFO","msg":"handler: started","stream_id":"b64gy626"}
+{"time":"2025-03-14T10:33:08.839536+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"b64gy626"}
+{"time":"2025-03-14T10:33:08.839536+01:00","level":"INFO","msg":"sender: started","stream_id":"b64gy626"}
+{"time":"2025-03-14T10:33:09.1715152+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-14T10:39:44.0087955+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/x-j-vreeswijk-eindhoven-university-of-technology/master-thesis-test/b64gy626/file_stream\": dial tcp 35.186.228.49:443: connectex: An operation on a socket could not be performed because the system lacked sufficient buffer space or because a queue was full."}
+{"time":"2025-03-14T10:59:22.1975843+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/x-j-vreeswijk-eindhoven-university-of-technology/master-thesis-test/b64gy626/file_stream\": dial tcp: lookup api.wandb.ai: getaddrinfow: A non-recoverable error occurred during a database lookup."}
+{"time":"2025-03-14T13:09:00.933618+01:00","level":"INFO","msg":"stream: closing","id":"b64gy626"}
+{"time":"2025-03-14T13:09:00.9341567+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-14T13:09:00.9406898+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-14T13:09:01.5593122+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-14T13:09:01.7685559+01:00","level":"INFO","msg":"handler: closed","stream_id":"b64gy626"}
+{"time":"2025-03-14T13:09:01.7685559+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"b64gy626"}
+{"time":"2025-03-14T13:09:01.7685559+01:00","level":"INFO","msg":"sender: closed","stream_id":"b64gy626"}
+{"time":"2025-03-14T13:09:01.769669+01:00","level":"INFO","msg":"stream: closed","id":"b64gy626"}

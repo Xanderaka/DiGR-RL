@@ -1,0 +1,16 @@
+{"time":"2025-05-02T10:34:04.8140249+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Tue\\Master\\Jaar_2\\graduation\\code\\own_approach\\wandb\\run-20250502_103404-y6j491i1\\logs\\debug-core.log"}
+{"time":"2025-05-02T10:34:04.9959274+02:00","level":"INFO","msg":"created new stream","id":"y6j491i1"}
+{"time":"2025-05-02T10:34:04.9959274+02:00","level":"INFO","msg":"sender: started","stream_id":"y6j491i1"}
+{"time":"2025-05-02T10:34:04.9959274+02:00","level":"INFO","msg":"handler: started","stream_id":"y6j491i1"}
+{"time":"2025-05-02T10:34:04.9959274+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"y6j491i1"}
+{"time":"2025-05-02T10:34:04.9959274+02:00","level":"INFO","msg":"stream: started","id":"y6j491i1"}
+{"time":"2025-05-02T10:34:05.3402996+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-02T10:34:50.3614992+02:00","level":"ERROR","msg":"monitor: error sampling metrics: The parameter is incorrect.\ncould not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 21876"}
+{"time":"2025-05-02T10:35:05.3578291+02:00","level":"ERROR","msg":"monitor: error sampling metrics: The parameter is incorrect.\ncould not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 21876"}
+{"time":"2025-05-02T10:35:06.0604554+02:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/files/x-j-vreeswijk-eindhoven-university-of-technology/master-thesis-test/y6j491i1/file_stream"}
+{"time":"2025-05-02T10:35:06.0604554+02:00","level":"ERROR+4","msg":"filestream: fatal error: filestream: failed to upload: 404 Not Found path=files/x-j-vreeswijk-eindhoven-university-of-technology/master-thesis-test/y6j491i1/file_stream: {\"error\":\"run master-thesis-test/y6j491i1 not found while streaming file\"}"}
+{"time":"2025-05-02T10:35:20.3578989+02:00","level":"ERROR","msg":"monitor: error sampling metrics: The parameter is incorrect.\ncould not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 21876"}
+{"time":"2025-05-02T10:35:35.3555288+02:00","level":"ERROR","msg":"monitor: error sampling metrics: The parameter is incorrect.\ncould not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 21876"}
+{"time":"2025-05-02T10:35:50.3561386+02:00","level":"ERROR","msg":"monitor: error sampling metrics: The parameter is incorrect.\ncould not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 21876"}
+{"time":"2025-05-02T10:36:05.3557501+02:00","level":"ERROR","msg":"monitor: error sampling metrics: The parameter is incorrect.\ncould not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 21876"}
+{"time":"2025-05-02T10:36:20.3563454+02:00","level":"ERROR","msg":"monitor: error sampling metrics: The parameter is incorrect.\ncould not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 21876"}

@@ -1,0 +1,1 @@
+{"train_domain_loss":8.166474342346191,"train_null_loss":1.7569808959960938,"_timestamp":1.747405480155801e+09,"train_gesture_null":[],"_step":32,"_runtime":48.1068081,"train_loss":1.7569808959960938,"_wandb":{"runtime":48},"train_domain_null":[],"train_embed_loss":NaN,"train_loss_diff":NaN}

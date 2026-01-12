@@ -1,0 +1,25 @@
+Running training on CPU
+Loading dataset train
+Found pregenerated data dir. Using pregenerated data.
+Loading complete. Took 0.01 s.
+Loading dataset validation
+Found pregenerated data dir. Using pregenerated data.
+Loading complete. Took 0.00 s.
+Building models...
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\experiments\train_runner.py", line 219, in <module>
+    run_training(parse_config_file(args.CONFIG_FP))
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\experiments\train_runner.py", line 143, in run_training
+    encoder, null_head, null_agent = build_model(
+                                     ^^^^^^^^^^^^
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\models\model_builder.py", line 139, in build_model
+    backbone = BackBoneArchitecture(input_dim=encoder_input_dim,ac_func=enc_ac_fn,
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tue\Master\Jaar_2\graduation\code\own_approach\src\backbone\BackBoneArchitecture.py", line 59, in __init__
+    self.latent_dim = self.amp_backbone.latent_dim
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xande\anaconda3\Lib\site-packages\torch\nn\modules\module.py", line 1928, in __getattr__
+    raise AttributeError(
+AttributeError: 'CNNEncoderBackbone' object has no attribute 'latent_dim'

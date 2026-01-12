@@ -1,0 +1,5 @@
+Running training on CPU
+Loading dataset train
+Found pregenerated data dir. Using pregenerated data.
+Loading complete. Took 0.01 s.
+WidarDataset: train(single_user)

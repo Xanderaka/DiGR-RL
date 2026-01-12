@@ -1,0 +1,15 @@
+{"time":"2025-05-16T10:55:20.7380524+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Tue\\Master\\Jaar_2\\graduation\\code\\own_approach\\wandb\\run-20250516_105520-pok3g62a\\logs\\debug-core.log"}
+{"time":"2025-05-16T10:55:20.8997015+02:00","level":"INFO","msg":"created new stream","id":"pok3g62a"}
+{"time":"2025-05-16T10:55:20.8997015+02:00","level":"INFO","msg":"stream: started","id":"pok3g62a"}
+{"time":"2025-05-16T10:55:20.8997015+02:00","level":"INFO","msg":"handler: started","stream_id":"pok3g62a"}
+{"time":"2025-05-16T10:55:20.8997015+02:00","level":"INFO","msg":"sender: started","stream_id":"pok3g62a"}
+{"time":"2025-05-16T10:55:20.8997015+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"pok3g62a"}
+{"time":"2025-05-16T10:55:21.2587217+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-16T11:07:40.2510269+02:00","level":"INFO","msg":"stream: closing","id":"pok3g62a"}
+{"time":"2025-05-16T11:07:40.2510269+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-16T11:07:40.2515305+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-16T11:07:40.8424446+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-16T11:07:41.0916478+02:00","level":"INFO","msg":"handler: closed","stream_id":"pok3g62a"}
+{"time":"2025-05-16T11:07:41.0916478+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"pok3g62a"}
+{"time":"2025-05-16T11:07:41.0916478+02:00","level":"INFO","msg":"sender: closed","stream_id":"pok3g62a"}
+{"time":"2025-05-16T11:07:41.0921513+02:00","level":"INFO","msg":"stream: closed","id":"pok3g62a"}

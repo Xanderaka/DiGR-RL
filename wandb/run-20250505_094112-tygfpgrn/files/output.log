@@ -1,0 +1,34 @@
+Running training on CPU
+Loading dataset train
+Found pregenerated data dir. Using pregenerated data.
+Loading complete. Took 0.00 s.
+Loading dataset validation
+Found pregenerated data dir. Using pregenerated data.
+Loading complete. Took 0.00 s.
+Building models...
+Completed model building. Took 0.15 s.
+Epoch: 2 of 50 | Training loss: 1.80:   3%|██                                                                              | 304/12000 [00:22<15:32, 12.55it/s]
+Preparation complete. Starting training...
+Training model...
+{'epoch': 0, 'batch': 0, 'train_loss': 1.814, 'train_elbo_loss': 0.468, 'train_null_loss': 1.814, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 1, 'train_loss': 1.834, 'train_elbo_loss': 0.431, 'train_null_loss': 1.834, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 2, 'train_loss': 1.762, 'train_elbo_loss': 0.386, 'train_null_loss': 1.762, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 3, 'train_loss': 1.808, 'train_elbo_loss': 0.349, 'train_null_loss': 1.808, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 4, 'train_loss': 1.783, 'train_elbo_loss': 0.313, 'train_null_loss': 1.783, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 5, 'train_loss': 1.747, 'train_elbo_loss': 0.284, 'train_null_loss': 1.747, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 0, 'batch': 6, 'train_loss': 1.781, 'train_elbo_loss': 0.254, 'train_null_loss': 1.781, 'train_embed_loss': nan, 'train_loss_diff': nan}
+Running validation...
+{'valid_loss': 2.26, 'loss_diff': 0.0, 'epoch': 0, 'batch': 0}
+{'valid_loss': 2.133, 'loss_diff': 0.0, 'epoch': 0, 'batch': 1}
+{'valid_loss': 2.183, 'loss_diff': 0.0, 'epoch': 0, 'batch': 2}
+{'valid_loss': 2.277, 'loss_diff': 0.0, 'epoch': 0, 'batch': 3}
+{'valid_loss': 2.317, 'loss_diff': 0.0, 'epoch': 0, 'batch': 4}
+{'valid_loss': 2.269, 'loss_diff': 0.0, 'epoch': 0, 'batch': 5}
+{'valid_loss': 2.252, 'loss_diff': 0.0, 'epoch': 0, 'batch': 6}
+[tensor([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]), tensor([0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]), tensor([1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2]), tensor([2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3]), tensor([3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]), tensor([4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]), tensor([4, 4, 4, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5])]
+Training model...
+{'epoch': 1, 'batch': 0, 'train_loss': 1.668, 'train_elbo_loss': 0.237, 'train_null_loss': 1.668, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 1, 'train_loss': 1.83, 'train_elbo_loss': 0.223, 'train_null_loss': 1.83, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 2, 'train_loss': 1.825, 'train_elbo_loss': 0.202, 'train_null_loss': 1.825, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 3, 'train_loss': 1.754, 'train_elbo_loss': 0.174, 'train_null_loss': 1.754, 'train_embed_loss': nan, 'train_loss_diff': nan}
+{'epoch': 1, 'batch': 4, 'train_loss': 1.798, 'train_elbo_loss': 0.174, 'train_null_loss': 1.798, 'train_embed_loss': nan, 'train_loss_diff': nan}

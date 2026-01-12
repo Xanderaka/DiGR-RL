@@ -1,0 +1,17 @@
+{"time":"2025-03-17T15:17:21.6410837+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Tue\\Master\\Jaar_2\\graduation\\code\\DARLInG\\wandb\\run-20250317_151721-3z5bokhy\\logs\\debug-core.log"}
+{"time":"2025-03-17T15:17:21.7577381+01:00","level":"INFO","msg":"created new stream","id":"3z5bokhy"}
+{"time":"2025-03-17T15:17:21.7577381+01:00","level":"INFO","msg":"stream: started","id":"3z5bokhy"}
+{"time":"2025-03-17T15:17:21.7577381+01:00","level":"INFO","msg":"handler: started","stream_id":"3z5bokhy"}
+{"time":"2025-03-17T15:17:21.7584165+01:00","level":"INFO","msg":"sender: started","stream_id":"3z5bokhy"}
+{"time":"2025-03-17T15:17:21.7584165+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"3z5bokhy"}
+{"time":"2025-03-17T15:17:22.0292309+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-17T15:23:48.2917414+01:00","level":"ERROR","msg":"monitor: error sampling metrics: route ip+net: getadaptersaddresses: Insufficient system resources exist to complete the requested service."}
+{"time":"2025-03-17T15:32:39.7817687+01:00","level":"ERROR","msg":"monitor: error sampling metrics: route ip+net: getadaptersaddresses: Insufficient system resources exist to complete the requested service."}
+{"time":"2025-03-17T15:50:15.8961816+01:00","level":"INFO","msg":"stream: closing","id":"3z5bokhy"}
+{"time":"2025-03-17T15:50:15.8961816+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-17T15:50:15.9016477+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-17T15:50:16.631077+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-17T15:50:16.8756418+01:00","level":"INFO","msg":"handler: closed","stream_id":"3z5bokhy"}
+{"time":"2025-03-17T15:50:16.8756418+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"3z5bokhy"}
+{"time":"2025-03-17T15:50:16.8762409+01:00","level":"INFO","msg":"sender: closed","stream_id":"3z5bokhy"}
+{"time":"2025-03-17T15:50:16.8762409+01:00","level":"INFO","msg":"stream: closed","id":"3z5bokhy"}
